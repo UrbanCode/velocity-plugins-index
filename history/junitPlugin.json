@@ -1,0 +1,11 @@
+[
+    {
+        "semver": "0.0.30",
+        "date": "2019-05-16",
+        "image": "urbancode/ucv-ext-junit:0.0.30",
+        "notes": [
+            "Initial release of the JUnit plugin.",
+            "Runs JUnit parser in container."
+        ]
+    }
+]
