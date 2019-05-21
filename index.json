@@ -1,0 +1,22 @@
+{
+    "junitPlugin": {
+        "name": "JUnit Parser",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to parse and handle JUnit quality data.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "versions": [
+            {
+                "semver": "0.0.30",
+                "date": "2019-05-16",
+                "image": "urbancode/ucv-ext-junit:0.0.30",
+                "notes": [
+                    "Initial release of the JUnit plugin.",
+                    "Runs JUnit parser in container."
+                ]
+            }
+        ]
+    }
+}
