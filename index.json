@@ -16,5 +16,23 @@
                 "Runs JUnit parser in container."
             ]
         }
+    },
+    "ucv-ext-jira": {
+        "name": "Jira",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to sync Jira resources.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.14",
+            "date": "2019-05-21",
+            "image": "urbancode/ucv-ext-jira:0.0.14",
+            "notes": [
+                "Initial release of the Jira plugin.",
+                "Runs Jira sync in container."
+            ]
+        }
     }
 }

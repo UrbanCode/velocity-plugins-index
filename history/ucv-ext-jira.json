@@ -1,0 +1,11 @@
+[
+    {
+        "semver": "0.0.14",
+        "date": "2019-05-21",
+        "image": "urbancode/ucv-ext-jira:0.0.14",
+        "notes": [
+            "Initial release of the Jira plugin.",
+            "Runs Jira sync in container."
+        ]
+    }
+]
