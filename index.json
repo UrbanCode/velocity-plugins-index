@@ -26,12 +26,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.14",
-            "date": "2019-05-21",
-            "image": "urbancode/ucv-ext-jira:0.0.14",
+            "semver": "0.0.15",
+            "date": "2019-05-23",
+            "image": "urbancode/ucv-ext-jira:0.0.15",
             "notes": [
-                "Initial release of the Jira plugin.",
-                "Runs Jira sync in container."
+                "Fix Jira client dependency resolution."
             ]
         }
     }
