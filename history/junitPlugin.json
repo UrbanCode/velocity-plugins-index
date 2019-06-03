@@ -1,5 +1,12 @@
 [
     {
+        "semver": "0.0.31",
+        "date": "2019-06-03",
+        "image": "urbancode/ucv-ext-junit:0.0.31",
+        "notes": [
+            "Runs JUnit parser in container."
+        ]
+    }, {
         "semver": "0.0.30",
         "date": "2019-05-16",
         "image": "urbancode/ucv-ext-junit:0.0.30",
