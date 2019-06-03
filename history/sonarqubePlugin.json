@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "0.0.20",
+        "date": "2019-06-03",
+        "image": "urbancode/ucv-ext-sonarqube:0.0.20",
+        "notes": [
+            "Initial release of SonarQube Plugin."
+        ]
+    }
+]
