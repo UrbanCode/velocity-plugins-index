@@ -11,9 +11,7 @@
             "semver": "0.0.31",
             "date": "2019-06-03",
             "image": "urbancode/ucv-ext-junit:0.0.31",
-            "notes": [
-                "Runs JUnit parser in container."
-            ]
+            "notes": []
         }
     },
     "sonarqubePlugin": {
@@ -27,7 +25,7 @@
         "current": {
             "semver": "0.0.20",
             "date": "2019-06-03",
-            "image": "urbancode/ucv-ext-jira:0.0.20",
+            "image": "urbancode/ucv-ext-sonarqube:0.0.20",
             "notes": [
                 "Initial release of SonarQube Plugin."
             ]
