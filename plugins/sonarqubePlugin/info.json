@@ -1,0 +1,9 @@
+{
+    "name": "SonarQube",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Allows UrbanCode Velocity to handle incoming SonarQube data.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
