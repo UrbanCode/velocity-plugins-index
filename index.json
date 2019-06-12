@@ -9,7 +9,7 @@
         },
         "current": {
             "semver": "0.0.31",
-            "date": "2019-06-03",
+            "date": "2019-06-03T00:00:00.000Z",
             "image": "urbancode/ucv-ext-junit:0.0.31",
             "notes": []
         }
@@ -24,7 +24,7 @@
         },
         "current": {
             "semver": "0.0.20",
-            "date": "2019-06-03",
+            "date": "2019-06-03T00:00:00.000Z",
             "image": "urbancode/ucv-ext-sonarqube:0.0.20",
             "notes": [
                 "Initial release of SonarQube Plugin."
@@ -41,7 +41,7 @@
         },
         "current": {
             "semver": "0.0.17",
-            "date": "2019-06-03",
+            "date": "2019-06-03T00:00:00.000Z",
             "image": "urbancode/ucv-ext-jira:0.0.17",
             "notes": [
                 "Properly throw errors on failures."
