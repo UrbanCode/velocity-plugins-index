@@ -47,5 +47,22 @@
                 "Properly throw errors on failures."
             ]
         }
+    },
+    "ucv-ext-azure": {
+        "name": "Azure DevOps",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to sync Azure DevOps resources.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.14",
+            "date": "2019-06-14T00:00:00.000Z",
+            "image": "urbancode/ucv-ext-azure:0.0.14",
+            "notes": [
+                "Initial release of Azure DevOps plugin."
+            ]
+        }
     }
 }
