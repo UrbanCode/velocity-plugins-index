@@ -1,0 +1,9 @@
+{
+    "name": "Github",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Allows UrbanCode Velocity to sync Github resources.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}

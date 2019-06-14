@@ -1,0 +1,24 @@
+[
+    {
+        "semver": "0.0.11",
+        "date": "2019-06-13T00:00:00.000Z",
+        "image": "urbancode/ucv-ext-github:0.0.11",
+        "notes": [
+            "Updated to api-client 1.0.11."
+        ]
+    }, {
+        "semver": "0.0.10",
+        "date": "2019-06-11T00:00:00.000Z",
+        "image": "urbancode/ucv-ext-github:0.0.10",
+        "notes": [
+            "Remove fieldId from data posting to re-api."
+        ]
+    }, {
+        "semver": "0.0.9",
+        "date": "2019-06-04T00:00:00.000Z",
+        "image": "urbancode/ucv-ext-github:0.0.09",
+        "notes": [
+            "Add neccesary packages and files to containerize the plugin."
+        ]
+    }
+]
