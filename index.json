@@ -98,5 +98,22 @@
                 "Updated to api-client 1.0.11."
             ]
         }
+    },
+    "ucv-ext-bitbucket-server": {
+        "name": "Bitbucket Server",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to sync Bitbucket resources.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.14",
+            "date": "2019-06-14T00:00:00.000Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:0.0.14",
+            "notes": [
+                "Switch build target on Jenkinsfile."
+            ]
+        }
     }
 }
