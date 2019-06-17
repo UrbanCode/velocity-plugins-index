@@ -1,7 +1,7 @@
 {
-    "name": "Jmeter",
+    "name": "JMeter",
     "url": "https://developer.ibm.com/urbancode/plugins/",
-    "description": "Allows UrbanCode Velocity to parse and handle Jmeter quality data.",
+    "description": "Allows UrbanCode Velocity to import JMeter test results as metrics.",
     "author": {
         "name": "UrbanCode",
         "email": "urbancode-plugins@hcl.com"
