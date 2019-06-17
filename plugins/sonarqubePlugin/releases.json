@@ -1,5 +1,21 @@
 [
     {
+        "semver": "0.0.22",
+        "date": "2019-06-17T00:00:00.000Z",
+        "image": "urbancode/ucv-ext-sonarqube:0.0.22",
+        "notes": [
+            "Updated api-client to 1.0.11."
+        ]
+    },
+    {
+        "semver": "0.0.21",
+        "date": "2019-06-10T00:00:00.000Z",
+        "image": "urbancode/ucv-ext-sonarqube:0.0.21",
+        "notes": [
+            "Use user access key."
+        ]
+    },
+    {
         "semver": "0.0.20",
         "date": "2019-06-03T00:00:00.000Z",
         "image": "urbancode/ucv-ext-sonarqube:0.0.20",
