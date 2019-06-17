@@ -1,7 +1,7 @@
 {
     "name": "Coverage Core",
     "url": "https://developer.ibm.com/urbancode/plugins/",
-    "description": "Allows UrbanCode Velocity to handle incoming Coverage Core data.",
+    "description": "Allows UrbanCode Velocity to parse and handle Coverage Core quality data.",
     "author": {
         "name": "UrbanCode",
         "email": "urbancode-plugins@hcl.com"

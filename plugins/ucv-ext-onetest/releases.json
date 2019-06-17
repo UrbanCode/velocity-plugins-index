@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "0.0.5",
+        "date": "2019-06-17T00:00:00.000Z",
+        "image": "urbancode/ucv-ext-onetest:0.0.5",
+        "notes": [
+            "Updated to api-client 1.0.11 and transpiled tests."
+        ]
+    }
+]
