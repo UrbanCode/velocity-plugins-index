@@ -1,0 +1,9 @@
+{
+    "name": "VS Quality",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Allows UrbanCode Velocity to parse and handle VS Quality quality data.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
