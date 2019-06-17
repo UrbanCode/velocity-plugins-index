@@ -13,8 +13,11 @@
   },
   "scripts": {
     "generate-index": "babel-node src/generateIndex.js",
+    "lint": "npm run lint-scripts && npm run lint-plugins && npm run lint-index",
+    "lint-index": "babel-node src/lintIndex.js",
     "lint-plugins": "babel-node src/lintPlugins",
-    "lint-scripts": "eslint ."
+    "lint-scripts": "eslint .",
+    "test": "npm run lint"
   },
   "dependencies": {
     "fs-extra": "^8.0.1",
