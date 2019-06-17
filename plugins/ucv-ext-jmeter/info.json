@@ -1,0 +1,9 @@
+{
+    "name": "Jmeter",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Allows UrbanCode Velocity to sync Jmeter resources.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}

@@ -99,6 +99,23 @@
             ]
         }
     },
+    "ucv-ext-jmeter": {
+        "name": "Jmeter",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to sync Jmeter resources.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.31",
+            "date": "2019-06-17T00:00:00.000Z",
+            "image": "urbancode/ucv-ext-jmeter:0.0.31",
+            "notes": [
+                "Containerized plugin."
+            ]
+        }
+    },
     "ucv-ext-rally": {
         "name": "Rally",
         "url": "https://developer.ibm.com/urbancode/plugins/",
