@@ -12,7 +12,8 @@
     "node": ">=0.8.0"
   },
   "scripts": {
-    "generate-index": "babel-node generateIndex.js",
+    "generate-index": "babel-node src/generateIndex.js",
+    "lint-plugins": "babel-node src/lintPlugins",
     "lint-scripts": "eslint ."
   },
   "dependencies": {
