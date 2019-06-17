@@ -1,0 +1,32 @@
+{
+  "name": "velocity-plugins-index",
+  "version": "1.0.0",
+  "description": "Scripts to maintain the public index for UrbanCode Velocity plugins that instances of UrbanCode Velocity reach out to for plugin installs/upgrades",
+  "license": "MIT",
+  "author": "UrbanCode <urbancode-plugins@hcl.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UrbanCode/velocity-plugins-index"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "generate-index": "babel-node generateIndex.js",
+    "lint-scripts": "eslint ."
+  },
+  "dependencies": {
+    "fs-extra": "^8.0.1",
+    "log4js": "^4.3.1",
+    "moment": "^2.24.0",
+    "semver": "^6.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.16.0",
+    "husky": "^2.4.1"
+  }
+}
