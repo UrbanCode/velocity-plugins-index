@@ -1,7 +1,7 @@
 {
-    "name": "JUnit Parser",
+    "name": "JMeter",
     "url": "https://developer.ibm.com/urbancode/plugins/",
-    "description": "Allows UrbanCode Velocity to import JUnit test results as metrics.",
+    "description": "Allows UrbanCode Velocity to import JMeter test results as metrics.",
     "author": {
         "name": "UrbanCode",
         "email": "urbancode-plugins@hcl.com"

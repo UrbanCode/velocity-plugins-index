@@ -2,9 +2,9 @@
     {
         "semver": "0.0.22",
         "date": "2019-06-17T00:00:00.000Z",
-        "image": "urbancode/ucv-ext-sonarqube:0.0.22",
+        "image": "urbancode/ucv-ext-coverage-core:0.0.22",
         "notes": [
-            "Updated api-client to 1.0.11."
+            "Containerized plugin."
         ]
     }
 ]

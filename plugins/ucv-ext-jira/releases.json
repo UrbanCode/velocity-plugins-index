@@ -6,20 +6,5 @@
         "notes": [
             "Properly throw errors on failures."
         ]
-    }, {
-        "semver": "0.0.15",
-        "date": "2019-05-23T00:00:00.000Z",
-        "image": "urbancode/ucv-ext-jira:0.0.15",
-        "notes": [
-            "Fix Jira client dependency resolution."
-        ]
-    }, {
-        "semver": "0.0.14",
-        "date": "2019-05-21T00:00:00.000Z",
-        "image": "urbancode/ucv-ext-jira:0.0.14",
-        "notes": [
-            "Initial release of the Jira plugin.",
-            "Runs Jira sync in container."
-        ]
     }
 ]

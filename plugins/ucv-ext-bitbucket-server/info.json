@@ -1,7 +1,7 @@
 {
-    "name": "JUnit Parser",
+    "name": "Bitbucket Server",
     "url": "https://developer.ibm.com/urbancode/plugins/",
-    "description": "Allows UrbanCode Velocity to import JUnit test results as metrics.",
+    "description": "Allows UrbanCode Velocity to sync Bitbucket resources.",
     "author": {
         "name": "UrbanCode",
         "email": "urbancode-plugins@hcl.com"
