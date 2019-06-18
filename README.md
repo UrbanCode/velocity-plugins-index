@@ -7,11 +7,11 @@ This repository hosts the index for UrbanCode Velocity plugins which instances o
 * `plugins`: A directory containing a list of directories of plugins by `pluginId`. Each plugin directory should have an `info.json` and `releases.json` file.
 
   * `info.json`: A file containing a JSON object of general information about the plugin that will help users identify if they want to install the plugin to their instance of UrbanCode Velocity.
-  * `releases.json`: A file containing a JSON array of release objects, each release object contianing the information necessary to install the release and some optional notes to help users identify if they should upgrade to that plugin version in their instance of UrbanCode Velocity.
+  * `releases.json`: A file containing a JSON array of release objects, each release object containing the information necessary to install the release and some optional notes to help users identify if they should upgrade to that plugin version in their instance of UrbanCode Velocity.
 
-* `index.json`: A file generated based on the `plugins` directory contents, contianing a JSON object with keys for each `pluginId` and values contianing the plugin general information and latest release information.
+* `index.json`: A file generated based on the `plugins` directory contents, containing a JSON object with keys for each `pluginId` and values containing the plugin general information and latest release information.
 
-* `src`: A directory contianing the scripts required to generate the `index.json` file, as well as lint that file and the `plugins` directory contents to ensure everything is in sync.
+* `src`: A directory containing the scripts required to generate the `index.json` file, as well as lint that file and the `plugins` directory contents to ensure everything is in sync.
 
 ## JSON Structures
 
@@ -24,7 +24,7 @@ There are 2 main file types that must abide by strict guidelines:
     | name | string | yes | The display name of the plugin. This is how users will identify the plugin in UrbanCode Velocity. |
     | url | string | yes | A URL to a website containing information about the plugin. A user would use this information to find out more about the plugin. |
     | description | string | yes | A short description about what the plugin does. This should provide enough context for a user to determine whether the plugin is right for their needs. |
-    | author | object | yes | Who is responsible for creating/updating the plugin. This will let a user know who is responsible for maintaning the plugin. |
+    | author | object | yes | Who is responsible for creating/updating the plugin. This will let a user know who is responsible for maintaining the plugin. |
     | author.name | string | yes | The name of the author. If the plugin is tied to an organization, this should be the name of the organization. A user might check this name to ensure the plugin is written by a reliable source. |
     | author.email | string | yes | The email of the author. If the plugin is tied to an organization, this should be an email within the organization. A user might reach out to this email for support or to report a bug. |
 
@@ -35,7 +35,7 @@ There are 2 main file types that must abide by strict guidelines:
     | semver | string | yes | The version of the release, adhering to the [Semantic Versioning](https://semver.org/) standard. Must be unique per release object. |
     | date | string | yes | The date and time of the release, adhering to the [ISO 8601](https://web.archive.org/web/20171020085148/https://www.loc.gov/standards/datetime/ISO_DIS%208601-2.pdf) format. Must occur later than the previous release. |
     | image | string | yes | The docker image of the plugin. Must exist in [DockerHub](https://hub.docker.com/). |
-    | notes | array | no | An array of strings contianing notes of what the new release introduces for the plugin (bug fixes, features, etc). |
+    | notes | array | no | An array of strings containing notes of what the new release introduces for the plugin (bug fixes, features, etc). |
 
 ## Install Dependencies
 
