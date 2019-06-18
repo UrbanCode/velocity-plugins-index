@@ -97,10 +97,23 @@ export default class PluginsHelper {
         }
       }
     }
-    // make sure not duplicated release versions
-    const releaseVersions = releases.map(release => release.semver)
+    // make sure no duplicated release versions
+    const releaseVersions = releases.map(release => release.semver).sort(semver.compare)
     if (new Set(releaseVersions).size !== releaseVersions.length) {
       throw new Error(`releases.json for plugin "${plugin}" contains duplicate versions. Releases must have unique versions.`)
+    }
+    // make sure release dates are always later than previous version
+    let date, ver
+    for (const version of releaseVersions) {
+      const release = releases.filter(release => release.semver === version)[0]
+      if (!date) {
+        date = release.date
+        ver = release.semver
+      } else {
+        if (!moment(release.date).isAfter(date)) {
+          throw new Error(`releases.json for plugin "${plugin}" contains invalid release "${release.semver}" whose date "${release.date}" is not after the previous release "${ver}" date "${date}". Each new release must have a date later than the previous release.`)
+        }
+      }
     }
   }
 
