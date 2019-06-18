@@ -52,10 +52,10 @@ export default class PluginsHelper {
       throw new Error(`info.json for plugin "${plugin}" must have "author" element whose value is a JSON object.`)
     }
     if (!info.author.name || typeof info.author.name !== 'string') {
-      throw new Error(`info.json for plugin "${plugin}" must have "name" element in "author" object.`)
+      throw new Error(`info.json for plugin "${plugin}" must have "name" element in "author" object whose value is a string.`)
     }
     if (!info.author.email || typeof info.author.email !== 'string') {
-      throw new Error(`info.json for plugin "${plugin}" must have "email" element in "author" object.`)
+      throw new Error(`info.json for plugin "${plugin}" must have "email" element in "author" object whose value is a string.`)
     }
   }
 

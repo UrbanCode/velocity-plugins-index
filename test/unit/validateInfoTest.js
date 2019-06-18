@@ -124,48 +124,48 @@ describe('Validate info.json', function() {
   })
   describe('Invalid Author Name Element', function() {
     it('should throw error if info does not have author name element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: {} })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: {} })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has undefined author name element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: undefined } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: undefined } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has null author name element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: null } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: null } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has empty string author name element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: '' } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: '' } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has number author name element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 7 } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 7 } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has array author name element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: ['author'] } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: ['author'] } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has boolean author name element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: true } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: true } })).throws(`info.json for plugin "${pluginId}" must have "name" element in "author" object whose value is a string.`)
     })
   })
   describe('Invalid Author Email Element', function() {
     it('should throw error if info does not have author email element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author' } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author' } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has undefined author email element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: undefined } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: undefined } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has null author email element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: null } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: null } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has empty string author email element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: '' } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: '' } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has number author email element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: 7 } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: 7 } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has array author email element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: ['author@custom.com'] } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: ['author@custom.com'] } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object whose value is a string.`)
     })
     it('should throw error if info has boolean author email element', function() {
-      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: true } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object.`)
+      expect(() => PluginsHelper.validateInfo(pluginId, { name: 'Custom', url: 'custom-url', description: 'custom plugin.', author: { name: 'custom-author', email: true } })).throws(`info.json for plugin "${pluginId}" must have "email" element in "author" object whose value is a string.`)
     })
   })
   describe('Valid info.json', function() {
