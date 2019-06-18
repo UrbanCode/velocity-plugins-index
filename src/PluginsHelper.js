@@ -35,31 +35,31 @@ export default class PluginsHelper {
     return jsonContents
   }
 
-  static async validateInfo(plugin, info) {
-    if (!info) {
+  static validateInfo(plugin, info) {
+    if (!info || typeof info !== 'object' || Array.isArray(info)) {
       throw new Error(`Detected empty object for info.json for plugin "${plugin}". Must be a JSON object with elements name, url, description and author.`)
     }
-    if (!info.name) {
-      throw new Error(`info.json for plugin "${plugin}" must have "name" element.`)
+    if (!info.name || typeof info.name !== 'string') {
+      throw new Error(`info.json for plugin "${plugin}" must have "name" element whose value is a string.`)
     }
-    if (!info.url) {
-      throw new Error(`info.json for plugin "${plugin}" must have "url" element.`)
+    if (!info.url || typeof info.url !== 'string') {
+      throw new Error(`info.json for plugin "${plugin}" must have "url" element whose value is a string.`)
     }
-    if (!info.description) {
-      throw new Error(`info.json for plugin "${plugin}" must have "description" element.`)
+    if (!info.description || typeof info.description !== 'string') {
+      throw new Error(`info.json for plugin "${plugin}" must have "description" element whose value is a string.`)
     }
-    if (!info.author) {
-      throw new Error(`info.json for plugin "${plugin}" must have "author" element.`)
+    if (!info.author || typeof info.author !== 'object' || Array.isArray(info.author)) {
+      throw new Error(`info.json for plugin "${plugin}" must have "author" element whose value is a JSON object.`)
     }
-    if (!info.author.name) {
-      throw new Error(`info.json for plugin "${plugin}" must have "name" element in "author" object.`)
+    if (!info.author.name || typeof info.author.name !== 'string') {
+      throw new Error(`info.json for plugin "${plugin}" must have "name" element in "author" object whose value is a string.`)
     }
-    if (!info.author.email) {
-      throw new Error(`info.json for plugin "${plugin}" must have "email" element in "author" object.`)
+    if (!info.author.email || typeof info.author.email !== 'string') {
+      throw new Error(`info.json for plugin "${plugin}" must have "email" element in "author" object whose value is a string.`)
     }
   }
 
-  static async validateReleases(plugin, releases) {
+  static validateReleases(plugin, releases) {
     if (!releases) {
       throw new Error(`Detected empty object for releases.json for plugin "${plugin}". Must be a JSON array with objects for each release containing semver, date, image and notes.`)
     }
@@ -114,7 +114,7 @@ export default class PluginsHelper {
     }
   }
 
-  static async getLatestRelease(releases) {
+  static getLatestRelease(releases) {
     const latestVersion = releases.map(release => release.semver).sort(semver.rcompare)[0]
     return releases.filter((release => release.semver === latestVersion))[0]
   }

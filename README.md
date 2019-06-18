@@ -13,6 +13,8 @@ This repository hosts the index for UrbanCode Velocity plugins which instances o
 
 * `src`: A directory containing the scripts required to generate the `index.json` file, as well as lint that file and the `plugins` directory contents to ensure everything is in sync.
 
+* `test`: A directory containing files to test the `src` directory scripts.
+
 ## JSON Structures
 
 There are 2 main file types that must abide by strict guidelines:
