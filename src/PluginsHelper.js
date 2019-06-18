@@ -97,6 +97,11 @@ export default class PluginsHelper {
         }
       }
     }
+    // make sure not duplicated release versions
+    const releaseVersions = releases.map(release => release.semver)
+    if (new Set(releaseVersions).size !== releaseVersions.length) {
+      throw new Error(`releases.json for plugin "${plugin}" contains duplicate versions. Releases must have unique versions.`)
+    }
   }
 
   static async getLatestRelease(releases) {
