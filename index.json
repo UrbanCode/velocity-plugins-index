@@ -1,4 +1,72 @@
 {
+    "appscanPlugin": {
+        "name": "AppScan",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to import AppScan scan results as metrics.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.13",
+            "date": "2019-06-14T00:00:00.000Z",
+            "image": "urbancode/ucv-ext-appscan:0.0.13",
+            "notes": [
+                "Containerized plugin."
+            ]
+        }
+    },
+    "asocPlugin": {
+        "name": "ASoC",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to import ASoC scan results as metrics.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.2",
+            "date": "2019-06-17T00:00:00.000Z",
+            "image": "urbancode/ucv-ext-asoc:0.0.2",
+            "notes": [
+                "Initial version of ASoC plugin."
+            ]
+        }
+    },
+    "coverageCorePlugin": {
+        "name": "Coverage Core",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to import Coverage Core coverage reports as metrics.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.22",
+            "date": "2019-06-17T00:00:00.000Z",
+            "image": "urbancode/ucv-ext-coverage-core:0.0.22",
+            "notes": [
+                "Containerized plugin."
+            ]
+        }
+    },
+    "jmeterPlugin": {
+        "name": "JMeter",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to import JMeter test results as metrics.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.31",
+            "date": "2019-06-17T00:00:00.000Z",
+            "image": "urbancode/ucv-ext-jmeter:0.0.31",
+            "notes": [
+                "Containerized plugin."
+            ]
+        }
+    },
     "junitPlugin": {
         "name": "JUnit Parser",
         "url": "https://developer.ibm.com/urbancode/plugins/",
@@ -12,6 +80,40 @@
             "date": "2019-06-03T00:00:00.000Z",
             "image": "urbancode/ucv-ext-junit:0.0.31",
             "notes": []
+        }
+    },
+    "msQualityPlugin": {
+        "name": "VS Quality",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to import VS Quality test results as metrics.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.25",
+            "date": "2019-06-14T00:00:00.000Z",
+            "image": "urbancode/ucv-ext-vs-quality:0.0.25",
+            "notes": [
+                "Containerized plugin."
+            ]
+        }
+    },
+    "onetestPlugin": {
+        "name": "OneTest",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to import OneTest test results as metrics.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.5",
+            "date": "2019-06-17T00:00:00.000Z",
+            "image": "urbancode/ucv-ext-onetest:0.0.5",
+            "notes": [
+                "Updated to api-client 1.0.11 and transpiled tests."
+            ]
         }
     },
     "sonarqubePlugin": {
@@ -31,37 +133,37 @@
             ]
         }
     },
-    "ucv-ext-appscan": {
-        "name": "AppScan",
+    "testngPlugin": {
+        "name": "TestNG",
         "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "Allows UrbanCode Velocity to import AppScan scan results as metrics.",
+        "description": "Allows UrbanCode Velocity to import TestNG test results as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.13",
+            "semver": "0.0.6",
             "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-appscan:0.0.13",
+            "image": "urbancode/ucv-ext-testng:0.0.6",
             "notes": [
                 "Containerized plugin."
             ]
         }
     },
-    "ucv-ext-asoc": {
-        "name": "ASoC",
+    "twistlockPlugin": {
+        "name": "Twistlock",
         "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "Allows UrbanCode Velocity to import ASoC scan results as metrics.",
+        "description": "Allows UrbanCode Velocity to import Twistlock test results as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.2",
-            "date": "2019-06-17T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-asoc:0.0.2",
+            "semver": "0.0.32",
+            "date": "2019-06-14T00:00:00.000Z",
+            "image": "urbancode/ucv-ext-twistlock:0.0.32",
             "notes": [
-                "Initial version of ASoC plugin."
+                "Containerized plugin."
             ]
         }
     },
@@ -99,23 +201,6 @@
             ]
         }
     },
-    "ucv-ext-coverage-core": {
-        "name": "Coverage Core",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "Allows UrbanCode Velocity to import Coverage Core coverage reports as metrics.",
-        "author": {
-            "name": "UrbanCode",
-            "email": "urbancode-plugins@hcl.com"
-        },
-        "current": {
-            "semver": "0.0.22",
-            "date": "2019-06-17T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-coverage-core:0.0.22",
-            "notes": [
-                "Containerized plugin."
-            ]
-        }
-    },
     "ucv-ext-github": {
         "name": "Github",
         "url": "https://developer.ibm.com/urbancode/plugins/",
@@ -150,40 +235,6 @@
             ]
         }
     },
-    "ucv-ext-jmeter": {
-        "name": "JMeter",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "Allows UrbanCode Velocity to import JMeter test results as metrics.",
-        "author": {
-            "name": "UrbanCode",
-            "email": "urbancode-plugins@hcl.com"
-        },
-        "current": {
-            "semver": "0.0.31",
-            "date": "2019-06-17T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-jmeter:0.0.31",
-            "notes": [
-                "Containerized plugin."
-            ]
-        }
-    },
-    "ucv-ext-onetest": {
-        "name": "OneTest",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "Allows UrbanCode Velocity to import OneTest test results as metrics.",
-        "author": {
-            "name": "UrbanCode",
-            "email": "urbancode-plugins@hcl.com"
-        },
-        "current": {
-            "semver": "0.0.5",
-            "date": "2019-06-17T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-onetest:0.0.5",
-            "notes": [
-                "Updated to api-client 1.0.11 and transpiled tests."
-            ]
-        }
-    },
     "ucv-ext-rally": {
         "name": "Rally",
         "url": "https://developer.ibm.com/urbancode/plugins/",
@@ -198,57 +249,6 @@
             "image": "urbancode/ucv-ext-rally:0.0.3",
             "notes": [
                 "Initial release of Rally plugin."
-            ]
-        }
-    },
-    "ucv-ext-testng": {
-        "name": "TestNG",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "Allows UrbanCode Velocity to import TestNG test results as metrics.",
-        "author": {
-            "name": "UrbanCode",
-            "email": "urbancode-plugins@hcl.com"
-        },
-        "current": {
-            "semver": "0.0.6",
-            "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-testng:0.0.6",
-            "notes": [
-                "Containerized plugin."
-            ]
-        }
-    },
-    "ucv-ext-twistlock": {
-        "name": "Twistlock",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "Allows UrbanCode Velocity to import Twistlock test results as metrics.",
-        "author": {
-            "name": "UrbanCode",
-            "email": "urbancode-plugins@hcl.com"
-        },
-        "current": {
-            "semver": "0.0.32",
-            "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-twistlock:0.0.32",
-            "notes": [
-                "Containerized plugin."
-            ]
-        }
-    },
-    "ucv-ext-vs-quality": {
-        "name": "VS Quality",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "Allows UrbanCode Velocity to import VS Quality test results as metrics.",
-        "author": {
-            "name": "UrbanCode",
-            "email": "urbancode-plugins@hcl.com"
-        },
-        "current": {
-            "semver": "0.0.25",
-            "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-vs-quality:0.0.25",
-            "notes": [
-                "Containerized plugin."
             ]
         }
     }
