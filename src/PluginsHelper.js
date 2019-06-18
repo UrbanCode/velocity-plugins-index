@@ -106,14 +106,11 @@ export default class PluginsHelper {
     let date, ver
     for (const version of releaseVersions) {
       const release = releases.filter(release => release.semver === version)[0]
-      if (!date) {
-        date = release.date
-        ver = release.semver
-      } else {
-        if (!moment(release.date).isAfter(date)) {
-          throw new Error(`releases.json for plugin "${plugin}" contains invalid release "${release.semver}" whose date "${release.date}" is not after the previous release "${ver}" date "${date}". Each new release must have a date later than the previous release.`)
-        }
+      if (date && !moment(release.date).isAfter(date)) {
+        throw new Error(`releases.json for plugin "${plugin}" contains invalid release "${release.semver}" whose date "${release.date}" is not after the previous release "${ver}" date "${date}". Each new release must have a date later than the previous release.`)
       }
+      date = release.date
+      ver = release.semver
     }
   }
 
