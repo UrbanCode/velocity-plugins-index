@@ -35,8 +35,11 @@
     "@babel/register": "^7.4.4",
     "babel-eslint": "^10.0.2",
     "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
     "eslint": "^5.16.0",
     "husky": "^2.4.1",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "sinon": "^7.3.2",
+    "sinon-test": "^2.4.0"
   }
 }
