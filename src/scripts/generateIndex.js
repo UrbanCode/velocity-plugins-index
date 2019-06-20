@@ -1,7 +1,7 @@
 import fs from 'fs-extra'
 import log4js from 'log4js'
 
-import { FILE_NAME as INFO_FILE_NAME } from '../helpers/InfoHelper'
+import InfoHelper, { FILE_NAME as INFO_FILE_NAME } from '../helpers/InfoHelper'
 import PluginsHelper, { PLUGINS_DIR } from '../helpers/PluginsHelper'
 import ReleasesHelper, { FILE_NAME as RELEASES_FILE_NAME } from '../helpers/ReleasesHelper'
 import { FILE as INDEX_FILE } from '../helpers/IndexHelper'
@@ -15,7 +15,9 @@ logger.level = process.env.LOG_LEVEL || 'debug'
     const plugins = await fs.readdir(PLUGINS_DIR)
     for (const plugin of plugins) {
       const info = await PluginsHelper.getJsonFromPluginFile(plugin, INFO_FILE_NAME)
+      await InfoHelper.validate(plugin, info)
       const releases = await PluginsHelper.getJsonFromPluginFile(plugin, RELEASES_FILE_NAME)
+      await ReleasesHelper.validate(plugin, releases)
       const latestRelease = await ReleasesHelper.getLatestRelease(releases)
       indexJson[plugin] = {
         name: info.name,
