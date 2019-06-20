@@ -12,15 +12,16 @@
     "node": ">=0.8.0"
   },
   "scripts": {
-    "generate-index": "babel-node src/generateIndex.js",
+    "generate-index": "babel-node src/scripts/generateIndex.js",
     "lint": "npm run lint-scripts && npm run lint-plugins && npm run lint-index",
-    "lint-index": "babel-node src/lintIndex.js",
-    "lint-plugins": "babel-node src/lintPlugins",
+    "lint-index": "babel-node src/scripts/lintIndex.js",
+    "lint-plugins": "babel-node src/scripts/lintPlugins",
     "lint-scripts": "eslint .",
     "test": "npm run lint && npm run test-unit",
     "test-unit": "mocha test/unit --opts .mocha.opts"
   },
   "dependencies": {
+    "@hapi/joi": "^15.0.3",
     "fs-extra": "^8.0.1",
     "log4js": "^4.3.1",
     "moment": "^2.24.0",
