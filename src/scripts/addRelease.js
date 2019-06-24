@@ -14,25 +14,20 @@ logger.level = process.env.LOG_LEVEL || 'debug'
     const args = meow({
       flags: {
         pluginId: {
-          type: 'string',
-          alias: 'p'
+          type: 'string'
         },
         semver: {
-          type: 'string',
-          alias: 's'
+          type: 'string'
         },
         image: {
-          type: 'string',
-          alias: 'i'
+          type: 'string'
         },
         date: {
           type: 'string',
-          alias: 'd',
           default: new Date().toISOString()
         },
         notes: {
           type: 'string',
-          alias: 'n',
           default: []
         }
       }
