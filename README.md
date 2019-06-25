@@ -87,7 +87,13 @@ To add a new plugin to the `index.json`, follow these steps:
 
 To add a new released version of a plugin to the `index.json`, follow these steps:
 
-1. Add a release object to the `plugins/<pluginId>/releases.json` file, where `<pluginId>` is the `pluginId` for the plugin with the new release. See [JSON Structures](#jSON-structures) for the shape of the release object.
+1. Run the following in the root directory of this repository:
+
+    ```sh
+    npm run add-release -- --pluginId=<pluginId> --semver=<semver> --image=<image> --date=<date> --notes=<notes>
+    ```
+
+    where `<pluginId>` is the `pluginId` for the plugin with the new release, `<semver>` is the new version being released, `<image>` is the Docker image that corresponds to the new plugin for the release, `<date>` is the date that the plugin is being released (as an ISO string), and `<notes>` is an array containing strings of features/bug-fixes introduced in the new plugin version. Note that `<date>` and `<notes>` are optional and can be ommitted.
 
 2. [Generate the index.json file](#generate-index.json)
 
