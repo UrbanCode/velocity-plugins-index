@@ -227,12 +227,10 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.17",
-            "date": "2019-06-03T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-jira:0.0.17",
-            "notes": [
-                "Properly throw errors on failures."
-            ]
+            "semver": "1.0.0",
+            "date": "2019-06-26T16:47:24.402Z",
+            "image": "urbancode/ucv-ext-jira:1.0.0",
+            "notes": []
         }
     },
     "ucv-ext-rally": {
