@@ -2,7 +2,7 @@ import moment from 'moment'
 import semver from 'semver'
 
 export const FILE_NAME = 'releases.json'
-const DATE_TIME_FORMAT = 'YYYY-MM-DDTHH:mm:ss.SSSZ'
+export const DATE_TIME_FORMAT = 'YYYY-MM-DDTHH:mm:ss.SSSZ'
 
 export default class ReleasesHelper {
   static validate(plugin, releases) {

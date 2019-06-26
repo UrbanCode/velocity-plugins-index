@@ -2,6 +2,7 @@ import chai, { expect } from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import { exec } from 'child_process'
 import fs from 'fs-extra'
+import moment from 'moment'
 import path from 'path'
 import sinon from 'sinon'
 import sinonTest from 'sinon-test'
@@ -9,10 +10,10 @@ import util from 'util'
 
 import PluginsHelper, { PLUGINS_DIR } from '../../src/helpers/PluginsHelper'
 import { FILE_NAME as INFO_FILE_NAME } from '../../src/helpers/InfoHelper'
-import ReleasesHelper, { FILE_NAME as RELEASES_FILE_NAME } from '../../src/helpers/ReleasesHelper'
+import ReleasesHelper, { FILE_NAME as RELEASES_FILE_NAME, DATE_TIME_FORMAT } from '../../src/helpers/ReleasesHelper'
 
 chai.use(chaiAsPromised)
-const test = sinonTest(sinon)
+const test = sinonTest(sinon, { useFakeTimers: false })
 const execAsync = util.promisify(exec)
 
 describe('Add Release Test', function() {
@@ -25,41 +26,122 @@ describe('Add Release Test', function() {
     await fs.remove(path.join(PLUGINS_DIR, tempPlugin))
   })
   describe('Happy Path', function() {
-    it('should add directory, releases file and new release if plugin doesn\'t exist', test(async function() {
-      try {
-        await execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=1.0.0 --image=${tempPlugin}:1.0.0`, {
-          cwd: path.join(__dirname, '../../')
-        })
-      } catch (err) {
-        expect(err.stdout).to.not.include('ERROR')
-      }
-      expect(ReleasesHelper.validate(tempPlugin, await PluginsHelper.getJsonFromPluginFile(tempPlugin, RELEASES_FILE_NAME))).to.not.throw
-    }))
-    it('should add new release to existing plugin', test(async function() {
-      await fs.ensureDir(path.join(PLUGINS_DIR, tempPlugin))
-      await fs.writeFile(path.join(PLUGINS_DIR, tempPlugin, INFO_FILE_NAME), JSON.stringify({
-        name: 'Add Release Functional Test Temporary Plugin',
-        url: 'https://google.com/',
-        description: 'Temporary plugin for functional tests',
-        author: {
-            name: 'Functional Tests',
-            email: 'test-func@test.com'
+    describe('New Plugin', function() {
+      it('should correctly add release with only required fields', test(async function() {
+        const newRelease = {
+          semver: '1.0.0',
+          image: `${tempPlugin}:1.0.0`,
+          date: new Date().toISOString(),
+          notes: []
         }
+        try {
+          await execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=${newRelease.semver} --image=${newRelease.image}`, {
+            cwd: path.join(__dirname, '../../')
+          })
+        } catch (err) {
+          expect(err.stdout).to.not.include('ERROR')
+        }
+        expect(ReleasesHelper.validate(tempPlugin, await PluginsHelper.getJsonFromPluginFile(tempPlugin, RELEASES_FILE_NAME))).to.not.throw
+        await validateReleases(tempPlugin, [newRelease])
       }))
-      await fs.writeFile(path.join(PLUGINS_DIR, tempPlugin, RELEASES_FILE_NAME), JSON.stringify([{
-        semver: '1.0.0',
-        image: `${tempPlugin}:1.0.0`,
-        date: new Date().toISOString()
-      }]))
-      try {
-        await execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=1.0.1 --image=${tempPlugin}:1.0.1`, {
-          cwd: path.join(__dirname, '../../')
-        })
-      } catch (err) {
-        expect(err.stdout).to.not.include('ERROR')
-      }
-      expect(ReleasesHelper.validate(tempPlugin, await PluginsHelper.getJsonFromPluginFile(tempPlugin, RELEASES_FILE_NAME))).to.not.throw
-    }))
+      it('should correctly add release with notes', test(async function() {
+        const newRelease = {
+          semver: '1.0.0',
+          image: `${tempPlugin}:1.0.0`,
+          date: new Date().toISOString(),
+          notes: ['hello world']
+        }
+        const command = `npm run add-release -- --pluginId=${tempPlugin} --semver=${newRelease.semver} --image=${newRelease.image} --notes=${convertNotesForCommand(newRelease.notes)}`
+        try {
+          await execAsync(command, {
+            cwd: path.join(__dirname, '../../')
+          })
+        } catch (err) {
+          expect(err.stdout).to.not.include('ERROR')
+        }
+        expect(ReleasesHelper.validate(tempPlugin, await PluginsHelper.getJsonFromPluginFile(tempPlugin, RELEASES_FILE_NAME))).to.not.throw
+        await validateReleases(tempPlugin, [newRelease])
+      }))
+      it('should correctly add release with explicit date', test(async function() {
+        const newRelease = {
+          semver: '1.0.0',
+          image: `${tempPlugin}:1.0.0`,
+          date: new Date('12/30/1992').toISOString(),
+          notes: []
+        }
+        const command = `npm run add-release -- --pluginId=${tempPlugin} --semver=${newRelease.semver} --image=${newRelease.image} --date=${newRelease.date}`
+        try {
+          await execAsync(command, {
+            cwd: path.join(__dirname, '../../')
+          })
+        } catch (err) {
+          expect(err.stdout).to.not.include('ERROR')
+        }
+        expect(ReleasesHelper.validate(tempPlugin, await PluginsHelper.getJsonFromPluginFile(tempPlugin, RELEASES_FILE_NAME))).to.not.throw
+        await validateReleases(tempPlugin, [newRelease])
+      }))
+    })
+    describe('Existing Plugin', function() {
+      it('should correctly add release with only required fields', test(async function() {
+        await createExistingPlugin(tempPlugin)
+        const existingRelease = PluginsHelper.getJsonFromPluginFile(tempPlugin, RELEASES_FILE_NAME)[0]
+        const newRelease = {
+          semver: '1.0.1',
+          image: `${tempPlugin}:1.0.1`,
+          date: new Date().toISOString(),
+          notes: []
+        }
+        try {
+          await execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=${newRelease.semver} --image=${newRelease.image}`, {
+            cwd: path.join(__dirname, '../../')
+          })
+        } catch (err) {
+          expect(err.stdout).to.not.include('ERROR')
+        }
+        expect(ReleasesHelper.validate(tempPlugin, await PluginsHelper.getJsonFromPluginFile(tempPlugin, RELEASES_FILE_NAME))).to.not.throw
+        await validateReleases(tempPlugin, [newRelease, existingRelease])
+      }))
+      it('should correctly add release with notes', test(async function() {
+        await createExistingPlugin(tempPlugin)
+        const existingRelease = PluginsHelper.getJsonFromPluginFile(tempPlugin, RELEASES_FILE_NAME)[0]
+        const newRelease = {
+          semver: '1.0.1',
+          image: `${tempPlugin}:1.0.1`,
+          date: new Date().toISOString(),
+          notes: ['hello world']
+        }
+        const command = `npm run add-release -- --pluginId=${tempPlugin} --semver=${newRelease.semver} --image=${newRelease.image} --notes=${convertNotesForCommand(newRelease.notes)}`
+        try {
+          await execAsync(command, {
+            cwd: path.join(__dirname, '../../')
+          })
+        } catch (err) {
+          expect(err.stdout).to.not.include('ERROR')
+        }
+        expect(ReleasesHelper.validate(tempPlugin, await PluginsHelper.getJsonFromPluginFile(tempPlugin, RELEASES_FILE_NAME))).to.not.throw
+        await validateReleases(tempPlugin, [newRelease, existingRelease])
+      }))
+      it('should correctly add release with explicit date', test(async function() {
+        await createExistingPlugin(tempPlugin)
+        const existingRelease = PluginsHelper.getJsonFromPluginFile(tempPlugin, RELEASES_FILE_NAME)[0]
+        const newRelease = {
+          semver: '1.0.1',
+          image: `${tempPlugin}:1.0.1`,
+          date: new Date(moment(Date.now()).add(1, 'year').valueOf()).toISOString(),
+          notes: []
+        }
+        const command = `npm run add-release -- --pluginId=${tempPlugin} --semver=${newRelease.semver} --image=${newRelease.image} --date=${newRelease.date}`
+        try {
+          await execAsync(command, {
+            cwd: path.join(__dirname, '../../')
+          })
+        } catch (err) {
+          expect(err.stdout).to.not.include('ERROR')
+        }
+        expect(ReleasesHelper.validate(tempPlugin, await PluginsHelper.getJsonFromPluginFile(tempPlugin, RELEASES_FILE_NAME))).to.not.throw
+        await validateReleases(tempPlugin, [newRelease, existingRelease])
+      }))
+    })
   })
   describe('Sad Path', function() {
     it('should error if pluginId flag not provided', test(async function() {
@@ -77,25 +159,93 @@ describe('Add Release Test', function() {
         cwd: path.join(__dirname, '../../')
       })).to.eventually.be.rejected.and.have.property('stdout').contain('The --image, -i flag is required to add a release')
     }))
-    it('should error if adding a release that already exists', test(async function() {
-      await fs.ensureDir(path.join(PLUGINS_DIR, tempPlugin))
-      await fs.writeFile(path.join(PLUGINS_DIR, tempPlugin, INFO_FILE_NAME), JSON.stringify({
-        name: 'Add Release Functional Test Temporary Plugin',
-        url: 'https://google.com/',
-        description: 'Temporary plugin for functional tests',
-        author: {
-            name: 'Functional Tests',
-            email: 'test-func@test.com'
-        }
+    describe('New Plugin', function() {
+      it('should error if semver is invalid', test(async function() {
+        const badSemver = '101'
+        await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=${badSemver} --image=${tempPlugin}:1.0.1`, {
+          cwd: path.join(__dirname, '../../')
+        })).to.eventually.be.rejected.and.have.property('stdout').contain(`plugin "${tempPlugin}" contains a release with an invalid semver "${badSemver}". All releases must have a valid "semver" element.`)
       }))
-      await fs.writeFile(path.join(PLUGINS_DIR, tempPlugin, RELEASES_FILE_NAME), JSON.stringify([{
-        semver: '1.0.0',
-        image: `${tempPlugin}:1.0.0`,
-        date: new Date().toISOString()
-      }]))
-      await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=1.0.0 --image=${tempPlugin}:1.0.0`, {
-        cwd: path.join(__dirname, '../../')
-      })).to.eventually.be.rejected.and.have.property('stdout').contain(`plugin "${tempPlugin}" contains duplicate versions. Releases must have unique versions.`)
-    }))
+      it('should error if date is invalid', test(async function() {
+        const badDate = '11/12/2019'
+        await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=1.0.1 --image=${tempPlugin}:1.0.1 --date=${badDate}`, {
+          cwd: path.join(__dirname, '../../')
+        })).to.eventually.be.rejected.and.have.property('stdout').contain(`plugin "${tempPlugin}" contains a release with an invalid date "${badDate}". All releases must have a valid "date" element in the format "${DATE_TIME_FORMAT}"`)
+      }))
+      it('should error if notes are not array', test(async function() {
+        const badNote = 'just a string'
+        await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=1.0.1 --image=${tempPlugin}:1.0.1 --notes=${badNote}`, {
+          cwd: path.join(__dirname, '../../')
+        })).to.eventually.be.rejected.and.have.property('stdout').contain('Invalid notes. --notes flag must be a valid JSON array')
+      }))
+    })
+    describe('Existing Plugin', function() {
+      it('should error if semver is invalid', test(async function() {
+        await createExistingPlugin(tempPlugin)
+        const badSemver = '101'
+        await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=${badSemver} --image=${tempPlugin}:1.0.1`, {
+          cwd: path.join(__dirname, '../../')
+        })).to.eventually.be.rejected.and.have.property('stdout').contain(`plugin "${tempPlugin}" contains a release with an invalid semver "${badSemver}". All releases must have a valid "semver" element.`)
+      }))
+      it('should error if date is invalid', test(async function() {
+        await createExistingPlugin(tempPlugin)
+        const badDate = '11/12/2019'
+        await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=1.0.1 --image=${tempPlugin}:1.0.1 --date=${badDate}`, {
+          cwd: path.join(__dirname, '../../')
+        })).to.eventually.be.rejected.and.have.property('stdout').contain(`plugin "${tempPlugin}" contains a release with an invalid date "${badDate}". All releases must have a valid "date" element in the format "${DATE_TIME_FORMAT}"`)
+      }))
+      it('should error if notes are not array', test(async function() {
+        const badNote = 'just a string'
+        await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=1.0.1 --image=${tempPlugin}:1.0.1 --notes=${badNote}`, {
+          cwd: path.join(__dirname, '../../')
+        })).to.eventually.be.rejected.and.have.property('stdout').contain('Invalid notes. --notes flag must be a valid JSON array')
+      }))
+      it('should error if adding a release that already exists', test(async function() {
+        await createExistingPlugin(tempPlugin)
+        await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=1.0.0 --image=${tempPlugin}:1.0.0`, {
+          cwd: path.join(__dirname, '../../')
+        })).to.eventually.be.rejected.and.have.property('stdout').contain(`plugin "${tempPlugin}" contains duplicate versions. Releases must have unique versions.`)
+      }))
+    })
   })
 })
+
+function convertNotesForCommand(notes) {
+  return JSON.stringify(notes.map((note) => { return `"${note}"` }))
+}
+
+async function createExistingPlugin(pluginId) {
+  await fs.ensureDir(path.join(PLUGINS_DIR, pluginId))
+  await fs.writeFile(path.join(PLUGINS_DIR, pluginId, INFO_FILE_NAME), JSON.stringify({
+    name: 'Add Release Functional Test Temporary Plugin',
+    url: 'https://google.com/',
+    description: 'Temporary plugin for functional tests',
+    author: {
+        name: 'Functional Tests',
+        email: 'test-func@test.com'
+    }
+  }))
+  await fs.writeFile(path.join(PLUGINS_DIR, pluginId, RELEASES_FILE_NAME), JSON.stringify([{
+    semver: '1.0.0',
+    image: `${pluginId}:1.0.0`,
+    date: new Date().toISOString()
+  }]))
+}
+
+async function validateReleases(pluginId, expectedReleases) {
+  const releases = await PluginsHelper.getJsonFromPluginFile(pluginId, RELEASES_FILE_NAME)
+  for (let i = 0; i < expectedReleases.length; i++) {
+    let expected = expectedReleases[i]
+    let release = releases[i]
+    for (var property in expected) {
+      if (expected.hasOwnProperty(property)) {
+        if (property === 'date') {
+          expect(moment(release.date).diff(expected.date)).to.be.lessThan(5000, `Dates not equal. Expected date of ${expected.date} is not within 5 seconds of actual date ${release.date}`)
+        } else {
+          expect(release[property]).to.deep.equal(expected[property])
+        }
+      }
+    }
+  }
+  expect(releases.length).to.equal(expectedReleases.length)
+}
