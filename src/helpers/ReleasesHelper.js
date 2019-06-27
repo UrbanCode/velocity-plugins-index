@@ -5,20 +5,20 @@ import semver from 'semver'
 import PluginsHelper from './PluginsHelper'
 
 export const FILE_NAME = 'releases.json'
-export const DATE_TIME_FORMAT = 'YYYY-MM-DDTHH:mm:ss.SSSZ'
 export const ERROR_TEXT = {
   RootArray: 'must have root JSON array containing release objects for releases',
-  RootObject: 'must have JSON object for each release in the releases array',
+  RootObject: 'must have JSON object for each release in the releases array containing "semver", "date", "image" and "notes" elements',
   RootUnique: 'must have unique semver, image, and date elements for each release object',
   Semver: 'must have "semver" element in release object whose value is a valid Semantic Version',
   Date: 'must have "date" element in releases object whose value is a valid ISO DateTime string',
   Image: 'must have "image" element in releases object whose value is a valid DockerHub image',
-  NotesArray: 'must have "notes" element in releases object whose value is an array comprised of strings',
+  NotesArray: 'must have "notes" element in releases object whose value is an array comprised of strings. May be empty array to omit notes.',
   NotesObject: '"notes" array can only be comprised of strings'
 }
 
 export default class ReleasesHelper {
   static getSchema() {
+    // TODO: apply .sort on semver descending (maybe even date also) when that functionality gets released (joi 16.0)
     return Joi.array().required().unique((a, b) => {
       return a.semver === b.semver || a.image === b.image || a.date === b.date
     }).error((errors) => {

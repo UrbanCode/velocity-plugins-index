@@ -174,6 +174,14 @@ describe('Validate info structure', function() {
       expect(() => InfoHelper.validate(pluginId, { name: 'Custom', url: 'https://google.com', description: 'custom plugin.', author: { name: 'custom author', email: 'notanemail' } })).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.AuthorEmail}`)
     })
   })
+  describe('Invalid Extra Elements', function() {
+    it('should throw error if info has extra element in root', function() {
+      expect(() => InfoHelper.validate(pluginId, { name: 'Custom', url: 'https://google.com', description: 'custom plugin.', author: { name: 'custom author', email: 'author@custom.com' }, extraprop: 'whoami' })).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Root}`)
+    })
+    it('should throw error if info has extra element in author', function() {
+      expect(() => InfoHelper.validate(pluginId, { name: 'Custom', url: 'https://google.com', description: 'custom plugin.', author: { name: 'custom author', email: 'author@custom.com', extraprop: 'whoami' } })).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Author}`)
+    })
+  })
   describe(`Valid Structure`, function() {
     it('should not throw error if info is valid', function() {
       let errorThrown

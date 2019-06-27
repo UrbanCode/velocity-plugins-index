@@ -4,11 +4,11 @@ import PluginsHelper from './PluginsHelper'
 
 export const FILE_NAME = 'info.json'
 export const ERROR_TEXT = {
-  Root: 'must have root JSON object for info',
+  Root: 'must have root JSON object for info containing "name", "url", "description", and "author" elements',
   Name: 'must have "name" element in "root" object whose value is a string',
   Url: 'must have "url" element in "root" object whose value is a valid URI',
   Description: 'must have "description" element in "root" object whose value is a string',
-  Author: 'must have "author" element in "root" object whose value is a JSON object',
+  Author: 'must have "author" element in "root" object whose value is a JSON object containing "name" and "email" elements',
   AuthorName: 'must have "name" element in "root.author" object whose value is a string',
   AuthorEmail: 'must have "email" element in "root.author" object whose value is a valid email address'
 }

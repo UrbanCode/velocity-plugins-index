@@ -367,9 +367,18 @@ describe('Validate Releases Structure', function() {
       })
     })
   })
-  // test semver order
-  // test date is incrementing with each semver
-  // in info & releases, test extra objects to make sure we don't allow additional things through
+  describe('Invalid extra elements', function() {
+    describe('Releases Array', function() {
+      it('should throw error if release object has extra element', function() {
+        expect(() => ReleasesHelper.validate(pluginId, [{ semver: '1.0.0', date: new Date().toISOString(), image: `${pluginId}:1.0.0`, notes: ['initial release'], extraprop: 'whoami' }])).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.RootObject} AND ${ERROR_TEXT.RootArray}`)
+      })
+    })
+    describe('Releases Object', function() {
+      it('should throw error if release object has extra element', function() {
+        expect(() => ReleasesHelper.validateSingleRelease(pluginId, { semver: '1.0.0', date: new Date().toISOString(), image: `${pluginId}:1.0.0`, notes: ['initial release'], extraprop: 'whoami' })).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.RootObject}`)
+      })
+    })
+  })
   describe(`Valid Structure`, function() {
     it('should not throw error if releases is valid with single release', function() {
       let errorThrown
