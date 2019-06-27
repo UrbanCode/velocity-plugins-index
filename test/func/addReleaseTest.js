@@ -10,7 +10,7 @@ import util from 'util'
 
 import PluginsHelper, { PLUGINS_DIR } from '../../src/helpers/PluginsHelper'
 import { FILE_NAME as INFO_FILE_NAME } from '../../src/helpers/InfoHelper'
-import ReleasesHelper, { FILE_NAME as RELEASES_FILE_NAME, DATE_TIME_FORMAT } from '../../src/helpers/ReleasesHelper'
+import ReleasesHelper, { FILE_NAME as RELEASES_FILE_NAME, ERROR_TEXT } from '../../src/helpers/ReleasesHelper'
 
 chai.use(chaiAsPromised)
 const test = sinonTest(sinon, { useFakeTimers: false })
@@ -164,13 +164,13 @@ describe('Add Release Test', function() {
         const badSemver = '101'
         await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=${badSemver} --image=${tempPlugin}:1.0.1`, {
           cwd: path.join(__dirname, '../../')
-        })).to.eventually.be.rejected.and.have.property('stdout').contain(`plugin "${tempPlugin}" contains a release with an invalid semver "${badSemver}". All releases must have a valid "semver" element.`)
+        })).to.eventually.be.rejected.and.have.property('stdout').contain(ERROR_TEXT.Semver)
       }))
       it('should error if date is invalid', test(async function() {
         const badDate = '11/12/2019'
         await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=1.0.1 --image=${tempPlugin}:1.0.1 --date=${badDate}`, {
           cwd: path.join(__dirname, '../../')
-        })).to.eventually.be.rejected.and.have.property('stdout').contain(`plugin "${tempPlugin}" contains a release with an invalid date "${badDate}". All releases must have a valid "date" element in the format "${DATE_TIME_FORMAT}"`)
+        })).to.eventually.be.rejected.and.have.property('stdout').contain(ERROR_TEXT.Date)
       }))
       it('should error if notes are not array', test(async function() {
         const badNote = 'just a string'
@@ -185,14 +185,14 @@ describe('Add Release Test', function() {
         const badSemver = '101'
         await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=${badSemver} --image=${tempPlugin}:1.0.1`, {
           cwd: path.join(__dirname, '../../')
-        })).to.eventually.be.rejected.and.have.property('stdout').contain(`plugin "${tempPlugin}" contains a release with an invalid semver "${badSemver}". All releases must have a valid "semver" element.`)
+        })).to.eventually.be.rejected.and.have.property('stdout').contain(ERROR_TEXT.Semver)
       }))
       it('should error if date is invalid', test(async function() {
         await createExistingPlugin(tempPlugin)
         const badDate = '11/12/2019'
         await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=1.0.1 --image=${tempPlugin}:1.0.1 --date=${badDate}`, {
           cwd: path.join(__dirname, '../../')
-        })).to.eventually.be.rejected.and.have.property('stdout').contain(`plugin "${tempPlugin}" contains a release with an invalid date "${badDate}". All releases must have a valid "date" element in the format "${DATE_TIME_FORMAT}"`)
+        })).to.eventually.be.rejected.and.have.property('stdout').contain(ERROR_TEXT.Date)
       }))
       it('should error if notes are not array', test(async function() {
         const badNote = 'just a string'
@@ -204,7 +204,7 @@ describe('Add Release Test', function() {
         await createExistingPlugin(tempPlugin)
         await expect(execAsync(`npm run add-release -- --pluginId=${tempPlugin} --semver=1.0.0 --image=${tempPlugin}:1.0.0`, {
           cwd: path.join(__dirname, '../../')
-        })).to.eventually.be.rejected.and.have.property('stdout').contain(`plugin "${tempPlugin}" contains duplicate versions. Releases must have unique versions.`)
+        })).to.eventually.be.rejected.and.have.property('stdout').contain(ERROR_TEXT.RootUnique)
       }))
     })
   })
@@ -228,7 +228,8 @@ async function createExistingPlugin(pluginId) {
   await fs.writeFile(path.join(PLUGINS_DIR, pluginId, RELEASES_FILE_NAME), JSON.stringify([{
     semver: '1.0.0',
     image: `${pluginId}:1.0.0`,
-    date: new Date().toISOString()
+    date: new Date().toISOString(),
+    notes: []
   }]))
 }
 
