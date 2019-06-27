@@ -76,10 +76,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.31",
-            "date": "2019-06-03T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-junit:0.0.31",
-            "notes": []
+            "semver": "0.0.32",
+            "date": "2019-06-27T13:28:03.575Z",
+            "image": "urbancode/ucv-ext-junit:0.0.32",
+            "notes": [
+                "added new feature",
+                "fixed bad bug"
+            ]
         }
     },
     "msQualityPlugin": {
