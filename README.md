@@ -37,7 +37,7 @@ There are 2 main file types that must abide by strict guidelines:
     | semver | string | yes | The version of the release, adhering to the [Semantic Versioning](https://semver.org/) standard. Must be unique per release object. |
     | date | string | yes | The date and time of the release, adhering to the [ISO 8601](https://web.archive.org/web/20171020085148/https://www.loc.gov/standards/datetime/ISO_DIS%208601-2.pdf) format. Must occur later than the previous release. |
     | image | string | yes | The docker image of the plugin. Must exist in [DockerHub](https://hub.docker.com/). |
-    | notes | array | no | An array of strings containing notes of what the new release introduces for the plugin (bug fixes, features, etc). |
+    | notes | array | yes | An array of strings containing notes of what the new release introduces for the plugin (bug fixes, features, etc). May be an empty array to omit notes. |
 
 ## Install Dependencies
 
