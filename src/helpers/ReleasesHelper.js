@@ -2,6 +2,7 @@ import Joi from '@hapi/joi'
 import joiExtSemver from 'joi-extension-semver'
 import semver from 'semver'
 
+import DockerHelper from './DockerHelper'
 import PluginsHelper from './PluginsHelper'
 
 export const FILE_NAME = 'releases.json'
@@ -33,7 +34,7 @@ export default class ReleasesHelper {
     return Joi.object().required().error(() => ERROR_TEXT.RootObject).keys({
       semver: Joi.extend(joiExtSemver).semver().required().valid().error(() => ERROR_TEXT.Semver),
       date: Joi.string().required().isoDate().error(() => ERROR_TEXT.Date),
-      image: Joi.string().required().error(() => ERROR_TEXT.Image),
+      image: Joi.extend(this.getDockerImageExtension()).image().required().exists().error(() => ERROR_TEXT.Image),
       notes: Joi.array().required().error(() => ERROR_TEXT.NotesArray).items(Joi.string().error(() => ERROR_TEXT.NotesObject))
     })
   }
@@ -48,6 +49,24 @@ export default class ReleasesHelper {
     PluginsHelper.throwJoiError(plugin, FILE_NAME, Joi.validate(release, this.getSingleReleaseSchema(), {
       abortEarly: false
     }))
+  }
+
+  static getDockerImageExtension() {
+    return {
+      name: 'image',
+      base: Joi.string(),
+      rules: [{
+        name: 'exists',
+        validate(params, value, state, options) {
+          const exists = DockerHelper.doesImageExist(value)
+          if (!exists) {
+            return this.createError('image.exists', {}, state, options)
+          }
+          return value
+        },
+        description: 'Checks to see if the docker image exists in DockerHub'
+      }]
+    }
   }
 
   static getLatestRelease(releases) {

@@ -24,6 +24,8 @@
   },
   "dependencies": {
     "@hapi/joi": "^15.1.0",
+    "deasync": "^0.1.15",
+    "docker-registry-client": "^3.3.0",
     "fs-extra": "^8.0.1",
     "joi-extension-semver": "^3.0.0",
     "log4js": "^4.3.1",
