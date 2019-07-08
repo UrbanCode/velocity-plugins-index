@@ -58,8 +58,7 @@ export default class ReleasesHelper {
       rules: [{
         name: 'exists',
         validate(params, value, state, options) {
-          const exists = DockerHelper.doesImageExist(value)
-          if (!exists) {
+          if (!DockerHelper.doesImageExist(value)) {
             return this.createError('image.exists', {}, state, options)
           }
           return value

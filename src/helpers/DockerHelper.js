@@ -2,22 +2,6 @@ import deasync from 'deasync'
 import drc from 'docker-registry-client'
 
 export default class DockerHubHelper {
-  // static async doesImageExist(image) {
-  //   const [imageName, imageTag] = image.split(':')
-  //   const client = drc.createClientV2({
-  //     name: imageName
-  //   })
-  //   try {
-  //     const getManifest = util.promisify(client.getManifest.bind(client))
-  //     await getManifest({ ref: imageTag || 'latest' })
-  //   } catch (err) {
-  //     return false
-  //   } finally {
-  //     client.close()
-  //   }
-  //   return true
-  // }
-
   static doesImageExist(image) {
     const imageExists = deasync(this.doesImageExistWithCallback)
     return imageExists(image)
@@ -38,4 +22,24 @@ export default class DockerHubHelper {
       })
     }
   }
+
+  /**
+   * Commented out for now in favor of the synchronous/callback method above.
+   * If Joi ever supports asynchronous validation for rules, use this async method instead
+   */
+  // static async doesImageExist(image) {
+  //   const [imageName, imageTag] = image.split(':')
+  //   const client = drc.createClientV2({
+  //     name: imageName
+  //   })
+  //   try {
+  //     const getManifest = util.promisify(client.getManifest.bind(client))
+  //     await getManifest({ ref: imageTag || 'latest' })
+  //   } catch (err) {
+  //     return false
+  //   } finally {
+  //     client.close()
+  //   }
+  //   return true
+  // }
 }
