@@ -2,7 +2,7 @@ import fs from 'fs-extra'
 import log4js from 'log4js'
 import path from 'path'
 
-import { FILE as INDEX_FILE } from '../helpers/IndexHelper'
+import IndexHelper, { FILE as INDEX_FILE } from '../helpers/IndexHelper'
 import { FILE_NAME as INFO_FILE_NAME } from '../helpers/InfoHelper'
 import PluginsHelper, { PLUGINS_DIR } from '../helpers/PluginsHelper'
 import ReleasesHelper, { FILE_NAME as RELEASES_FILE_NAME } from '../helpers/ReleasesHelper'
@@ -23,15 +23,10 @@ logger.level = process.env.LOG_LEVEL || 'debug'
     try {
       indexJson = JSON.parse(indexString)
     } catch (err) {
-      logger.error(`Could not read index file at "${INDEX_FILE}" as valid JSON`)
+      logger.error(`Could not parse index file at "${INDEX_FILE}" as valid JSON`)
       throw err
     }
-    if (!indexJson) {
-      throw new Error(`Index file at "${INDEX_FILE}" must not be empty`)
-    }
-    if (Array.isArray(indexJson)) {
-      throw new Error(`Index file at "${INDEX_FILE}" must be a JSON object, not a JSON array.`)
-    }
+    IndexHelper.validate(indexJson)
     // ensure every plugin in the plugins directory is present in the index JSON
     const plugins = await fs.readdir(PLUGINS_DIR)
     for (const plugin of plugins) {

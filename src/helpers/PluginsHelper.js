@@ -23,7 +23,7 @@ export default class PluginsHelper {
   static throwJoiError(plugin, fileName, result) {
     if (result.error) {
       const messages = [...new Set(result.error.details.map(detail => detail.message))].join(' AND ') // remove duplicate messages, then combine them with AND separating them
-      throw new Error(`Invalid JSON in "${fileName}" for plugin "${plugin}": ${messages}`)
+      throw new Error(`Invalid JSON in "${fileName}"${plugin ? ` for plugin "${plugin}"` : ''}: ${messages}`)
     }
   }
 }
