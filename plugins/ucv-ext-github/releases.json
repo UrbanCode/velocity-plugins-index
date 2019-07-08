@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.12",
+        "date": "2019-07-03T19:09:43.146Z",
+        "image": "urbancode/ucv-ext-github:0.0.12",
+        "notes": [
+            "Fixed pagination bug with pull requests and commits."
+        ]
+    },
+    {
         "semver": "0.0.11",
         "date": "2019-06-13T00:00:00.000Z",
         "image": "urbancode/ucv-ext-github:0.0.11",
