@@ -1,9 +1,18 @@
 import { expect } from 'chai'
+import sinon from 'sinon'
 
+import DockerHelper from '../../src/helpers/DockerHelper'
 import ReleasesHelper, { ERROR_TEXT, FILE_NAME } from '../../src/helpers/ReleasesHelper'
 
 describe('Validate Releases Structure', function() {
   const pluginId = 'custom-plugin'
+  let imageStub
+  this.beforeEach(function() {
+    imageStub = sinon.stub(DockerHelper, 'doesImageExist').returns(true)
+  })
+  this.afterEach(function() {
+    imageStub.restore()
+  })
   describe('Invalid Root Array', function() {
     it('should throw error if releases is undefined', function() {
       expect(() => ReleasesHelper.validate(pluginId, undefined)).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.RootArray}`)
@@ -237,6 +246,21 @@ describe('Validate Releases Structure', function() {
       it('should throw error if releases have duplicate images', function() {
         expect(() => ReleasesHelper.validate(pluginId, [{semver: '1.0.0', date: new Date().toISOString(), image: 'custom', notes:[]}, {semver: '1.0.1', date: new Date(Date.now() + 1000).toISOString(), image: 'custom', notes:[]}])).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.RootUnique}`)
       })
+      it('should throw error if releases has docker image that doesn\'t exist in DockerHub', function() {
+        imageStub.restore()
+        imageStub = sinon.stub(DockerHelper, 'doesImageExist').returns(false)
+        expect(() => ReleasesHelper.validate(pluginId, [{semver: '1.0.0', date: new Date().toISOString(), image: 'custom', notes:[]}])).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Image} AND ${ERROR_TEXT.RootArray}`)
+      })
+      it('should throw error if releases has docker image without explicit tag', function() {
+        imageStub.restore()
+        expect(() => ReleasesHelper.validate(pluginId, [{semver: '1.0.0', date: new Date().toISOString(), image: 'custom', notes:[]}])).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Image} AND ${ERROR_TEXT.RootArray}`)
+        imageStub = sinon.stub(DockerHelper, 'doesImageExist').returns(true)
+      })
+      it('should throw error if releases has docker image with latest tag', function() {
+        imageStub.restore()
+        expect(() => ReleasesHelper.validate(pluginId, [{semver: '1.0.0', date: new Date().toISOString(), image: 'custom:latest', notes:[]}])).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Image} AND ${ERROR_TEXT.RootArray}`)
+        imageStub = sinon.stub(DockerHelper, 'doesImageExist').returns(true)
+      })
     })
     describe('Releases Object', function() {
       it('should throw error if release object does not have image element', function() {
@@ -262,6 +286,21 @@ describe('Validate Releases Structure', function() {
       })
       it('should throw error if release object has boolean image element', function() {
         expect(() => ReleasesHelper.validateSingleRelease(pluginId, {semver: '1.0.0', date: new Date().toISOString(), image: true})).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Image} AND ${ERROR_TEXT.NotesArray}`)
+      })
+      it('should throw error if releases has docker image that doesn\'t exist in DockerHub', function() {
+        imageStub.restore()
+        imageStub = sinon.stub(DockerHelper, 'doesImageExist').returns(false)
+        expect(() => ReleasesHelper.validateSingleRelease(pluginId, {semver: '1.0.0', date: new Date().toISOString(), image: 'custom', notes:[]})).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Image}`)
+      })
+      it('should throw error if releases has docker image without explicit tag', function() {
+        imageStub.restore()
+        expect(() => ReleasesHelper.validateSingleRelease(pluginId, {semver: '1.0.0', date: new Date().toISOString(), image: 'custom', notes:[]})).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Image}`)
+        imageStub = sinon.stub(DockerHelper, 'doesImageExist').returns(true)
+      })
+      it('should throw error if releases has docker image with latest tag', function() {
+        imageStub.restore()
+        expect(() => ReleasesHelper.validateSingleRelease(pluginId, {semver: '1.0.0', date: new Date().toISOString(), image: 'custom:latest', notes:[]})).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Image}`)
+        imageStub = sinon.stub(DockerHelper, 'doesImageExist').returns(true)
       })
     })
   })

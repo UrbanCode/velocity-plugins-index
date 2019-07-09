@@ -1,5 +1,7 @@
 import { expect } from 'chai'
+import sinon from 'sinon'
 
+import DockerHelper from '../../src/helpers/DockerHelper'
 import IndexHelper, { FILE_NAME as INFO_FILE_NAME, ERROR_TEXT as INDEX_ERROR_TEXT } from '../../src/helpers/IndexHelper'
 import { ERROR_TEXT as INFO_ERROR_TEXT } from '../../src/helpers/InfoHelper'
 import { ERROR_TEXT as RELEASES_ERROR_TEXT } from '../../src/helpers/ReleasesHelper'
@@ -20,6 +22,13 @@ describe('Validate index structure', function() {
       notes: []
     }
   }
+  let imageStub
+  this.beforeEach(function() {
+    imageStub = sinon.stub(DockerHelper, 'doesImageExist').returns(true)
+  })
+  this.afterEach(function() {
+    imageStub.restore()
+  })
   describe('Invalid Root', function() {
     it('should throw error if index is undefined', function() {
       expect(() => IndexHelper.validate(undefined)).throws(Error).with.property('message', `Invalid JSON in "${INFO_FILE_NAME}": ${INDEX_ERROR_TEXT.Root}`)
