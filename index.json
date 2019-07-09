@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.13",
-            "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-appscan:0.0.13",
+            "semver": "0.0.14",
+            "date": "2019-07-09T20:12:04.838Z",
+            "image": "urbancode/ucv-ext-appscan:0.0.14",
             "notes": [
-                "Containerized plugin."
+                "Static v1.0.13 API Client."
             ]
         }
     },
