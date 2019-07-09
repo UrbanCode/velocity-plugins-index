@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.13",
-            "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-appscan:0.0.13",
+            "semver": "0.0.14",
+            "date": "2019-07-09T20:12:04.838Z",
+            "image": "urbancode/ucv-ext-appscan:0.0.14",
             "notes": [
-                "Containerized plugin."
+                "Static v1.0.13 API Client."
             ]
         }
     },
@@ -25,11 +25,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.3",
-            "date": "2019-06-18T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-asoc:0.0.3",
+            "semver": "0.0.4",
+            "date": "2019-07-09T20:16:05.517Z",
+            "image": "urbancode/ucv-ext-asoc:0.0.4",
             "notes": [
-                "Restructure properties."
+                "Added static UCV client object."
             ]
         }
     },
@@ -125,11 +125,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.23",
-            "date": "2019-06-17T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-sonarqube:0.0.23",
+            "semver": "0.0.24",
+            "date": "2019-07-09T20:43:36.964Z",
+            "image": "urbancode/ucv-ext-sonarqube:0.0.24",
             "notes": [
-                "Updated internal dependencies"
+                "Upgrade api-client; and only instantiate api-client once."
             ]
         }
     },
@@ -176,11 +176,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.15",
-            "date": "2019-06-24T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-azure:0.0.15",
+            "semver": "0.0.16",
+            "date": "2019-07-09T20:21:32.259Z",
+            "image": "urbancode/ucv-ext-azure:0.0.16",
             "notes": [
-                "Get string representation of trackerId."
+                "Static Velocity API Client."
             ]
         }
     },
@@ -193,11 +193,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.14",
-            "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-bitbucket-server:0.0.14",
+            "semver": "0.0.15",
+            "date": "2019-07-09T20:25:00.284Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:0.0.15",
             "notes": [
-                "Switch build target on Jenkinsfile."
+                "Upgrade to api-client 1.0.13",
+                "Only create api-client instance once"
             ]
         }
     },
@@ -210,11 +211,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.12",
-            "date": "2019-07-03T19:09:43.146Z",
-            "image": "urbancode/ucv-ext-github:0.0.12",
+            "semver": "0.0.16",
+            "date": "2019-07-09T20:28:18.289Z",
+            "image": "urbancode/ucv-ext-github:0.0.16",
             "notes": [
-                "Fixed pagination bug with pull requests and commits."
+                "Upgrade to use the latest version of api-client."
             ]
         }
     },
@@ -227,11 +228,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.17",
-            "date": "2019-06-03T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-jira:0.0.17",
+            "semver": "0.0.19",
+            "date": "2019-07-09T20:32:32.616Z",
+            "image": "urbancode/ucv-ext-jira:0.0.19",
             "notes": [
-                "Properly throw errors on failures."
+                "revert readme updates"
             ]
         }
     },
@@ -244,11 +245,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.3",
-            "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-rally:0.0.3",
+            "semver": "0.0.4",
+            "date": "2019-07-09T20:38:08.600Z",
+            "image": "urbancode/ucv-ext-rally:0.0.4",
             "notes": [
-                "Initial release of Rally plugin."
+                "Static Velocity API Client."
             ]
         }
     }
