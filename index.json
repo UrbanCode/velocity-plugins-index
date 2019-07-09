@@ -211,11 +211,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.12",
-            "date": "2019-07-03T19:09:43.146Z",
-            "image": "urbancode/ucv-ext-github:0.0.12",
+            "semver": "0.0.16",
+            "date": "2019-07-09T20:28:18.289Z",
+            "image": "urbancode/ucv-ext-github:0.0.16",
             "notes": [
-                "Fixed pagination bug with pull requests and commits."
+                "Upgrade to use the latest version of api-client."
             ]
         }
     },
