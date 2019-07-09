@@ -125,11 +125,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.23",
-            "date": "2019-06-17T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-sonarqube:0.0.23",
+            "semver": "0.0.24",
+            "date": "2019-07-09T20:43:36.964Z",
+            "image": "urbancode/ucv-ext-sonarqube:0.0.24",
             "notes": [
-                "Updated internal dependencies"
+                "Upgrade api-client; and only instantiate api-client once."
             ]
         }
     },
