@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.4",
+        "date": "2019-07-09T20:38:08.600Z",
+        "image": "urbancode/ucv-ext-rally:0.0.4",
+        "notes": [
+            "Static Velocity API Client."
+        ]
+    },
+    {
         "semver": "0.0.3",
         "date": "2019-06-14T00:00:00.000Z",
         "image": "urbancode/ucv-ext-rally:0.0.3",
