@@ -12,6 +12,9 @@ const test = sinonTest(sinon, { useFakeTimers: false })
 describe('Does Image Exist', function() {
   this.timeout(20000)
   it('should correctly return false if docker image does not exist', test(async function() {
+    expect(DockerHelper.doesImageExist('hillo-wirld:linux')).to.be.false
+  }))
+  it('should correctly return false if docker image has tag that does not exist', test(async function() {
     expect(DockerHelper.doesImageExist('hello-world:nonexistenttag')).to.be.false
   }))
   it('should correctly return false if docker image does not have explicit tag', test(async function() {
