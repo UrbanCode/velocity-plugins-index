@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.16",
+        "date": "2019-07-09T20:21:32.259Z",
+        "image": "urbancode/ucv-ext-azure:0.0.16",
+        "notes": [
+            "Static Velocity API Client."
+        ]
+    },
+    {
         "semver": "0.0.15",
         "date": "2019-06-24T00:00:00.000Z",
         "image": "urbancode/ucv-ext-azure:0.0.15",

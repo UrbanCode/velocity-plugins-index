@@ -1,5 +1,14 @@
 [
     {
+        "semver": "0.0.15",
+        "date": "2019-07-09T20:25:00.284Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:0.0.15",
+        "notes": [
+            "Upgrade to api-client 1.0.13",
+            "Only create api-client instance once"
+        ]
+    },
+    {
         "semver": "0.0.14",
         "date": "2019-06-14T00:00:00.000Z",
         "image": "urbancode/ucv-ext-bitbucket-server:0.0.14",
