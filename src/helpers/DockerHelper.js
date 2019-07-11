@@ -13,9 +13,9 @@ export default class DockerHubHelper {
       if (error) {
         callback(error, null)
       } else {
-        if (!imageName.includes('/')) [
+        if (!imageName.includes('/')) {
           imageName = `library/${imageName}`
-        ]
+        }
         const options = {
           method: 'GET',
           uri: `https://registry-1.docker.io/v2/${imageName}/manifests/${imageTag}`,
