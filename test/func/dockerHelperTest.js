@@ -17,12 +17,6 @@ describe('Does Image Exist', function() {
   it('should correctly return false if docker image has tag that does not exist', test(async function() {
     expect(DockerHelper.doesImageExist('hello-world:nonexistenttag')).to.be.false
   }))
-  it('should correctly return false if docker image does not have explicit tag', test(async function() {
-    expect(DockerHelper.doesImageExist('hello-world')).to.be.false
-  }))
-  it('should correctly return false if docker image has "latest" tag', test(async function() {
-    expect(DockerHelper.doesImageExist('hello-world:latest')).to.be.false
-  }))
   it('should correctly return true if docker image exists', test(async function() {
     expect(DockerHelper.doesImageExist(VALID_IMAGE)).to.be.true
   }))

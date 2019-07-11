@@ -9,42 +9,38 @@ export default class DockerHubHelper {
 
   static doesImageExistWithCallback(image, callback) {
     let [imageName, imageTag] = image.split(':')
-    if (!imageTag || imageTag === 'latest') {
-      callback(null, false)
-    } else {
-      DockerHubHelper.getToken(imageName, function(error, token) {
-        if (error) {
-          callback(error, null)
-        } else {
-          if (!imageName.includes('/')) [
-            imageName = `library/${imageName}`
-          ]
-          const options = {
-            method: 'GET',
-            uri: `https://registry-1.docker.io/v2/${imageName}/manifests/${imageTag}`,
-            headers: {
-              authorization: `Bearer ${token}`
-            }
+    DockerHubHelper.getToken(imageName, function(error, token) {
+      if (error) {
+        callback(error, null)
+      } else {
+        if (!imageName.includes('/')) [
+          imageName = `library/${imageName}`
+        ]
+        const options = {
+          method: 'GET',
+          uri: `https://registry-1.docker.io/v2/${imageName}/manifests/${imageTag}`,
+          headers: {
+            authorization: `Bearer ${token}`
           }
-          request(options, function (error, response, body) {
-            if (error) {
-              callback(null, false)
-            } else {
-              try {
-                const json = JSON.parse(body)
-                if (!json.errors) {
-                  callback(null, true)
-                } else {
-                  callback(null, false)
-                }
-              } catch (err) {
+        }
+        request(options, function (error, response, body) {
+          if (error) {
+            callback(null, false)
+          } else {
+            try {
+              const json = JSON.parse(body)
+              if (!json.errors) {
+                callback(null, true)
+              } else {
                 callback(null, false)
               }
+            } catch (err) {
+              callback(null, false)
             }
-          })
-        }
-      })
-    }
+          }
+        })
+      }
+    })
   }
 
   static getToken(imageName, callback) {
