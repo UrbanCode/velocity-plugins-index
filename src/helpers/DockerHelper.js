@@ -1,5 +1,5 @@
 import deasync from 'deasync'
-import drc from 'docker-registry-client'
+import request from 'request'
 
 export default class DockerHubHelper {
   static doesImageExist(image) {
@@ -8,38 +8,60 @@ export default class DockerHubHelper {
   }
 
   static doesImageExistWithCallback(image, callback) {
-    const [imageName, imageTag] = image.split(':')
-    const client = drc.createClientV2({
-      name: imageName
+    let [imageName, imageTag] = image.split(':')
+    DockerHubHelper.getToken(imageName, function(error, token) {
+      if (error) {
+        callback(error, null)
+      } else {
+        if (!imageName.includes('/')) {
+          imageName = `library/${imageName}`
+        }
+        const options = {
+          method: 'GET',
+          uri: `https://registry-1.docker.io/v2/${imageName}/manifests/${imageTag}`,
+          headers: {
+            authorization: `Bearer ${token}`
+          }
+        }
+        request(options, function (error, response, body) {
+          if (error) {
+            callback(null, false)
+          } else {
+            try {
+              const json = JSON.parse(body)
+              if (!json.errors) {
+                callback(null, true)
+              } else {
+                callback(null, false)
+              }
+            } catch (err) {
+              callback(null, false)
+            }
+          }
+        })
+      }
     })
-    if (!imageTag || imageTag === 'latest') {
-      client.close()
-      callback(null, false)
-    } else {
-      client.getManifest({ ref: imageTag }, function(err, manifest) { // eslint-disable-line no-unused-vars
-        client.close()
-        callback(null, !err)
-      })
-    }
   }
 
-  /**
-   * Commented out for now in favor of the synchronous/callback method above.
-   * If Joi ever supports asynchronous validation for rules, use this async method instead
-   */
-  // static async doesImageExist(image) {
-  //   const [imageName, imageTag] = image.split(':')
-  //   const client = drc.createClientV2({
-  //     name: imageName
-  //   })
-  //   try {
-  //     const getManifest = util.promisify(client.getManifest.bind(client))
-  //     await getManifest({ ref: imageTag || 'latest' })
-  //   } catch (err) {
-  //     return false
-  //   } finally {
-  //     client.close()
-  //   }
-  //   return true
-  // }
+  static getToken(imageName, callback) {
+    if (!imageName.includes('/')) {
+      imageName = `library/${imageName}`
+    }
+    const options = {
+      method: 'GET',
+      uri: `https://auth.docker.io/token?service=registry.docker.io&scope=repository%3A${encodeURIComponent(imageName)}%3Apull`,
+    }
+    request(options, function (error, response, body) {
+      if (error) {
+        callback(null, false)
+      } else {
+        try {
+          const token = JSON.parse(body).token
+          callback(null, token)
+        } catch (err) {
+          callback(null, false)
+        }
+      }
+    })
+  }
 }

@@ -13,6 +13,8 @@ export const ERROR_TEXT = {
   Semver: 'must have "semver" element in release object whose value is a valid Semantic Version',
   Date: 'must have "date" element in releases object whose value is a valid ISO DateTime string',
   Image: 'must have "image" element in releases object whose value is a valid DockerHub image',
+  ImageExists: 'must have "image" element in releases object whose value is a docker image that matches an existing image in DockerHub',
+  ImageLatest: 'must have "image" element in releases object whose value is a docker image that has a tag which is not "latest"',
   NotesArray: 'must have "notes" element in releases object whose value is an array comprised of strings. May be empty array to omit notes.',
   NotesObject: '"notes" array can only be comprised of strings'
 }
@@ -34,7 +36,20 @@ export default class ReleasesHelper {
     return Joi.object().required().error(() => ERROR_TEXT.RootObject).keys({
       semver: Joi.extend(joiExtSemver).semver().required().valid().error(() => ERROR_TEXT.Semver),
       date: Joi.string().required().isoDate().error(() => ERROR_TEXT.Date),
-      image: Joi.extend(this.getDockerImageExtension()).image().required().exists().error(() => ERROR_TEXT.Image),
+      image: Joi.extend(this.getDockerImageExtension()).image().required().exists().notLatest().error((errors) => {
+        let combinedErrors = ''
+        for (const error of errors) {
+          if (error.type === 'image.exists' && !combinedErrors.includes(ERROR_TEXT.ImageExists)) {
+            combinedErrors += `${ERROR_TEXT.ImageExists} AND `
+          } else if (error.type === 'image.notLatest' && !combinedErrors.includes(ERROR_TEXT.ImageLatest)) {
+            combinedErrors += `${ERROR_TEXT.ImageLatest} AND `
+          } else if (!combinedErrors.includes(ERROR_TEXT.Image)) {
+            combinedErrors += `${ERROR_TEXT.Image} AND `
+          }
+        }
+        combinedErrors = combinedErrors.substring(0, combinedErrors.lastIndexOf(' AND '))
+        return combinedErrors
+      }),
       notes: Joi.array().required().error(() => ERROR_TEXT.NotesArray).items(Joi.string().error(() => ERROR_TEXT.NotesObject))
     })
   }
@@ -57,13 +72,23 @@ export default class ReleasesHelper {
       base: Joi.string(),
       rules: [{
         name: 'exists',
+        description: 'Checks to see if the docker image exists in DockerHub',
         validate(params, value, state, options) {
           if (!DockerHelper.doesImageExist(value)) {
             return this.createError('image.exists', {}, state, options)
           }
           return value
-        },
-        description: 'Checks to see if the docker image exists in DockerHub'
+        }
+      }, {
+        name: 'notLatest',
+        description: 'Checks to see if docker image has an explicit tag that is not "latest"',
+        validate(params, value, state, options) {
+          const imageTag = value.split(':')[1]
+          if (!imageTag || imageTag === 'latest') {
+            return this.createError('image.notLatest', {}, state, options)
+          }
+          return value
+        }
       }]
     }
   }
