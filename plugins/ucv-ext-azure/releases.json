@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.17",
+        "date": "2019-07-16T13:36:26.613Z",
+        "image": "urbancode/ucv-ext-azure:0.0.17",
+        "notes": [
+            "Added scheduled event to import builds."
+        ]
+    },
+    {
         "semver": "0.0.16",
         "date": "2019-07-09T20:21:32.259Z",
         "image": "urbancode/ucv-ext-azure:0.0.16",

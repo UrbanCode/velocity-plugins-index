@@ -176,11 +176,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.16",
-            "date": "2019-07-09T20:21:32.259Z",
-            "image": "urbancode/ucv-ext-azure:0.0.16",
+            "semver": "0.0.17",
+            "date": "2019-07-16T13:36:26.613Z",
+            "image": "urbancode/ucv-ext-azure:0.0.17",
             "notes": [
-                "Static Velocity API Client."
+                "Added scheduled event to import builds."
             ]
         }
     },
