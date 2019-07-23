@@ -176,11 +176,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.17",
-            "date": "2019-07-16T13:36:26.613Z",
-            "image": "urbancode/ucv-ext-azure:0.0.17",
+            "semver": "0.0.19",
+            "date": "2019-07-18T18:22:58.052Z",
+            "image": "urbancode/ucv-ext-azure:0.0.19",
             "notes": [
-                "Added scheduled event to import builds."
+                "Added versionName to builds."
             ]
         }
     },
