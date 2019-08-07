@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.16",
+        "date": "2019-08-07T17:20:22.764Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:0.0.16",
+        "notes": [
+            "Change description of properties."
+        ]
+    },
+    {
         "semver": "0.0.15",
         "date": "2019-07-09T20:25:00.284Z",
         "image": "urbancode/ucv-ext-bitbucket-server:0.0.15",

@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.26",
+        "date": "2019-08-07T17:35:01.409Z",
+        "image": "urbancode/ucv-ext-sonarqube:0.0.26",
+        "notes": [
+            "Fixed bug with importing more than 10,000 issues."
+        ]
+    },
+    {
         "semver": "0.0.24",
         "date": "2019-07-09T20:43:36.964Z",
         "image": "urbancode/ucv-ext-sonarqube:0.0.24",
