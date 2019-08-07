@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.22",
+        "date": "2019-08-07T17:29:56.322Z",
+        "image": "urbancode/ucv-ext-jira:0.0.22",
+        "notes": [
+            "Fix memory leak."
+        ]
+    },
+    {
         "semver": "0.0.19",
         "date": "2019-07-09T20:32:32.616Z",
         "image": "urbancode/ucv-ext-jira:0.0.19",
