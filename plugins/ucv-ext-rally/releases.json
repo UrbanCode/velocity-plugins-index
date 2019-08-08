@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.6",
+        "date": "2019-08-08T16:06:47.605Z",
+        "image": "urbancode/ucv-ext-rally:0.0.6",
+        "notes": [
+            "Fixes encryption key deletion bug"
+        ]
+    },
+    {
         "semver": "0.0.4",
         "date": "2019-07-09T20:38:08.600Z",
         "image": "urbancode/ucv-ext-rally:0.0.4",

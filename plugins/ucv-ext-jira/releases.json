@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.23",
+        "date": "2019-08-08T16:03:32.677Z",
+        "image": "urbancode/ucv-ext-jira:0.0.23",
+        "notes": [
+            "Fixes encryption key deletion bug"
+        ]
+    },
+    {
         "semver": "0.0.22",
         "date": "2019-08-07T17:29:56.322Z",
         "image": "urbancode/ucv-ext-jira:0.0.22",
