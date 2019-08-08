@@ -176,11 +176,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.19",
-            "date": "2019-07-18T18:22:58.052Z",
-            "image": "urbancode/ucv-ext-azure:0.0.19",
+            "semver": "0.0.21",
+            "date": "2019-08-08T15:53:50.765Z",
+            "image": "urbancode/ucv-ext-azure:0.0.21",
             "notes": [
-                "Added versionName to builds."
+                "Fixes encryption key deletion bug"
             ]
         }
     },
