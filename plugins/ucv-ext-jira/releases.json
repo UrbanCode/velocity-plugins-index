@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.24",
+        "date": "2019-08-16T15:57:26.468Z",
+        "image": "urbancode/ucv-ext-jira:0.0.24",
+        "notes": [
+            "Provide null check on fromString and toString."
+        ]
+    },
+    {
         "semver": "0.0.23",
         "date": "2019-08-08T16:03:32.677Z",
         "image": "urbancode/ucv-ext-jira:0.0.23",
