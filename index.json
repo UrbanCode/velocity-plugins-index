@@ -176,11 +176,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.22",
-            "date": "2019-09-10T16:40:03.444Z",
-            "image": "urbancode/ucv-ext-azure:0.0.22",
+            "semver": "0.0.25",
+            "date": "2019-09-16T22:05:54.459Z",
+            "image": "urbancode/ucv-ext-azure:0.0.25",
             "notes": [
-                "Ignore updates missing fields."
+                "Fixed skipping of issue IDs during sync."
             ]
         }
     },
