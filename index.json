@@ -251,5 +251,22 @@
                 "Ignore updates that do not provide a FROM or TO value."
             ]
         }
+    },
+    "ucv-ext-rtc": {
+        "name": "IBM Rational Team Concert",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to sync work items from IBM RTC.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.11",
+            "date": "2019-09-23T20:27:51.473Z",
+            "image": "urbancode/ucv-ext-rtc:0.0.11",
+            "notes": [
+                "Initial Release for RTC Plugin"
+            ]
+        }
     }
 }

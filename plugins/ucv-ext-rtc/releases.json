@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "0.0.11",
+        "date": "2019-09-23T20:27:51.473Z",
+        "image": "urbancode/ucv-ext-rtc:0.0.11",
+        "notes": [
+            "Initial Release for RTC Plugin"
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "name": "IBM Rational Team Concert",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Allows UrbanCode Velocity to sync work items from IBM RTC.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
