@@ -1,2 +1,8 @@
 [
+    {
+        "semver": "0.0.4",
+        "date": "2019-10-07T21:50:21.626Z",
+        "image": "urbancode/ucv-ext-servicenow:0.0.4",
+        "notes": ["Initial Release"]
+    }
 ]
