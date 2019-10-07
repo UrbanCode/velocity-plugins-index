@@ -1,0 +1,9 @@
+{
+    "name": "ServiceNow",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Allows UrbanCode Velocity to sync change requests and incident from ServiceNow.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
