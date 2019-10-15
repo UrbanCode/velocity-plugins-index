@@ -1,0 +1,9 @@
+{
+    "name": "GitLab",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Allows UrbanCode Velocity to sync commits and merge requests from GitLab.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}

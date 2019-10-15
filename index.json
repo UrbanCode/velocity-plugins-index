@@ -218,6 +218,23 @@
             ]
         }
     },
+    "ucv-ext-gitlab": {
+        "name": "GitLab",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to sync commits and merge requests from GitLab.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.4",
+            "date": "2019-10-15T05:42:49.830Z",
+            "image": "urbancode/ucv-ext-gitlab:0.0.4",
+            "notes": [
+                "Initial Release"
+            ]
+        }
+    },
     "ucv-ext-jira": {
         "name": "Jira",
         "url": "https://developer.ibm.com/urbancode/plugins/",

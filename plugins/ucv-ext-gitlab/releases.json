@@ -1,0 +1,8 @@
+[
+    {
+        "semver": "0.0.4",
+        "date": "2019-10-15T05:42:49.830Z",
+        "image": "urbancode/ucv-ext-gitlab:0.0.4",
+        "notes": ["Initial Release"]
+    }
+]
