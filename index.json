@@ -25,11 +25,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.4",
-            "date": "2019-07-09T20:16:05.517Z",
-            "image": "urbancode/ucv-ext-asoc:0.0.4",
+            "semver": "0.0.6",
+            "date": "2019-10-17T18:38:07.986Z",
+            "image": "urbancode/ucv-ext-asoc:0.0.6",
             "notes": [
-                "Added static UCV client object."
+                "Fix docker build",
+                "Add asocUrl property to define ASoC Server URL.",
+                "Automatically create metric definition."
             ]
         }
     },
