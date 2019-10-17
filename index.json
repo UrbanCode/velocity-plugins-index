@@ -246,11 +246,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.24",
-            "date": "2019-08-16T15:57:26.468Z",
-            "image": "urbancode/ucv-ext-jira:0.0.24",
+            "semver": "0.0.25",
+            "date": "2019-10-17T18:41:45.861Z",
+            "image": "urbancode/ucv-ext-jira:0.0.25",
             "notes": [
-                "Provide null check on fromString and toString."
+                "Wrap every Jira request and insert User-Agent header."
             ]
         }
     },
