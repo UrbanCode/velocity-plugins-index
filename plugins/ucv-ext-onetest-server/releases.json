@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "0.0.4",
+        "date": "2019-10-25T18:39:36.245Z",
+        "image": "urbancode/ucv-ext-onetest-server:0.0.4",
+        "notes": [
+            "Initial plugin version."
+        ]
+    }
+]
