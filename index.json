@@ -280,11 +280,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.11",
-            "date": "2019-09-23T20:27:51.473Z",
-            "image": "urbancode/ucv-ext-rtc:0.0.11",
+            "semver": "1.0.14",
+            "date": "2019-11-25T16:26:46.360Z",
+            "image": "urbancode/ucv-ext-rtc:1.0.14",
             "notes": [
-                "Initial Release for RTC Plugin"
+                "Add UCV Access Key"
             ]
         }
     },
