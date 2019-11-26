@@ -314,11 +314,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.4",
-            "date": "2019-10-07T21:50:21.626Z",
-            "image": "urbancode/ucv-ext-servicenow:0.0.4",
+            "semver": "1.0.6",
+            "date": "2019-11-26T18:20:27.609Z",
+            "image": "urbancode/ucv-ext-servicenow:1.0.6",
             "notes": [
-                "Initial Release"
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     }
