@@ -110,11 +110,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.5",
-            "date": "2019-06-17T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-onetest:0.0.5",
+            "semver": "1.0.8",
+            "date": "2019-11-26T18:01:46.250Z",
+            "image": "urbancode/ucv-ext-onetest:1.0.8",
             "notes": [
-                "Updated to api-client 1.0.11 and transpiled tests."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
