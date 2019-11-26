@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.11",
+        "date": "2019-11-26T18:06:50.191Z",
+        "image": "urbancode/ucv-ext-rally:1.0.11",
+        "notes": [
+            "Update plugin version from 0.x.x to 1.x.x."
+        ]
+    },
+    {
         "semver": "0.0.7",
         "date": "2019-08-16T15:35:47.124Z",
         "image": "urbancode/ucv-ext-rally:0.0.7",
