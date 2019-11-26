@@ -93,11 +93,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.25",
-            "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-vs-quality:0.0.25",
+            "semver": "1.0.28",
+            "date": "2019-11-26T18:33:06.396Z",
+            "image": "urbancode/ucv-ext-vs-quality:1.0.28",
             "notes": [
-                "Containerized plugin."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
