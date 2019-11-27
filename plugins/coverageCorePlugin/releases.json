@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.25",
+        "date": "2019-11-26T19:19:48.070Z",
+        "image": "urbancode/ucv-ext-coverage-core:1.0.25",
+        "notes": [
+            "Update plugin version from 0.x.x to 1.x.x."
+        ]
+    },
+    {
         "semver": "0.0.22",
         "date": "2019-06-17T00:00:00.000Z",
         "image": "urbancode/ucv-ext-coverage-core:0.0.22",

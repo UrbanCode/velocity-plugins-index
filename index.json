@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.14",
-            "date": "2019-07-09T20:12:04.838Z",
-            "image": "urbancode/ucv-ext-appscan:0.0.14",
+            "semver": "1.0.16",
+            "date": "2019-11-26T16:42:01.899Z",
+            "image": "urbancode/ucv-ext-appscan:1.0.16",
             "notes": [
-                "Static v1.0.13 API Client."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -25,13 +25,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.6",
-            "date": "2019-10-17T18:38:07.986Z",
-            "image": "urbancode/ucv-ext-asoc:0.0.6",
+            "semver": "1.0.9",
+            "date": "2019-11-26T16:45:17.487Z",
+            "image": "urbancode/ucv-ext-asoc:1.0.9",
             "notes": [
-                "Fix docker build",
-                "Add asocUrl property to define ASoC Server URL.",
-                "Automatically create metric definition."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -44,11 +42,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.22",
-            "date": "2019-06-17T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-coverage-core:0.0.22",
+            "semver": "1.0.25",
+            "date": "2019-11-26T19:19:48.070Z",
+            "image": "urbancode/ucv-ext-coverage-core:1.0.25",
             "notes": [
-                "Containerized plugin."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -61,11 +59,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.31",
-            "date": "2019-06-17T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-jmeter:0.0.31",
+            "semver": "1.0.34",
+            "date": "2019-11-26T17:52:36.694Z",
+            "image": "urbancode/ucv-ext-jmeter:1.0.34",
             "notes": [
-                "Containerized plugin."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -78,10 +76,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.31",
-            "date": "2019-06-03T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-junit:0.0.31",
-            "notes": []
+            "semver": "1.0.34",
+            "date": "2019-11-26T17:56:36.397Z",
+            "image": "urbancode/ucv-ext-junit:1.0.34",
+            "notes": [
+                "Update plugin version from 0.x.x to 1.x.x."
+            ]
         }
     },
     "msQualityPlugin": {
@@ -93,11 +93,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.25",
-            "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-vs-quality:0.0.25",
+            "semver": "1.0.28",
+            "date": "2019-11-26T18:33:06.396Z",
+            "image": "urbancode/ucv-ext-vs-quality:1.0.28",
             "notes": [
-                "Containerized plugin."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -110,11 +110,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.5",
-            "date": "2019-06-17T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-onetest:0.0.5",
+            "semver": "1.0.8",
+            "date": "2019-11-26T18:01:46.250Z",
+            "image": "urbancode/ucv-ext-onetest:1.0.8",
             "notes": [
-                "Updated to api-client 1.0.11 and transpiled tests."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -127,11 +127,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.26",
-            "date": "2019-08-07T17:35:01.409Z",
-            "image": "urbancode/ucv-ext-sonarqube:0.0.26",
+            "semver": "1.0.28",
+            "date": "2019-11-26T18:10:40.876Z",
+            "image": "urbancode/ucv-ext-sonarqube:1.0.28",
             "notes": [
-                "Fixed bug with importing more than 10,000 issues."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -144,11 +144,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.6",
-            "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-testng:0.0.6",
+            "semver": "1.0.7",
+            "date": "2019-11-26T18:13:46.590Z",
+            "image": "urbancode/ucv-ext-testng:1.0.7",
             "notes": [
-                "Containerized plugin."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -161,11 +161,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.32",
-            "date": "2019-06-14T00:00:00.000Z",
-            "image": "urbancode/ucv-ext-twistlock:0.0.32",
+            "semver": "1.0.35",
+            "date": "2019-11-26T18:17:06.548Z",
+            "image": "urbancode/ucv-ext-twistlock:1.0.35",
             "notes": [
-                "Containerized plugin."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -178,11 +178,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.27",
-            "date": "2019-09-19T19:29:33.273Z",
-            "image": "urbancode/ucv-ext-azure:0.0.27",
+            "semver": "1.0.30",
+            "date": "2019-11-26T16:48:24.415Z",
+            "image": "urbancode/ucv-ext-azure:1.0.30",
             "notes": [
-                "Skip importing builds until they have started."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -195,11 +195,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.18",
-            "date": "2019-08-08T15:57:04.957Z",
-            "image": "urbancode/ucv-ext-bitbucket-server:0.0.18",
+            "semver": "1.0.19",
+            "date": "2019-11-26T16:53:48.229Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:1.0.19",
             "notes": [
-                "Fixes encryption key deletion bug"
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -212,11 +212,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.21",
-            "date": "2019-09-26T17:16:33.132Z",
-            "image": "urbancode/ucv-ext-github:0.0.21",
+            "semver": "1.0.23",
+            "date": "2019-11-26T17:46:12.392Z",
+            "image": "urbancode/ucv-ext-github:1.0.23",
             "notes": [
-                "Added ability to retrieve multiple repositories"
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -246,11 +246,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.25",
-            "date": "2019-10-17T18:41:45.861Z",
-            "image": "urbancode/ucv-ext-jira:0.0.25",
+            "semver": "1.0.27",
+            "date": "2019-11-26T17:49:31.656Z",
+            "image": "urbancode/ucv-ext-jira:1.0.27",
             "notes": [
-                "Wrap every Jira request and insert User-Agent header."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -263,11 +263,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.4",
-            "date": "2019-10-25T18:39:36.245Z",
-            "image": "urbancode/ucv-ext-onetest-server:0.0.4",
+            "semver": "0.0.5",
+            "date": "2019-11-26T18:23:44.716Z",
+            "image": "urbancode/ucv-ext-onetest-server:0.0.5",
             "notes": [
-                "Initial plugin version."
+                "Fixed test results to always return latest only."
             ]
         }
     },
@@ -280,11 +280,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.7",
-            "date": "2019-08-16T15:35:47.124Z",
-            "image": "urbancode/ucv-ext-rally:0.0.7",
+            "semver": "1.0.11",
+            "date": "2019-11-26T18:06:50.191Z",
+            "image": "urbancode/ucv-ext-rally:1.0.11",
             "notes": [
-                "Ignore updates that do not provide a FROM or TO value."
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     },
@@ -314,11 +314,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.4",
-            "date": "2019-10-07T21:50:21.626Z",
-            "image": "urbancode/ucv-ext-servicenow:0.0.4",
+            "semver": "1.0.6",
+            "date": "2019-11-26T18:20:27.609Z",
+            "image": "urbancode/ucv-ext-servicenow:1.0.6",
             "notes": [
-                "Initial Release"
+                "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
     }

@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.9",
+        "date": "2019-11-26T16:45:17.487Z",
+        "image": "urbancode/ucv-ext-asoc:1.0.9",
+        "notes": [
+            "Update plugin version from 0.x.x to 1.x.x."
+        ]
+    },
+    {
         "semver": "0.0.6",
         "date": "2019-10-17T18:38:07.986Z",
         "image": "urbancode/ucv-ext-asoc:0.0.6",

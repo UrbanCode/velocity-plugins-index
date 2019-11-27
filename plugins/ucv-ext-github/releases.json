@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.23",
+        "date": "2019-11-26T17:46:12.392Z",
+        "image": "urbancode/ucv-ext-github:1.0.23",
+        "notes": [
+            "Update plugin version from 0.x.x to 1.x.x."
+        ]
+    },
+    {
         "semver": "0.0.21",
         "date": "2019-09-26T17:16:33.132Z",
         "image": "urbancode/ucv-ext-github:0.0.21",
