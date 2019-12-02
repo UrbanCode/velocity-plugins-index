@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.3",
+        "date": "2019-12-2T00:00:00.000Z",
+        "image": "urbancode/ucv-ext-rtas:1.0.3",
+        "notes": [
+            "Initial plugin release."
+        ]
+    }
+]
