@@ -325,14 +325,14 @@
     "ucv-ext-rtas": {
         "name": "Rational Test Automation Server",
         "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "Allows UrbanCode Velocity to sync metrics from RTAS.",
+        "description": "Allows UrbanCode Velocity to sync RTAS metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {                                                                               
             "semver": "1.0.3",                                                          
-            "date": "2019-12-2T00:00:00.000Z",                                          
+            "date": "2019-12-02T16:42:01.899Z",                                          
             "image": "urbancode/ucv-ext-rtas:1.0.3",                                    
             "notes": [                                                                  
                 "Initial plugin release."                                               
