@@ -212,11 +212,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.23",
-            "date": "2019-11-26T17:46:12.392Z",
-            "image": "urbancode/ucv-ext-github:1.0.23",
+            "semver": "1.0.24",
+            "date": "2019-12-18T21:31:29.478Z",
+            "image": "urbancode/ucv-ext-github:1.0.24",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Ignore invalid timestamps."
             ]
         }
     },
@@ -288,6 +288,23 @@
             ]
         }
     },
+    "ucv-ext-rtas": {
+        "name": "Rational Test Automation Server",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to sync RTAS metrics.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.3",
+            "date": "2019-12-02T16:42:01.899Z",
+            "image": "urbancode/ucv-ext-rtas:1.0.3",
+            "notes": [
+                "Initial plugin release."
+            ]
+        }
+    },
     "ucv-ext-rtc": {
         "name": "IBM Rational Team Concert",
         "url": "https://developer.ibm.com/urbancode/plugins/",
@@ -320,23 +337,6 @@
             "notes": [
                 "Update plugin version from 0.x.x to 1.x.x."
             ]
-        }
-    },
-    "ucv-ext-rtas": {
-        "name": "Rational Test Automation Server",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "Allows UrbanCode Velocity to sync RTAS metrics.",
-        "author": {
-            "name": "UrbanCode",
-            "email": "urbancode-plugins@hcl.com"
-        },
-        "current": {                                                                               
-            "semver": "1.0.3",                                                          
-            "date": "2019-12-02T16:42:01.899Z",                                          
-            "image": "urbancode/ucv-ext-rtas:1.0.3",                                    
-            "notes": [                                                                  
-                "Initial plugin release."                                               
-            ]                                                                           
         }
     }
 }
