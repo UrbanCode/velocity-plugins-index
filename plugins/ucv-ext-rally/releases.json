@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.12",
+        "date": "2019-12-19T15:08:53.296Z",
+        "image": "urbancode/ucv-ext-rally:1.0.12",
+        "notes": [
+            "Added sprints and story points."
+        ]
+    },
+    {
         "semver": "1.0.11",
         "date": "2019-11-26T18:06:50.191Z",
         "image": "urbancode/ucv-ext-rally:1.0.11",
