@@ -246,11 +246,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.27",
-            "date": "2019-11-26T17:49:31.656Z",
-            "image": "urbancode/ucv-ext-jira:1.0.27",
+            "semver": "1.0.29",
+            "date": "2019-12-19T15:05:30.803Z",
+            "image": "urbancode/ucv-ext-jira:1.0.29",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Added sprints and story points."
             ]
         }
     },
