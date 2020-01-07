@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.8",
+        "date": "2020-01-07T15:16:19.010Z",
+        "image": "urbancode/ucv-ext-testng:1.0.8",
+        "notes": [
+            "Added XML parsing"
+        ]
+    },
+    {
         "semver": "1.0.7",
         "date": "2019-11-26T18:13:46.590Z",
         "image": "urbancode/ucv-ext-testng:1.0.7",
