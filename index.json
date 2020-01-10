@@ -246,11 +246,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.29",
-            "date": "2019-12-19T15:05:30.803Z",
-            "image": "urbancode/ucv-ext-jira:1.0.29",
+            "semver": "1.0.31",
+            "date": "2020-01-10T22:18:37.329Z",
+            "image": "urbancode/ucv-ext-jira:1.0.31",
             "notes": [
-                "Added sprints and story points."
+                "Fixed sycing all issues with multiple projects."
             ]
         }
     },
