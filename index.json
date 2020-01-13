@@ -338,5 +338,22 @@
                 "Update plugin version from 0.x.x to 1.x.x."
             ]
         }
+    },
+    "ucv-ext-urbancode-metrics": {
+        "name": "UrbanCode Value Stream Metrics",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "UrbanCode Value Stream Metrics",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.10",
+            "date": "2020-01-13T21:03:37.241Z",
+            "image": "urbancode/ucv-ext-urbancode-metrics:0.0.10",
+            "notes": [
+                "Initial plugin release."
+            ]
+        }
     }
 }
