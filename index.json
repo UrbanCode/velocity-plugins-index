@@ -348,11 +348,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.10",
-            "date": "2020-01-13T21:03:37.241Z",
-            "image": "urbancode/ucv-ext-urbancode-metrics:0.0.10",
+            "semver": "1.0.11",
+            "date": "2020-01-14T19:13:49.004Z",
+            "image": "urbancode/ucv-ext-urbancode-metrics:1.0.11",
             "notes": [
-                "Initial plugin release."
+                "Fix end point path when running as container."
             ]
         }
     }
