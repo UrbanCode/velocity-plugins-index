@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.13",
+        "date": "2020-01-16T16:12:29.366Z",
+        "image": "urbancode/ucv-ext-rally:1.0.13",
+        "notes": [
+            "Configure logger in wrapper."
+        ]
+    },
+    {
         "semver": "1.0.12",
         "date": "2019-12-19T15:08:53.296Z",
         "image": "urbancode/ucv-ext-rally:1.0.12",
