@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.16",
-            "date": "2019-11-26T16:42:01.899Z",
-            "image": "urbancode/ucv-ext-appscan:1.0.16",
+            "semver": "1.0.17",
+            "date": "2020-01-16T15:43:12.019Z",
+            "image": "urbancode/ucv-ext-appscan:1.0.17",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Configure logger in wrapper and fix broken plugin."
             ]
         }
     },
@@ -25,11 +25,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.9",
-            "date": "2019-11-26T16:45:17.487Z",
-            "image": "urbancode/ucv-ext-asoc:1.0.9",
+            "semver": "1.0.10",
+            "date": "2020-01-16T15:46:43.099Z",
+            "image": "urbancode/ucv-ext-asoc:1.0.10",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Configure logger in wrapper."
             ]
         }
     },
@@ -127,11 +127,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.28",
-            "date": "2019-11-26T18:10:40.876Z",
-            "image": "urbancode/ucv-ext-sonarqube:1.0.28",
+            "semver": "1.0.29",
+            "date": "2020-01-16T16:16:17.830Z",
+            "image": "urbancode/ucv-ext-sonarqube:1.0.29",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Configure logger in wrapper and fix plugin."
             ]
         }
     },
@@ -178,11 +178,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.30",
-            "date": "2019-11-26T16:48:24.415Z",
-            "image": "urbancode/ucv-ext-azure:1.0.30",
+            "semver": "1.0.31",
+            "date": "2020-01-16T15:50:20.266Z",
+            "image": "urbancode/ucv-ext-azure:1.0.31",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Configure logger in wrapper."
             ]
         }
     },
@@ -195,11 +195,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.19",
-            "date": "2019-11-26T16:53:48.229Z",
-            "image": "urbancode/ucv-ext-bitbucket-server:1.0.19",
+            "semver": "1.0.20",
+            "date": "2020-01-16T15:53:47.244Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:1.0.20",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Configure logger in wrapper."
             ]
         }
     },
@@ -212,11 +212,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.24",
-            "date": "2019-12-18T21:31:29.478Z",
-            "image": "urbancode/ucv-ext-github:1.0.24",
+            "semver": "1.0.25",
+            "date": "2020-01-16T16:05:35.894Z",
+            "image": "urbancode/ucv-ext-github:1.0.25",
             "notes": [
-                "Ignore invalid timestamps."
+                "Configure logger in wrapper."
             ]
         }
     },
@@ -229,11 +229,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.4",
-            "date": "2019-10-15T05:42:49.830Z",
-            "image": "urbancode/ucv-ext-gitlab:0.0.4",
+            "semver": "1.0.6",
+            "date": "2020-01-16T16:23:18.795Z",
+            "image": "urbancode/ucv-ext-gitlab:1.0.6",
             "notes": [
-                "Initial Release"
+                "Configure logger in wrapper."
             ]
         }
     },
@@ -246,11 +246,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.31",
-            "date": "2020-01-10T22:18:37.329Z",
-            "image": "urbancode/ucv-ext-jira:1.0.31",
+            "semver": "1.0.32",
+            "date": "2020-01-16T16:08:57.619Z",
+            "image": "urbancode/ucv-ext-jira:1.0.32",
             "notes": [
-                "Fixed sycing all issues with multiple projects."
+                "Configure logger in wrapper."
             ]
         }
     },
@@ -263,11 +263,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.5",
-            "date": "2019-11-26T18:23:44.716Z",
-            "image": "urbancode/ucv-ext-onetest-server:0.0.5",
+            "semver": "0.0.7",
+            "date": "2020-01-16T16:30:08.694Z",
+            "image": "urbancode/ucv-ext-onetest-server:0.0.7",
             "notes": [
-                "Fixed test results to always return latest only."
+                "Configure logger in wrapper."
             ]
         }
     },
@@ -280,11 +280,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.12",
-            "date": "2019-12-19T15:08:53.296Z",
-            "image": "urbancode/ucv-ext-rally:1.0.12",
+            "semver": "1.0.13",
+            "date": "2020-01-16T16:12:29.366Z",
+            "image": "urbancode/ucv-ext-rally:1.0.13",
             "notes": [
-                "Added sprints and story points."
+                "Configure logger in wrapper."
             ]
         }
     },
@@ -297,11 +297,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.3",
-            "date": "2019-12-02T16:42:01.899Z",
-            "image": "urbancode/ucv-ext-rtas:1.0.3",
+            "semver": "1.0.4",
+            "date": "2020-01-16T16:26:44.053Z",
+            "image": "urbancode/ucv-ext-rtas:1.0.4",
             "notes": [
-                "Initial plugin release."
+                "Configure logger in wrapper."
             ]
         }
     },
@@ -314,11 +314,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.14",
-            "date": "2019-11-25T16:26:46.360Z",
-            "image": "urbancode/ucv-ext-rtc:1.0.14",
+            "semver": "1.0.16",
+            "date": "2020-01-16T16:33:30.262Z",
+            "image": "urbancode/ucv-ext-rtc:1.0.16",
             "notes": [
-                "Add UCV Access Key"
+                "Configure logger in wrapper."
             ]
         }
     },
@@ -331,11 +331,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.6",
-            "date": "2019-11-26T18:20:27.609Z",
-            "image": "urbancode/ucv-ext-servicenow:1.0.6",
+            "semver": "1.0.7",
+            "date": "2020-01-16T16:19:45.311Z",
+            "image": "urbancode/ucv-ext-servicenow:1.0.7",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Configure logger in wrapper."
             ]
         }
     },

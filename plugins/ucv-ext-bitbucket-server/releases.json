@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.20",
+        "date": "2020-01-16T15:53:47.244Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:1.0.20",
+        "notes": [
+            "Configure logger in wrapper."
+        ]
+    },
+    {
         "semver": "1.0.19",
         "date": "2019-11-26T16:53:48.229Z",
         "image": "urbancode/ucv-ext-bitbucket-server:1.0.19",
