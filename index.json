@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.16",
-            "date": "2019-11-26T16:42:01.899Z",
-            "image": "urbancode/ucv-ext-appscan:1.0.16",
+            "semver": "1.0.17",
+            "date": "2020-01-16T15:43:12.019Z",
+            "image": "urbancode/ucv-ext-appscan:1.0.17",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Configure logger in wrapper and fix broken plugin."
             ]
         }
     },
