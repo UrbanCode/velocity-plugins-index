@@ -263,11 +263,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.5",
-            "date": "2019-11-26T18:23:44.716Z",
-            "image": "urbancode/ucv-ext-onetest-server:0.0.5",
+            "semver": "0.0.7",
+            "date": "2020-01-16T16:30:08.694Z",
+            "image": "urbancode/ucv-ext-onetest-server:0.0.7",
             "notes": [
-                "Fixed test results to always return latest only."
+                "Configure logger in wrapper."
             ]
         }
     },
