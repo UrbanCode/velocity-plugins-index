@@ -195,11 +195,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.19",
-            "date": "2019-11-26T16:53:48.229Z",
-            "image": "urbancode/ucv-ext-bitbucket-server:1.0.19",
+            "semver": "1.0.20",
+            "date": "2020-01-16T15:53:47.244Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:1.0.20",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Configure logger in wrapper."
             ]
         }
     },
