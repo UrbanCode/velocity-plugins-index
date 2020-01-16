@@ -212,11 +212,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.24",
-            "date": "2019-12-18T21:31:29.478Z",
-            "image": "urbancode/ucv-ext-github:1.0.24",
+            "semver": "1.0.25",
+            "date": "2020-01-16T16:05:35.894Z",
+            "image": "urbancode/ucv-ext-github:1.0.25",
             "notes": [
-                "Ignore invalid timestamps."
+                "Configure logger in wrapper."
             ]
         }
     },
