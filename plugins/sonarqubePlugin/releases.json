@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.29",
+        "date": "2020-01-16T16:16:17.830Z",
+        "image": "urbancode/ucv-ext-sonarqube:1.0.29",
+        "notes": [
+            "Configure logger in wrapper and fix plugin."
+        ]
+    },
+    {
         "semver": "1.0.28",
         "date": "2019-11-26T18:10:40.876Z",
         "image": "urbancode/ucv-ext-sonarqube:1.0.28",
