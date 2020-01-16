@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.32",
+        "date": "2020-01-16T16:08:57.619Z",
+        "image": "urbancode/ucv-ext-jira:1.0.32",
+        "notes": [
+            "Configure logger in wrapper."
+        ]
+    },
+    {
         "semver": "1.0.31",
         "date": "2020-01-10T22:18:37.329Z",
         "image": "urbancode/ucv-ext-jira:1.0.31",
