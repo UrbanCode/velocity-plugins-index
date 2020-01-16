@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.7",
+        "date": "2020-01-16T16:19:45.311Z",
+        "image": "urbancode/ucv-ext-servicenow:1.0.7",
+        "notes": [
+            "Configure logger in wrapper."
+        ]
+    },
+    {
         "semver": "1.0.6",
         "date": "2019-11-26T18:20:27.609Z",
         "image": "urbancode/ucv-ext-servicenow:1.0.6",
