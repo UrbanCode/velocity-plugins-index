@@ -1,8 +1,18 @@
 [
     {
+        "semver": "1.0.6",
+        "date": "2020-01-16T16:23:18.795Z",
+        "image": "urbancode/ucv-ext-gitlab:1.0.6",
+        "notes": [
+            "Configure logger in wrapper."
+        ]
+    },
+    {
         "semver": "0.0.4",
         "date": "2019-10-15T05:42:49.830Z",
         "image": "urbancode/ucv-ext-gitlab:0.0.4",
-        "notes": ["Initial Release"]
+        "notes": [
+            "Initial Release"
+        ]
     }
 ]
