@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.4",
+        "date": "2020-01-16T16:26:44.053Z",
+        "image": "urbancode/ucv-ext-rtas:1.0.4",
+        "notes": [
+            "Configure logger in wrapper."
+        ]
+    },
+    {
         "semver": "1.0.3",
         "date": "2019-12-02T16:42:01.899Z",
         "image": "urbancode/ucv-ext-rtas:1.0.3",
