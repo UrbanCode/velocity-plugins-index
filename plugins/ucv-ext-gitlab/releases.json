@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.7",
+        "date": "2020-02-13T20:15:30.340Z",
+        "image": "urbancode/ucv-ext-gitlab:1.0.7",
+        "notes": [
+            "Enhancements for use in Kubernetes"
+        ]
+    },
+    {
         "semver": "1.0.6",
         "date": "2020-01-16T16:23:18.795Z",
         "image": "urbancode/ucv-ext-gitlab:1.0.6",
