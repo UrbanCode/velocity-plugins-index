@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.9",
+        "date": "2020-02-18T20:37:19.955Z",
+        "image": "urbancode/ucv-ext-onetest:1.0.9",
+        "notes": [
+            "Updated to ucv-ext-npm-wrapper 1.0.41."
+        ]
+    },
+    {
         "semver": "1.0.8",
         "date": "2019-11-26T18:01:46.250Z",
         "image": "urbancode/ucv-ext-onetest:1.0.8",
