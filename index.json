@@ -144,11 +144,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.8",
-            "date": "2020-01-07T15:16:19.010Z",
-            "image": "urbancode/ucv-ext-testng:1.0.8",
+            "semver": "1.0.9",
+            "date": "2020-02-18T20:53:15.970Z",
+            "image": "urbancode/ucv-ext-testng:1.0.9",
             "notes": [
-                "Added XML parsing"
+                "Updated to ucv-ext-npm-wrapper 1.0.41."
             ]
         }
     },
