@@ -59,11 +59,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.34",
-            "date": "2019-11-26T17:52:36.694Z",
-            "image": "urbancode/ucv-ext-jmeter:1.0.34",
+            "semver": "1.0.35",
+            "date": "2020-02-18T20:27:27.916Z",
+            "image": "urbancode/ucv-ext-jmeter:1.0.35",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Updated to ucv-ext-npm-wrapper 1.0.41."
             ]
         }
     },
