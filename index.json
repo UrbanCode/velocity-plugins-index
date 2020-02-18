@@ -331,11 +331,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.7",
-            "date": "2020-01-16T16:19:45.311Z",
-            "image": "urbancode/ucv-ext-servicenow:1.0.7",
+            "semver": "1.0.8",
+            "date": "2020-02-18T21:03:41.179Z",
+            "image": "urbancode/ucv-ext-servicenow:1.0.8",
             "notes": [
-                "Configure logger in wrapper."
+                "Updated to ucv-ext-npm-wrapper 1.0.41."
             ]
         }
     },
