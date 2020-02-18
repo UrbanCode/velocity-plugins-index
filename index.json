@@ -297,11 +297,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.4",
-            "date": "2020-01-16T16:26:44.053Z",
-            "image": "urbancode/ucv-ext-rtas:1.0.4",
+            "semver": "1.0.5",
+            "date": "2020-02-18T21:14:02.675Z",
+            "image": "urbancode/ucv-ext-rtas:1.0.5",
             "notes": [
-                "Configure logger in wrapper."
+                "Updated to ucv-ext-npm-wrapper 1.0.41."
             ]
         }
     },
