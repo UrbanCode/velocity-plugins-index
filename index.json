@@ -161,11 +161,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.35",
-            "date": "2019-11-26T18:17:06.548Z",
-            "image": "urbancode/ucv-ext-twistlock:1.0.35",
+            "semver": "1.0.36",
+            "date": "2020-02-18T20:58:37.856Z",
+            "image": "urbancode/ucv-ext-twistlock:1.0.36",
             "notes": [
-                "Update plugin version from 0.x.x to 1.x.x."
+                "Updated to ucv-ext-npm-wrapper 1.0.41."
             ]
         }
     },
