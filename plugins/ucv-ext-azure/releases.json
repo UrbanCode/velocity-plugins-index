@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.32",
+        "date": "2020-02-18T20:07:17.121Z",
+        "image": "urbancode/ucv-ext-azure:1.0.32",
+        "notes": [
+            "Updated to ucv-ext-npm-wrapper 1.0.41."
+        ]
+    },
+    {
         "semver": "1.0.31",
         "date": "2020-01-16T15:50:20.266Z",
         "image": "urbancode/ucv-ext-azure:1.0.31",
