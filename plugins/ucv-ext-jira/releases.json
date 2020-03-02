@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.35",
+        "date": "2020-03-02T18:52:12.038Z",
+        "image": "urbancode/ucv-ext-jira:1.0.35",
+        "notes": [
+            "Routine plugin fixes."
+        ]
+    },
+    {
         "semver": "1.0.34",
         "date": "2020-01-21T21:47:00.173Z",
         "image": "urbancode/ucv-ext-jira:1.0.34",
