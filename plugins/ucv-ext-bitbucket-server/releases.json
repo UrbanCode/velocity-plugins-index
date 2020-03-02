@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.22",
+        "date": "2020-03-02T18:00:06.269Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:1.0.22",
+        "notes": [
+            "Retrieve commits from non-default branch."
+        ]
+    },
+    {
         "semver": "1.0.21",
         "date": "2020-02-18T20:11:20.248Z",
         "image": "urbancode/ucv-ext-bitbucket-server:1.0.21",
