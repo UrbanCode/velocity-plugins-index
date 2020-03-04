@@ -355,5 +355,22 @@
                 "Fix for empty values being passed as undefined."
             ]
         }
+    },
+    "ucv-ext-cucumber": {
+        "name": "Cucumber Parser For Velocity",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "This is a plugin to handle incoming cucumber data",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.3",
+            "date": "2020-03-04T15:46:32.224Z",
+            "image": "urbancode/ucv-ext-cucumber:1.0.3",
+            "notes": [
+                "Initial release of plugin."
+            ]
+        }
     }
 }

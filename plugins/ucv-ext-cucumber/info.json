@@ -1,0 +1,9 @@
+{
+    "name": "Cucumber Parser For Velocity",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "This is a plugin to handle incoming cucumber data",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
