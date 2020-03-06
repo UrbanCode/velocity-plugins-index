@@ -7,9 +7,9 @@ import sinonTest from 'sinon-test'
 import util from 'util'
 
 import FuncHelper from './func-helper'
-import PluginsHelper, { PLUGINS_DIR } from '../../src/helpers/PluginsHelper'
+import PluginsHelper from '../../src/helpers/PluginsHelper'
 import InfoHelper, { FILE_NAME as INFO_FILE_NAME } from '../../src/helpers/InfoHelper'
-import ReleasesHelper, { FILE_NAME as RELEASES_FILE_NAME, ERROR_TEXT } from '../../src/helpers/ReleasesHelper'
+import ReleasesHelper, { FILE_NAME as RELEASES_FILE_NAME } from '../../src/helpers/ReleasesHelper'
 import { TEMP_PLUGIN_ID, VALID_IMAGE } from './func-constants'
 
 chai.use(chaiAsPromised)
