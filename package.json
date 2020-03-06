@@ -12,6 +12,7 @@
     "node": ">=0.8.0"
   },
   "scripts": {
+    "add-new-plugin": "babel-node src/scripts/addNewPlugin.js",
     "add-release": "babel-node src/scripts/addRelease.js",
     "generate-index": "babel-node src/scripts/generateIndex.js",
     "lint": "npm run lint-scripts && npm run lint-plugins && npm run lint-index",
@@ -19,7 +20,7 @@
     "lint-plugins": "babel-node src/scripts/lintPlugins",
     "lint-scripts": "eslint .",
     "test": "npm run lint && npm run test-unit && npm run test-func",
-    "test-func": "mocha test/func --opts .mocha.opts",
+    "test-func": "mocha test/func --timeout 20000 --opts .mocha.opts",
     "test-unit": "mocha test/unit --opts .mocha.opts"
   },
   "dependencies": {

@@ -10,7 +10,6 @@ chai.use(chaiAsPromised)
 const test = sinonTest(sinon, { useFakeTimers: false })
 
 describe('Does Image Exist', function() {
-  this.timeout(20000)
   it('should correctly return false if docker image does not exist', test(async function() {
     expect(DockerHelper.doesImageExist('hillo-wirld:linux')).to.be.false
   }))
