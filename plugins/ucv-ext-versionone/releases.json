@@ -2,7 +2,7 @@
     {
         "semver": "1.0.3",
         "date": "2020-03-09T20:27:51.473Z",
-        "image": "urbancode/ucv-ext-versionone:1.0.2",
+        "image": "urbancode/ucv-ext-versionone:1.0.3",
         "notes": [
             "Initial Release for VersionOne Plugin"
         ]
