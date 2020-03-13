@@ -203,6 +203,40 @@
             ]
         }
     },
+    "ucv-ext-cucumber": {
+        "name": "Cucumber Parser For Velocity",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "This is a plugin to handle incoming cucumber data",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.3",
+            "date": "2020-03-04T15:46:32.224Z",
+            "image": "urbancode/ucv-ext-cucumber:1.0.3",
+            "notes": [
+                "Initial release of plugin."
+            ]
+        }
+    },
+    "ucv-ext-ewm": {
+        "name": "IBM Engineering Workflow Management (EWM)",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "The EWM plug-in imports work item from an IBM EWM respository as issues in the UrbanCode Velocity server.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.2",
+            "date": "2020-03-13T15:39:04.303Z",
+            "image": "urbancode/ucv-ext-ewm:1.0.2",
+            "notes": [
+                "Initial Release"
+            ]
+        }
+    },
     "ucv-ext-github": {
         "name": "Github",
         "url": "https://developer.ibm.com/urbancode/plugins/",
@@ -353,23 +387,6 @@
             "image": "urbancode/ucv-ext-urbancode-metrics:1.0.12",
             "notes": [
                 "Fix for empty values being passed as undefined."
-            ]
-        }
-    },
-    "ucv-ext-cucumber": {
-        "name": "Cucumber Parser For Velocity",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "This is a plugin to handle incoming cucumber data",
-        "author": {
-            "name": "UrbanCode",
-            "email": "urbancode-plugins@hcl.com"
-        },
-        "current": {
-            "semver": "1.0.3",
-            "date": "2020-03-04T15:46:32.224Z",
-            "image": "urbancode/ucv-ext-cucumber:1.0.3",
-            "notes": [
-                "Initial release of plugin."
             ]
         }
     },
