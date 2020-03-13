@@ -389,5 +389,22 @@
                 "Initial Release for VersionOne Plugin"
             ]
         }
+    },
+    "ucv-ext-ewm": {
+        "name": "IBM Engineering Workflow Management (EWM)",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Allows UrbanCode Velocity to sync work items from IBM EWM.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.2",
+            "date": "2020-03-13T20:27:51.473Z",
+            "image": "urbancode/ucv-ext-ewm:1.0.2",
+            "notes": [
+                "Initial Release for IBM EWM Plugin"
+            ]
+        }
     }
 }

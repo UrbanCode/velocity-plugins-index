@@ -1,0 +1,9 @@
+{
+    "name": "IBM Engineering Workflow Management (EWM)",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Allows UrbanCode Velocity to sync work items from IBM EWM.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
