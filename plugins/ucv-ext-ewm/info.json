@@ -1,0 +1,9 @@
+{
+    "name": "IBM Engineering Workflow Management (EWM)",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "The EWM plug-in imports work item from an IBM EWM respository as issues in the UrbanCode Velocity server.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
