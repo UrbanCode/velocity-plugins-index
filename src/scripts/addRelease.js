@@ -33,13 +33,13 @@ logger.level = process.env.LOG_LEVEL || 'debug'
       }
     })
     if (!args.flags.pluginId) {
-      throw new Error('The --pluginId, -p flag is required to add a release')
+      throw new Error('The --pluginId flag is required to add a release')
     }
     if (!args.flags.semver) {
-      throw new Error('The --semver, -s flag is required to add a release')
+      throw new Error('The --semver flag is required to add a release')
     }
     if (!args.flags.image) {
-      throw new Error('The --image, -i flag is required to add a release')
+      throw new Error('The --image flag is required to add a release')
     }
     try {
       JSON.parse(args.flags.notes)
