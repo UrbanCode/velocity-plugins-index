@@ -24,29 +24,29 @@
     "test-unit": "mocha test/unit --opts .mocha.opts"
   },
   "dependencies": {
-    "@hapi/joi": "^15.1.0",
-    "deasync": "^0.1.15",
-    "fs-extra": "^8.0.1",
-    "joi-extension-semver": "^3.0.0",
-    "log4js": "^4.3.1",
-    "meow": "^5.0.0",
+    "@hapi/joi": "^17.1.1",
+    "deasync": "^0.1.19",
+    "fs-extra": "^9.0.0",
+    "joi-extension-semver": "^4.0.0",
+    "log4js": "^6.2.0",
+    "meow": "^6.1.0",
     "moment": "^2.24.0",
-    "request": "2.88.0",
-    "semver": "^6.1.1"
+    "request": "2.88.2",
+    "semver": "^7.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/node": "^7.4.5",
-    "@babel/polyfill": "^7.4.4",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
     "@babel/register": "^7.4.4",
-    "babel-eslint": "^10.0.2",
+    "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "eslint": "^5.16.0",
-    "husky": "^2.4.1",
-    "mocha": "^6.1.4",
-    "sinon": "^7.3.2",
-    "sinon-test": "^2.4.0"
+    "eslint": "^6.8.0",
+    "husky": "^4.2.5",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.2",
+    "sinon-test": "^3.0.0"
   }
 }
