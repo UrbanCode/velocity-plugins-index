@@ -399,11 +399,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.6",
-            "date": "2020-03-26T14:18:33.649Z",
-            "image": "urbancode/ucv-ext-versionone:1.0.6",
+            "semver": "1.0.7",
+            "date": "2020-04-14T13:22:31.112Z",
+            "image": "urbancode/ucv-ext-versionone:1.0.7",
             "notes": [
-                "handling deleted workitems"
+                "Added proxy support"
             ]
         }
     }
