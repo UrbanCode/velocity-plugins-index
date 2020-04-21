@@ -246,11 +246,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.29",
-            "date": "2020-03-03T05:52:56.889Z",
-            "image": "urbancode/ucv-ext-github:1.0.29",
+            "semver": "1.0.30",
+            "date": "2020-04-21T08:11:24.994Z",
+            "image": "urbancode/ucv-ext-github:1.0.30",
             "notes": [
-                "Handled null commit author"
+                "added accesskey support",
+                "removed name field",
+                "improved logging"
             ]
         }
     },
