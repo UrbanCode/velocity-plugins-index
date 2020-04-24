@@ -178,11 +178,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.32",
-            "date": "2020-02-18T20:07:17.121Z",
-            "image": "urbancode/ucv-ext-azure:1.0.32",
+            "semver": "1.0.34",
+            "date": "2020-04-24T04:12:52.338Z",
+            "image": "urbancode/ucv-ext-azure:1.0.34",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "proxy support added"
             ]
         }
     },

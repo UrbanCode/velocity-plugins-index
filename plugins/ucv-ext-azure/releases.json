@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.34",
+        "date": "2020-04-24T04:12:52.338Z",
+        "image": "urbancode/ucv-ext-azure:1.0.34",
+        "notes": [
+            "proxy support added"
+        ]
+    },
+    {
         "semver": "1.0.32",
         "date": "2020-02-18T20:07:17.121Z",
         "image": "urbancode/ucv-ext-azure:1.0.32",
