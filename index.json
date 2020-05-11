@@ -283,11 +283,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.35",
-            "date": "2020-03-02T18:52:12.038Z",
-            "image": "urbancode/ucv-ext-jira:1.0.35",
+            "semver": "1.0.36",
+            "date": "2020-05-11T13:39:24.169Z",
+            "image": "urbancode/ucv-ext-jira:1.0.36",
             "notes": [
-                "Routine plugin fixes."
+                "Added Proxy support"
             ]
         }
     },
