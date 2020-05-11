@@ -25,11 +25,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.11",
-            "date": "2020-02-18T20:01:46.603Z",
-            "image": "urbancode/ucv-ext-asoc:1.0.11",
+            "semver": "1.0.13",
+            "date": "2020-05-11T10:40:50.394Z",
+            "image": "urbancode/ucv-ext-asoc:1.0.13",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "minor bug fixes"
             ]
         }
     },
@@ -265,11 +265,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.7",
-            "date": "2020-02-13T20:15:30.340Z",
-            "image": "urbancode/ucv-ext-gitlab:1.0.7",
+            "semver": "2.0.1",
+            "date": "2020-05-11T10:38:54.399Z",
+            "image": "urbancode/ucv-ext-gitlab:2.0.1",
             "notes": [
-                "Enhancements for use in Kubernetes"
+                "multi project support",
+                "added build feature"
             ]
         }
     },

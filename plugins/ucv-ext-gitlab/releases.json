@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.0.1",
+        "date": "2020-05-11T10:38:54.399Z",
+        "image": "urbancode/ucv-ext-gitlab:2.0.1",
+        "notes": [
+            "multi project support",
+            "added build feature"
+        ]
+    },
+    {
         "semver": "1.0.7",
         "date": "2020-02-13T20:15:30.340Z",
         "image": "urbancode/ucv-ext-gitlab:1.0.7",
