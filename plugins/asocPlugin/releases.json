@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.13",
+        "date": "2020-05-11T10:40:50.394Z",
+        "image": "urbancode/ucv-ext-asoc:1.0.13",
+        "notes": [
+            "minor bug fixes"
+        ]
+    },
+    {
         "semver": "1.0.11",
         "date": "2020-02-18T20:01:46.603Z",
         "image": "urbancode/ucv-ext-asoc:1.0.11",
