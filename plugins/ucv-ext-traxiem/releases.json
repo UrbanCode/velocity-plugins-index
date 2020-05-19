@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.2",
+        "date": "2020-05-19T10:16:39.022Z",
+        "image": "urbancode/ucv-ext-traxiem:1.0.2",
+        "notes": [
+            "Initial Release"
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "name": "HCL Traxiem",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "HCL Traxiem plug-in imports and synchronizes issues from a Traxiem server as issues in the UrbanCode Velocity server",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
