@@ -1,0 +1,9 @@
+{
+    "name": "IBM EWM SCM",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "The IBM EWM plug-in imports and synchronizes data from an IBM EWM SCM respository as issues in the UrbanCode Velocity server.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}

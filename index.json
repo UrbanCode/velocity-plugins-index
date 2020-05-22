@@ -237,6 +237,23 @@
             ]
         }
     },
+    "ucv-ext-ewmscm": {
+        "name": "IBM EWM SCM",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "The IBM EWM plug-in imports and synchronizes data from an IBM EWM SCM respository as issues in the UrbanCode Velocity server.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.3",
+            "date": "2020-05-22T06:48:43.102Z",
+            "image": "urbancode/ucv-ext-ewmscm:1.0.3",
+            "notes": [
+                "Initial Release"
+            ]
+        }
+    },
     "ucv-ext-github": {
         "name": "Github",
         "url": "https://developer.ibm.com/urbancode/plugins/",
