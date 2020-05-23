@@ -1,0 +1,9 @@
+{
+    "name": "Handlebars Reporter",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "This plugin will take a Handlebars template and a context generator to create UCV reports",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}

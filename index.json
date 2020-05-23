@@ -273,6 +273,23 @@
             ]
         }
     },
+    "ucv-ext-handlebars-reporter": {
+        "name": "Handlebars Reporter",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "This plugin will take a Handlebars template and a context generator to create UCV reports",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.2",
+            "date": "2020-05-23T08:07:27.756Z",
+            "image": "urbancode/ucv-ext-handlebars-reporter:0.0.2",
+            "notes": [
+                "Initial release of plugin."
+            ]
+        }
+    },
     "ucv-ext-jira": {
         "name": "Jira",
         "url": "https://developer.ibm.com/urbancode/plugins/",
