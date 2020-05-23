@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "0.0.2",
+        "date": "2020-05-23T07:56:15.049Z",
+        "image": "urbancode/ucv-ext-handlebars-reporter:0.0.2",
+        "notes": [
+            "Initial release of plugin."
+        ]
+    }
+]
