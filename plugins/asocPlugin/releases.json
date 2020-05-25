@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.14",
+        "date": "2020-05-25T07:46:18.644Z",
+        "image": "urbancode/ucv-ext-asoc:1.0.14",
+        "notes": [
+            "Name field in Insights section to reflect scan name in ASoC"
+        ]
+    },
+    {
         "semver": "1.0.13",
         "date": "2020-05-11T10:40:50.394Z",
         "image": "urbancode/ucv-ext-asoc:1.0.13",
