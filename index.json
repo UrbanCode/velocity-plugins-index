@@ -392,23 +392,6 @@
             ]
         }
     },
-    "ucv-ext-traxiem": {
-        "name": "HCL Traxiem",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "HCL Traxiem plug-in imports and synchronizes issues from a Traxiem server as issues in the UrbanCode Velocity server",
-        "author": {
-            "name": "UrbanCode",
-            "email": "urbancode-plugins@hcl.com"
-        },
-        "current": {
-            "semver": "1.0.2",
-            "date": "2020-05-19T10:16:39.022Z",
-            "image": "urbancode/ucv-ext-traxiem:1.0.2",
-            "notes": [
-                "Initial Release"
-            ]
-        }
-    },
     "ucv-ext-urbancode-metrics": {
         "name": "UrbanCode Value Stream Metrics",
         "url": "https://developer.ibm.com/urbancode/plugins/",
