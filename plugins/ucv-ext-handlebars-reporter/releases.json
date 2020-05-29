@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.3",
+        "date": "2020-05-29T19:43:21.784Z",
+        "image": "urbancode/ucv-ext-handlebars-reporter:0.0.3",
+        "notes": [
+            "update plugin to handle files after GridFS update"
+        ]
+    },
+    {
         "semver": "0.0.2",
         "date": "2020-05-23T08:07:27.756Z",
         "image": "urbancode/ucv-ext-handlebars-reporter:0.0.2",
