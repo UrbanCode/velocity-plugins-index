@@ -265,11 +265,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.2",
-            "date": "2020-05-19T06:00:41.707Z",
-            "image": "urbancode/ucv-ext-gitlab:2.0.2",
+            "semver": "2.0.3",
+            "date": "2020-06-03T06:50:04.392Z",
+            "image": "urbancode/ucv-ext-gitlab:2.0.3",
             "notes": [
-                "Performance Improvements"
+                "post multiple builds to graphql"
             ]
         }
     },
