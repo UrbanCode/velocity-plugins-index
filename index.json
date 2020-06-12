@@ -203,6 +203,23 @@
             ]
         }
     },
+    "ucv-ext-bottleneck-detection": {
+        "name": "Bottleneck Detection",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Detect bottlenecks in a Velocity value stream",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.0",
+            "date": "2020-06-12T17:55:56.656Z",
+            "image": "urbancode/ucv-ext-bottleneck-detection:1.0.0",
+            "notes": [
+                "Initial release"
+            ]
+        }
+    },
     "ucv-ext-cucumber": {
         "name": "Cucumber Parser For Velocity",
         "url": "https://developer.ibm.com/urbancode/plugins/",
