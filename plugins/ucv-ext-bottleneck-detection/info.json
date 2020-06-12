@@ -1,0 +1,9 @@
+{
+    "name": "Bottleneck Detection",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Detect bottlenecks in a Velocity value stream",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
