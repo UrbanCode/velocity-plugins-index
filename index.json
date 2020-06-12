@@ -246,11 +246,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.31",
-            "date": "2020-06-09T07:25:31.212Z",
-            "image": "urbancode/ucv-ext-github:1.0.31",
+            "semver": "1.0.32",
+            "date": "2020-06-12T07:24:22.071Z",
+            "image": "urbancode/ucv-ext-github:1.0.32",
             "notes": [
-                "Removed the Url field"
+                "Fix for repository url"
             ]
         }
     },
