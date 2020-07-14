@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.37",
+        "date": "2020-07-14T17:03:08.209Z",
+        "image": "urbancode/ucv-ext-azure:1.0.37",
+        "notes": [
+            "Fixed empty creator when uploading issues."
+        ]
+    },
+    {
         "semver": "1.0.36",
         "date": "2020-05-20T14:49:53.241Z",
         "image": "urbancode/ucv-ext-azure:1.0.36",
