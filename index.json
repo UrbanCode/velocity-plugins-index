@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.18",
-            "date": "2020-02-18T19:56:26.463Z",
-            "image": "urbancode/ucv-ext-appscan:1.0.18",
+            "semver": "1.0.19",
+            "date": "2020-07-15T09:43:55.366Z",
+            "image": "urbancode/ucv-ext-appscan:1.0.19",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "Renamed plugin display name"
             ]
         }
     },
@@ -179,10 +179,10 @@
         },
         "current": {
             "semver": "1.0.37",
-            "date": "2020-07-14T17:03:08.209Z",
+            "date": "2020-07-14T16:15:05.227Z",
             "image": "urbancode/ucv-ext-azure:1.0.37",
             "notes": [
-                "Fixed empty creator when uploading issues."
+                "Fixed empty creator field while uploading issues."
             ]
         }
     },

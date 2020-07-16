@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.19",
+        "date": "2020-07-15T09:43:55.366Z",
+        "image": "urbancode/ucv-ext-appscan:1.0.19",
+        "notes": [
+            "Renamed plugin display name"
+        ]
+    },
+    {
         "semver": "1.0.18",
         "date": "2020-02-18T19:56:26.463Z",
         "image": "urbancode/ucv-ext-appscan:1.0.18",
