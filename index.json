@@ -25,11 +25,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.14",
-            "date": "2020-05-25T07:46:18.644Z",
-            "image": "urbancode/ucv-ext-asoc:1.0.14",
+            "semver": "1.0.15",
+            "date": "2020-07-17T10:40:58.241Z",
+            "image": "urbancode/ucv-ext-asoc:1.0.15",
             "notes": [
-                "Name field in Insights section to reflect scan name in ASoC"
+                "Renamed plugin display name"
             ]
         }
     },
@@ -59,11 +59,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.35",
-            "date": "2020-02-18T20:27:27.916Z",
-            "image": "urbancode/ucv-ext-jmeter:1.0.35",
+            "semver": "1.0.36",
+            "date": "2020-07-17T11:16:24.616Z",
+            "image": "urbancode/ucv-ext-jmeter:1.0.36",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "Renamed plugin display name"
             ]
         }
     },
@@ -76,11 +76,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.35",
-            "date": "2020-02-18T20:32:26.023Z",
-            "image": "urbancode/ucv-ext-junit:1.0.35",
+            "semver": "1.0.36",
+            "date": "2020-07-17T10:31:00.570Z",
+            "image": "urbancode/ucv-ext-junit:1.0.36",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "Renamed plugin display name"
             ]
         }
     },
@@ -110,11 +110,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.9",
-            "date": "2020-02-18T20:37:19.955Z",
-            "image": "urbancode/ucv-ext-onetest:1.0.9",
+            "semver": "1.0.10",
+            "date": "2020-07-17T10:36:44.440Z",
+            "image": "urbancode/ucv-ext-onetest:1.0.10",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "Renamed plugin display name"
             ]
         }
     },
@@ -144,11 +144,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.9",
-            "date": "2020-02-18T20:53:15.970Z",
-            "image": "urbancode/ucv-ext-testng:1.0.9",
+            "semver": "1.0.11",
+            "date": "2020-07-17T10:29:29.387Z",
+            "image": "urbancode/ucv-ext-testng:1.0.11",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "Renamed plugin display name"
             ]
         }
     },
@@ -161,11 +161,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.36",
-            "date": "2020-02-18T20:58:37.856Z",
-            "image": "urbancode/ucv-ext-twistlock:1.0.36",
+            "semver": "1.0.37",
+            "date": "2020-07-17T10:38:37.346Z",
+            "image": "urbancode/ucv-ext-twistlock:1.0.37",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "Renamed plugin display name"
             ]
         }
     },
