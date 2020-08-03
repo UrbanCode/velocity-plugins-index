@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.38",
+        "date": "2020-08-03T14:01:08.295Z",
+        "image": "urbancode/ucv-ext-azure:1.0.38",
+        "notes": [
+            "Fixed logic to acquire build commit ID."
+        ]
+    },
+    {
         "semver": "1.0.37",
         "date": "2020-07-14T16:15:05.227Z",
         "image": "urbancode/ucv-ext-azure:1.0.37",
