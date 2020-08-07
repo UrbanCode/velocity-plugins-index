@@ -42,11 +42,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.26",
-            "date": "2020-02-18T20:16:58.775Z",
-            "image": "urbancode/ucv-ext-coverage-core:1.0.26",
+            "semver": "1.0.28",
+            "date": "2020-08-07T11:15:51.691Z",
+            "image": "urbancode/ucv-ext-coverage-core:1.0.28",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "Updated npm-wrapper version"
             ]
         }
     },
@@ -59,11 +59,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.36",
-            "date": "2020-07-17T11:16:24.616Z",
-            "image": "urbancode/ucv-ext-jmeter:1.0.36",
+            "semver": "1.0.37",
+            "date": "2020-08-07T11:02:34.981Z",
+            "image": "urbancode/ucv-ext-jmeter:1.0.37",
             "notes": [
-                "Renamed plugin display name"
+                "Updated npm-wrapper version"
             ]
         }
     },
@@ -76,11 +76,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.36",
-            "date": "2020-07-17T10:31:00.570Z",
-            "image": "urbancode/ucv-ext-junit:1.0.36",
+            "semver": "1.0.37",
+            "date": "2020-08-07T11:05:01.292Z",
+            "image": "urbancode/ucv-ext-junit:1.0.37",
             "notes": [
-                "Renamed plugin display name"
+                "Updated npm-wrapper version"
             ]
         }
     },
@@ -93,11 +93,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.29",
-            "date": "2020-02-18T21:24:07.026Z",
-            "image": "urbancode/ucv-ext-vs-quality:1.0.29",
+            "semver": "1.0.30",
+            "date": "2020-08-07T11:22:32.141Z",
+            "image": "urbancode/ucv-ext-vs-quality:1.0.30",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "Updated npm-wrapper version"
             ]
         }
     },
@@ -110,11 +110,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.10",
-            "date": "2020-07-17T10:36:44.440Z",
-            "image": "urbancode/ucv-ext-onetest:1.0.10",
+            "semver": "1.0.11",
+            "date": "2020-08-07T11:20:07.232Z",
+            "image": "urbancode/ucv-ext-onetest:1.0.11",
             "notes": [
-                "Renamed plugin display name"
+                "Updated npm-wrapper version"
             ]
         }
     },
@@ -144,11 +144,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.11",
-            "date": "2020-07-17T10:29:29.387Z",
-            "image": "urbancode/ucv-ext-testng:1.0.11",
+            "semver": "1.0.12",
+            "date": "2020-08-07T11:08:00.368Z",
+            "image": "urbancode/ucv-ext-testng:1.0.12",
             "notes": [
-                "Renamed plugin display name"
+                "Updated npm-wrapper version"
             ]
         }
     },
@@ -161,11 +161,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.37",
-            "date": "2020-07-17T10:38:37.346Z",
-            "image": "urbancode/ucv-ext-twistlock:1.0.37",
+            "semver": "1.0.38",
+            "date": "2020-08-07T11:06:13.331Z",
+            "image": "urbancode/ucv-ext-twistlock:1.0.38",
             "notes": [
-                "Renamed plugin display name"
+                "Updated npm-wrapper version"
             ]
         }
     },
@@ -229,11 +229,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.3",
-            "date": "2020-03-04T15:46:32.224Z",
-            "image": "urbancode/ucv-ext-cucumber:1.0.3",
+            "semver": "1.0.6",
+            "date": "2020-08-07T11:11:55.117Z",
+            "image": "urbancode/ucv-ext-cucumber:1.0.6",
             "notes": [
-                "Initial release of plugin."
+                "Updated npm-wrapper version"
             ]
         }
     },

@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.37",
+        "date": "2020-08-07T11:05:01.292Z",
+        "image": "urbancode/ucv-ext-junit:1.0.37",
+        "notes": [
+            "Updated npm-wrapper version"
+        ]
+    },
+    {
         "semver": "1.0.36",
         "date": "2020-07-17T10:31:00.570Z",
         "image": "urbancode/ucv-ext-junit:1.0.36",
