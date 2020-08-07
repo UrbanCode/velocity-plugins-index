@@ -110,11 +110,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.10",
-            "date": "2020-07-17T10:36:44.440Z",
-            "image": "urbancode/ucv-ext-onetest:1.0.10",
+            "semver": "1.0.11",
+            "date": "2020-08-07T11:20:07.232Z",
+            "image": "urbancode/ucv-ext-onetest:1.0.11",
             "notes": [
-                "Renamed plugin display name"
+                "Updated npm-wrapper version"
             ]
         }
     },
