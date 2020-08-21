@@ -407,6 +407,23 @@
             ]
         }
     },
+    "ucv-ext-shell": {
+        "name": "Shell",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "This plugin will execute simple shell scripts",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.7",
+            "date": "2020-08-21T20:16:26.173Z",
+            "image": "urbancode/ucv-ext-shell:0.0.7",
+            "notes": [
+                "Initial release."
+            ]
+        }
+    },
     "ucv-ext-urbancode-metrics": {
         "name": "UrbanCode Value Stream Metrics",
         "url": "https://developer.ibm.com/urbancode/plugins/",
