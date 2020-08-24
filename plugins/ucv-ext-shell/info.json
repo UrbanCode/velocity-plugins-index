@@ -1,0 +1,9 @@
+{
+    "name": "Shell",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "This plugin will execute simple shell scripts",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}

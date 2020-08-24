@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "0.0.7",
+        "date": "2020-08-21T20:16:26.173Z",
+        "image": "urbancode/ucv-ext-shell:0.0.7",
+        "notes": [
+            "Initial release."
+        ]
+    }
+]
