@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.39",
+        "date": "2020-08-24T17:13:45.433Z",
+        "image": "urbancode/ucv-ext-azure:1.0.39",
+        "notes": [
+            "Sprint related changes and fix invalid history timestamp."
+        ]
+    },
+    {
         "semver": "1.0.38",
         "date": "2020-08-03T14:01:08.295Z",
         "image": "urbancode/ucv-ext-azure:1.0.38",
