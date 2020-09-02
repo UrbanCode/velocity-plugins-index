@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.16",
+        "date": "2020-09-02T07:53:34.547Z",
+        "image": "urbancode/ucv-ext-rally:1.0.16",
+        "notes": [
+            "Sprint history changes"
+        ]
+    },
+    {
         "semver": "1.0.14",
         "date": "2020-02-18T20:42:16.401Z",
         "image": "urbancode/ucv-ext-rally:1.0.14",
