@@ -220,6 +220,23 @@
             ]
         }
     },
+    "ucv-ext-compass": {
+        "name": "HCL Compass",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "HCL Compass plug-in imports and synchronizes issues from a Compass server as issues in the HCL Accelerate server",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.9",
+            "date": "2020-09-02T14:14:44.668Z",
+            "image": "urbancode/ucv-ext-compass:1.0.9",
+            "notes": [
+                "Bug fix"
+            ]
+        }
+    },
     "ucv-ext-cucumber": {
         "name": "Cucumber Parser For Velocity",
         "url": "https://developer.ibm.com/urbancode/plugins/",
