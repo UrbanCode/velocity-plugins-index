@@ -25,11 +25,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.15",
-            "date": "2020-07-17T10:40:58.241Z",
-            "image": "urbancode/ucv-ext-asoc:1.0.15",
+            "semver": "1.0.16",
+            "date": "2020-09-03T07:53:00.440Z",
+            "image": "urbancode/ucv-ext-asoc:1.0.16",
             "notes": [
-                "Renamed plugin display name"
+                "Integration id passed along with metrics"
             ]
         }
     },
@@ -263,11 +263,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.32",
-            "date": "2020-06-12T07:24:22.071Z",
-            "image": "urbancode/ucv-ext-github:1.0.32",
+            "semver": "1.0.34",
+            "date": "2020-09-03T07:48:15.569Z",
+            "image": "urbancode/ucv-ext-github:1.0.34",
             "notes": [
-                "Fix for repository url"
+                "Added proxy support"
             ]
         }
     },
@@ -331,11 +331,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.8",
-            "date": "2020-02-18T21:08:57.233Z",
-            "image": "urbancode/ucv-ext-onetest-server:0.0.8",
+            "semver": "0.0.9",
+            "date": "2020-09-03T08:04:34.657Z",
+            "image": "urbancode/ucv-ext-onetest-server:0.0.9",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "Integration id passed along with metrics"
             ]
         }
     },
@@ -365,11 +365,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.5",
-            "date": "2020-02-18T21:14:02.675Z",
-            "image": "urbancode/ucv-ext-rtas:1.0.5",
+            "semver": "1.0.6",
+            "date": "2020-09-03T07:50:09.788Z",
+            "image": "urbancode/ucv-ext-rtas:1.0.6",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "Integration id passed along with metrics"
             ]
         }
     },

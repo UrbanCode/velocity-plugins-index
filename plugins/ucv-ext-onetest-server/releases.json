@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.9",
+        "date": "2020-09-03T08:04:34.657Z",
+        "image": "urbancode/ucv-ext-onetest-server:0.0.9",
+        "notes": [
+            "Integration id passed along with metrics"
+        ]
+    },
+    {
         "semver": "0.0.8",
         "date": "2020-02-18T21:08:57.233Z",
         "image": "urbancode/ucv-ext-onetest-server:0.0.8",
