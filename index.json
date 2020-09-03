@@ -25,11 +25,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.15",
-            "date": "2020-07-17T10:40:58.241Z",
-            "image": "urbancode/ucv-ext-asoc:1.0.15",
+            "semver": "1.0.16",
+            "date": "2020-09-03T07:53:00.440Z",
+            "image": "urbancode/ucv-ext-asoc:1.0.16",
             "notes": [
-                "Renamed plugin display name"
+                "Integration id passed along with metrics"
             ]
         }
     },
