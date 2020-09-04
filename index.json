@@ -127,11 +127,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.30",
-            "date": "2020-02-18T20:47:53.950Z",
-            "image": "urbancode/ucv-ext-sonarqube:1.0.30",
+            "semver": "1.0.33",
+            "date": "2020-09-04T09:15:29.787Z",
+            "image": "urbancode/ucv-ext-sonarqube:1.0.33",
             "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
+                "debug logs added",
+                "fix to pull the PR analysis data"
             ]
         }
     },
