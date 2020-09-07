@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.3",
+        "date": "2020-09-07T12:49:21.846Z",
+        "image": "urbancode/ucv-ext-blackduck:1.0.3",
+        "notes": [
+            "Initial Release"
+        ]
+    }
+]
