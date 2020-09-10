@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.11",
+        "date": "2020-09-10T13:10:05.430Z",
+        "image": "urbancode/ucv-ext-compass:1.0.11",
+        "notes": [
+            "Bug fix"
+        ]
+    }
+]
