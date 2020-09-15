@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.3",
+        "date": "2020-09-15T14:26:59.864Z",
+        "image": "urbancode/ucv-ext-salesforce:1.0.3",
+        "notes": [
+            "Initial Release"
+        ]
+    }
+]

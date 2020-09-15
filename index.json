@@ -408,6 +408,23 @@
             ]
         }
     },
+    "ucv-ext-salesforce": {
+        "name": "Salesforce Metrics Plugin",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "UrbanCode Value Stream Metrics for Salesforce",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.3",
+            "date": "2020-09-15T14:26:59.864Z",
+            "image": "urbancode/ucv-ext-salesforce:1.0.3",
+            "notes": [
+                "Initial Release"
+            ]
+        }
+    },
     "ucv-ext-servicenow": {
         "name": "ServiceNow",
         "url": "https://developer.ibm.com/urbancode/plugins/",

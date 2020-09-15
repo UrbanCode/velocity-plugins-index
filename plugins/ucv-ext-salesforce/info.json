@@ -1,0 +1,9 @@
+{
+    "name": "Salesforce Metrics Plugin",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "UrbanCode Value Stream Metrics for Salesforce",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
