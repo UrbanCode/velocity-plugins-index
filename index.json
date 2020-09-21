@@ -332,11 +332,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.38",
-            "date": "2020-08-06T13:04:02.536Z",
-            "image": "urbancode/ucv-ext-jira:1.0.38",
+            "semver": "1.0.39",
+            "date": "2020-09-21T12:11:07.750Z",
+            "image": "urbancode/ucv-ext-jira:1.0.39",
             "notes": [
-                "Default value is set to some of the mandatory fields"
+                "Bug fix"
             ]
         }
     },
