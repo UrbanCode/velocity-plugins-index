@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.39",
+        "date": "2020-09-21T09:06:59.458Z",
+        "image": "urbancode/ucv-ext-jira:1.0.39",
+        "notes": [
+            "Bug fix"
+        ]
+    },
+    {
         "semver": "1.0.38",
         "date": "2020-08-06T13:04:02.536Z",
         "image": "urbancode/ucv-ext-jira:1.0.38",
