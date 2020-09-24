@@ -144,12 +144,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.33",
-            "date": "2020-09-04T09:15:29.787Z",
-            "image": "urbancode/ucv-ext-sonarqube:1.0.33",
+            "semver": "1.0.34",
+            "date": "2020-09-24T10:45:26.192Z",
+            "image": "urbancode/ucv-ext-sonarqube:1.0.34",
             "notes": [
-                "debug logs added",
-                "fix to pull the PR analysis data"
+                "Enhance security for property value"
             ]
         }
     },
