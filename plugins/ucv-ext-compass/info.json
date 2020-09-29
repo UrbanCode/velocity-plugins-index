@@ -1,0 +1,9 @@
+{
+    "name": "HCL Compass",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "The HCL Compass plug-in imports and synchronizes issues from an HCL Compass server into an HCL Accelerate server.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
