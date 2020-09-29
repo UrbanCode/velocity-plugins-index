@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.19",
-            "date": "2020-07-15T09:43:55.366Z",
-            "image": "urbancode/ucv-ext-appscan:1.0.19",
+            "semver": "1.0.20",
+            "date": "2020-09-29T07:29:26.869Z",
+            "image": "urbancode/ucv-ext-appscan:1.0.20",
             "notes": [
-                "Renamed plugin display name"
+                "Data gets mapped under right category - Risk"
             ]
         }
     },
@@ -42,11 +42,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.3",
-            "date": "2020-09-07T12:49:21.846Z",
-            "image": "urbancode/ucv-ext-blackduck:1.0.3",
+            "semver": "1.0.4",
+            "date": "2020-09-29T07:18:13.800Z",
+            "image": "urbancode/ucv-ext-blackduck:1.0.4",
             "notes": [
-                "Initial Release"
+                "Added build URL to link scan results with VSM"
             ]
         }
     },
@@ -416,11 +416,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.9",
-            "date": "2020-05-11T13:41:28.294Z",
-            "image": "urbancode/ucv-ext-servicenow:1.0.9",
+            "semver": "1.0.12",
+            "date": "2020-09-29T07:16:15.875Z",
+            "image": "urbancode/ucv-ext-servicenow:1.0.12",
             "notes": [
-                "Added support for access token"
+                "Pull problems from SNOW"
             ]
         }
     },
