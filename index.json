@@ -42,11 +42,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.3",
-            "date": "2020-09-07T12:49:21.846Z",
-            "image": "urbancode/ucv-ext-blackduck:1.0.3",
+            "semver": "1.0.4",
+            "date": "2020-09-29T07:18:13.800Z",
+            "image": "urbancode/ucv-ext-blackduck:1.0.4",
             "notes": [
-                "Initial Release"
+                "Added build URL to link scan results with VSM"
             ]
         }
     },
