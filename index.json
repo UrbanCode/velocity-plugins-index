@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.20",
-            "date": "2020-09-29T07:29:26.869Z",
-            "image": "urbancode/ucv-ext-appscan:1.0.20",
+            "semver": "1.0.21",
+            "date": "2020-09-30T09:35:44.406Z",
+            "image": "urbancode/ucv-ext-appscan:1.0.21",
             "notes": [
-                "Data gets mapped under right category - Risk"
+                "Added build URL to link scan results with VSM"
             ]
         }
     },
