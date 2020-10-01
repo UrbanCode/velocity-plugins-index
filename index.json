@@ -339,6 +339,23 @@
             ]
         }
     },
+    "ucv-ext-jira-test": {
+        "name": "Jira Test",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Sync test execution data from jira for use in Urbancode Velocity",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.5",
+            "date": "2020-10-01T09:07:51.388Z",
+            "image": "urbancode/ucv-ext-jira-test:1.0.5",
+            "notes": [
+                "Initial release"
+            ]
+        }
+    },
     "ucv-ext-onetest-server": {
         "name": "HCL OneTest Server",
         "url": "https://developer.ibm.com/urbancode/plugins/",

@@ -1,0 +1,9 @@
+{
+    "name": "Jira Test",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Sync test execution data from jira for use in Urbancode Velocity",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
