@@ -229,11 +229,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.0",
-            "date": "2020-06-12T17:55:56.656Z",
-            "image": "urbancode/ucv-ext-bottleneck-detection:1.0.0",
+            "semver": "1.0.1",
+            "date": "2020-10-16T15:19:55.490Z",
+            "image": "urbancode/ucv-ext-bottleneck-detection:1.0.1",
             "notes": [
-                "Initial release"
+                "Bug fix"
             ]
         }
     },
