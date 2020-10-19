@@ -195,11 +195,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.2",
-            "date": "2020-10-14T14:30:07.780Z",
-            "image": "urbancode/ucv-ext-azure:2.0.2",
+            "semver": "2.0.4",
+            "date": "2020-10-19T08:48:37.516Z",
+            "image": "urbancode/ucv-ext-azure:2.0.4",
             "notes": [
-                "Syncs deployment data"
+                "bug fixes for issues in sync deployments"
             ]
         }
     },
