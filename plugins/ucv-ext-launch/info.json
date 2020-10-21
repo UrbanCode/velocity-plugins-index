@@ -1,0 +1,9 @@
+{
+    "name": "HCL Launch",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "HCL Launch plugin for HCL Accelerate",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}

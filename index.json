@@ -339,6 +339,23 @@
             ]
         }
     },
+    "ucv-ext-launch": {
+        "name": "HCL Launch",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "HCL Launch plugin for HCL Accelerate",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.3",
+            "date": "2020-10-21T07:08:08.864Z",
+            "image": "urbancode/ucv-ext-launch:1.0.3",
+            "notes": [
+                "Initial Release"
+            ]
+        }
+    },
     "ucv-ext-onetest-server": {
         "name": "HCL OneTest Server",
         "url": "https://developer.ibm.com/urbancode/plugins/",
