@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.29",
+        "date": "2020-10-28T11:36:03.181Z",
+        "image": "urbancode/ucv-ext-coverage-core:1.0.29",
+        "notes": [
+            "handling non existent coverage rows for a source file"
+        ]
+    },
+    {
         "semver": "1.0.28",
         "date": "2020-08-07T11:15:51.691Z",
         "image": "urbancode/ucv-ext-coverage-core:1.0.28",
