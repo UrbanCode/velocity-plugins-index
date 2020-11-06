@@ -390,23 +390,6 @@
             ]
         }
     },
-    "ucv-ext-rtc": {
-        "name": "IBM Rational Team Concert",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "Allows UrbanCode Velocity to sync work items from IBM RTC.",
-        "author": {
-            "name": "UrbanCode",
-            "email": "urbancode-plugins@hcl.com"
-        },
-        "current": {
-            "semver": "1.0.17",
-            "date": "2020-02-18T21:18:57.037Z",
-            "image": "urbancode/ucv-ext-rtc:1.0.17",
-            "notes": [
-                "Updated to ucv-ext-npm-wrapper 1.0.41."
-            ]
-        }
-    },
     "ucv-ext-servicenow": {
         "name": "ServiceNow",
         "url": "https://developer.ibm.com/urbancode/plugins/",
@@ -438,23 +421,6 @@
             "image": "urbancode/ucv-ext-shell:0.0.7",
             "notes": [
                 "Initial release."
-            ]
-        }
-    },
-    "ucv-ext-urbancode-metrics": {
-        "name": "UrbanCode Value Stream Metrics",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "UrbanCode Value Stream Metrics",
-        "author": {
-            "name": "UrbanCode",
-            "email": "urbancode-plugins@hcl.com"
-        },
-        "current": {
-            "semver": "1.0.12",
-            "date": "2020-01-14T20:33:51.214Z",
-            "image": "urbancode/ucv-ext-urbancode-metrics:1.0.12",
-            "notes": [
-                "Fix for empty values being passed as undefined."
             ]
         }
     },
