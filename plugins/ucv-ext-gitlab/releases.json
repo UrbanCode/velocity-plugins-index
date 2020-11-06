@@ -1,5 +1,13 @@
 [
     {
+        "semver": "2.0.7",
+        "date": "2020-11-06T14:00:17.935Z",
+        "image": "urbancode/ucv-ext-gitlab:2.0.7",
+        "notes": [
+            "Pulls commit from non-master & included issues"
+        ]
+    },
+    {
         "semver": "2.0.3",
         "date": "2020-06-03T06:50:04.392Z",
         "image": "urbancode/ucv-ext-gitlab:2.0.3",
