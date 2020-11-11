@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.40",
+        "date": "2020-11-11T07:30:41.644Z",
+        "image": "urbancode/ucv-ext-github:1.0.40",
+        "notes": [
+            "Added GitHub Issues"
+        ]
+    },
+    {
         "semver": "1.0.36",
         "date": "2020-10-15T11:35:18.247Z",
         "image": "urbancode/ucv-ext-github:1.0.36",
