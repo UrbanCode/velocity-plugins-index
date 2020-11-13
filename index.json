@@ -348,11 +348,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.9",
-            "date": "2020-09-03T08:04:34.657Z",
-            "image": "urbancode/ucv-ext-onetest-server:0.0.9",
+            "semver": "1.0.2",
+            "date": "2020-11-13T09:56:31.433Z",
+            "image": "urbancode/ucv-ext-onetest-server:1.0.2",
             "notes": [
-                "Integration id passed along with metrics"
+                "Upgrade from beta version"
             ]
         }
     },
