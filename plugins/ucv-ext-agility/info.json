@@ -1,0 +1,9 @@
+{
+    "name": "Digital.ai Agility",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "The Digital.ai Agility plug-in imports and synchronizes work items from a Digital.ai Agility server.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
