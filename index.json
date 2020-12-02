@@ -331,11 +331,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.4",
-            "date": "2020-08-24T14:52:12.380Z",
-            "image": "urbancode/ucv-ext-handlebars-reporter:0.0.4",
+            "semver": "0.0.6",
+            "date": "2020-12-02T11:25:27.619Z",
+            "image": "urbancode/ucv-ext-handlebars-reporter:0.0.6",
             "notes": [
-                "Updated API client."
+                "Enhancement"
             ]
         }
     },
