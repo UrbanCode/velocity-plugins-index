@@ -25,11 +25,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.17",
-            "date": "2020-09-25T08:15:33.442Z",
-            "image": "urbancode/ucv-ext-asoc:1.0.17",
+            "semver": "1.0.18",
+            "date": "2020-12-02T04:25:29.544Z",
+            "image": "urbancode/ucv-ext-asoc:1.0.18",
             "notes": [
-                "Added Build URL to link ASoC scan results in VSM"
+                "Plugin name update"
             ]
         }
     },
