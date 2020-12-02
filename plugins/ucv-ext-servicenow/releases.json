@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.13",
+        "date": "2020-12-02T07:35:53.992Z",
+        "image": "urbancode/ucv-ext-servicenow:1.0.13",
+        "notes": [
+            "Problems priority bug fix"
+        ]
+    },
+    {
         "semver": "1.0.12",
         "date": "2020-09-29T07:16:15.875Z",
         "image": "urbancode/ucv-ext-servicenow:1.0.12",
