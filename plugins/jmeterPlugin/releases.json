@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.38",
+        "date": "2020-12-03T13:20:25.505Z",
+        "image": "urbancode/ucv-ext-jmeter:1.0.38",
+        "notes": [
+            "Plugin name update"
+        ]
+    },
+    {
         "semver": "1.0.37",
         "date": "2020-08-07T11:02:34.981Z",
         "image": "urbancode/ucv-ext-jmeter:1.0.37",
