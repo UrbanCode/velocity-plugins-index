@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.39",
+        "date": "2020-12-04T10:35:01.578Z",
+        "image": "urbancode/ucv-ext-twistlock:1.0.39",
+        "notes": [
+            "Plugin name update"
+        ]
+    },
+    {
         "semver": "1.0.38",
         "date": "2020-08-07T11:06:13.331Z",
         "image": "urbancode/ucv-ext-twistlock:1.0.38",
