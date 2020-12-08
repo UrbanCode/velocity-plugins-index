@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.23",
+        "date": "2020-12-08T07:36:33.376Z",
+        "image": "urbancode/ucv-ext-appscan:1.0.23",
+        "notes": [
+            "Changed the passsword type to secure"
+        ]
+    },
+    {
         "semver": "1.0.22",
         "date": "2020-12-02T13:46:25.216Z",
         "image": "urbancode/ucv-ext-appscan:1.0.22",
