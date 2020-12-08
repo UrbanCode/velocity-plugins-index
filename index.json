@@ -254,6 +254,23 @@
             ]
         }
     },
+    "ucv-ext-circleci": {
+        "name": "CircleCI",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "The CircleCI plug-in imports and synchronizes CI/CD data from CircleCI.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.3",
+            "date": "2020-12-08T09:08:06.220Z",
+            "image": "urbancode/ucv-ext-circleci:1.0.3",
+            "notes": [
+                "Initial"
+            ]
+        }
+    },
     "ucv-ext-cucumber": {
         "name": "Cucumber Parser For Velocity",
         "url": "https://developer.ibm.com/urbancode/plugins/",
