@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.2",
+        "date": "2020-12-08T07:31:06.014Z",
+        "image": "urbancode/ucv-ext-bottleneck-detection:1.0.2",
+        "notes": [
+            "Enhancement"
+        ]
+    },
+    {
         "semver": "1.0.1",
         "date": "2020-10-16T15:19:55.490Z",
         "image": "urbancode/ucv-ext-bottleneck-detection:1.0.1",

@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.22",
-            "date": "2020-12-02T13:46:25.216Z",
-            "image": "urbancode/ucv-ext-appscan:1.0.22",
+            "semver": "1.0.23",
+            "date": "2020-12-08T07:36:33.376Z",
+            "image": "urbancode/ucv-ext-appscan:1.0.23",
             "notes": [
-                "Plugin name update"
+                "Changed the passsword type to secure"
             ]
         }
     },
@@ -246,11 +246,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.1",
-            "date": "2020-10-16T15:19:55.490Z",
-            "image": "urbancode/ucv-ext-bottleneck-detection:1.0.1",
+            "semver": "1.0.2",
+            "date": "2020-12-08T07:31:06.014Z",
+            "image": "urbancode/ucv-ext-bottleneck-detection:1.0.2",
             "notes": [
-                "Bug fix"
+                "Enhancement"
             ]
         }
     },
