@@ -1,5 +1,5 @@
 {
-    "name": "AppScan",
+    "name": "HCL AppScan Enterprise (ASE)",
     "url": "https://developer.ibm.com/urbancode/plugins/",
     "description": "Allows UrbanCode Velocity to import AppScan scan results as metrics.",
     "author": {

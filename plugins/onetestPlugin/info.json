@@ -1,5 +1,5 @@
 {
-    "name": "OneTest",
+    "name": "HCL OneTest",
     "url": "https://developer.ibm.com/urbancode/plugins/",
     "description": "Allows UrbanCode Velocity to import OneTest test results as metrics.",
     "author": {
