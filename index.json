@@ -1,6 +1,6 @@
 {
     "appscanPlugin": {
-        "name": "AppScan",
+        "name": "HCL AppScan Enterprise (ASE)",
         "url": "https://developer.ibm.com/urbancode/plugins/",
         "description": "Allows UrbanCode Velocity to import AppScan scan results as metrics.",
         "author": {
@@ -17,7 +17,7 @@
         }
     },
     "asocPlugin": {
-        "name": "ASoC",
+        "name": "HCL AppScan on Cloud (ASoC)",
         "url": "https://developer.ibm.com/urbancode/plugins/",
         "description": "Allows UrbanCode Velocity to import ASoC scan results as metrics.",
         "author": {
@@ -68,7 +68,7 @@
         }
     },
     "jmeterPlugin": {
-        "name": "JMeter",
+        "name": "Apache JMeter",
         "url": "https://developer.ibm.com/urbancode/plugins/",
         "description": "Allows UrbanCode Velocity to import JMeter test results as metrics.",
         "author": {
@@ -85,7 +85,7 @@
         }
     },
     "junitPlugin": {
-        "name": "JUnit Parser",
+        "name": "JUnit",
         "url": "https://developer.ibm.com/urbancode/plugins/",
         "description": "Allows UrbanCode Velocity to import JUnit test results as metrics.",
         "author": {
@@ -119,7 +119,7 @@
         }
     },
     "onetestPlugin": {
-        "name": "OneTest",
+        "name": "HCL OneTest",
         "url": "https://developer.ibm.com/urbancode/plugins/",
         "description": "Allows UrbanCode Velocity to import OneTest test results as metrics.",
         "author": {
@@ -255,7 +255,7 @@
         }
     },
     "ucv-ext-cucumber": {
-        "name": "Cucumber Parser For Velocity",
+        "name": "Cucumber",
         "url": "https://developer.ibm.com/urbancode/plugins/",
         "description": "This is a plugin to handle incoming cucumber data",
         "author": {
