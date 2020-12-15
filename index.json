@@ -102,7 +102,7 @@
         }
     },
     "msQualityPlugin": {
-        "name": "VS Quality",
+        "name": "Microsoft Visual Studio Testing",
         "url": "https://developer.ibm.com/urbancode/plugins/",
         "description": "Allows UrbanCode Velocity to import VS Quality test results as metrics.",
         "author": {
