@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.6",
+        "date": "2020-12-17T12:41:10.908Z",
+        "image": "urbancode/ucv-ext-circleci:1.0.6",
+        "notes": [
+            "Minor improvements"
+        ]
+    }
+]
