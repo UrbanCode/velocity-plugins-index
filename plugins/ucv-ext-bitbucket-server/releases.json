@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.23",
+        "date": "2020-12-18T15:31:07.940Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:1.0.23",
+        "notes": [
+            "Bug Fix"
+        ]
+    },
+    {
         "semver": "1.0.22",
         "date": "2020-03-02T18:00:06.269Z",
         "image": "urbancode/ucv-ext-bitbucket-server:1.0.22",
