@@ -416,11 +416,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.13",
-            "date": "2020-12-02T07:35:53.992Z",
-            "image": "urbancode/ucv-ext-servicenow:1.0.13",
+            "semver": "1.0.14",
+            "date": "2020-12-21T07:30:57.682Z",
+            "image": "urbancode/ucv-ext-servicenow:1.0.14",
             "notes": [
-                "Problems priority bug fix"
+                "Added proxy support"
             ]
         }
     },
