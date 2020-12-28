@@ -1,5 +1,13 @@
 [
     {
+        "semver": "2.0.8",
+        "date": "2020-12-28T07:39:21.876Z",
+        "image": "urbancode/ucv-ext-gitlab:2.0.8",
+        "notes": [
+            "Added proxy support"
+        ]
+    },
+    {
         "semver": "2.0.7",
         "date": "2020-11-06T14:00:17.935Z",
         "image": "urbancode/ucv-ext-gitlab:2.0.7",
