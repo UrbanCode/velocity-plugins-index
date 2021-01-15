@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.8",
+        "date": "2021-01-15T06:33:54.486Z",
+        "image": "urbancode/ucv-ext-cucumber:1.0.8",
+        "notes": [
+            "Multiple Test Suites Support"
+        ]
+    },
+    {
         "semver": "1.0.7",
         "date": "2020-12-03T12:41:04.503Z",
         "image": "urbancode/ucv-ext-cucumber:1.0.7",
