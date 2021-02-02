@@ -1,0 +1,9 @@
+{
+    "name": "Salesforce",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Salesforce Plugin",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
