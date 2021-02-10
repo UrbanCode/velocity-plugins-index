@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.14",
+        "date": "2021-02-10T09:18:33.491Z",
+        "image": "urbancode/ucv-ext-salesforce:1.0.14",
+        "notes": [
+            "Updated Sync Interval"
+        ]
+    }
+]

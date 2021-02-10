@@ -407,6 +407,23 @@
             ]
         }
     },
+    "ucv-ext-salesforce": {
+        "name": "Salesforce",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Salesforce Plugin",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.14",
+            "date": "2021-02-10T09:18:33.491Z",
+            "image": "urbancode/ucv-ext-salesforce:1.0.14",
+            "notes": [
+                "Updated Sync Interval"
+            ]
+        }
+    },
     "ucv-ext-servicenow": {
         "name": "ServiceNow",
         "url": "https://developer.ibm.com/urbancode/plugins/",
