@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.17",
+        "date": "2021-02-15T08:36:30.576Z",
+        "image": "urbancode/ucv-ext-rally:1.0.17",
+        "notes": [
+            "Added Proxy support to Rally plugin"
+        ]
+    },
+    {
         "semver": "1.0.16",
         "date": "2020-09-02T07:53:34.547Z",
         "image": "urbancode/ucv-ext-rally:1.0.16",
