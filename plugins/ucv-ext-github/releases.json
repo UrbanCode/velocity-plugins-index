@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.42",
+        "date": "2021-03-16T06:22:52.453Z",
+        "image": "urbancode/ucv-ext-github:1.0.42",
+        "notes": [
+            "Pull commit data from non master branch"
+        ]
+    },
+    {
         "semver": "1.0.40",
         "date": "2020-11-11T07:30:41.644Z",
         "image": "urbancode/ucv-ext-github:1.0.40",
