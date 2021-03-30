@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.17",
+        "date": "2021-03-30T11:10:45.266Z",
+        "image": "urbancode/ucv-ext-handlebars-reporter:0.0.17",
+        "notes": [
+            "Release to upgrade the plugin with base image"
+        ]
+    },
+    {
         "semver": "0.0.6",
         "date": "2020-12-02T11:25:27.619Z",
         "image": "urbancode/ucv-ext-handlebars-reporter:0.0.6",
