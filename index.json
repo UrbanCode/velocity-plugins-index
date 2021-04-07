@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.23",
-            "date": "2020-12-08T07:36:33.376Z",
-            "image": "urbancode/ucv-ext-appscan:1.0.23",
+            "semver": "1.0.30",
+            "date": "2021-04-07T06:29:21.103Z",
+            "image": "urbancode/ucv-ext-appscan:1.0.30",
             "notes": [
-                "Changed the passsword type to secure"
+                "Updated data retrieval logic"
             ]
         }
     },

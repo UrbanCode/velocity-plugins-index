@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.30",
+        "date": "2021-04-07T06:29:21.103Z",
+        "image": "urbancode/ucv-ext-appscan:1.0.30",
+        "notes": [
+            "Updated data retrieval logic"
+        ]
+    },
+    {
         "semver": "1.0.23",
         "date": "2020-12-08T07:36:33.376Z",
         "image": "urbancode/ucv-ext-appscan:1.0.23",
