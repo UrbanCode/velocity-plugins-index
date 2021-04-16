@@ -15,7 +15,7 @@
     "add-new-plugin": "babel-node src/scripts/addNewPlugin.js",
     "add-release": "babel-node src/scripts/addRelease.js",
     "generate-index": "babel-node src/scripts/generateIndex.js",
-    "lint": "npm run lint-scripts && npm run lint-index",
+    "lint": "npm run lint-scripts",
     "lint-index": "babel-node src/scripts/lintIndex.js",
     "lint-plugins": "babel-node src/scripts/lintPlugins",
     "lint-scripts": "eslint .",
