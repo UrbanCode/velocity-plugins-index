@@ -51,7 +51,7 @@ export default class DockerHubHelper {
       method: 'GET',
       uri: `https://auth.docker.io/token?service=registry.docker.io&scope=repository:${encodeURIComponent(imageName)}:pull`,
       headers: { 
-        Authorization: 'Basic ' + Buffer.from(process.env.urbanCodeDocker_USR + ':' + process.env.urbanCodeDocker_PSW).toString('base64')
+        Authorization: 'Basic ' + Buffer.from(process.env.DOCKERHUB_USR + ':' + process.env.DOCKERHUB_PSW).toString('base64')
       }
     }
     request(options, function (error, response, body) {
