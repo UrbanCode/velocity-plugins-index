@@ -15,7 +15,7 @@ logger.level = process.env.LOG_LEVEL || 'debug'
       const info = await PluginsHelper.getJsonFromPluginFile(plugin, INFO_FILE_NAME)
       InfoHelper.validate(plugin, info)
       const releases = await PluginsHelper.getJsonFromPluginFile(plugin, RELEASES_FILE_NAME)
-      ReleasesHelper.validate(plugin, releases)
+      ReleasesHelper.validate(plugin, releases.slice(0, 2))
     }
   } catch (err) {
     logger.error(err)

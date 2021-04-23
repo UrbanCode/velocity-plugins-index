@@ -17,7 +17,7 @@ logger.level = process.env.LOG_LEVEL || 'debug'
       const info = await PluginsHelper.getJsonFromPluginFile(plugin, INFO_FILE_NAME)
       await InfoHelper.validate(plugin, info)
       const releases = await PluginsHelper.getJsonFromPluginFile(plugin, RELEASES_FILE_NAME)
-      await ReleasesHelper.validate(plugin, releases)
+      await ReleasesHelper.validate(plugin, releases.slice(0, 2))
       const latestRelease = await ReleasesHelper.getLatestRelease(releases)
       indexJson[plugin] = {
         name: info.name,
