@@ -1,5 +1,9 @@
 import deasync from 'deasync'
 import request from 'request'
+import log4js from 'log4js'
+
+const logger = log4js.getLogger('DockerHelper')
+logger.level = process.env.LOG_LEVEL || 'debug'
 
 export default class DockerHubHelper {
   static doesImageExist(image) {
@@ -25,6 +29,7 @@ export default class DockerHubHelper {
         }
         request(options, function (error, response, body) {
           if (error) {
+            logger.error(`Error getting the image tags - ${error}\n`)
             callback(null, false)
           } else {
             try {
@@ -32,9 +37,11 @@ export default class DockerHubHelper {
               if (!json.errors) {
                 callback(null, true)
               } else {
+                logger.error(`Error parsing the image tags body data - ${json.errors}\n`)
                 callback(null, false)
               }
             } catch (err) {
+              logger.error(`Error parsing the image tags response - ${err}\n`)
               callback(null, false)
             }
           }
@@ -56,12 +63,14 @@ export default class DockerHubHelper {
     }
     request(options, function (error, response, body) {
       if (error) {
+        logger.error(`Error generating auth token - ${error}\n`)
         callback(null, false)
       } else {
         try {
           const token = JSON.parse(body).token
           callback(null, token)
         } catch (err) {
+          logger.error(`Error parsing auth token - ${err}\n`)
           callback(null, false)
         }
       }
