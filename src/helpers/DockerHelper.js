@@ -61,6 +61,7 @@ export default class DockerHubHelper {
         Authorization: 'Basic ' + Buffer.from(process.env.DOCKERHUB_USR + ':' + process.env.DOCKERHUB_PSW).toString('base64')
       }
     }
+    logger.info(`HTTP Request made to url - ${options.uri}`)
     request(options, function (error, response, body) {
       if (error) {
         logger.error(`Error generating auth token - ${error}\n`)
