@@ -70,7 +70,7 @@ logger.level = process.env.LOG_LEVEL || 'debug'
       }
     }
     releases.unshift(newRelease)
-    ReleasesHelper.validate(args.flags.pluginId, releases)
+    ReleasesHelper.validate(args.flags.pluginId, releases.slice(0, 2))
     await fs.writeFile(releasesFile, JSON.stringify(releases, null, 4))
   } catch (err) {
     logger.error(err)
