@@ -29,7 +29,7 @@ export default class DockerHubHelper {
         }
         request(options, function (error, response, body) {
           if (error) {
-            logger.error(`Error getting the image tags - ${error}\n`)
+            logger.error(`Error getting the image tags - ${JSON.stringify(error)}\n`)
             callback(null, false)
           } else {
             try {
@@ -37,11 +37,11 @@ export default class DockerHubHelper {
               if (!json.errors) {
                 callback(null, true)
               } else {
-                logger.error(`Error parsing the image tags body data - ${json.errors}\n`)
+                logger.error(`Error parsing the image tags body data - ${JSON.stringify(json.errors)}\n`)
                 callback(null, false)
               }
             } catch (err) {
-              logger.error(`Error parsing the image tags response - ${err}\n`)
+              logger.error(`Error parsing the image tags response - ${JSON.stringify(err)}\n`)
               callback(null, false)
             }
           }
@@ -61,17 +61,17 @@ export default class DockerHubHelper {
         Authorization: 'Basic ' + Buffer.from(process.env.DOCKERHUB_USR + ':' + process.env.DOCKERHUB_PSW).toString('base64')
       }
     }
-    logger.info(`HTTP Request made to url - ${options.uri}`)
+    logger.info(`HTTP Request made to url - ${JSON.stringify(options.uri)}`)
     request(options, function (error, response, body) {
       if (error) {
-        logger.error(`Error generating auth token - ${error}\n`)
+        logger.error(`Error generating auth token - ${JSON.stringify(error)}\n`)
         callback(null, false)
       } else {
         try {
           const token = JSON.parse(body).token
           callback(null, token)
         } catch (err) {
-          logger.error(`Error parsing auth token - ${err}\n`)
+          logger.error(`Error parsing auth token - ${JSON.stringify(err)}\n`)
           callback(null, false)
         }
       }
