@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.49",
+        "date": "2021-05-03T13:33:47.187Z",
+        "image": "urbancode/ucv-ext-jira:1.0.49",
+        "notes": [
+            "Removed IBM related keywords"
+        ]
+    },
+    {
         "semver": "1.0.39",
         "date": "2020-09-21T12:11:07.750Z",
         "image": "urbancode/ucv-ext-jira:1.0.39",
