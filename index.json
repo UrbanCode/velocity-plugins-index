@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.30",
-            "date": "2021-04-07T06:29:21.103Z",
-            "image": "urbancode/ucv-ext-appscan:1.0.30",
+            "semver": "1.0.31",
+            "date": "2021-05-03T13:48:15.173Z",
+            "image": "urbancode/ucv-ext-appscan:1.0.31",
             "notes": [
-                "Updated data retrieval logic"
+                "Removed IBM related keywords"
             ]
         }
     },
@@ -25,11 +25,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.18",
-            "date": "2020-12-02T04:25:29.544Z",
-            "image": "urbancode/ucv-ext-asoc:1.0.18",
+            "semver": "1.0.23",
+            "date": "2021-05-03T13:41:17.832Z",
+            "image": "urbancode/ucv-ext-asoc:1.0.23",
             "notes": [
-                "Plugin name update"
+                "Removed IBM related keywords"
             ]
         }
     },
@@ -212,11 +212,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.4",
-            "date": "2020-10-19T08:48:37.516Z",
-            "image": "urbancode/ucv-ext-azure:2.0.4",
+            "semver": "2.0.14",
+            "date": "2021-05-03T13:27:35.839Z",
+            "image": "urbancode/ucv-ext-azure:2.0.14",
             "notes": [
-                "bug fixes for issues in sync deployments"
+                "Removed IBM related keywords"
             ]
         }
     },
@@ -348,11 +348,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.39",
-            "date": "2020-09-21T12:11:07.750Z",
-            "image": "urbancode/ucv-ext-jira:1.0.39",
+            "semver": "1.0.49",
+            "date": "2021-05-03T13:33:47.187Z",
+            "image": "urbancode/ucv-ext-jira:1.0.49",
             "notes": [
-                "Bug fix"
+                "Removed IBM related keywords"
             ]
         }
     },
