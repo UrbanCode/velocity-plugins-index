@@ -195,11 +195,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.4",
-            "date": "2020-11-30T08:44:28.721Z",
-            "image": "urbancode/ucv-ext-agility:1.0.4",
+            "semver": "1.0.9",
+            "date": "2021-05-05T05:12:26.583Z",
+            "image": "urbancode/ucv-ext-agility:1.0.9",
             "notes": [
-                "Initial Release"
+                "Removed IBM related keywords"
             ]
         }
     },
@@ -382,11 +382,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.17",
-            "date": "2021-02-15T08:36:30.576Z",
-            "image": "urbancode/ucv-ext-rally:1.0.17",
+            "semver": "1.0.25",
+            "date": "2021-05-05T05:17:46.157Z",
+            "image": "urbancode/ucv-ext-rally:1.0.25",
             "notes": [
-                "Added Proxy support to Rally plugin"
+                "Removed IBM related keywords"
             ]
         }
     },
