@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.30",
+        "date": "2021-05-14T12:46:22.103Z",
+        "image": "urbancode/ucv-ext-handlebars-reporter:0.0.30",
+        "notes": [
+            "Add DB Support for Seeded Reports"
+        ]
+    },
+    {
         "semver": "0.0.17",
         "date": "2021-03-30T11:10:45.266Z",
         "image": "urbancode/ucv-ext-handlebars-reporter:0.0.17",
