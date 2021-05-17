@@ -331,11 +331,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.17",
-            "date": "2021-03-30T11:10:45.266Z",
-            "image": "urbancode/ucv-ext-handlebars-reporter:0.0.17",
+            "semver": "0.0.30",
+            "date": "2021-05-17T05:02:12.280Z",
+            "image": "urbancode/ucv-ext-handlebars-reporter:0.0.30",
             "notes": [
-                "Release to upgrade the plugin with base image"
+                "Add DB Support for Seeded Reports"
             ]
         }
     },
