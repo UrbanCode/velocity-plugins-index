@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.17",
+        "date": "2021-05-18T06:35:21.550Z",
+        "image": "urbancode/ucv-ext-jira-test:1.0.17",
+        "notes": [
+            "Removed IBM related keywords"
+        ]
+    }
+]
