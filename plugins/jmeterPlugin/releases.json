@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.55",
+        "date": "2021-05-24T11:59:00.157Z",
+        "image": "urbancode/ucv-ext-jmeter:1.0.55",
+        "notes": [
+            "Removed IBM related keywords"
+        ]
+    },
+    {
         "semver": "1.0.38",
         "date": "2020-12-03T13:20:25.505Z",
         "image": "urbancode/ucv-ext-jmeter:1.0.38",
