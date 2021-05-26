@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.7",
+        "date": "2021-05-26T13:58:04.877Z",
+        "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.7",
+        "notes": [
+            "Initial Release"
+        ]
+    }
+]
