@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.13",
+        "date": "2021-05-26T14:03:31.266Z",
+        "image": "urbancode/ucv-ext-circleci:1.0.13",
+        "notes": [
+            "Removed IBM related keywords"
+        ]
+    }
+]
