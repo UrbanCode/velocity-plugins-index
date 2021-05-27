@@ -1,9 +1,0 @@
-{
-    "name": "CircleCI",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
-    "description": "The CircleCI plug-in imports and synchronizes CI/CD data from CircleCI.",
-    "author": {
-        "name": "UrbanCode",
-        "email": "urbancode-plugins@hcl.com"
-    }
-}
