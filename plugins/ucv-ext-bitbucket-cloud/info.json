@@ -1,0 +1,9 @@
+{
+    "name": "Bitbucket Cloud",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Synchronizes pull requests and commit data from a Bitbucket cloud instance.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
