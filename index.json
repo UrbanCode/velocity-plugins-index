@@ -450,11 +450,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.14",
-            "date": "2020-12-21T07:30:57.682Z",
-            "image": "urbancode/ucv-ext-servicenow:1.0.14",
+            "semver": "1.0.25",
+            "date": "2021-06-01T07:01:28.143Z",
+            "image": "urbancode/ucv-ext-servicenow:1.0.25",
             "notes": [
-                "Added proxy support"
+                "Removed IBM related keywords"
             ]
         }
     },
