@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.43",
+        "date": "2021-06-10T06:20:53.317Z",
+        "image": "urbancode/ucv-ext-twistlock:1.0.43",
+        "notes": [
+            "Removed IBM related keywords"
+        ]
+    },
+    {
         "semver": "1.0.39",
         "date": "2020-12-04T10:35:01.578Z",
         "image": "urbancode/ucv-ext-twistlock:1.0.39",
