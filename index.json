@@ -144,11 +144,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.34",
-            "date": "2020-09-24T10:45:26.192Z",
-            "image": "urbancode/ucv-ext-sonarqube:1.0.34",
+            "semver": "1.0.42",
+            "date": "2021-06-14T10:24:01.512Z",
+            "image": "urbancode/ucv-ext-sonarqube:1.0.42",
             "notes": [
-                "Enhance security for property value"
+                "Removed IBM related keywords"
             ]
         }
     },
@@ -365,11 +365,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.50",
-            "date": "2021-05-28T05:44:02.502Z",
-            "image": "urbancode/ucv-ext-jira:1.0.50",
+            "semver": "1.0.51",
+            "date": "2021-06-11T14:04:04.660Z",
+            "image": "urbancode/ucv-ext-jira:1.0.51",
             "notes": [
-                "Jira rate limit issue fix"
+                "Removed the display of auth token in error logs"
             ]
         }
     },

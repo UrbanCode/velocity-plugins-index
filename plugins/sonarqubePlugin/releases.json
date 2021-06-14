@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.42",
+        "date": "2021-06-14T10:24:01.512Z",
+        "image": "urbancode/ucv-ext-sonarqube:1.0.42",
+        "notes": [
+            "Removed IBM related keywords"
+        ]
+    },
+    {
         "semver": "1.0.34",
         "date": "2020-09-24T10:45:26.192Z",
         "image": "urbancode/ucv-ext-sonarqube:1.0.34",
