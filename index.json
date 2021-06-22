@@ -246,11 +246,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.23",
-            "date": "2020-12-18T15:31:07.940Z",
-            "image": "urbancode/ucv-ext-bitbucket-server:1.0.23",
+            "semver": "1.0.42",
+            "date": "2021-06-22T11:49:11.370Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:1.0.42",
             "notes": [
-                "Bug Fix"
+                "Added support to pull commits from multiple additional branches"
             ]
         }
     },
