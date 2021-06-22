@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.1.1",
+        "date": "2021-06-22T11:39:50.531Z",
+        "image": "urbancode/ucv-ext-github:1.1.1",
+        "notes": [
+            "Added support to pull commits from multiple additional branches"
+        ]
+    },
+    {
         "semver": "1.0.49",
         "date": "2021-05-10T08:24:19.814Z",
         "image": "urbancode/ucv-ext-github:1.0.49",
