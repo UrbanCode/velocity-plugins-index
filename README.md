@@ -19,7 +19,7 @@ This repository hosts the index for UrbanCode Velocity plugins which instances o
 
 There are 2 main file types that must abide by strict guidelines:
 
-* `info.json`: A JSON object contains the following fields:
+* `info.json`: A JSON object containing the following fields:
 
     | Field | Type | Required | Description |
     | ----- | ---- | -------- | ----------- |
