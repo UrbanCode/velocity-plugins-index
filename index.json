@@ -25,11 +25,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.23",
-            "date": "2021-05-03T13:41:17.832Z",
-            "image": "urbancode/ucv-ext-asoc:1.0.23",
+            "semver": "1.0.24",
+            "date": "2021-07-02T07:23:57.857Z",
+            "image": "urbancode/ucv-ext-asoc:1.0.24",
             "notes": [
-                "Removed IBM related keywords"
+                "Proxy support added"
             ]
         }
     },
