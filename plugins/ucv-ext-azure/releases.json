@@ -1,5 +1,13 @@
 [
     {
+        "semver": "3.0.1",
+        "date": "2021-07-02T14:15:51.333Z",
+        "image": "urbancode/ucv-ext-azure:3.0.1",
+        "notes": [
+            "Added Deployment Orchestration Support for Azure Release pipeline"
+        ]
+    },
+    {
         "semver": "2.0.17",
         "date": "2021-06-23T05:59:27.329Z",
         "image": "urbancode/ucv-ext-azure:2.0.17",
