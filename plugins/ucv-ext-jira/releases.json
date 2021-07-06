@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.52",
+        "date": "2021-07-06T08:13:12.510Z",
+        "image": "urbancode/ucv-ext-jira:1.0.52",
+        "notes": [
+            "remove basePath in Jira client"
+        ]
+    },
+    {
         "semver": "1.0.51",
         "date": "2021-06-11T14:04:04.660Z",
         "image": "urbancode/ucv-ext-jira:1.0.51",
