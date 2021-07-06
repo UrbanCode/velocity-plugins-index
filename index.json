@@ -365,11 +365,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.51",
-            "date": "2021-06-11T14:04:04.660Z",
-            "image": "urbancode/ucv-ext-jira:1.0.51",
+            "semver": "1.0.52",
+            "date": "2021-07-06T08:13:12.510Z",
+            "image": "urbancode/ucv-ext-jira:1.0.52",
             "notes": [
-                "Removed the display of auth token in error logs"
+                "remove basePath in Jira client"
             ]
         }
     },
