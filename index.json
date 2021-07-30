@@ -348,10 +348,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.38",
-            "date": "2021-07-21T15:52:41.632Z",
-            "image": "urbancode/ucv-ext-handlebars-reporter:0.0.38",
-            "notes": []
+            "semver": "0.0.39",
+            "date": "2021-07-30T19:04:54.720Z",
+            "image": "urbancode/ucv-ext-handlebars-reporter:0.0.39",
+            "notes": [
+                "Fix missing scheduledEventFunction error"
+            ]
         }
     },
     "ucv-ext-jira": {
