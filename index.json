@@ -25,11 +25,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.24",
-            "date": "2021-07-02T07:23:57.857Z",
-            "image": "urbancode/ucv-ext-asoc:1.0.24",
+            "semver": "2.0.1",
+            "date": "2021-08-03T08:49:06.731Z",
+            "image": "urbancode/ucv-ext-asoc:2.0.1",
             "notes": [
-                "Proxy support added"
+                "enabling webhook support and pulling historic data"
             ]
         }
     },
