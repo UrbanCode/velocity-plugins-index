@@ -229,11 +229,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.7",
-            "date": "2021-05-26T13:58:04.877Z",
-            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.7",
+            "semver": "1.0.8",
+            "date": "2021-08-09T06:33:16.077Z",
+            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.8",
             "notes": [
-                "Initial Release"
+                "Auto-generated UAK update"
             ]
         }
     },
@@ -331,11 +331,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.28",
-            "date": "2021-06-30T09:46:58.647Z",
-            "image": "urbancode/ucv-ext-gitlab:2.0.28",
+            "semver": "2.0.30",
+            "date": "2021-08-09T06:38:51.043Z",
+            "image": "urbancode/ucv-ext-gitlab:2.0.30",
             "notes": [
-                "Bug fix"
+                "Auto-generated UAK update"
             ]
         }
     },
