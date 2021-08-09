@@ -1,5 +1,13 @@
 [
     {
+        "semver": "2.0.30",
+        "date": "2021-08-09T06:38:51.043Z",
+        "image": "urbancode/ucv-ext-gitlab:2.0.30",
+        "notes": [
+            "Auto-generated UAK update"
+        ]
+    },
+    {
         "semver": "2.0.28",
         "date": "2021-06-30T09:46:58.647Z",
         "image": "urbancode/ucv-ext-gitlab:2.0.28",
