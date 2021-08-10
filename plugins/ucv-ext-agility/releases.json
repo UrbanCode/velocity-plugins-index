@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.11",
+        "date": "2021-08-10T04:37:28.211Z",
+        "image": "urbancode/ucv-ext-agility:1.0.11",
+        "notes": [
+            "Added auto-generated userAccessKey support"
+        ]
+    },
+    {
         "semver": "1.0.9",
         "date": "2021-05-05T05:12:26.583Z",
         "image": "urbancode/ucv-ext-agility:1.0.9",
