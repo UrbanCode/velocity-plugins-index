@@ -314,11 +314,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.15",
-            "date": "2021-07-23T12:15:15.626Z",
-            "image": "urbancode/ucv-ext-github:1.1.15",
+            "semver": "1.1.18",
+            "date": "2021-08-11T07:02:13.839Z",
+            "image": "urbancode/ucv-ext-github:1.1.18",
             "notes": [
-                "Labels bug fix"
+                "Auto-generated User Access Key support added",
+                "ReSync support added"
             ]
         }
     },
