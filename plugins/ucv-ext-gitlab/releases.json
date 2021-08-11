@@ -1,5 +1,13 @@
 [
     {
+        "semver": "2.0.31",
+        "date": "2021-08-11T06:55:38.316Z",
+        "image": "urbancode/ucv-ext-gitlab:2.0.31",
+        "notes": [
+            "ReSync support added"
+        ]
+    },
+    {
         "semver": "2.0.30",
         "date": "2021-08-09T06:38:51.043Z",
         "image": "urbancode/ucv-ext-gitlab:2.0.30",
