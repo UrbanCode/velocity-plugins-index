@@ -314,11 +314,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.15",
-            "date": "2021-07-23T12:15:15.626Z",
-            "image": "urbancode/ucv-ext-github:1.1.15",
+            "semver": "1.1.18",
+            "date": "2021-08-11T07:02:13.839Z",
+            "image": "urbancode/ucv-ext-github:1.1.18",
             "notes": [
-                "Labels bug fix"
+                "Auto-generated User Access Key support added",
+                "ReSync support added"
             ]
         }
     },
@@ -331,11 +332,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.30",
-            "date": "2021-08-09T06:38:51.043Z",
-            "image": "urbancode/ucv-ext-gitlab:2.0.30",
+            "semver": "2.0.31",
+            "date": "2021-08-11T06:55:38.316Z",
+            "image": "urbancode/ucv-ext-gitlab:2.0.31",
             "notes": [
-                "Auto-generated UAK update"
+                "ReSync support added"
             ]
         }
     },
@@ -365,11 +366,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.52",
-            "date": "2021-07-06T08:13:12.510Z",
-            "image": "urbancode/ucv-ext-jira:1.0.52",
+            "semver": "1.0.64",
+            "date": "2021-08-11T06:53:41.585Z",
+            "image": "urbancode/ucv-ext-jira:1.0.64",
             "notes": [
-                "remove basePath in Jira client"
+                "Auto-generated User Access Key support added",
+                "ReSync support added"
             ]
         }
     },
