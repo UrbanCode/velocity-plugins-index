@@ -366,12 +366,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.64",
-            "date": "2021-08-11T06:53:41.585Z",
-            "image": "urbancode/ucv-ext-jira:1.0.64",
+            "semver": "1.0.65",
+            "date": "2021-08-19T12:31:36.767Z",
+            "image": "urbancode/ucv-ext-jira:1.0.65",
             "notes": [
-                "Auto-generated User Access Key support added",
-                "ReSync support added"
+                "Bug fix: UAK support for older versions"
             ]
         }
     },
