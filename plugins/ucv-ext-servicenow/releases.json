@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.27",
+        "date": "2021-08-19T05:29:21.185Z",
+        "image": "urbancode/ucv-ext-servicenow:1.0.27",
+        "notes": [
+            "Adding Automation Functionality"
+        ]
+    },
+    {
         "semver": "1.0.25",
         "date": "2021-06-01T07:01:28.143Z",
         "image": "urbancode/ucv-ext-servicenow:1.0.25",
