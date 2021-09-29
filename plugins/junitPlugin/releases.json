@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.66",
+        "date": "2021-09-29T05:30:56.472Z",
+        "image": "urbancode/ucv-ext-junit:1.0.66",
+        "notes": [
+            "changes for gating"
+        ]
+    },
+    {
         "semver": "1.0.38",
         "date": "2020-12-07T05:51:47.722Z",
         "image": "urbancode/ucv-ext-junit:1.0.38",
