@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.74",
+        "date": "2021-09-29T05:50:12.034Z",
+        "image": "urbancode/ucv-ext-jira:1.0.74",
+        "notes": [
+            "epic support"
+        ]
+    },
+    {
         "semver": "1.0.65",
         "date": "2021-08-19T12:31:36.767Z",
         "image": "urbancode/ucv-ext-jira:1.0.65",

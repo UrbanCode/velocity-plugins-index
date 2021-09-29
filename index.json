@@ -93,11 +93,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.38",
-            "date": "2020-12-07T05:51:47.722Z",
-            "image": "urbancode/ucv-ext-junit:1.0.38",
+            "semver": "1.0.66",
+            "date": "2021-09-29T05:30:56.472Z",
+            "image": "urbancode/ucv-ext-junit:1.0.66",
             "notes": [
-                "Plugin name update"
+                "changes for gating"
             ]
         }
     },
@@ -127,11 +127,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.12",
-            "date": "2020-12-03T09:35:10.098Z",
-            "image": "urbancode/ucv-ext-onetest:1.0.12",
+            "semver": "1.0.30",
+            "date": "2021-09-29T05:37:26.678Z",
+            "image": "urbancode/ucv-ext-onetest:1.0.30",
             "notes": [
-                "Added support for UI & PT json results"
+                "changes for gating"
             ]
         }
     },
@@ -365,11 +365,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.65",
-            "date": "2021-08-19T12:31:36.767Z",
-            "image": "urbancode/ucv-ext-jira:1.0.65",
+            "semver": "1.0.74",
+            "date": "2021-09-29T05:50:12.034Z",
+            "image": "urbancode/ucv-ext-jira:1.0.74",
             "notes": [
-                "Bug fix: UAK support for older versions"
+                "epic support"
             ]
         }
     },
@@ -382,11 +382,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.2",
-            "date": "2020-11-13T09:56:31.433Z",
-            "image": "urbancode/ucv-ext-onetest-server:1.0.2",
+            "semver": "1.0.11",
+            "date": "2021-09-29T05:56:37.133Z",
+            "image": "urbancode/ucv-ext-onetest-server:1.0.11",
             "notes": [
-                "Upgrade from beta version"
+                "changes for gating"
             ]
         }
     },
