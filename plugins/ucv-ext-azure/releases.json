@@ -1,5 +1,13 @@
 [
     {
+        "semver": "4.0.3",
+        "date": "2021-09-30T05:33:32.802Z",
+        "image": "urbancode/ucv-ext-azure:4.0.3",
+        "notes": [
+            "Resync data feature added"
+        ]
+    },
+    {
         "semver": "4.0.1",
         "date": "2021-07-29T11:26:27.148Z",
         "image": "urbancode/ucv-ext-azure:4.0.1",
