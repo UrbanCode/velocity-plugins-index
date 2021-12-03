@@ -314,11 +314,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.20",
-            "date": "2021-08-19T12:39:52.417Z",
-            "image": "urbancode/ucv-ext-github:1.1.20",
+            "semver": "1.1.22",
+            "date": "2021-12-03T06:25:06.842Z",
+            "image": "urbancode/ucv-ext-github:1.1.22",
             "notes": [
-                "Bug fix: UAK support for older versions"
+                "UAK Changes"
             ]
         }
     },
@@ -331,11 +331,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.36",
-            "date": "2021-09-08T13:59:02.859Z",
-            "image": "urbancode/ucv-ext-gitlab:2.0.36",
+            "semver": "2.0.37",
+            "date": "2021-12-03T06:35:50.942Z",
+            "image": "urbancode/ucv-ext-gitlab:2.0.37",
             "notes": [
-                "Support for priority using labels"
+                "UAK Changes"
             ]
         }
     },
@@ -365,11 +365,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.80",
-            "date": "2021-10-27T13:42:48.127Z",
-            "image": "urbancode/ucv-ext-jira:1.0.80",
+            "semver": "1.0.83",
+            "date": "2021-12-03T06:31:04.679Z",
+            "image": "urbancode/ucv-ext-jira:1.0.83",
             "notes": [
-                "epic support"
+                "UAK Changes"
             ]
         }
     },
