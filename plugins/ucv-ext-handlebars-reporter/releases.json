@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.41",
+        "date": "2021-11-01T22:33:56.285Z",
+        "image": "urbancode/ucv-ext-handlebars-reporter:0.0.41",
+        "notes": [
+            "Updated API Client for major product release."
+        ]
+    },
+    {
         "semver": "0.0.39",
         "date": "2021-07-30T19:04:54.720Z",
         "image": "urbancode/ucv-ext-handlebars-reporter:0.0.39",

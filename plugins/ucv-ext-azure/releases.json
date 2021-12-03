@@ -1,5 +1,13 @@
 [
     {
+        "semver": "4.0.15",
+        "date": "2021-12-01T16:19:29.216Z",
+        "image": "urbancode/ucv-ext-azure:4.0.15",
+        "notes": [
+            "Adding Logger and ucv functionality"
+        ]
+    },
+    {
         "semver": "4.0.3",
         "date": "2021-09-30T05:33:32.802Z",
         "image": "urbancode/ucv-ext-azure:4.0.3",

@@ -212,11 +212,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.3",
-            "date": "2021-09-30T05:33:32.802Z",
-            "image": "urbancode/ucv-ext-azure:4.0.3",
+            "semver": "4.0.15",
+            "date": "2021-12-01T16:19:29.216Z",
+            "image": "urbancode/ucv-ext-azure:4.0.15",
             "notes": [
-                "Resync data feature added"
+                "Adding Logger and ucv functionality"
             ]
         }
     },
@@ -348,11 +348,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.39",
-            "date": "2021-07-30T19:04:54.720Z",
-            "image": "urbancode/ucv-ext-handlebars-reporter:0.0.39",
+            "semver": "0.0.41",
+            "date": "2021-11-01T22:33:56.285Z",
+            "image": "urbancode/ucv-ext-handlebars-reporter:0.0.41",
             "notes": [
-                "Fix missing scheduledEventFunction error"
+                "Updated API Client for major product release."
             ]
         }
     },
