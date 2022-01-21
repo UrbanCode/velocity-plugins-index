@@ -28,7 +28,7 @@
     "deasync": "^0.1.15",
     "fs-extra": "^8.0.1",
     "joi-extension-semver": "^3.0.0",
-    "log4js": "^4.3.1",
+    "log4js": "^6.4.0",
     "meow": "^5.0.0",
     "moment": "^2.24.0",
     "request": "2.88.0",
