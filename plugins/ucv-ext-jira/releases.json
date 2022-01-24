@@ -1,5 +1,17 @@
 [
     {
+        "semver": "1.1.89",
+        "date": "2022-01-24T06:50:02.249Z",
+        "image": "urbancode/ucv-ext-jira:1.1.89",
+        "notes": [
+            "Initial Sync Data added",
+            "more than 10mb data issue resolved",
+            "Reintroduce base path",
+            "Labels Updated",
+            "Debug logs added"
+        ]
+    },
+    {
         "semver": "1.0.83",
         "date": "2021-12-03T06:31:04.679Z",
         "image": "urbancode/ucv-ext-jira:1.0.83",
