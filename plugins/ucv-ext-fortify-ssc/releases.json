@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.1",
+        "date": "2022-01-24T15:43:02.018Z",
+        "image": "urbancode/ucv-ext-fortify-ssc:1.0.1",
+        "notes": [
+            "Initial Release"
+        ]
+    }
+]
