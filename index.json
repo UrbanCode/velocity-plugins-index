@@ -306,6 +306,23 @@
             ]
         }
     },
+    "ucv-ext-fortify-ssc": {
+        "name": "Fortify SSC",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "The Fortify SSC plug-in handles incoming data from Fortify SSC server.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2022-01-24T15:43:02.018Z",
+            "image": "urbancode/ucv-ext-fortify-ssc:1.0.1",
+            "notes": [
+                "Initial Release"
+            ]
+        }
+    },
     "ucv-ext-github": {
         "name": "Github",
         "url": "https://developer.ibm.com/urbancode/plugins/",
