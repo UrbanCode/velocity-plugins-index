@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.22",
+        "date": "2022-01-28T08:52:25.876Z",
+        "image": "urbancode/ucv-ext-rtas:1.0.22",
+        "notes": [
+            "User Access Key Related Changes"
+        ]
+    },
+    {
         "semver": "1.0.6",
         "date": "2020-09-03T07:50:09.788Z",
         "image": "urbancode/ucv-ext-rtas:1.0.6",
