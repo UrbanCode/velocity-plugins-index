@@ -409,11 +409,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.11",
-            "date": "2021-09-29T05:56:37.133Z",
-            "image": "urbancode/ucv-ext-onetest-server:1.0.11",
+            "semver": "1.0.15",
+            "date": "2022-02-09T06:11:35.948Z",
+            "image": "urbancode/ucv-ext-onetest-server:1.0.15",
             "notes": [
-                "changes for gating"
+                "User Access Key Related Changes"
             ]
         }
     },
