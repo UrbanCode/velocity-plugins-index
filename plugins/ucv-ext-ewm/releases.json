@@ -1,5 +1,17 @@
 [
     {
+        "semver": "1.1.15",
+        "date": "2022-02-23T09:32:59.023Z",
+        "image": "urbancode/ucv-ext-ewm:1.1.15",
+        "notes": [
+            "Debug Logs Added",
+            "UAK Changes",
+            "Resync Data Feature",
+            "Proxy Server Configuration Added",
+            "Support for EWM 7.0.2"
+        ]
+    },
+    {
         "semver": "1.0.2",
         "date": "2020-03-13T16:11:02.154Z",
         "image": "urbancode/ucv-ext-ewm:1.0.2",
