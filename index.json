@@ -430,11 +430,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.25",
-            "date": "2021-05-05T05:17:46.157Z",
-            "image": "urbancode/ucv-ext-rally:1.0.25",
+            "semver": "1.0.30",
+            "date": "2022-02-23T13:53:55.805Z",
+            "image": "urbancode/ucv-ext-rally:1.0.30",
             "notes": [
-                "Removed IBM related keywords"
+                "User Access Key Related Changes"
             ]
         }
     },
