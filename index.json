@@ -358,11 +358,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.37",
-            "date": "2021-12-03T06:35:50.942Z",
-            "image": "urbancode/ucv-ext-gitlab:2.0.37",
+            "semver": "2.0.50",
+            "date": "2022-02-24T03:15:55.758Z",
+            "image": "urbancode/ucv-ext-gitlab:2.0.50",
             "notes": [
-                "UAK Changes"
+                "status value modified"
             ]
         }
     },
