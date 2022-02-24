@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.30",
+        "date": "2022-02-23T13:53:55.805Z",
+        "image": "urbancode/ucv-ext-rally:1.0.30",
+        "notes": [
+            "User Access Key Related Changes"
+        ]
+    },
+    {
         "semver": "1.0.25",
         "date": "2021-05-05T05:17:46.157Z",
         "image": "urbancode/ucv-ext-rally:1.0.25",

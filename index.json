@@ -195,11 +195,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.11",
-            "date": "2021-08-10T04:37:28.211Z",
-            "image": "urbancode/ucv-ext-agility:1.0.11",
+            "semver": "1.0.20",
+            "date": "2022-02-23T13:01:54.655Z",
+            "image": "urbancode/ucv-ext-agility:1.0.20",
             "notes": [
-                "Added auto-generated userAccessKey support"
+                "User Access Key Related Changes"
             ]
         }
     },
@@ -229,11 +229,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.8",
-            "date": "2021-08-09T06:33:16.077Z",
-            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.8",
+            "semver": "1.0.15",
+            "date": "2022-02-23T07:15:25.740Z",
+            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.15",
             "notes": [
-                "Auto-generated UAK update"
+                "UAK Related Changes"
             ]
         }
     },
@@ -298,11 +298,15 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.2",
-            "date": "2020-03-13T16:11:02.154Z",
-            "image": "urbancode/ucv-ext-ewm:1.0.2",
+            "semver": "1.1.15",
+            "date": "2022-02-23T09:32:59.023Z",
+            "image": "urbancode/ucv-ext-ewm:1.1.15",
             "notes": [
-                "Initial Release"
+                "Debug Logs Added",
+                "UAK Changes",
+                "Resync Data Feature",
+                "Proxy Server Configuration Added",
+                "Support for EWM 7.0.2"
             ]
         }
     },
@@ -354,11 +358,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.37",
-            "date": "2021-12-03T06:35:50.942Z",
-            "image": "urbancode/ucv-ext-gitlab:2.0.37",
+            "semver": "2.0.50",
+            "date": "2022-02-24T03:15:55.758Z",
+            "image": "urbancode/ucv-ext-gitlab:2.0.50",
             "notes": [
-                "UAK Changes"
+                "status value modified"
             ]
         }
     },
@@ -426,11 +430,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.25",
-            "date": "2021-05-05T05:17:46.157Z",
-            "image": "urbancode/ucv-ext-rally:1.0.25",
+            "semver": "1.0.30",
+            "date": "2022-02-23T13:53:55.805Z",
+            "image": "urbancode/ucv-ext-rally:1.0.30",
             "notes": [
-                "Removed IBM related keywords"
+                "User Access Key Related Changes"
             ]
         }
     },
