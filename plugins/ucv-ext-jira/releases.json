@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.1.94",
+        "date": "2022-02-28T09:18:16.278Z",
+        "image": "urbancode/ucv-ext-jira:1.1.94",
+        "notes": [
+            "Reduced vulnerabilities"
+        ]
+    },
+    {
         "semver": "1.1.89",
         "date": "2022-01-24T06:50:02.249Z",
         "image": "urbancode/ucv-ext-jira:1.1.89",
