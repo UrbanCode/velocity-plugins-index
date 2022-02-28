@@ -392,11 +392,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.94",
-            "date": "2022-02-28T09:18:16.278Z",
-            "image": "urbancode/ucv-ext-jira:1.1.94",
+            "semver": "1.1.95",
+            "date": "2022-02-28T10:29:56.320Z",
+            "image": "urbancode/ucv-ext-jira:1.1.95",
             "notes": [
-                "Reduced vulnerabilities"
+                "graphiql performance improvement",
+                "raw issue reduced"
             ]
         }
     },
