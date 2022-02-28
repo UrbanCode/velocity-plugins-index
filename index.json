@@ -336,16 +336,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.2.24",
-            "date": "2022-01-28T15:03:48.733Z",
-            "image": "urbancode/ucv-ext-github:1.2.24",
+            "semver": "1.2.25",
+            "date": "2022-02-28T16:39:09.053Z",
+            "image": "urbancode/ucv-ext-github:1.2.25",
             "notes": [
-                "Primary and secondary API rate limit fix",
-                "Labels Updated",
-                "Additional branch error fix",
-                "Wildcard functionality added",
-                "Initail sync date added",
-                "Debug logs added"
+                "Global Initial Sync date feature"
             ]
         }
     },
