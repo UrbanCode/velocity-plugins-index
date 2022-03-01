@@ -8,11 +8,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.31",
-            "date": "2021-05-03T13:48:15.173Z",
-            "image": "urbancode/ucv-ext-appscan:1.0.31",
+            "semver": "2.0.35",
+            "date": "2022-03-01T09:39:09.712Z",
+            "image": "urbancode/ucv-ext-appscan:2.0.35",
             "notes": [
-                "Removed IBM related keywords"
+                "Scheduled Event Functionality Added",
+                "UAK Changes",
+                "Issue Level Data Chart Added"
             ]
         }
     },
