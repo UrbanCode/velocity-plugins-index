@@ -1,5 +1,15 @@
 [
     {
+        "semver": "2.0.35",
+        "date": "2022-03-01T09:39:09.712Z",
+        "image": "urbancode/ucv-ext-appscan:2.0.35",
+        "notes": [
+            "Scheduled Event Functionality Added",
+            "UAK Changes",
+            "Issue Level Data Chart Added"
+        ]
+    },
+    {
         "semver": "1.0.31",
         "date": "2021-05-03T13:48:15.173Z",
         "image": "urbancode/ucv-ext-appscan:1.0.31",
