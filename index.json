@@ -406,12 +406,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.95",
-            "date": "2022-02-28T10:29:56.320Z",
-            "image": "urbancode/ucv-ext-jira:1.1.95",
+            "semver": "2.1.96",
+            "date": "2022-03-03T12:29:26.949Z",
+            "image": "urbancode/ucv-ext-jira:2.1.96",
             "notes": [
-                "graphiql performance improvement",
-                "raw issue reduced"
+                "JQL Added",
+                "Removed Project Keys",
+                "Added Initial Sync date from core"
             ]
         }
     },
