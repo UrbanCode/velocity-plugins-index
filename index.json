@@ -214,11 +214,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.16",
-            "date": "2021-12-03T13:11:26.974Z",
-            "image": "urbancode/ucv-ext-azure:4.0.16",
+            "semver": "4.0.26",
+            "date": "2022-03-08T13:10:53.772Z",
+            "image": "urbancode/ucv-ext-azure:4.0.26",
             "notes": [
-                "UAK Changes"
+                "User Access Key Related Changes"
             ]
         }
     },
