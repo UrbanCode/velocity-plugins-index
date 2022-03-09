@@ -1,5 +1,16 @@
 [
     {
+        "semver": "2.0.97",
+        "date": "2022-03-09T04:18:41.150Z",
+        "image": "urbancode/ucv-ext-jira:2.0.97",
+        "notes": [
+            "Added Jira Query Language",
+            "Removed Project Keys",
+            "Initial Sync date modified",
+            "Debug logs added"
+        ]
+    },
+    {
         "semver": "2.1.96",
         "date": "2022-03-03T12:29:26.949Z",
         "image": "urbancode/ucv-ext-jira:2.1.96",
