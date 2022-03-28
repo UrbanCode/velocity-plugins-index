@@ -1,5 +1,15 @@
 [
     {
+        "semver": "1.0.16",
+        "date": "2022-03-25T13:38:50.415Z",
+        "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.16",
+        "notes": [
+            "Removed repoSlug and projectName field",
+            "added multiple repositories support in repoName",
+            "added otherBranches field"
+        ]
+    },
+    {
         "semver": "1.0.15",
         "date": "2022-02-23T07:15:25.740Z",
         "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.15",
