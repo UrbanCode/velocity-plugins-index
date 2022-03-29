@@ -250,11 +250,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.12",
-            "date": "2022-03-10T06:39:05.432Z",
-            "image": "urbancode/ucv-ext-bitbucket-server:1.1.12",
+            "semver": "1.1.16",
+            "date": "2022-03-28T19:53:37.255Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:1.1.16",
             "notes": [
-                "Enhancements done to the UI fields"
+                "Reducing vulnerabilities"
             ]
         }
     },
