@@ -1,0 +1,9 @@
+{
+    "name": "WhiteSource",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "This plug-in imports data from WhiteSource",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
