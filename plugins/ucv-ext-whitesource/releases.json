@@ -1,0 +1,12 @@
+[
+    {
+        "semver": "2.0.15",
+        "date": "2022-03-29T06:29:48.071Z",
+        "image": "urbancode/ucv-ext-whitesource:2.0.15",
+        "notes": [
+            "Converted to scheduled event plugin",
+            "Added custom field mapping for pipeline",
+            "Works on product and project level"
+        ]
+    }
+]

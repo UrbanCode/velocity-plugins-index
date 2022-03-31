@@ -146,11 +146,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.50",
-            "date": "2022-01-31T08:27:50.057Z",
-            "image": "urbancode/ucv-ext-sonarqube:1.0.50",
+            "semver": "1.0.65",
+            "date": "2022-03-31T06:23:36.335Z",
+            "image": "urbancode/ucv-ext-sonarqube:1.0.65",
             "notes": [
-                "User Access Key Related Changes"
+                "Reduced Vulnerabilities"
             ]
         }
     },
@@ -517,6 +517,25 @@
             "image": "urbancode/ucv-ext-versionone:1.0.11",
             "notes": [
                 "Added support for teams, backlog group, portfolio"
+            ]
+        }
+    },
+    "ucv-ext-whitesource": {
+        "name": "WhiteSource",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "This plug-in imports data from WhiteSource",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "2.0.15",
+            "date": "2022-03-29T06:29:48.071Z",
+            "image": "urbancode/ucv-ext-whitesource:2.0.15",
+            "notes": [
+                "Converted to scheduled event plugin",
+                "Added custom field mapping for pipeline",
+                "Works on product and project level"
             ]
         }
     }
