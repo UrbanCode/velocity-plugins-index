@@ -418,6 +418,24 @@
             ]
         }
     },
+    "ucv-ext-leankit": {
+        "name": "LeanKit",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "This plug-in imports data from LeanKit",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2022-04-05T18:18:59.477Z",
+            "image": "urbancode/ucv-ext-leankit:1.0.1",
+            "notes": [
+                "Retrieves Leankit Cards details",
+                "Fetch multiple board cards"
+            ]
+        }
+    },
     "ucv-ext-onetest-server": {
         "name": "HCL OneTest Server",
         "url": "https://developer.ibm.com/urbancode/plugins/",

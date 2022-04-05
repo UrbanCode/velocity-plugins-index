@@ -1,0 +1,11 @@
+[
+    {
+        "semver": "1.0.1",
+        "date": "2022-04-05T18:18:59.477Z",
+        "image": "urbancode/ucv-ext-leankit:1.0.1",
+        "notes": [
+            "Retrieves Leankit Cards details",
+            "Fetch multiple board cards"
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "name": "LeanKit",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "This plug-in imports data from LeanKit",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
