@@ -1,5 +1,13 @@
 [
     {
+        "semver": "2.0.53",
+        "date": "2022-04-05T12:29:07.323Z",
+        "image": "urbancode/ucv-ext-gitlab:2.0.53",
+        "notes": [
+            " other Branches field added with datasince filed removed and historicaldata in vsm fixed"
+        ]
+    },
+    {
         "semver": "2.0.50",
         "date": "2022-02-24T03:15:55.758Z",
         "image": "urbancode/ucv-ext-gitlab:2.0.50",
