@@ -373,11 +373,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.50",
-            "date": "2022-02-24T03:15:55.758Z",
-            "image": "urbancode/ucv-ext-gitlab:2.0.50",
+            "semver": "2.0.53",
+            "date": "2022-04-05T12:29:07.323Z",
+            "image": "urbancode/ucv-ext-gitlab:2.0.53",
             "notes": [
-                "status value modified"
+                " other Branches field added with datasince filed removed and historicaldata in vsm fixed"
             ]
         }
     },
