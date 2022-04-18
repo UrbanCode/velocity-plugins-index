@@ -1,0 +1,9 @@
+{
+    "name": "GitHub Dependabot",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Sync vulnerabilities data from Github.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}

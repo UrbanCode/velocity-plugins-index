@@ -309,6 +309,27 @@
             ]
         }
     },
+    "ucv-ext-dependabot": {
+        "name": "GitHub Dependabot",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Sync vulnerabilities data from Github.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.2",
+            "date": "2022-04-18T08:19:04.668Z",
+            "image": "urbancode/ucv-ext-dependabot:1.0.2",
+            "notes": [
+                "Syncs with GitHub Plugin to get Dependency Vulnerabilities",
+                "Show data in metrics bar",
+                "Show data in insights",
+                "Used GraphQL queries",
+                "GitHub Personal access token required"
+            ]
+        }
+    },
     "ucv-ext-ewm": {
         "name": "IBM Engineering Workflow Management (EWM)",
         "url": "https://developer.ibm.com/urbancode/plugins/",
