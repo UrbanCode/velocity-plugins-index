@@ -214,11 +214,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.26",
-            "date": "2022-03-08T13:10:53.772Z",
-            "image": "urbancode/ucv-ext-azure:4.0.26",
+            "semver": "4.0.28",
+            "date": "2022-04-08T06:11:08.785Z",
+            "image": "urbancode/ucv-ext-azure:4.0.28",
             "notes": [
-                "User Access Key Related Changes"
+                "Additional Branch field added"
             ]
         }
     },
@@ -306,6 +306,27 @@
             "image": "urbancode/ucv-ext-cucumber:1.0.8",
             "notes": [
                 "Multiple Test Suites Support"
+            ]
+        }
+    },
+    "ucv-ext-dependabot": {
+        "name": "GitHub Dependabot",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Sync vulnerabilities data from Github.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.2",
+            "date": "2022-04-18T08:19:04.668Z",
+            "image": "urbancode/ucv-ext-dependabot:1.0.2",
+            "notes": [
+                "Syncs with GitHub Plugin to get Dependency Vulnerabilities",
+                "Show data in metrics bar",
+                "Show data in insights",
+                "Used GraphQL queries",
+                "GitHub Personal access token required"
             ]
         }
     },
@@ -407,14 +428,29 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.2.1",
-            "date": "2022-03-09T14:06:24.270Z",
-            "image": "urbancode/ucv-ext-jira:2.2.1",
+            "semver": "2.2.4",
+            "date": "2022-04-22T10:54:54.417Z",
+            "image": "urbancode/ucv-ext-jira:2.2.4",
             "notes": [
-                "Jira Query Language Added",
-                "Removed Project Keys",
-                "Initial Sync Date Removed from Plugin side",
-                "Logging Added"
+                "Bug Fix"
+            ]
+        }
+    },
+    "ucv-ext-leankit": {
+        "name": "LeanKit",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "This plug-in imports data from LeanKit",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2022-04-05T18:18:59.477Z",
+            "image": "urbancode/ucv-ext-leankit:1.0.1",
+            "notes": [
+                "Retrieves Leankit Cards details",
+                "Fetch multiple board cards"
             ]
         }
     },
