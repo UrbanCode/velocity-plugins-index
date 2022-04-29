@@ -1,0 +1,9 @@
+{
+    "name": "Snyk",
+    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "description": "Sync vulnerabilities data from Snyk.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
