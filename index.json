@@ -339,15 +339,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.15",
-            "date": "2022-02-23T09:32:59.023Z",
-            "image": "urbancode/ucv-ext-ewm:1.1.15",
+            "semver": "1.1.22",
+            "date": "2022-04-30T17:38:23.153Z",
+            "image": "urbancode/ucv-ext-ewm:1.1.22",
             "notes": [
-                "Debug Logs Added",
-                "UAK Changes",
-                "Resync Data Feature",
-                "Proxy Server Configuration Added",
-                "Support for EWM 7.0.2"
+                "IssueRelationIn data added",
+                "Additional debug logs added",
+                "Minor bug fix"
             ]
         }
     },
