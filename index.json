@@ -214,11 +214,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.28",
-            "date": "2022-04-08T06:11:08.785Z",
-            "image": "urbancode/ucv-ext-azure:4.0.28",
+            "semver": "4.0.29",
+            "date": "2022-05-02T15:51:53.280Z",
+            "image": "urbancode/ucv-ext-azure:4.0.29",
             "notes": [
-                "Additional Branch field added"
+                "Optional feature of pushing pipeline runs with predefined tags as builds",
+                "Bug fix related to build status"
             ]
         }
     },
@@ -339,15 +340,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.15",
-            "date": "2022-02-23T09:32:59.023Z",
-            "image": "urbancode/ucv-ext-ewm:1.1.15",
+            "semver": "1.1.22",
+            "date": "2022-04-30T17:38:23.153Z",
+            "image": "urbancode/ucv-ext-ewm:1.1.22",
             "notes": [
-                "Debug Logs Added",
-                "UAK Changes",
-                "Resync Data Feature",
-                "Proxy Server Configuration Added",
-                "Support for EWM 7.0.2"
+                "IssueRelationIn data added",
+                "Additional debug logs added",
+                "Minor bug fix"
             ]
         }
     },
@@ -377,11 +376,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.2.25",
-            "date": "2022-02-28T16:39:09.053Z",
-            "image": "urbancode/ucv-ext-github:1.2.25",
+            "semver": "1.3.29",
+            "date": "2022-04-22T11:40:22.628Z",
+            "image": "urbancode/ucv-ext-github:1.3.29",
             "notes": [
-                "Global Initial Sync date feature"
+                "New feature added - Query for CI processes using GitHub Actions in a repository"
             ]
         }
     },
@@ -536,6 +535,25 @@
             "image": "urbancode/ucv-ext-shell:0.0.7",
             "notes": [
                 "Initial release."
+            ]
+        }
+    },
+    "ucv-ext-snyk": {
+        "name": "Snyk",
+        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "description": "Sync vulnerabilities data from Snyk.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2022-04-29T06:39:00.728Z",
+            "image": "urbancode/ucv-ext-snyk:1.0.1",
+            "notes": [
+                "Imports Snyk vulnerability data",
+                "Works with GitHub,GitLab and Bitbucket integrations",
+                "Vulnerabilities will be displayed as Application vulnerabilities in metrics bar"
             ]
         }
     },

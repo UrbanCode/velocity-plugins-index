@@ -1,5 +1,14 @@
 [
     {
+        "semver": "4.0.29",
+        "date": "2022-05-02T15:51:53.280Z",
+        "image": "urbancode/ucv-ext-azure:4.0.29",
+        "notes": [
+            "Optional feature of pushing pipeline runs with predefined tags as builds",
+            "Bug fix related to build status"
+        ]
+    },
+    {
         "semver": "4.0.28",
         "date": "2022-04-08T06:11:08.785Z",
         "image": "urbancode/ucv-ext-azure:4.0.28",
