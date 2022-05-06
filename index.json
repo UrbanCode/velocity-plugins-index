@@ -530,11 +530,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.7",
-            "date": "2020-08-21T20:16:26.173Z",
-            "image": "urbancode/ucv-ext-shell:0.0.7",
+            "semver": "0.0.31",
+            "date": "2022-05-06T08:40:43.922Z",
+            "image": "urbancode/ucv-ext-shell:0.0.31",
             "notes": [
-                "Initial release."
+                "Reduced Vulnerabilities"
             ]
         }
     },
