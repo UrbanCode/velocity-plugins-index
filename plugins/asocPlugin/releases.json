@@ -1,5 +1,13 @@
 [
     {
+        "semver": "3.0.9",
+        "date": "2022-05-24T05:48:09.625Z",
+        "image": "urbancode/ucv-ext-asoc:3.0.9",
+        "notes": [
+            "Reduced Vulnerabilities"
+        ]
+    },
+    {
         "semver": "3.0.5",
         "date": "2022-01-28T16:58:33.461Z",
         "image": "urbancode/ucv-ext-asoc:3.0.5",
