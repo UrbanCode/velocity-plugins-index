@@ -95,11 +95,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.66",
-            "date": "2021-09-29T05:30:56.472Z",
-            "image": "urbancode/ucv-ext-junit:1.0.66",
+            "semver": "1.0.72",
+            "date": "2022-05-27T04:38:59.778Z",
+            "image": "urbancode/ucv-ext-junit:1.0.72",
             "notes": [
-                "changes for gating"
+                "reduce vulnerabilities"
             ]
         }
     },
