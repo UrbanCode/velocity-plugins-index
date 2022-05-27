@@ -180,11 +180,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.43",
-            "date": "2021-06-10T06:20:53.317Z",
-            "image": "urbancode/ucv-ext-twistlock:1.0.43",
+            "semver": "1.0.44",
+            "date": "2022-05-27T03:49:18.223Z",
+            "image": "urbancode/ucv-ext-twistlock:1.0.44",
             "notes": [
-                "Removed IBM related keywords"
+                "reduced vulnerabilities"
             ]
         }
     },
