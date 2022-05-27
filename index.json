@@ -78,11 +78,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.55",
-            "date": "2021-05-24T11:59:00.157Z",
-            "image": "urbancode/ucv-ext-jmeter:1.0.55",
+            "semver": "1.0.56",
+            "date": "2022-05-27T04:26:00.014Z",
+            "image": "urbancode/ucv-ext-jmeter:1.0.56",
             "notes": [
-                "Removed IBM related keywords"
+                "reduce vulnerabilities"
             ]
         }
     },
