@@ -78,11 +78,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.55",
-            "date": "2021-05-24T11:59:00.157Z",
-            "image": "urbancode/ucv-ext-jmeter:1.0.55",
+            "semver": "1.0.56",
+            "date": "2022-05-27T04:26:00.014Z",
+            "image": "urbancode/ucv-ext-jmeter:1.0.56",
             "notes": [
-                "Removed IBM related keywords"
+                "reduce vulnerabilities"
             ]
         }
     },
@@ -95,11 +95,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.66",
-            "date": "2021-09-29T05:30:56.472Z",
-            "image": "urbancode/ucv-ext-junit:1.0.66",
+            "semver": "1.0.72",
+            "date": "2022-05-27T04:38:59.778Z",
+            "image": "urbancode/ucv-ext-junit:1.0.72",
             "notes": [
-                "changes for gating"
+                "reduce vulnerabilities"
             ]
         }
     },
@@ -180,11 +180,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.43",
-            "date": "2021-06-10T06:20:53.317Z",
-            "image": "urbancode/ucv-ext-twistlock:1.0.43",
+            "semver": "1.0.44",
+            "date": "2022-05-27T03:49:18.223Z",
+            "image": "urbancode/ucv-ext-twistlock:1.0.44",
             "notes": [
-                "Removed IBM related keywords"
+                "reduced vulnerabilities"
             ]
         }
     },
@@ -302,11 +302,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.8",
-            "date": "2021-01-15T06:33:54.486Z",
-            "image": "urbancode/ucv-ext-cucumber:1.0.8",
+            "semver": "1.0.33",
+            "date": "2022-05-31T06:31:08.595Z",
+            "image": "urbancode/ucv-ext-cucumber:1.0.33",
             "notes": [
-                "Multiple Test Suites Support"
+                "Reduced Vulnerabilities"
             ]
         }
     },
@@ -376,11 +376,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.3.29",
-            "date": "2022-04-22T11:40:22.628Z",
-            "image": "urbancode/ucv-ext-github:1.3.29",
+            "semver": "1.3.31",
+            "date": "2022-05-31T07:20:28.055Z",
+            "image": "urbancode/ucv-ext-github:1.3.31",
             "notes": [
-                "New feature added - Query for CI processes using GitHub Actions in a repository"
+                "Updated rest client to latest"
             ]
         }
     },
