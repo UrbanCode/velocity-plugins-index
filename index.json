@@ -302,11 +302,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.8",
-            "date": "2021-01-15T06:33:54.486Z",
-            "image": "urbancode/ucv-ext-cucumber:1.0.8",
+            "semver": "1.0.33",
+            "date": "2022-05-31T06:31:08.595Z",
+            "image": "urbancode/ucv-ext-cucumber:1.0.33",
             "notes": [
-                "Multiple Test Suites Support"
+                "Reduced Vulnerabilities"
             ]
         }
     },
