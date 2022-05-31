@@ -44,11 +44,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.17",
-            "date": "2022-01-28T07:32:19.310Z",
-            "image": "urbancode/ucv-ext-blackduck:1.0.17",
+            "semver": "1.0.21",
+            "date": "2022-05-31T14:09:16.498Z",
+            "image": "urbancode/ucv-ext-blackduck:1.0.21",
             "notes": [
-                "User Access Key Related Changes"
+                "minor fix"
             ]
         }
     },
