@@ -302,11 +302,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.33",
-            "date": "2022-05-31T06:31:08.595Z",
-            "image": "urbancode/ucv-ext-cucumber:1.0.33",
+            "semver": "1.0.34",
+            "date": "2022-05-31T18:46:02.367Z",
+            "image": "urbancode/ucv-ext-cucumber:1.0.34",
             "notes": [
-                "Reduced Vulnerabilities"
+                "xml2json alternative added"
             ]
         }
     },
