@@ -61,11 +61,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.30",
-            "date": "2020-12-03T05:27:46.800Z",
-            "image": "urbancode/ucv-ext-coverage-core:1.0.30",
+            "semver": "1.0.38",
+            "date": "2022-06-06T16:14:13.509Z",
+            "image": "urbancode/ucv-ext-coverage-core:1.0.38",
             "notes": [
-                "Plugin name update"
+                "Minor fix"
             ]
         }
     },
