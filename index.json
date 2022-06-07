@@ -338,13 +338,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.22",
-            "date": "2022-04-30T17:38:23.153Z",
-            "image": "urbancode/ucv-ext-ewm:1.1.22",
+            "semver": "1.1.24",
+            "date": "2022-06-07T15:16:05.507Z",
+            "image": "urbancode/ucv-ext-ewm:1.1.24",
             "notes": [
-                "IssueRelationIn data added",
-                "Additional debug logs added",
-                "Minor bug fix"
+                "Minor fix"
             ]
         }
     },
