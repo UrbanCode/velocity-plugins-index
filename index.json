@@ -477,11 +477,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.34",
-            "date": "2022-03-01T12:26:30.834Z",
-            "image": "urbancode/ucv-ext-rally:1.0.34",
+            "semver": "1.0.39",
+            "date": "2022-06-07T09:16:19.982Z",
+            "image": "urbancode/ucv-ext-rally:1.0.39",
             "notes": [
-                "User Access Key Related Changes"
+                "Reduced whitesource vulnerabilities"
             ]
         }
     },
