@@ -389,11 +389,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.1.55",
-            "date": "2022-06-06T02:56:43.726Z",
-            "image": "urbancode/ucv-ext-gitlab:2.1.55",
+            "semver": "2.1.56",
+            "date": "2022-06-13T05:32:24.495Z",
+            "image": "urbancode/ucv-ext-gitlab:2.1.56",
             "notes": [
-                "Automation Task Added"
+                "Minor Change"
             ]
         }
     },
