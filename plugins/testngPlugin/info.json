@@ -1,6 +1,6 @@
 {
     "name": "TestNG",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-testng/",
     "description": "Allows UrbanCode Velocity to import TestNG test results as metrics.",
     "author": {
         "name": "UrbanCode",

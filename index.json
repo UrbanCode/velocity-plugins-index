@@ -1,7 +1,7 @@
 {
     "appscanPlugin": {
         "name": "HCL AppScan Enterprise (ASE)",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-appscan/",
         "description": "Allows UrbanCode Velocity to import AppScan scan results as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -20,7 +20,7 @@
     },
     "asocPlugin": {
         "name": "HCL AppScan on Cloud (ASoC)",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-asoc/",
         "description": "Allows UrbanCode Velocity to import ASoC scan results as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -37,7 +37,7 @@
     },
     "blackDuckPlugin": {
         "name": "Black Duck",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-blackduck/",
         "description": "This is a plugin to handle Black Duck requirement for UrbanCode Velocity",
         "author": {
             "name": "UrbanCode",
@@ -54,7 +54,7 @@
     },
     "coverageCorePlugin": {
         "name": "Coverage Core",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-coverage-core/",
         "description": "Allows UrbanCode Velocity to import Coverage Core coverage reports as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -71,7 +71,7 @@
     },
     "jmeterPlugin": {
         "name": "Apache JMeter",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-jmeter/",
         "description": "Allows UrbanCode Velocity to import JMeter test results as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -88,7 +88,7 @@
     },
     "junitPlugin": {
         "name": "JUnit",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-junit/",
         "description": "Allows UrbanCode Velocity to import JUnit test results as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -105,7 +105,7 @@
     },
     "msQualityPlugin": {
         "name": "Microsoft Visual Studio Testing",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "Allows UrbanCode Velocity to import VS Quality test results as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -122,7 +122,7 @@
     },
     "onetestPlugin": {
         "name": "HCL OneTest",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-onetest/",
         "description": "Allows UrbanCode Velocity to import OneTest test results as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -139,7 +139,7 @@
     },
     "sonarqubePlugin": {
         "name": "SonarQube",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-sonarqube/",
         "description": "Allows UrbanCode Velocity to handle incoming SonarQube data.",
         "author": {
             "name": "UrbanCode",
@@ -156,7 +156,7 @@
     },
     "testngPlugin": {
         "name": "TestNG",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-testng/",
         "description": "Allows UrbanCode Velocity to import TestNG test results as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -173,7 +173,7 @@
     },
     "twistlockPlugin": {
         "name": "Twistlock",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-twistlock/",
         "description": "Allows UrbanCode Velocity to import Twistlock test results as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -190,7 +190,7 @@
     },
     "ucv-ext-agility": {
         "name": "Digital.ai Agility",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-agility/",
         "description": "The Digital.ai Agility plug-in imports and synchronizes work items from a Digital.ai Agility server.",
         "author": {
             "name": "UrbanCode",
@@ -207,7 +207,7 @@
     },
     "ucv-ext-azure": {
         "name": "Azure DevOps",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-azure/",
         "description": "Allows UrbanCode Velocity to sync Azure DevOps resources.",
         "author": {
             "name": "UrbanCode",
@@ -225,7 +225,7 @@
     },
     "ucv-ext-bitbucket-cloud": {
         "name": "Bitbucket Cloud",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "Synchronizes pull requests and commit data from a Bitbucket cloud instance.",
         "author": {
             "name": "UrbanCode",
@@ -242,7 +242,7 @@
     },
     "ucv-ext-bitbucket-server": {
         "name": "Bitbucket Server",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-bitbucket-server/",
         "description": "Allows UrbanCode Velocity to sync Bitbucket resources.",
         "author": {
             "name": "UrbanCode",
@@ -259,7 +259,7 @@
     },
     "ucv-ext-bottleneck-detection": {
         "name": "Bottleneck Detection",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "Detect bottlenecks in a Velocity value stream",
         "author": {
             "name": "UrbanCode",
@@ -276,7 +276,7 @@
     },
     "ucv-ext-circleci": {
         "name": "CircleCI",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "The CircleCI plug-in imports and synchronizes CI/CD data from CircleCI.",
         "author": {
             "name": "UrbanCode",
@@ -293,7 +293,7 @@
     },
     "ucv-ext-cucumber": {
         "name": "Cucumber",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-cucumber/",
         "description": "This is a plugin to handle incoming cucumber data",
         "author": {
             "name": "UrbanCode",
@@ -310,7 +310,7 @@
     },
     "ucv-ext-dependabot": {
         "name": "GitHub Dependabot",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "Sync vulnerabilities data from Github.",
         "author": {
             "name": "UrbanCode",
@@ -331,7 +331,7 @@
     },
     "ucv-ext-ewm": {
         "name": "IBM Engineering Workflow Management (EWM)",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-ewm/",
         "description": "The EWM plug-in imports work item from an IBM EWM respository as issues in the UrbanCode Velocity server.",
         "author": {
             "name": "UrbanCode",
@@ -348,7 +348,7 @@
     },
     "ucv-ext-fortify-ssc": {
         "name": "Fortify SSC",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "The Fortify SSC plug-in handles incoming data from Fortify SSC server.",
         "author": {
             "name": "UrbanCode",
@@ -365,7 +365,7 @@
     },
     "ucv-ext-github": {
         "name": "Github",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-github/",
         "description": "Allows UrbanCode Velocity to sync Github resources.",
         "author": {
             "name": "UrbanCode",
@@ -382,7 +382,7 @@
     },
     "ucv-ext-gitlab": {
         "name": "GitLab",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-gitlab/",
         "description": "Allows UrbanCode Velocity to sync commits and merge requests from GitLab.",
         "author": {
             "name": "UrbanCode",
@@ -399,7 +399,7 @@
     },
     "ucv-ext-handlebars-reporter": {
         "name": "Handlebars Reporter",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-handlebars-reporter/",
         "description": "This plugin will take a Handlebars template and a context generator to create UCV reports",
         "author": {
             "name": "UrbanCode",
@@ -416,7 +416,7 @@
     },
     "ucv-ext-jira": {
         "name": "Jira",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-jira/",
         "description": "Allows UrbanCode Velocity to sync Jira resources.",
         "author": {
             "name": "UrbanCode",
@@ -433,7 +433,7 @@
     },
     "ucv-ext-leankit": {
         "name": "LeanKit",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "This plug-in imports data from LeanKit",
         "author": {
             "name": "UrbanCode",
@@ -451,7 +451,7 @@
     },
     "ucv-ext-onetest-server": {
         "name": "HCL OneTest Server",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-onetest-server/",
         "description": "Allows UrbanCode Velocity to import HCL OneTest Server scan results as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -468,7 +468,7 @@
     },
     "ucv-ext-rally": {
         "name": "Rally",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-rally/",
         "description": "Allows UrbanCode Velocity to sync Rally resources.",
         "author": {
             "name": "UrbanCode",
@@ -485,7 +485,7 @@
     },
     "ucv-ext-rtas": {
         "name": "Rational Test Automation Server",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-rtas/",
         "description": "Allows UrbanCode Velocity to sync RTAS metrics.",
         "author": {
             "name": "UrbanCode",
@@ -502,7 +502,7 @@
     },
     "ucv-ext-servicenow": {
         "name": "ServiceNow",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-servicenow/",
         "description": "Allows UrbanCode Velocity to sync change requests and incident from ServiceNow.",
         "author": {
             "name": "UrbanCode",
@@ -519,7 +519,7 @@
     },
     "ucv-ext-shell": {
         "name": "Shell",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "This plugin will execute simple shell scripts",
         "author": {
             "name": "UrbanCode",
@@ -536,7 +536,7 @@
     },
     "ucv-ext-snyk": {
         "name": "Snyk",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "Sync vulnerabilities data from Snyk.",
         "author": {
             "name": "UrbanCode",
@@ -555,7 +555,7 @@
     },
     "ucv-ext-versionone": {
         "name": "CollabNet VersionOne",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-versionone/",
         "description": "Allows UrbanCode Velocity to sync work items from CollabNet VersionOne.",
         "author": {
             "name": "UrbanCode",
@@ -572,7 +572,7 @@
     },
     "ucv-ext-whitesource": {
         "name": "WhiteSource",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "This plug-in imports data from WhiteSource",
         "author": {
             "name": "UrbanCode",

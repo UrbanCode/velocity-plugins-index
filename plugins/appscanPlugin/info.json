@@ -1,6 +1,6 @@
 {
     "name": "HCL AppScan Enterprise (ASE)",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-appscan/",
     "description": "Allows UrbanCode Velocity to import AppScan scan results as metrics.",
     "author": {
         "name": "UrbanCode",

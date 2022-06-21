@@ -1,6 +1,6 @@
 {
     "name": "GitLab",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-gitlab/",
     "description": "Allows UrbanCode Velocity to sync commits and merge requests from GitLab.",
     "author": {
         "name": "UrbanCode",

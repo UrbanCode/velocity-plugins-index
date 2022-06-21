@@ -1,6 +1,6 @@
 {
     "name": "Black Duck",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-blackduck/",
     "description": "This is a plugin to handle Black Duck requirement for UrbanCode Velocity",
     "author": {
         "name": "UrbanCode",

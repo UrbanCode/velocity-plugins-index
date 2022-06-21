@@ -1,6 +1,6 @@
 {
     "name": "ServiceNow",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-servicenow/",
     "description": "Allows UrbanCode Velocity to sync change requests and incident from ServiceNow.",
     "author": {
         "name": "UrbanCode",
