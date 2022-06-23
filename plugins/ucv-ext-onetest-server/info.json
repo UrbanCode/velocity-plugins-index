@@ -1,6 +1,6 @@
 {
     "name": "HCL OneTest Server",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-onetest-server/",
     "description": "Allows UrbanCode Velocity to import HCL OneTest Server scan results as metrics.",
     "author": {
         "name": "UrbanCode",

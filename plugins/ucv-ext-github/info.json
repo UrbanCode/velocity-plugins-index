@@ -1,6 +1,6 @@
 {
     "name": "Github",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-github/",
     "description": "Allows UrbanCode Velocity to sync Github resources.",
     "author": {
         "name": "UrbanCode",

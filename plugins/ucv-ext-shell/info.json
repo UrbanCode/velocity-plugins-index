@@ -1,6 +1,6 @@
 {
     "name": "Shell",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
     "description": "This plugin will execute simple shell scripts",
     "author": {
         "name": "UrbanCode",

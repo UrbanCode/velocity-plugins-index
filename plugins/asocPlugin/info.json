@@ -1,6 +1,6 @@
 {
     "name": "HCL AppScan on Cloud (ASoC)",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-asoc/",
     "description": "Allows UrbanCode Velocity to import ASoC scan results as metrics.",
     "author": {
         "name": "UrbanCode",

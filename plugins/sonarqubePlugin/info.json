@@ -1,6 +1,6 @@
 {
     "name": "SonarQube",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-sonarqube/",
     "description": "Allows UrbanCode Velocity to handle incoming SonarQube data.",
     "author": {
         "name": "UrbanCode",

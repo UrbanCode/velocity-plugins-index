@@ -1,6 +1,6 @@
 {
     "name": "JUnit",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-junit/",
     "description": "Allows UrbanCode Velocity to import JUnit test results as metrics.",
     "author": {
         "name": "UrbanCode",

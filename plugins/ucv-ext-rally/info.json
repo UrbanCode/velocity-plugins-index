@@ -1,6 +1,6 @@
 {
     "name": "Rally",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-rally/",
     "description": "Allows UrbanCode Velocity to sync Rally resources.",
     "author": {
         "name": "UrbanCode",

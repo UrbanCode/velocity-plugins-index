@@ -1,6 +1,6 @@
 {
     "name": "WhiteSource",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
     "description": "This plug-in imports data from WhiteSource",
     "author": {
         "name": "UrbanCode",

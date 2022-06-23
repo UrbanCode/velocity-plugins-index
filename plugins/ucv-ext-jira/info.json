@@ -1,6 +1,6 @@
 {
     "name": "Jira",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-jira/",
     "description": "Allows UrbanCode Velocity to sync Jira resources.",
     "author": {
         "name": "UrbanCode",

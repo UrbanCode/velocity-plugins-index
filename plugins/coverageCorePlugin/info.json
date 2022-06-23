@@ -1,6 +1,6 @@
 {
     "name": "Coverage Core",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-coverage-core/",
     "description": "Allows UrbanCode Velocity to import Coverage Core coverage reports as metrics.",
     "author": {
         "name": "UrbanCode",
