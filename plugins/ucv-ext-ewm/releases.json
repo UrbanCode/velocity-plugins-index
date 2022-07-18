@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.1.27",
+        "date": "2022-07-18T05:20:11.084Z",
+        "image": "urbancode/ucv-ext-ewm:1.1.27",
+        "notes": [
+            "Added change sets related data to history section of VSM dot."
+        ]
+    },
+    {
         "semver": "1.1.24",
         "date": "2022-06-07T15:16:05.507Z",
         "image": "urbancode/ucv-ext-ewm:1.1.24",
