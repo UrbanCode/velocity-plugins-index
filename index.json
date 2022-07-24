@@ -553,6 +553,23 @@
             ]
         }
     },
+    "ucv-ext-ucd": {
+        "name": "UbranCode Deploy",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "Sync applications, components, snapshots, environments, inventories, and application processes related data from UrbanCode Deploy server.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.10",
+            "date": "2022-07-24T22:26:51.686Z",
+            "image": "urbancode/ucv-ext-ucd:1.0.10",
+            "notes": [
+                "Internal release related changes"
+            ]
+        }
+    },
     "ucv-ext-versionone": {
         "name": "CollabNet VersionOne",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-versionone/",
