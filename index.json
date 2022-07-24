@@ -338,11 +338,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.24",
-            "date": "2022-06-07T15:16:05.507Z",
-            "image": "urbancode/ucv-ext-ewm:1.1.24",
+            "semver": "1.1.27",
+            "date": "2022-07-18T05:20:11.084Z",
+            "image": "urbancode/ucv-ext-ewm:1.1.27",
             "notes": [
-                "Minor fix"
+                "Added change sets related data to history section of VSM dot."
             ]
         }
     },
@@ -550,6 +550,23 @@
                 "Imports Snyk vulnerability data",
                 "Works with GitHub,GitLab and Bitbucket integrations",
                 "Vulnerabilities will be displayed as Application vulnerabilities in metrics bar"
+            ]
+        }
+    },
+    "ucv-ext-ucd": {
+        "name": "UbranCode Deploy",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "Sync applications, components, snapshots, environments, inventories, and application processes related data from UrbanCode Deploy server.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.10",
+            "date": "2022-07-24T22:26:51.686Z",
+            "image": "urbancode/ucv-ext-ucd:1.0.10",
+            "notes": [
+                "Internal release related changes"
             ]
         }
     },
