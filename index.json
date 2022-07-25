@@ -562,11 +562,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.10",
-            "date": "2022-07-24T22:26:51.686Z",
-            "image": "urbancode/ucv-ext-ucd:1.0.10",
+            "semver": "1.0.11",
+            "date": "2022-07-25T07:43:31.896Z",
+            "image": "urbancode/ucv-ext-ucd:1.0.11",
             "notes": [
-                "Internal release related changes"
+                "Using Auto-generated User Access Key"
             ]
         }
     },
