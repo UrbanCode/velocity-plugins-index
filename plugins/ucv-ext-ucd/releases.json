@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.12",
+        "date": "2022-08-01T02:15:08.272Z",
+        "image": "urbancode/ucv-ext-ucd:1.0.12",
+        "notes": [
+            "Importing failed application deployment history"
+        ]
+    },
+    {
         "semver": "1.0.11",
         "date": "2022-07-25T07:43:31.896Z",
         "image": "urbancode/ucv-ext-ucd:1.0.11",
