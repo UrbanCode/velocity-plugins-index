@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.22",
+        "date": "2022-08-11T15:43:00.671Z",
+        "image": "urbancode/ucv-ext-circleci:1.0.22",
+        "notes": [
+            "Clarifying delimitation problem for properties used"
+        ]
+    },
+    {
         "semver": "1.0.18",
         "date": "2022-06-07T05:34:13.195Z",
         "image": "urbancode/ucv-ext-circleci:1.0.18",
