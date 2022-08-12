@@ -283,11 +283,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.18",
-            "date": "2022-06-07T05:34:13.195Z",
-            "image": "urbancode/ucv-ext-circleci:1.0.18",
+            "semver": "1.0.22",
+            "date": "2022-08-11T15:43:00.671Z",
+            "image": "urbancode/ucv-ext-circleci:1.0.22",
             "notes": [
-                "reduced Whitesource vulnerabilities"
+                "Clarifying delimitation problem for properties used"
             ]
         }
     },
@@ -423,11 +423,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.2.4",
-            "date": "2022-04-22T10:54:54.417Z",
-            "image": "urbancode/ucv-ext-jira:2.2.4",
+            "semver": "2.2.5",
+            "date": "2022-08-02T05:44:29.636Z",
+            "image": "urbancode/ucv-ext-jira:2.2.5",
             "notes": [
-                "Bug Fix"
+                "Added Project keys"
             ]
         }
     },
@@ -475,11 +475,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.39",
-            "date": "2022-06-07T09:16:19.982Z",
-            "image": "urbancode/ucv-ext-rally:1.0.39",
+            "semver": "1.0.41",
+            "date": "2022-08-12T06:00:01.174Z",
+            "image": "urbancode/ucv-ext-rally:1.0.41",
             "notes": [
-                "Reduced whitesource vulnerabilities"
+                "Clarifying delimitation problem for properties used"
             ]
         }
     },
