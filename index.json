@@ -197,11 +197,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.20",
-            "date": "2022-02-23T13:01:54.655Z",
-            "image": "urbancode/ucv-ext-agility:1.0.20",
+            "semver": "1.0.25",
+            "date": "2022-08-12T15:49:32.778Z",
+            "image": "urbancode/ucv-ext-agility:1.0.25",
             "notes": [
-                "User Access Key Related Changes"
+                "Clarifying delimitation problem for properties used"
             ]
         }
     },
@@ -338,11 +338,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.27",
-            "date": "2022-07-18T05:20:11.084Z",
-            "image": "urbancode/ucv-ext-ewm:1.1.27",
+            "semver": "1.1.28",
+            "date": "2022-08-12T14:39:33.465Z",
+            "image": "urbancode/ucv-ext-ewm:1.1.28",
             "notes": [
-                "Added change sets related data to history section of VSM dot."
+                "Clarifying delimitation problem for properties used"
             ]
         }
     },
