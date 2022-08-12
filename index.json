@@ -475,11 +475,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.39",
-            "date": "2022-06-07T09:16:19.982Z",
-            "image": "urbancode/ucv-ext-rally:1.0.39",
+            "semver": "1.0.41",
+            "date": "2022-08-12T06:00:01.174Z",
+            "image": "urbancode/ucv-ext-rally:1.0.41",
             "notes": [
-                "Reduced whitesource vulnerabilities"
+                "Clarifying delimitation problem for properties used"
             ]
         }
     },
