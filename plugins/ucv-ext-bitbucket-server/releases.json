@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.1.22",
+        "date": "2022-08-17T09:45:14.135Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:1.1.22",
+        "notes": [
+            "Rate limiting and resync implementation"
+        ]
+    },
+    {
         "semver": "1.1.16",
         "date": "2022-03-28T19:53:37.255Z",
         "image": "urbancode/ucv-ext-bitbucket-server:1.1.16",

@@ -214,12 +214,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.29",
-            "date": "2022-05-02T15:51:53.280Z",
-            "image": "urbancode/ucv-ext-azure:4.0.29",
+            "semver": "4.0.35",
+            "date": "2022-08-17T08:01:51.197Z",
+            "image": "urbancode/ucv-ext-azure:4.0.35",
             "notes": [
-                "Optional feature of pushing pipeline runs with predefined tags as builds",
-                "Bug fix related to build status"
+                "Clarifying delimitation problem for properties used"
             ]
         }
     },
@@ -249,11 +248,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.16",
-            "date": "2022-03-28T19:53:37.255Z",
-            "image": "urbancode/ucv-ext-bitbucket-server:1.1.16",
+            "semver": "1.1.22",
+            "date": "2022-08-17T09:45:14.135Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:1.1.22",
             "notes": [
-                "Reducing vulnerabilities"
+                "Rate limiting and resync implementation"
             ]
         }
     },
