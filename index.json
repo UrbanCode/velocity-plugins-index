@@ -1,7 +1,7 @@
 {
     "acc-ext-generator": {
         "name": "IBM Demo Data Generator",
-        "url": "ttps://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/acc-ext-generator/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/acc-ext-generator/",
         "description": "Provides sample data and generates demo VSMs for new users.",
         "author": {
             "name": "UrbanCode",
