@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.1.57",
+        "date": "2022-08-18T08:40:35.485Z",
+        "image": "urbancode/ucv-ext-gitlab:2.1.57",
+        "notes": [
+            "Adding project names instead of project IDs while integration",
+            " Wild card implementation"
+        ]
+    },
+    {
         "semver": "2.1.56",
         "date": "2022-06-13T05:32:24.495Z",
         "image": "urbancode/ucv-ext-gitlab:2.1.56",
