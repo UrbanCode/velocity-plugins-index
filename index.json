@@ -1,4 +1,21 @@
 {
+    "acc-ext-generator": {
+        "name": "IBM Demo Data Generator",
+        "url": "ttps://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/acc-ext-generator/",
+        "description": "Provides sample data and generates demo VSMs for new users.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.24",
+            "date": "2022-04-04T14:11:54.891Z",
+            "image": "urbancode/acc-ext-generator:1.0.24",
+            "notes": [
+                "1.0.24.39 release"
+            ]
+        }
+    },
     "appscanPlugin": {
         "name": "HCL AppScan Enterprise (ASE)",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-appscan/",
