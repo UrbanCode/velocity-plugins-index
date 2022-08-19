@@ -1,4 +1,21 @@
 {
+    "acc-ext-generator": {
+        "name": "Accelerate Data Generator",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "Accelerate Data Generator",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.31",
+            "date": "2022-08-19T12:50:04.412Z",
+            "image": "urbancode/acc-ext-generator:1.0.31",
+            "notes": [
+                "Enable plugin in Velocity, 1.0.31"
+            ]
+        }
+    },
     "appscanPlugin": {
         "name": "HCL AppScan Enterprise (ASE)",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-appscan/",
