@@ -2,7 +2,7 @@
     "acc-ext-generator": {
         "name": "Demo Data Generator",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
-        "description": "Provides sample data and generates demo VSMs for new users.",
+        "description": "Demo Data Generator",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
@@ -12,7 +12,7 @@
             "date": "2022-08-18T17:56:35.845Z",
             "image": "urbancode/acc-ext-generator:1.0.31",
             "notes": [
-                "Enabling plugin for IBM"
+                "Enables plugin for Velocity"
             ]
         }
     },
