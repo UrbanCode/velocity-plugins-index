@@ -1,10 +1,10 @@
 [
     {
-        "semver": "1.0.25",
+        "semver": "1.0.31",
         "date": "2022-08-18T17:56:35.845Z",
-        "image": "urbancode/acc-ext-generator:1.0.25",
+        "image": "urbancode/acc-ext-generator:1.0.31",
         "notes": [
-            "1.0.25 release"
+            "Enables plugin for Velocity"
         ]
     }
 ]

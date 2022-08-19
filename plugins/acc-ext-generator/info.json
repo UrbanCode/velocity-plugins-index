@@ -1,7 +1,7 @@
 {
-    "name": "IBM Demo Data Generator",
+    "name": "Demo Data Generator",
     "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
-    "description": "Provides sample data and generates demo VSMs for new users.",
+    "description": "Demo Data Generator",
     "author": {
         "name": "UrbanCode",
         "email": "urbancode-plugins@hcl.com"
