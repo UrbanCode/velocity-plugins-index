@@ -1,5 +1,13 @@
 [
     {
+        "semver": "2.2.6",
+        "date": "2022-08-24T08:29:04.453Z",
+        "image": "urbancode/ucv-ext-jira:2.2.6",
+        "notes": [
+            "<b>Resolved Incorrect URL Link Issue:</b> The URL link of the VSM dot for redirecting to work-item on Jira server/site was incorrect in previous version of plugin."
+        ]
+    },
+    {
         "semver": "2.2.5",
         "date": "2022-08-02T05:44:29.636Z",
         "image": "urbancode/ucv-ext-jira:2.2.5",

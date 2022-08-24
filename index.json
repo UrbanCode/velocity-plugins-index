@@ -1,18 +1,18 @@
 {
     "acc-ext-generator": {
-        "name": "Demo Data Generator",
+        "name": "Accelerate Data Generator",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
-        "description": "Demo Data Generator",
+        "description": "Accelerate Data Generator",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
             "semver": "1.0.31",
-            "date": "2022-08-18T17:56:35.845Z",
+            "date": "2022-08-19T12:50:04.412Z",
             "image": "urbancode/acc-ext-generator:1.0.31",
             "notes": [
-                "Enables plugin for Velocity"
+                "Enable plugin in Velocity, 1.0.31"
             ]
         }
     },
@@ -440,11 +440,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.2.5",
-            "date": "2022-08-02T05:44:29.636Z",
-            "image": "urbancode/ucv-ext-jira:2.2.5",
+            "semver": "2.2.6",
+            "date": "2022-08-24T08:29:04.453Z",
+            "image": "urbancode/ucv-ext-jira:2.2.6",
             "notes": [
-                "Added Project keys"
+                "<b>Resolved Incorrect URL Link Issue:</b> The URL link of the VSM dot for redirecting to work-item on Jira server/site was incorrect in previous version of plugin."
             ]
         }
     },
