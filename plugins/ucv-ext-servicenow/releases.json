@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.36",
+        "date": "2022-08-26T08:47:01.874Z",
+        "image": "urbancode/ucv-ext-servicenow:1.0.36",
+        "notes": [
+            "Manual UAK removal and preventing install on previous version"
+        ]
+    },
+    {
         "semver": "1.0.27",
         "date": "2021-08-19T05:29:21.185Z",
         "image": "urbancode/ucv-ext-servicenow:1.0.27",
