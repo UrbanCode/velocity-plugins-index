@@ -517,6 +517,23 @@
             ]
         }
     },
+    "ucv-ext-sap-charm": {
+        "name": "SAP Charm",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "Sync issue data from Jira and SAP.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2022-09-01T11:16:52.221Z",
+            "image": "urbancode/ucv-ext-sap-charm:1.0.1",
+            "notes": [
+                "Initial release syncs SAP Normal changes with Jira issues"
+            ]
+        }
+    },
     "ucv-ext-servicenow": {
         "name": "ServiceNow",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-servicenow/",
