@@ -354,11 +354,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.28",
-            "date": "2022-08-12T14:39:33.465Z",
-            "image": "urbancode/ucv-ext-ewm:1.1.28",
+            "semver": "1.1.30",
+            "date": "2022-09-06T07:34:36.006Z",
+            "image": "urbancode/ucv-ext-ewm:1.1.30",
             "notes": [
-                "Clarifying delimitation problem for properties used"
+                "<b>Previous Version Bug Fix:</b> Version 1.1.28 of the plugin had a major bug related to Projects UI field.",
+                "<b>Normalise Sever URL:</b> In the previous versions of the plugin if Server URL ended with <b>/</b> , plugin was failing."
             ]
         }
     },
