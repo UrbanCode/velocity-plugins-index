@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.31",
-            "date": "2022-08-19T12:50:04.412Z",
-            "image": "urbancode/acc-ext-generator:1.0.31",
+            "semver": "1.0.35",
+            "date": "2022-09-06T15:25:56.389Z",
+            "image": "urbancode/acc-ext-generator:1.0.35",
             "notes": [
-                "Enable plugin in Velocity, 1.0.31"
+                "Fixed issue with new create workflow resolver, 1.0.31"
             ]
         }
     },
