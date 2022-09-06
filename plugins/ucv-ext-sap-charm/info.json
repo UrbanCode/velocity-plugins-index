@@ -1,0 +1,9 @@
+{
+    "name": "SAP Charm",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "description": "Sync issue data from Jira and SAP.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
