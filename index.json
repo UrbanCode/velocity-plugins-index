@@ -424,11 +424,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.59",
-            "date": "2022-06-01T18:54:16.778Z",
-            "image": "urbancode/ucv-ext-handlebars-reporter:0.0.59",
+            "semver": "1.0.1",
+            "date": "2022-09-07T18:49:11.403Z",
+            "image": "urbancode/ucv-ext-handlebars-reporter:1.0.1",
             "notes": [
-                "Reduced Vulnerabilities"
+                "Update API Schema for Accelerate versions 4.0.0 or above"
             ]
         }
     },
