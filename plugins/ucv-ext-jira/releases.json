@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.2.7",
+        "date": "2022-09-08T12:43:19.685Z",
+        "image": "urbancode/ucv-ext-jira:2.2.7",
+        "notes": [
+            "<b>Previous Version Bug Fix:</b> Previous versions of the plugin had a bug due to which plugin was giving 401 error.",
+            "<b>Added Category:</b> Application lifecycle management (ALM) is the category of Jira plugin."
+        ]
+    },
+    {
         "semver": "2.2.6",
         "date": "2022-08-24T08:29:04.453Z",
         "image": "urbancode/ucv-ext-jira:2.2.6",
