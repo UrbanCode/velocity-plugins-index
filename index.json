@@ -410,12 +410,14 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.1.57",
-            "date": "2022-08-18T08:40:35.485Z",
-            "image": "urbancode/ucv-ext-gitlab:2.1.57",
+            "semver": "2.1.58",
+            "date": "2022-09-13T11:00:54.018Z",
+            "image": "urbancode/ucv-ext-gitlab:2.1.58",
             "notes": [
-                "Adding project names instead of project IDs while integration",
-                " Wild card implementation"
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Preventing Installation on Older Versions:</b> This version of GitLab Plugin can only be installed on HCL Accelerate version  3.0.0 and later.",
+                "<b>Resolved Previous Version Issue:</b> Previous Version of plugin had some defect realted to Project Names field. The plugin was syncing data only for those projects which were owned by the user. Now the plugin syncs data for the projects in which user is a member at any level.",
+                "<b>Added Category:</b> ALM | SCM | Build | Deploy are the categories of GitLab plugin."
             ]
         }
     },
