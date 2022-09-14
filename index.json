@@ -44,11 +44,15 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "3.0.11",
-            "date": "2022-07-07T04:37:53.573Z",
-            "image": "urbancode/ucv-ext-asoc:3.0.11",
+            "semver": "3.0.12",
+            "date": "2022-09-13T06:18:45.758Z",
+            "image": "urbancode/ucv-ext-asoc:3.0.12",
             "notes": [
-                "Fix for Changed API"
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Initial Sync Date Field Added:</b> Under the hidden properties section of add integration page for the ASoC plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
+                "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for ASoC plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which ASoC vulnerability data is associated.",
+                "<b>Preventing Installation on Older Versions:</b> This version of ASoC Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+                "<b>Making scheduled event optional:</b> The scheduled event - <b>Sync ASoC Data</b> has been made optional from this version onwards. To enable the scheduled event please check the box in integration properties with label <b>Run as a Scheduled Event</b>."
             ]
         }
     },
@@ -406,12 +410,14 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.1.57",
-            "date": "2022-08-18T08:40:35.485Z",
-            "image": "urbancode/ucv-ext-gitlab:2.1.57",
+            "semver": "2.1.58",
+            "date": "2022-09-13T11:00:54.018Z",
+            "image": "urbancode/ucv-ext-gitlab:2.1.58",
             "notes": [
-                "Adding project names instead of project IDs while integration",
-                " Wild card implementation"
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Preventing Installation on Older Versions:</b> This version of GitLab Plugin can only be installed on HCL Accelerate version  3.0.0 and later.",
+                "<b>Resolved Previous Version Issue:</b> Previous Version of plugin had some defect realted to Project Names field. The plugin was syncing data only for those projects which were owned by the user. Now the plugin syncs data for the projects in which user is a member at any level.",
+                "<b>Added Category:</b> ALM | SCM | Build | Deploy are the categories of GitLab plugin."
             ]
         }
     },
