@@ -1,5 +1,13 @@
 [
     {
+        "semver": "2.1.62",
+        "date": "2022-09-22T05:16:59.142Z",
+        "image": "urbancode/ucv-ext-gitlab:2.1.62",
+        "notes": [
+            "<b>Resolved 502 Bad Gateway Error:</b> Previous version of plugin was giving a 502 Bad Gateway error for GitLab Server."
+        ]
+    },
+    {
         "semver": "2.1.58",
         "date": "2022-09-13T11:00:54.018Z",
         "image": "urbancode/ucv-ext-gitlab:2.1.58",
