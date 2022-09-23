@@ -269,11 +269,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.22",
-            "date": "2022-08-17T09:45:14.135Z",
-            "image": "urbancode/ucv-ext-bitbucket-server:1.1.22",
+            "semver": "1.1.23",
+            "date": "2022-09-23T09:17:02.304Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:1.1.23",
             "notes": [
-                "Rate limiting and resync implementation"
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Added Category:</b>SCM is the category of bitbucket server plugin ."
             ]
         }
     },
