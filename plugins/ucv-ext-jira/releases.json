@@ -1,5 +1,13 @@
 [
     {
+        "semver": "2.2.8",
+        "date": "2022-09-26T11:28:31.560Z",
+        "image": "urbancode/ucv-ext-jira:2.2.8",
+        "notes": [
+            "<b>Deployment plan task added for release process: </b>Deployment plan task created in order to release selected version in the task."
+        ]
+    },
+    {
         "semver": "2.2.7",
         "date": "2022-09-08T12:43:19.685Z",
         "image": "urbancode/ucv-ext-jira:2.2.7",

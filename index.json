@@ -447,12 +447,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.2.7",
-            "date": "2022-09-08T12:43:19.685Z",
-            "image": "urbancode/ucv-ext-jira:2.2.7",
+            "semver": "2.2.8",
+            "date": "2022-09-26T11:28:31.560Z",
+            "image": "urbancode/ucv-ext-jira:2.2.8",
             "notes": [
-                "<b>Previous Version Bug Fix:</b> Previous versions of the plugin had a bug due to which plugin was giving 401 error.",
-                "<b>Added Category:</b> Application lifecycle management (ALM) is the category of Jira plugin."
+                "<b>Deployment plan task added for release process: </b>Deployment plan task created in order to release selected version in the task."
             ]
         }
     },
