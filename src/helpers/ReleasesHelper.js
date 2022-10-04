@@ -11,7 +11,7 @@ export const ERROR_TEXT = {
   RootObject: 'must have JSON object for each release in the releases array containing "semver", "date", "image" and "notes" elements',
   RootUnique: 'must have unique semver, image, and date elements for each release object',
   Semver: 'must have "semver" element in release object whose value is a valid Semantic Version',
-  Supports: '"supports" must have a semver-string whose value is a valid Semantic Version',
+  Supports: '"supports" must be a semver-string whose value is a valid Semantic Version',
   Date: 'must have "date" element in releases object whose value is a valid ISO DateTime string',
   Image: 'must have "image" element in releases object whose value is a valid DockerHub image',
   ImageExists: 'must have "image" element in releases object whose value is a docker image that matches an existing image in DockerHub',
