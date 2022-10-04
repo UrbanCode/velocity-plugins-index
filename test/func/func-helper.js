@@ -85,6 +85,12 @@ export default class FuncHelper {
           cwd: path.join(__dirname, '../../')
         })).to.eventually.be.rejected.and.have.property('stdout').contain(ERROR_TEXT.Semver)
       }))
+      it('should error if supports semver is invalid', test(async function() {
+        const badSemver = '101'
+        await expect(execAsync(`npm run ${script} -- --pluginId=${TEMP_PLUGIN_ID} --semver=1.0.1 --supports=${badSemver} --image=${TEMP_PLUGIN_ID}:1.0.1 ${extraCliArgs}`, {
+          cwd: path.join(__dirname, '../../')
+        })).to.eventually.be.rejected.and.have.property('stdout').contain(ERROR_TEXT.Supports)
+      }))
       it('should error if date is invalid', test(async function() {
         const badDate = '11/12/2019'
         await expect(execAsync(`npm run ${script} -- --pluginId=${TEMP_PLUGIN_ID} --semver=1.0.1 --image=${TEMP_PLUGIN_ID}:1.0.1 --date=${badDate} ${extraCliArgs}`, {
