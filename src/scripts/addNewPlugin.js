@@ -31,6 +31,9 @@ logger.level = process.env.LOG_LEVEL || 'debug'
           type: 'string',
           default: '[]'
         },
+        supports: {
+          type: 'string'
+        },
         name: {
           type: 'string'
         },
@@ -92,6 +95,9 @@ logger.level = process.env.LOG_LEVEL || 'debug'
       image: args.flags.image,
       notes: JSON.parse(args.flags.notes)
     }]
+    if (args.flags.supports) {
+      newReleases[0].supports = args.flags.supports
+    }
 
     if (await fs.exists(path.join(PLUGINS_DIR, args.flags.pluginId))) {
       throw new Error(`The plugin ${args.flags.pluginId} already exists, cannot add it as a new plugin. Use the add-release script to add a new release to an existing plugin.`)
