@@ -185,7 +185,7 @@ describe('Add Release Test', function() {
           cwd: path.join(__dirname, '../../')
         })).to.eventually.be.rejected.and.have.property('stdout').contain(ERROR_TEXT.RootUnique)
       }))
-      it('should error if semver is invalid', test(async function() {
+      it('should error if supports semver is invalid', test(async function() {
         await FuncHelper.createExistingPlugin(TEMP_PLUGIN_ID)
         const badSemver = '101'
         await expect(execAsync(`npm run add-release -- --supports=${badSemver} --pluginId=${TEMP_PLUGIN_ID} --semver=1.01 --image=${TEMP_PLUGIN_ID}:1.0.1`, {
