@@ -6,7 +6,8 @@
         "notes": [
             "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
             "<b>Added Category:</b>SCM is the category of bitbucket server plugin ."
-        ]
+        ],
+        "supports": "2.5.0"
     },
     {
         "semver": "1.1.22",

@@ -9,7 +9,8 @@
             "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for ASoC plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which ASoC vulnerability data is associated.",
             "<b>Preventing Installation on Older Versions:</b> This version of ASoC Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
             "<b>Making scheduled event optional:</b> The scheduled event - <b>Sync ASoC Data</b> has been made optional from this version onwards. To enable the scheduled event please check the box in integration properties with label <b>Run as a Scheduled Event</b>."
-        ]
+        ],
+        "supports": "2.5.0"
     },
     {
         "semver": "3.0.11",
