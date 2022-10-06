@@ -66,6 +66,27 @@ describe('Add New Plugin Test', function() {
       expect(ReleasesHelper.validate(TEMP_PLUGIN_ID, await PluginsHelper.getJsonFromPluginFile(TEMP_PLUGIN_ID, RELEASES_FILE_NAME))).to.not.throw
       await FuncHelper.validateReleases(TEMP_PLUGIN_ID, [newRelease])
     }))
+    it('should correctly add new plugin with supports field', test(async function() {
+      const newRelease = {
+        semver: '1.0.0',
+        image: VALID_IMAGE,
+        date: new Date().toISOString(),
+        notes: ['hello world'],
+        supports: '4.0.0'
+      }
+      const command = `npm run add-new-plugin -- --supports=${newRelease.supports} --pluginId=${TEMP_PLUGIN_ID} --semver=${newRelease.semver} --image=${newRelease.image} --notes=${FuncHelper.convertNotesForCommand(newRelease.notes)} --name="${newPlugin.name}" --url=${newPlugin.url} --description="${newPlugin.description}" --authorName="${newPlugin.author.name}" --authorEmail=${newPlugin.author.email}`
+      try {
+        await execAsync(command, {
+          cwd: path.join(__dirname, '../../')
+        })
+      } catch (err) {
+        expect(err.stdout).to.not.include('ERROR')
+      }
+      expect(InfoHelper.validate(TEMP_PLUGIN_ID, await PluginsHelper.getJsonFromPluginFile(TEMP_PLUGIN_ID, INFO_FILE_NAME))).to.not.throw
+      await expect(PluginsHelper.getJsonFromPluginFile(TEMP_PLUGIN_ID, INFO_FILE_NAME)).to.eventually.deep.equal(newPlugin)
+      expect(ReleasesHelper.validate(TEMP_PLUGIN_ID, await PluginsHelper.getJsonFromPluginFile(TEMP_PLUGIN_ID, RELEASES_FILE_NAME))).to.not.throw
+      await FuncHelper.validateReleases(TEMP_PLUGIN_ID, [newRelease])
+    }))
     it('should correctly add new plugin with explicit date on release', test(async function() {
       const newRelease = {
         semver: '1.0.0',
