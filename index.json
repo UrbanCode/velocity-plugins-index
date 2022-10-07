@@ -13,7 +13,8 @@
             "image": "urbancode/acc-ext-generator:1.0.35",
             "notes": [
                 "Fixed issue with new create workflow resolver, 1.0.31"
-            ]
+            ],
+            "supports": "4.0.0"
         }
     },
     "appscanPlugin": {
@@ -53,7 +54,8 @@
                 "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for ASoC plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which ASoC vulnerability data is associated.",
                 "<b>Preventing Installation on Older Versions:</b> This version of ASoC Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
                 "<b>Making scheduled event optional:</b> The scheduled event - <b>Sync ASoC Data</b> has been made optional from this version onwards. To enable the scheduled event please check the box in integration properties with label <b>Run as a Scheduled Event</b>."
-            ]
+            ],
+            "supports": "2.5.0"
         }
     },
     "blackDuckPlugin": {
@@ -240,7 +242,8 @@
             "image": "urbancode/ucv-ext-azure:4.0.36",
             "notes": [
                 "Manual UAK removal and preventing install on previous version"
-            ]
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-bitbucket-cloud": {
@@ -258,7 +261,8 @@
             "notes": [
                 "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
                 "<b>Added Category:</b>SCM is the category of bitbucket cloud plugin ."
-            ]
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-bitbucket-server": {
@@ -276,7 +280,8 @@
             "notes": [
                 "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
                 "<b>Added Category:</b>SCM is the category of bitbucket server plugin ."
-            ]
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-bottleneck-detection": {
@@ -383,7 +388,8 @@
             "image": "urbancode/ucv-ext-fortify-ssc:1.0.19",
             "notes": [
                 "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for the plugin a Workflow ID field is added. This field is optional and can be used to provide WorkflowId - the ID of a Value Stream (VSM )to which the vulnerability data is associated."
-            ]
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-github": {
@@ -401,7 +407,8 @@
             "notes": [
                 "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
                 "<b>Meta data plugin updates for VSM onboarding:</b>In index.js file added <b>categories</b> and added <b>idRegExp</b> fields"
-            ]
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-gitlab": {
@@ -418,7 +425,8 @@
             "image": "urbancode/ucv-ext-gitlab:2.1.62",
             "notes": [
                 "<b>Resolved 502 Bad Gateway Error:</b> Previous version of plugin was giving a 502 Bad Gateway error for GitLab Server."
-            ]
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-handlebars-reporter": {
@@ -435,7 +443,8 @@
             "image": "urbancode/ucv-ext-handlebars-reporter:1.0.1",
             "notes": [
                 "Update API Schema for Accelerate versions 4.0.0 or above"
-            ]
+            ],
+            "supports": "4.0.0"
         }
     },
     "ucv-ext-jira": {
@@ -539,7 +548,8 @@
             "image": "urbancode/ucv-ext-sap-charm:1.0.1",
             "notes": [
                 "Initial release syncs SAP Normal changes with Jira issues"
-            ]
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-servicenow": {
@@ -556,7 +566,8 @@
             "image": "urbancode/ucv-ext-servicenow:1.0.36",
             "notes": [
                 "Manual UAK removal and preventing install on previous version"
-            ]
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-shell": {
