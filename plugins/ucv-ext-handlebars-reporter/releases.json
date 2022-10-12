@@ -5,7 +5,8 @@
         "image": "urbancode/ucv-ext-handlebars-reporter:1.0.1",
         "notes": [
             "Update API Schema for Accelerate versions 4.0.0 or above"
-        ]
+        ],
+        "supports": "4.0.0"
     },
     {
         "semver": "0.0.59",

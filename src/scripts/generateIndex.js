@@ -31,6 +31,9 @@ logger.level = process.env.LOG_LEVEL || 'debug'
           notes: latestRelease.notes || []
         }
       }
+      if (latestRelease.supports) {
+        indexJson[plugin].current.supports = latestRelease.supports
+      }
     }
     await fs.writeFile(INDEX_FILE, JSON.stringify(indexJson, null, 4))
   } catch (err) {
