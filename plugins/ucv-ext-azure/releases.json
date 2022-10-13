@@ -5,7 +5,8 @@
         "image": "urbancode/ucv-ext-azure:4.0.38",
         "notes": [
             "Minor Enhancements"
-        ]
+        ],
+        "supports": "2.5.0"
     },
     {
         "semver": "4.0.37",
@@ -14,7 +15,8 @@
         "notes": [
             "Minor Enhancements",
             "Pipelines issue fixed"
-        ]
+        ],
+        "supports": "2.5.0"
     },
     {
         "semver": "4.0.36",
@@ -22,7 +24,8 @@
         "image": "urbancode/ucv-ext-azure:4.0.36",
         "notes": [
             "Manual UAK removal and preventing install on previous version"
-        ]
+        ],
+        "supports": "2.5.0"
     },
     {
         "semver": "4.0.35",

@@ -5,7 +5,8 @@
         "image": "urbancode/acc-ext-generator:1.0.35",
         "notes": [
             "Fixed issue with new create workflow resolver, 1.0.31"
-        ]
+        ],
+        "supports": "4.0.0"
     },
     {
         "semver": "1.0.31",

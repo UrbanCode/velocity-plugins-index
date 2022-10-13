@@ -5,6 +5,7 @@
         "image": "urbancode/ucv-ext-sap-charm:1.0.1",
         "notes": [
             "Initial release syncs SAP Normal changes with Jira issues"
-        ]
+        ],
+        "supports": "2.5.0"
     }
 ]

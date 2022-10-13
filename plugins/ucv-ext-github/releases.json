@@ -6,7 +6,8 @@
         "notes": [
             "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
             "<b>Meta data plugin updates for VSM onboarding:</b>In index.js file added <b>categories</b> and added <b>idRegExp</b> fields"
-        ]
+        ],
+        "supports": "2.5.0"
     },
     {
         "semver": "1.3.31",
