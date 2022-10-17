@@ -1,5 +1,17 @@
 [
     {
+        "semver": "2.0.41",
+        "date": "2022-10-17T12:32:18.856Z",
+        "image": "urbancode/ucv-ext-appscan:2.0.41",
+        "notes": [
+            "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+            "<b>Initial Sync Date Field Added:</b> Under the hidden properties section of add integration page for the HCL Appscan Enterprise plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
+            "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for HCL Appscan Enterprise plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which HCL Appscan Enterprise vulnerability data is associated.",
+            "<b>Preventing Installation on Older Versions:</b> This version of HCL Appscan Enterprise Plugin can only be installed on HCL Accelerate version  3.0.0 and later"
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "2.0.35",
         "date": "2022-03-01T09:39:09.712Z",
         "image": "urbancode/ucv-ext-appscan:2.0.35",
