@@ -38,6 +38,7 @@ There are 2 main file types that must abide by strict guidelines:
     | date | string | yes | The date and time of the release, adhering to the [ISO 8601](https://web.archive.org/web/20171020085148/https://www.loc.gov/standards/datetime/ISO_DIS%208601-2.pdf) format. Must occur later than the previous release. |
     | image | string | yes | The docker image of the plugin. Must exist in [DockerHub](https://hub.docker.com/). |
     | notes | array | yes | An array of strings containing notes of what the new release introduces for the plugin (bug fixes, features, etc). May be an empty array to omit notes. |
+    | supports | string | no | The minimum version of Velocity that the release is compilable with, adhering to the [Semantic Versioning](https://semver.org/) standard. |
 
 ## Install Dependencies
 
@@ -90,10 +91,10 @@ To add a new released version of a plugin to the `index.json`, follow these step
 1. Run the following in the root directory of this repository:
 
     ```sh
-    npm run add-release -- --pluginId=<pluginId> --semver=<semver> --image=<image> --date=<date> --notes=<notes>
+    npm run add-release -- --pluginId=<pluginId> --semver=<semver> --image=<image> --date=<date> --notes=<notes> --supports=<supports>
     ```
 
-    where `<pluginId>` is the `pluginId` for the plugin with the new release, `<semver>` is the new version being released, `<image>` is the Docker image that corresponds to the new plugin for the release, `<date>` is the date that the plugin is being released (as an ISO string), and `<notes>` is an array containing strings of features/bug-fixes introduced in the new plugin version. Note that `<date>` and `<notes>` are optional and can be ommitted.
+    where `<pluginId>` is the `pluginId` for the plugin with the new release, `<semver>` is the new version being released, `<image>` is the Docker image that corresponds to the new plugin for the release, `<date>` is the date that the plugin is being released (as an ISO string), `<notes>` is an array containing strings of features/bug-fixes introduced in the new plugin version, and `<supports>` is the minimum version of velocity that the release can be installed on. Note that `<date>`, `<notes>`, and `<supports>` are optional and can be omitted.
 
 2. [Generate the index.json file](#generate-index.json)
 
