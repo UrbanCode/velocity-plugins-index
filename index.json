@@ -26,14 +26,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.35",
-            "date": "2022-03-01T09:39:09.712Z",
-            "image": "urbancode/ucv-ext-appscan:2.0.35",
+            "semver": "2.0.41",
+            "date": "2022-10-17T12:32:18.856Z",
+            "image": "urbancode/ucv-ext-appscan:2.0.41",
             "notes": [
-                "Scheduled Event Functionality Added",
-                "UAK Changes",
-                "Issue Level Data Chart Added"
-            ]
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Initial Sync Date Field Added:</b> Under the hidden properties section of add integration page for the HCL Appscan Enterprise plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
+                "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for HCL Appscan Enterprise plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which HCL Appscan Enterprise vulnerability data is associated.",
+                "<b>Preventing Installation on Older Versions:</b> This version of HCL Appscan Enterprise Plugin can only be installed on HCL Accelerate version  3.0.0 and later"
+            ],
+            "supports": "2.5.0"
         }
     },
     "asocPlugin": {
@@ -237,11 +239,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.36",
-            "date": "2022-08-26T09:39:50.881Z",
-            "image": "urbancode/ucv-ext-azure:4.0.36",
+            "semver": "4.0.38",
+            "date": "2022-10-10T06:03:44.317Z",
+            "image": "urbancode/ucv-ext-azure:4.0.38",
             "notes": [
-                "Manual UAK removal and preventing install on previous version"
+                "Minor Enhancements"
             ],
             "supports": "2.5.0"
         }
@@ -274,12 +276,17 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.23",
-            "date": "2022-09-23T09:17:02.304Z",
-            "image": "urbancode/ucv-ext-bitbucket-server:1.1.23",
+            "semver": "1.1.24",
+            "date": "2022-10-28T06:20:52.224Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:1.1.24",
             "notes": [
-                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
-                "<b>Added Category:</b>SCM is the category of bitbucket server plugin ."
+                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
+                "<b>Fix Resync Functionality: </b>The previous version of plugin had some bug in resyc functionality.",
+                "<b>Infinite Loop Bug Fix: </b> The previous version of the plugin had some bug that was making plugin events run in an infinite loop.",
+                "<b>API Rate Limiting Implemented: </b>Plugin has been enhanced to better handle API rate limiting.",
+                "<b>Additional Logs Added: </b> Additional debug, trace and warn logs are added to the plugin.",
+                "<b>Error Handling: </b> No default branch is defined - error is shown in warning logs if there is no default branch for a repository.",
+                "<b>Performance Improvement: </b> Plugin functionality is improved, previous version of the plugin was making more rest API calls to the BitBucket Server."
             ],
             "supports": "2.5.0"
         }
@@ -401,14 +408,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.3.34",
-            "date": "2022-09-23T07:53:36.832Z",
-            "image": "urbancode/ucv-ext-github:1.3.34",
-            "notes": [
-                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
-                "<b>Meta data plugin updates for VSM onboarding:</b>In index.js file added <b>categories</b> and added <b>idRegExp</b> fields"
-            ],
-            "supports": "2.5.0"
+            "semver": "1.3.35",
+            "date": "2022-10-26T06:38:54.306Z",
+            "image": "urbancode/ucv-ext-github:1.3.35",
+            "notes": [],
+            "supports": "4.0.0"
         }
     },
     "ucv-ext-gitlab": {
@@ -456,12 +460,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.2.7",
-            "date": "2022-09-08T12:43:19.685Z",
-            "image": "urbancode/ucv-ext-jira:2.2.7",
+            "semver": "2.2.8",
+            "date": "2022-09-26T11:28:31.560Z",
+            "image": "urbancode/ucv-ext-jira:2.2.8",
             "notes": [
-                "<b>Previous Version Bug Fix:</b> Previous versions of the plugin had a bug due to which plugin was giving 401 error.",
-                "<b>Added Category:</b> Application lifecycle management (ALM) is the category of Jira plugin."
+                "<b>Deployment plan task added for release process: </b>Deployment plan task created in order to release selected version in the task."
             ]
         }
     },
