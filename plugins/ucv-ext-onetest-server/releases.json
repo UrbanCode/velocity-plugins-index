@@ -1,5 +1,17 @@
 [
     {
+        "semver": "1.0.17",
+        "date": "2022-11-08T09:19:06.942Z",
+        "image": "urbancode/ucv-ext-onetest-server:1.0.17",
+        "notes": [
+            "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+            "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for HCL OneTest Server plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which HCL OneTest Server vulnerability data is associated.",
+            "<b>Preventing Installation on Older Versions:</b> This version of HCL OneTest Server Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+            "<b>Added Category</b>:Quality is the plugin category of HCL OneTest Server."
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "1.0.15",
         "date": "2022-02-09T06:11:35.948Z",
         "image": "urbancode/ucv-ext-onetest-server:1.0.15",
