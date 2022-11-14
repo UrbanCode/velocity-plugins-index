@@ -438,13 +438,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.1",
-            "date": "2022-09-07T18:49:11.403Z",
-            "image": "urbancode/ucv-ext-handlebars-reporter:1.0.1",
+            "semver": "1.0.2",
+            "date": "2022-11-14T15:18:58.384Z",
+            "image": "urbancode/ucv-ext-handlebars-reporter:1.0.2",
             "notes": [
-                "Update API Schema for Accelerate versions 4.0.0 or above"
+                "No longer requires UAK, will generate one dynamically."
             ],
-            "supports": "4.0.0"
+            "supports": "4.0.4"
         }
     },
     "ucv-ext-jira": {
