@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.0.1",
+        "date": "2022-11-18T15:06:32.999Z",
+        "image": "urbancode/ucv-ext-handlebars-reporter:2.0.1",
+        "notes": [
+            "Remove required UAK in favor of dynamically generated UAK"
+        ],
+        "supports": "4.0.4"
+    },
+    {
         "semver": "1.0.1",
         "date": "2022-09-07T18:49:11.403Z",
         "image": "urbancode/ucv-ext-handlebars-reporter:1.0.1",

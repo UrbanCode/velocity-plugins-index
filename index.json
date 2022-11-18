@@ -8,11 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.35",
-            "date": "2022-09-06T15:25:56.389Z",
-            "image": "urbancode/acc-ext-generator:1.0.35",
+            "semver": "1.0.37",
+            "date": "2022-11-18T15:03:41.500Z",
+            "image": "urbancode/acc-ext-generator:1.0.37",
             "notes": [
-                "Fixed issue with new create workflow resolver, 1.0.31"
+                "Support deletion of generated demo data"
             ],
             "supports": "4.0.0"
         }
@@ -438,13 +438,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.1",
-            "date": "2022-09-07T18:49:11.403Z",
-            "image": "urbancode/ucv-ext-handlebars-reporter:1.0.1",
+            "semver": "2.0.1",
+            "date": "2022-11-18T15:06:32.999Z",
+            "image": "urbancode/ucv-ext-handlebars-reporter:2.0.1",
             "notes": [
-                "Update API Schema for Accelerate versions 4.0.0 or above"
+                "Remove required UAK in favor of dynamically generated UAK"
             ],
-            "supports": "4.0.0"
+            "supports": "4.0.4"
         }
     },
     "ucv-ext-jira": {
