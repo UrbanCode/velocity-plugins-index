@@ -12,6 +12,7 @@
             "date": "2022-11-21T22:43:36.417Z",
             "image": "urbancode/acc-ext-generator:1.0.39",
             "notes": [
+                "Support deletion of generated demo data",
                 "Fix queries for plugins"
             ],
             "supports": "4.0.5"
