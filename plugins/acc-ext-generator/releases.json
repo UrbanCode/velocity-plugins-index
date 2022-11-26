@@ -1,12 +1,13 @@
 [
     {
-        "semver": "1.0.37",
-        "date": "2022-11-18T15:03:41.500Z",
-        "image": "urbancode/acc-ext-generator:1.0.37",
+        "semver": "1.0.39",
+        "date": "2022-11-21T22:43:36.417Z",
+        "image": "urbancode/acc-ext-generator:1.0.39",
         "notes": [
-            "Support deletion of generated demo data"
+            "Support deletion of generated demo data",
+            "Fix queries for plugins"
         ],
-        "supports": "4.0.0"
+        "supports": "4.0.5"
     },
     {
         "semver": "1.0.35",
