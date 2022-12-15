@@ -1,5 +1,14 @@
 [
     {
+        "semver": "3.0.16",
+        "date": "2022-12-15T14:09:39.488Z",
+        "image": "urbancode/ucv-ext-asoc:3.0.16",
+        "notes": [
+            "Segregated Static scan and Dynamic scan data"
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "3.0.12",
         "date": "2022-09-13T06:18:45.758Z",
         "image": "urbancode/ucv-ext-asoc:3.0.12",
