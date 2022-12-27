@@ -509,12 +509,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.41",
-            "date": "2022-08-12T06:00:01.174Z",
-            "image": "urbancode/ucv-ext-rally:1.0.41",
+            "semver": "1.0.43",
+            "date": "2022-12-27T06:56:58.622Z",
+            "image": "urbancode/ucv-ext-rally:1.0.43",
             "notes": [
-                "Clarifying delimitation problem for properties used"
-            ]
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Preventing Installation on Older Versions:</b> This version of Rally Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+                "<b>Added Category</b>:ALM is the plugin category of Rally.",
+                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-rtas": {
