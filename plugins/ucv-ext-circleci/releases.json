@@ -1,5 +1,17 @@
 [
     {
+        "semver": "1.0.24",
+        "date": "2022-12-27T08:54:17.836Z",
+        "image": "urbancode/ucv-ext-circleci:1.0.24",
+        "notes": [
+            "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+            "<b>Preventing Installation on Older Versions:</b> This version of Circleci Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+            "<b>Added Category</b>:Build and Deploy are the plugin category of Circleci.",
+            "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "1.0.22",
         "date": "2022-08-11T15:43:00.671Z",
         "image": "urbancode/ucv-ext-circleci:1.0.22",
