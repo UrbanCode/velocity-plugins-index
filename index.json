@@ -48,15 +48,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "3.0.12",
-            "date": "2022-09-13T06:18:45.758Z",
-            "image": "urbancode/ucv-ext-asoc:3.0.12",
+            "semver": "3.0.16",
+            "date": "2022-12-15T14:09:39.488Z",
+            "image": "urbancode/ucv-ext-asoc:3.0.16",
             "notes": [
-                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
-                "<b>Initial Sync Date Field Added:</b> Under the hidden properties section of add integration page for the ASoC plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
-                "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for ASoC plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which ASoC vulnerability data is associated.",
-                "<b>Preventing Installation on Older Versions:</b> This version of ASoC Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
-                "<b>Making scheduled event optional:</b> The scheduled event - <b>Sync ASoC Data</b> has been made optional from this version onwards. To enable the scheduled event please check the box in integration properties with label <b>Run as a Scheduled Event</b>."
+                "Segregated Static scan and Dynamic scan data"
             ],
             "supports": "2.5.0"
         }
@@ -225,12 +221,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.26",
-            "date": "2022-08-16T14:02:38.920Z",
-            "image": "urbancode/ucv-ext-agility:1.0.26",
+            "semver": "1.0.29",
+            "date": "2023-01-02T08:50:02.692Z",
+            "image": "urbancode/ucv-ext-agility:1.0.29",
             "notes": [
-                "Clarifying delimitation for properties used"
-            ]
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Preventing Installation on Older Versions:</b> This version of Digital.ai Agility Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+                "<b>Added Category</b>:ALM is the plugin category of Digital.ai Agility.",
+                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-azure": {
@@ -260,12 +260,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.26",
-            "date": "2022-09-23T11:03:38.269Z",
-            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.26",
+            "semver": "1.0.29",
+            "date": "2022-12-27T12:01:43.019Z",
+            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.29",
             "notes": [
-                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
-                "<b>Added Category:</b>SCM is the category of bitbucket cloud plugin ."
+                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
             ],
             "supports": "2.5.0"
         }
@@ -314,12 +313,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.22",
-            "date": "2022-08-11T15:43:00.671Z",
-            "image": "urbancode/ucv-ext-circleci:1.0.22",
+            "semver": "1.0.24",
+            "date": "2022-12-27T08:54:17.836Z",
+            "image": "urbancode/ucv-ext-circleci:1.0.24",
             "notes": [
-                "Clarifying delimitation problem for properties used"
-            ]
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Preventing Installation on Older Versions:</b> This version of Circleci Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+                "<b>Added Category</b>:Build and Deploy are the plugin category of Circleci.",
+                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-cucumber": {
@@ -513,12 +516,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.41",
-            "date": "2022-08-12T06:00:01.174Z",
-            "image": "urbancode/ucv-ext-rally:1.0.41",
+            "semver": "1.0.43",
+            "date": "2022-12-27T06:56:58.622Z",
+            "image": "urbancode/ucv-ext-rally:1.0.43",
             "notes": [
-                "Clarifying delimitation problem for properties used"
-            ]
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Preventing Installation on Older Versions:</b> This version of Rally Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+                "<b>Added Category</b>:ALM is the plugin category of Rally.",
+                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-rtas": {
@@ -619,11 +626,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.12",
-            "date": "2022-08-01T02:15:08.272Z",
-            "image": "urbancode/ucv-ext-ucd:1.0.12",
+            "semver": "2.3.51",
+            "date": "2022-12-23T16:49:35.953Z",
+            "image": "urbancode/ucv-ext-ucd:2.3.51",
             "notes": [
-                "Importing failed application deployment history"
+                "Major Enhancements"
             ]
         }
     },
