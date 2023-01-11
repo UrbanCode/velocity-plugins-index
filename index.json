@@ -8,12 +8,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.39",
-            "date": "2022-11-21T22:43:36.417Z",
-            "image": "urbancode/acc-ext-generator:1.0.39",
+            "semver": "1.0.41",
+            "date": "2023-01-10T22:41:39.922Z",
+            "image": "urbancode/acc-ext-generator:1.0.41",
             "notes": [
-                "Support deletion of generated demo data",
-                "Fix queries for plugins"
+                "Remove need to manually specify User Access Key"
             ],
             "supports": "4.0.5"
         }
