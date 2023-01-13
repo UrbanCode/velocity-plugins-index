@@ -1,5 +1,13 @@
 [
     {
+        "semver": "2.3.52",
+        "date": "2023-01-13T09:46:53.260Z",
+        "image": "urbancode/ucv-ext-ucd:2.3.52",
+        "notes": [
+            "<b>Internal Server Error Fix</b>: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server."
+        ]
+    },
+    {
         "semver": "2.3.51",
         "date": "2022-12-23T16:49:35.953Z",
         "image": "urbancode/ucv-ext-ucd:2.3.51",
