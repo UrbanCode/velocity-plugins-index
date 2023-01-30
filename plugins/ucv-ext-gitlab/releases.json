@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.1.63",
+        "date": "2023-01-30T06:29:28.681Z",
+        "image": "urbancode/ucv-ext-gitlab:2.1.63",
+        "notes": [
+            "<b>Minor Bug Fix</b>: Previous version of plugin was giving <i>Cannot read property status of null</i> error."
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "2.1.62",
         "date": "2022-09-22T05:16:59.142Z",
         "image": "urbancode/ucv-ext-gitlab:2.1.62",
