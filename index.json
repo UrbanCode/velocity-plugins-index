@@ -459,11 +459,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.2.8",
-            "date": "2022-09-26T11:28:31.560Z",
-            "image": "urbancode/ucv-ext-jira:2.2.8",
+            "semver": "2.2.9",
+            "date": "2023-02-14T11:12:52.664Z",
+            "image": "urbancode/ucv-ext-jira:2.2.9",
             "notes": [
-                "<b>Deployment plan task added for release process: </b>Deployment plan task created in order to release selected version in the task."
+                "<b>Minor Bug Fix</b>: Previous version of plugin was failing with ECONNREFUSED error."
             ]
         }
     },
