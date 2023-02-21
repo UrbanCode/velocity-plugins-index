@@ -625,11 +625,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.3.52",
-            "date": "2023-01-13T09:46:53.260Z",
-            "image": "urbancode/ucv-ext-ucd:2.3.52",
+            "semver": "3.3.56",
+            "date": "2023-02-21T09:59:16.880Z",
+            "image": "urbancode/ucv-ext-ucd:3.3.56",
             "notes": [
-                "<b>Internal Server Error Fix</b>: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server."
+                "<b>Removed UrbanCode Deploy Status Task</b>: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status."
             ]
         }
     },
