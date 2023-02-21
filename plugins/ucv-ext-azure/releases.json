@@ -1,5 +1,14 @@
 [
     {
+        "semver": "4.0.40",
+        "date": "2023-02-16T05:58:19.071Z",
+        "image": "urbancode/ucv-ext-azure:4.0.40",
+        "notes": [
+            "<b>Minor Bug Fix</b>"
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "4.0.38",
         "date": "2022-10-10T06:03:44.317Z",
         "image": "urbancode/ucv-ext-azure:4.0.38",

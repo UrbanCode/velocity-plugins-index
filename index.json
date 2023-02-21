@@ -241,11 +241,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.38",
-            "date": "2022-10-10T06:03:44.317Z",
-            "image": "urbancode/ucv-ext-azure:4.0.38",
+            "semver": "4.0.40",
+            "date": "2023-02-16T05:58:19.071Z",
+            "image": "urbancode/ucv-ext-azure:4.0.40",
             "notes": [
-                "Minor Enhancements"
+                "<b>Minor Bug Fix</b>"
             ],
             "supports": "2.5.0"
         }
@@ -459,11 +459,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.2.8",
-            "date": "2022-09-26T11:28:31.560Z",
-            "image": "urbancode/ucv-ext-jira:2.2.8",
+            "semver": "2.2.9",
+            "date": "2023-02-14T11:12:52.664Z",
+            "image": "urbancode/ucv-ext-jira:2.2.9",
             "notes": [
-                "<b>Deployment plan task added for release process: </b>Deployment plan task created in order to release selected version in the task."
+                "<b>Minor Bug Fix</b>: Previous version of plugin was failing with ECONNREFUSED error."
             ]
         }
     },
@@ -625,11 +625,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.3.52",
-            "date": "2023-01-13T09:46:53.260Z",
-            "image": "urbancode/ucv-ext-ucd:2.3.52",
+            "semver": "3.3.56",
+            "date": "2023-02-21T09:59:16.880Z",
+            "image": "urbancode/ucv-ext-ucd:3.3.56",
             "notes": [
-                "<b>Internal Server Error Fix</b>: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server."
+                "<b>Removed UrbanCode Deploy Status Task</b>: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status."
             ]
         }
     },
