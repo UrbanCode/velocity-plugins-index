@@ -1,0 +1,27 @@
+[
+    {
+        "semver": "1.0.19",
+        "date": "2022-09-22T01:33:10.491Z",
+        "image": "urbancode/ucv-ext-fortify-ssc:1.0.19",
+        "notes": [
+            "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for the plugin a Workflow ID field is added. This field is optional and can be used to provide WorkflowId - the ID of a Value Stream (VSM )to which the vulnerability data is associated."
+        ],
+        "supports": "2.5.0"
+    },
+    {
+        "semver": "1.0.7",
+        "date": "2022-06-08T06:56:26.614Z",
+        "image": "urbancode/ucv-ext-fortify-ssc:1.0.7",
+        "notes": [
+            "Reduced whitesource vulnerabilities"
+        ]
+    },
+    {
+        "semver": "1.0.1",
+        "date": "2022-01-24T15:43:02.018Z",
+        "image": "urbancode/ucv-ext-fortify-ssc:1.0.1",
+        "notes": [
+            "Initial Release"
+        ]
+    }
+]

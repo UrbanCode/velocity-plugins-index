@@ -1,0 +1,38 @@
+[
+    {
+        "semver": "1.0.41",
+        "date": "2023-01-10T22:41:39.922Z",
+        "image": "urbancode/acc-ext-generator:1.0.41",
+        "notes": [
+            "Remove need to manually specify User Access Key"
+        ],
+        "supports": "4.0.5"
+    },
+    {
+        "semver": "1.0.39",
+        "date": "2022-11-21T22:43:36.417Z",
+        "image": "urbancode/acc-ext-generator:1.0.39",
+        "notes": [
+            "Support deletion of generated demo data",
+            "Fix queries for plugins"
+        ],
+        "supports": "4.0.5"
+    },
+    {
+        "semver": "1.0.35",
+        "date": "2022-09-06T15:25:56.389Z",
+        "image": "urbancode/acc-ext-generator:1.0.35",
+        "notes": [
+            "Fixed issue with new create workflow resolver, 1.0.31"
+        ],
+        "supports": "4.0.0"
+    },
+    {
+        "semver": "1.0.31",
+        "date": "2022-08-19T12:50:04.412Z",
+        "image": "urbancode/acc-ext-generator:1.0.31",
+        "notes": [
+            "Enable plugin in Velocity, 1.0.31"
+        ]
+    }
+]

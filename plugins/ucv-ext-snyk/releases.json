@@ -1,0 +1,12 @@
+[
+    {
+        "semver": "1.0.1",
+        "date": "2022-04-29T06:39:00.728Z",
+        "image": "urbancode/ucv-ext-snyk:1.0.1",
+        "notes": [
+            "Imports Snyk vulnerability data",
+            "Works with GitHub,GitLab and Bitbucket integrations",
+            "Vulnerabilities will be displayed as Application vulnerabilities in metrics bar"
+        ]
+    }
+]

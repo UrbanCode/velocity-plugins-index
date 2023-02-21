@@ -1,5 +1,21 @@
 [
     {
+        "semver": "1.0.65",
+        "date": "2022-03-31T06:23:36.335Z",
+        "image": "urbancode/ucv-ext-sonarqube:1.0.65",
+        "notes": [
+            "Reduced Vulnerabilities"
+        ]
+    },
+    {
+        "semver": "1.0.50",
+        "date": "2022-01-31T08:27:50.057Z",
+        "image": "urbancode/ucv-ext-sonarqube:1.0.50",
+        "notes": [
+            "User Access Key Related Changes"
+        ]
+    },
+    {
         "semver": "1.0.42",
         "date": "2021-06-14T10:24:01.512Z",
         "image": "urbancode/ucv-ext-sonarqube:1.0.42",

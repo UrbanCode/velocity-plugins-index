@@ -1,109 +1,132 @@
 {
+    "acc-ext-generator": {
+        "name": "Accelerate Data Generator",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "Accelerate Data Generator",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.41",
+            "date": "2023-01-10T22:41:39.922Z",
+            "image": "urbancode/acc-ext-generator:1.0.41",
+            "notes": [
+                "Remove need to manually specify User Access Key"
+            ],
+            "supports": "4.0.5"
+        }
+    },
     "appscanPlugin": {
         "name": "HCL AppScan Enterprise (ASE)",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-appscan/",
         "description": "Allows UrbanCode Velocity to import AppScan scan results as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.31",
-            "date": "2021-05-03T13:48:15.173Z",
-            "image": "urbancode/ucv-ext-appscan:1.0.31",
+            "semver": "2.0.41",
+            "date": "2022-10-17T12:32:18.856Z",
+            "image": "urbancode/ucv-ext-appscan:2.0.41",
             "notes": [
-                "Removed IBM related keywords"
-            ]
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Initial Sync Date Field Added:</b> Under the hidden properties section of add integration page for the HCL Appscan Enterprise plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
+                "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for HCL Appscan Enterprise plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which HCL Appscan Enterprise vulnerability data is associated.",
+                "<b>Preventing Installation on Older Versions:</b> This version of HCL Appscan Enterprise Plugin can only be installed on HCL Accelerate version  3.0.0 and later"
+            ],
+            "supports": "2.5.0"
         }
     },
     "asocPlugin": {
         "name": "HCL AppScan on Cloud (ASoC)",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-asoc/",
         "description": "Allows UrbanCode Velocity to import ASoC scan results as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "3.0.1",
-            "date": "2021-08-25T08:39:21.316Z",
-            "image": "urbancode/ucv-ext-asoc:3.0.1",
+            "semver": "3.0.16",
+            "date": "2022-12-15T14:09:39.488Z",
+            "image": "urbancode/ucv-ext-asoc:3.0.16",
             "notes": [
-                "added policy support"
-            ]
+                "Segregated Static scan and Dynamic scan data"
+            ],
+            "supports": "2.5.0"
         }
     },
     "blackDuckPlugin": {
         "name": "Black Duck",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-blackduck/",
         "description": "This is a plugin to handle Black Duck requirement for UrbanCode Velocity",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.4",
-            "date": "2020-09-29T07:18:13.800Z",
-            "image": "urbancode/ucv-ext-blackduck:1.0.4",
+            "semver": "1.0.21",
+            "date": "2022-05-31T14:09:16.498Z",
+            "image": "urbancode/ucv-ext-blackduck:1.0.21",
             "notes": [
-                "Added build URL to link scan results with VSM"
+                "minor fix"
             ]
         }
     },
     "coverageCorePlugin": {
         "name": "Coverage Core",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-coverage-core/",
         "description": "Allows UrbanCode Velocity to import Coverage Core coverage reports as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.30",
-            "date": "2020-12-03T05:27:46.800Z",
-            "image": "urbancode/ucv-ext-coverage-core:1.0.30",
+            "semver": "1.0.38",
+            "date": "2022-06-06T16:14:13.509Z",
+            "image": "urbancode/ucv-ext-coverage-core:1.0.38",
             "notes": [
-                "Plugin name update"
+                "Minor fix"
             ]
         }
     },
     "jmeterPlugin": {
         "name": "Apache JMeter",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-jmeter/",
         "description": "Allows UrbanCode Velocity to import JMeter test results as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.55",
-            "date": "2021-05-24T11:59:00.157Z",
-            "image": "urbancode/ucv-ext-jmeter:1.0.55",
+            "semver": "1.0.56",
+            "date": "2022-05-27T04:26:00.014Z",
+            "image": "urbancode/ucv-ext-jmeter:1.0.56",
             "notes": [
-                "Removed IBM related keywords"
+                "reduce vulnerabilities"
             ]
         }
     },
     "junitPlugin": {
         "name": "JUnit",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-junit/",
         "description": "Allows UrbanCode Velocity to import JUnit test results as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.66",
-            "date": "2021-09-29T05:30:56.472Z",
-            "image": "urbancode/ucv-ext-junit:1.0.66",
+            "semver": "1.0.72",
+            "date": "2022-05-27T04:38:59.778Z",
+            "image": "urbancode/ucv-ext-junit:1.0.72",
             "notes": [
-                "changes for gating"
+                "reduce vulnerabilities"
             ]
         }
     },
     "msQualityPlugin": {
         "name": "Microsoft Visual Studio Testing",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "Allows UrbanCode Velocity to import VS Quality test results as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -120,144 +143,152 @@
     },
     "onetestPlugin": {
         "name": "HCL OneTest",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-onetest/",
         "description": "Allows UrbanCode Velocity to import OneTest test results as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.30",
-            "date": "2021-09-29T05:37:26.678Z",
-            "image": "urbancode/ucv-ext-onetest:1.0.30",
+            "semver": "1.0.34",
+            "date": "2022-10-28T12:46:23.594Z",
+            "image": "urbancode/ucv-ext-onetest:1.0.34",
             "notes": [
-                "changes for gating"
-            ]
+                "<b>Preventing Installation on Older Versions:</b> This version of HCL Onetest Plugin can only be installed on HCL Accelerate version  3.0.0 and later.",
+                "<b>Added Category:</b>Quality is the category of HCL Onetest plugin."
+            ],
+            "supports": "2.5.0"
         }
     },
     "sonarqubePlugin": {
         "name": "SonarQube",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-sonarqube/",
         "description": "Allows UrbanCode Velocity to handle incoming SonarQube data.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.42",
-            "date": "2021-06-14T10:24:01.512Z",
-            "image": "urbancode/ucv-ext-sonarqube:1.0.42",
+            "semver": "1.0.65",
+            "date": "2022-03-31T06:23:36.335Z",
+            "image": "urbancode/ucv-ext-sonarqube:1.0.65",
             "notes": [
-                "Removed IBM related keywords"
+                "Reduced Vulnerabilities"
             ]
         }
     },
     "testngPlugin": {
         "name": "TestNG",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-testng/",
         "description": "Allows UrbanCode Velocity to import TestNG test results as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.13",
-            "date": "2020-12-01T10:30:07.425Z",
-            "image": "urbancode/ucv-ext-testng:1.0.13",
+            "semver": "1.0.38",
+            "date": "2022-05-31T16:33:05.881Z",
+            "image": "urbancode/ucv-ext-testng:1.0.38",
             "notes": [
-                "Plugin name update"
+                "Reduced Vulnerabilities"
             ]
         }
     },
     "twistlockPlugin": {
         "name": "Twistlock",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-twistlock/",
         "description": "Allows UrbanCode Velocity to import Twistlock test results as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.43",
-            "date": "2021-06-10T06:20:53.317Z",
-            "image": "urbancode/ucv-ext-twistlock:1.0.43",
+            "semver": "1.0.44",
+            "date": "2022-05-27T03:49:18.223Z",
+            "image": "urbancode/ucv-ext-twistlock:1.0.44",
             "notes": [
-                "Removed IBM related keywords"
+                "reduced vulnerabilities"
             ]
         }
     },
     "ucv-ext-agility": {
         "name": "Digital.ai Agility",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-agility/",
         "description": "The Digital.ai Agility plug-in imports and synchronizes work items from a Digital.ai Agility server.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.11",
-            "date": "2021-08-10T04:37:28.211Z",
-            "image": "urbancode/ucv-ext-agility:1.0.11",
+            "semver": "1.0.29",
+            "date": "2023-01-02T08:50:02.692Z",
+            "image": "urbancode/ucv-ext-agility:1.0.29",
             "notes": [
-                "Added auto-generated userAccessKey support"
-            ]
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Preventing Installation on Older Versions:</b> This version of Digital.ai Agility Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+                "<b>Added Category</b>:ALM is the plugin category of Digital.ai Agility.",
+                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-azure": {
         "name": "Azure DevOps",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-azure/",
         "description": "Allows UrbanCode Velocity to sync Azure DevOps resources.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.16",
-            "date": "2021-12-03T13:11:26.974Z",
-            "image": "urbancode/ucv-ext-azure:4.0.16",
+            "semver": "4.0.40",
+            "date": "2023-02-16T05:58:19.071Z",
+            "image": "urbancode/ucv-ext-azure:4.0.40",
             "notes": [
-                "UAK Changes"
-            ]
+                "<b>Minor Bug Fix</b>"
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-bitbucket-cloud": {
         "name": "Bitbucket Cloud",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "Synchronizes pull requests and commit data from a Bitbucket cloud instance.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.8",
-            "date": "2021-08-09T06:33:16.077Z",
-            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.8",
+            "semver": "1.0.29",
+            "date": "2022-12-27T12:01:43.019Z",
+            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.29",
             "notes": [
-                "Auto-generated UAK update"
-            ]
+                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-bitbucket-server": {
         "name": "Bitbucket Server",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-bitbucket-server/",
         "description": "Allows UrbanCode Velocity to sync Bitbucket resources.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.5",
-            "date": "2022-01-10T06:40:30.953Z",
-            "image": "urbancode/ucv-ext-bitbucket-server:1.1.5",
+            "semver": "1.1.26",
+            "date": "2022-11-08T06:53:33.174Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:1.1.26",
             "notes": [
-                "Multiple Repository Support",
-                "UAK Changes"
-            ]
+                "<b>Added Regular Expression for Additional branch</b>"
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-bottleneck-detection": {
         "name": "Bottleneck Detection",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "Detect bottlenecks in a Velocity value stream",
         "author": {
             "name": "UrbanCode",
@@ -272,196 +303,339 @@
             ]
         }
     },
+    "ucv-ext-circleci": {
+        "name": "CircleCI",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "The CircleCI plug-in imports and synchronizes CI/CD data from CircleCI.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.24",
+            "date": "2022-12-27T08:54:17.836Z",
+            "image": "urbancode/ucv-ext-circleci:1.0.24",
+            "notes": [
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Preventing Installation on Older Versions:</b> This version of Circleci Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+                "<b>Added Category</b>:Build and Deploy are the plugin category of Circleci.",
+                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+            ],
+            "supports": "2.5.0"
+        }
+    },
     "ucv-ext-cucumber": {
         "name": "Cucumber",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-cucumber/",
         "description": "This is a plugin to handle incoming cucumber data",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.8",
-            "date": "2021-01-15T06:33:54.486Z",
-            "image": "urbancode/ucv-ext-cucumber:1.0.8",
+            "semver": "1.0.34",
+            "date": "2022-05-31T18:46:02.367Z",
+            "image": "urbancode/ucv-ext-cucumber:1.0.34",
             "notes": [
-                "Multiple Test Suites Support"
+                "xml2json alternative added"
             ]
         }
     },
-    "ucv-ext-ewm": {
-        "name": "IBM Engineering Workflow Management (EWM)",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
-        "description": "The EWM plug-in imports work item from an IBM EWM respository as issues in the UrbanCode Velocity server.",
+    "ucv-ext-dependabot": {
+        "name": "GitHub Dependabot",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "Sync vulnerabilities data from Github.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
             "semver": "1.0.2",
-            "date": "2020-03-13T16:11:02.154Z",
-            "image": "urbancode/ucv-ext-ewm:1.0.2",
+            "date": "2022-04-18T08:19:04.668Z",
+            "image": "urbancode/ucv-ext-dependabot:1.0.2",
             "notes": [
-                "Initial Release"
+                "Syncs with GitHub Plugin to get Dependency Vulnerabilities",
+                "Show data in metrics bar",
+                "Show data in insights",
+                "Used GraphQL queries",
+                "GitHub Personal access token required"
             ]
+        }
+    },
+    "ucv-ext-ewm": {
+        "name": "IBM Engineering Workflow Management (EWM)",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-ewm/",
+        "description": "The EWM plug-in imports work item from an IBM EWM respository as issues in the UrbanCode Velocity server.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.1.30",
+            "date": "2022-09-06T07:34:36.006Z",
+            "image": "urbancode/ucv-ext-ewm:1.1.30",
+            "notes": [
+                "<b>Previous Version Bug Fix:</b> Version 1.1.28 of the plugin had a major bug related to Projects UI field.",
+                "<b>Normalise Sever URL:</b> In the previous versions of the plugin if Server URL ended with <b>/</b> , plugin was failing."
+            ]
+        }
+    },
+    "ucv-ext-fortify-ssc": {
+        "name": "Fortify SSC",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "The Fortify SSC plug-in handles incoming data from Fortify SSC server.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.19",
+            "date": "2022-09-22T01:33:10.491Z",
+            "image": "urbancode/ucv-ext-fortify-ssc:1.0.19",
+            "notes": [
+                "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for the plugin a Workflow ID field is added. This field is optional and can be used to provide WorkflowId - the ID of a Value Stream (VSM )to which the vulnerability data is associated."
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-github": {
         "name": "Github",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-github/",
         "description": "Allows UrbanCode Velocity to sync Github resources.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.22",
-            "date": "2021-12-03T06:25:06.842Z",
-            "image": "urbancode/ucv-ext-github:1.1.22",
-            "notes": [
-                "UAK Changes"
-            ]
+            "semver": "1.3.35",
+            "date": "2022-10-26T06:38:54.306Z",
+            "image": "urbancode/ucv-ext-github:1.3.35",
+            "notes": [],
+            "supports": "4.0.0"
         }
     },
     "ucv-ext-gitlab": {
         "name": "GitLab",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-gitlab/",
         "description": "Allows UrbanCode Velocity to sync commits and merge requests from GitLab.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.37",
-            "date": "2021-12-03T06:35:50.942Z",
-            "image": "urbancode/ucv-ext-gitlab:2.0.37",
+            "semver": "2.1.63",
+            "date": "2023-01-30T06:29:28.681Z",
+            "image": "urbancode/ucv-ext-gitlab:2.1.63",
             "notes": [
-                "UAK Changes"
-            ]
+                "<b>Minor Bug Fix</b>: Previous version of plugin was giving <i>Cannot read property status of null</i> error."
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-handlebars-reporter": {
         "name": "Handlebars Reporter",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-handlebars-reporter/",
         "description": "This plugin will take a Handlebars template and a context generator to create UCV reports",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.41",
-            "date": "2021-11-01T22:33:56.285Z",
-            "image": "urbancode/ucv-ext-handlebars-reporter:0.0.41",
+            "semver": "2.0.1",
+            "date": "2022-11-18T15:06:32.999Z",
+            "image": "urbancode/ucv-ext-handlebars-reporter:2.0.1",
             "notes": [
-                "Updated API Client for major product release."
-            ]
+                "Remove required UAK in favor of dynamically generated UAK"
+            ],
+            "supports": "4.0.4"
         }
     },
     "ucv-ext-jira": {
         "name": "Jira",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-jira/",
         "description": "Allows UrbanCode Velocity to sync Jira resources.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.83",
-            "date": "2021-12-03T06:31:04.679Z",
-            "image": "urbancode/ucv-ext-jira:1.0.83",
+            "semver": "2.2.9",
+            "date": "2023-02-14T11:12:52.664Z",
+            "image": "urbancode/ucv-ext-jira:2.2.9",
             "notes": [
-                "UAK Changes"
+                "<b>Minor Bug Fix</b>: Previous version of plugin was failing with ECONNREFUSED error."
+            ]
+        }
+    },
+    "ucv-ext-leankit": {
+        "name": "LeanKit",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "This plug-in imports data from LeanKit",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2022-04-05T18:18:59.477Z",
+            "image": "urbancode/ucv-ext-leankit:1.0.1",
+            "notes": [
+                "Retrieves Leankit Cards details",
+                "Fetch multiple board cards"
             ]
         }
     },
     "ucv-ext-onetest-server": {
         "name": "HCL OneTest Server",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-onetest-server/",
         "description": "Allows UrbanCode Velocity to import HCL OneTest Server scan results as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.11",
-            "date": "2021-09-29T05:56:37.133Z",
-            "image": "urbancode/ucv-ext-onetest-server:1.0.11",
+            "semver": "1.0.17",
+            "date": "2022-11-08T09:19:06.942Z",
+            "image": "urbancode/ucv-ext-onetest-server:1.0.17",
             "notes": [
-                "changes for gating"
-            ]
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for HCL OneTest Server plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which HCL OneTest Server vulnerability data is associated.",
+                "<b>Preventing Installation on Older Versions:</b> This version of HCL OneTest Server Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+                "<b>Added Category</b>:Quality is the plugin category of HCL OneTest Server."
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-rally": {
         "name": "Rally",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-rally/",
         "description": "Allows UrbanCode Velocity to sync Rally resources.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.25",
-            "date": "2021-05-05T05:17:46.157Z",
-            "image": "urbancode/ucv-ext-rally:1.0.25",
+            "semver": "1.0.43",
+            "date": "2022-12-27T06:56:58.622Z",
+            "image": "urbancode/ucv-ext-rally:1.0.43",
             "notes": [
-                "Removed IBM related keywords"
-            ]
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Preventing Installation on Older Versions:</b> This version of Rally Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+                "<b>Added Category</b>:ALM is the plugin category of Rally.",
+                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-rtas": {
         "name": "Rational Test Automation Server",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-rtas/",
         "description": "Allows UrbanCode Velocity to sync RTAS metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.6",
-            "date": "2020-09-03T07:50:09.788Z",
-            "image": "urbancode/ucv-ext-rtas:1.0.6",
+            "semver": "1.0.22",
+            "date": "2022-01-28T08:52:25.876Z",
+            "image": "urbancode/ucv-ext-rtas:1.0.22",
             "notes": [
-                "Integration id passed along with metrics"
+                "User Access Key Related Changes"
             ]
+        }
+    },
+    "ucv-ext-sap-charm": {
+        "name": "SAP Charm",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "Sync issue data from Jira and SAP.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2022-09-01T11:16:52.221Z",
+            "image": "urbancode/ucv-ext-sap-charm:1.0.1",
+            "notes": [
+                "Initial release syncs SAP Normal changes with Jira issues"
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-servicenow": {
         "name": "ServiceNow",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-servicenow/",
         "description": "Allows UrbanCode Velocity to sync change requests and incident from ServiceNow.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.27",
-            "date": "2021-08-19T05:29:21.185Z",
-            "image": "urbancode/ucv-ext-servicenow:1.0.27",
+            "semver": "1.0.36",
+            "date": "2022-08-26T08:47:01.874Z",
+            "image": "urbancode/ucv-ext-servicenow:1.0.36",
             "notes": [
-                "Adding Automation Functionality"
-            ]
+                "Manual UAK removal and preventing install on previous version"
+            ],
+            "supports": "2.5.0"
         }
     },
     "ucv-ext-shell": {
         "name": "Shell",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
         "description": "This plugin will execute simple shell scripts",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.7",
-            "date": "2020-08-21T20:16:26.173Z",
-            "image": "urbancode/ucv-ext-shell:0.0.7",
+            "semver": "0.0.31",
+            "date": "2022-05-06T08:40:43.922Z",
+            "image": "urbancode/ucv-ext-shell:0.0.31",
             "notes": [
-                "Initial release."
+                "Reduced Vulnerabilities"
+            ]
+        }
+    },
+    "ucv-ext-snyk": {
+        "name": "Snyk",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "Sync vulnerabilities data from Snyk.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2022-04-29T06:39:00.728Z",
+            "image": "urbancode/ucv-ext-snyk:1.0.1",
+            "notes": [
+                "Imports Snyk vulnerability data",
+                "Works with GitHub,GitLab and Bitbucket integrations",
+                "Vulnerabilities will be displayed as Application vulnerabilities in metrics bar"
+            ]
+        }
+    },
+    "ucv-ext-ucd": {
+        "name": "UbranCode Deploy",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "Sync applications, components, snapshots, environments, inventories, and application processes related data from UrbanCode Deploy server.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "3.3.56",
+            "date": "2023-02-21T09:59:16.880Z",
+            "image": "urbancode/ucv-ext-ucd:3.3.56",
+            "notes": [
+                "<b>Removed UrbanCode Deploy Status Task</b>: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status."
             ]
         }
     },
     "ucv-ext-versionone": {
         "name": "CollabNet VersionOne",
-        "url": "https://developer.ibm.com/urbancode/plugins/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-versionone/",
         "description": "Allows UrbanCode Velocity to sync work items from CollabNet VersionOne.",
         "author": {
             "name": "UrbanCode",
@@ -473,6 +647,25 @@
             "image": "urbancode/ucv-ext-versionone:1.0.11",
             "notes": [
                 "Added support for teams, backlog group, portfolio"
+            ]
+        }
+    },
+    "ucv-ext-whitesource": {
+        "name": "WhiteSource",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "This plug-in imports data from WhiteSource",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "2.0.15",
+            "date": "2022-03-29T06:29:48.071Z",
+            "image": "urbancode/ucv-ext-whitesource:2.0.15",
+            "notes": [
+                "Converted to scheduled event plugin",
+                "Added custom field mapping for pipeline",
+                "Works on product and project level"
             ]
         }
     }

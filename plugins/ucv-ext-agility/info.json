@@ -1,6 +1,6 @@
 {
     "name": "Digital.ai Agility",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-agility/",
     "description": "The Digital.ai Agility plug-in imports and synchronizes work items from a Digital.ai Agility server.",
     "author": {
         "name": "UrbanCode",

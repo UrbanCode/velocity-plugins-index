@@ -1,5 +1,63 @@
 [
     {
+        "semver": "1.1.26",
+        "date": "2022-11-08T06:53:33.174Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:1.1.26",
+        "notes": [
+            "<b>Added Regular Expression for Additional branch</b>"
+        ],
+        "supports": "2.5.0"
+    },
+    {
+        "semver": "1.1.24",
+        "date": "2022-10-28T06:20:52.224Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:1.1.24",
+        "notes": [
+            "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
+            "<b>Fix Resync Functionality: </b>The previous version of plugin had some bug in resyc functionality.",
+            "<b>Infinite Loop Bug Fix: </b> The previous version of the plugin had some bug that was making plugin events run in an infinite loop.",
+            "<b>API Rate Limiting Implemented: </b>Plugin has been enhanced to better handle API rate limiting.",
+            "<b>Additional Logs Added: </b> Additional debug, trace and warn logs are added to the plugin.",
+            "<b>Error Handling: </b> No default branch is defined - error is shown in warning logs if there is no default branch for a repository.",
+            "<b>Performance Improvement: </b> Plugin functionality is improved, previous version of the plugin was making more rest API calls to the BitBucket Server."
+        ],
+        "supports": "2.5.0"
+    },
+    {
+        "semver": "1.1.23",
+        "date": "2022-09-23T09:17:02.304Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:1.1.23",
+        "notes": [
+            "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+            "<b>Added Category:</b>SCM is the category of bitbucket server plugin ."
+        ],
+        "supports": "2.5.0"
+    },
+    {
+        "semver": "1.1.22",
+        "date": "2022-08-17T09:45:14.135Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:1.1.22",
+        "notes": [
+            "Rate limiting and resync implementation"
+        ]
+    },
+    {
+        "semver": "1.1.16",
+        "date": "2022-03-28T19:53:37.255Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:1.1.16",
+        "notes": [
+            "Reducing vulnerabilities"
+        ]
+    },
+    {
+        "semver": "1.1.12",
+        "date": "2022-03-10T06:39:05.432Z",
+        "image": "urbancode/ucv-ext-bitbucket-server:1.1.12",
+        "notes": [
+            "Enhancements done to the UI fields"
+        ]
+    },
+    {
         "semver": "1.1.5",
         "date": "2022-01-10T06:40:30.953Z",
         "image": "urbancode/ucv-ext-bitbucket-server:1.1.5",

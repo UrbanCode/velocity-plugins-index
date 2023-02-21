@@ -1,0 +1,9 @@
+{
+    "name": "Fortify SSC",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "description": "The Fortify SSC plug-in handles incoming data from Fortify SSC server.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}

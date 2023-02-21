@@ -1,0 +1,9 @@
+{
+    "name": "LeanKit",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "description": "This plug-in imports data from LeanKit",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}

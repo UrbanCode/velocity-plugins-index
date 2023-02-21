@@ -1,5 +1,60 @@
 [
     {
+        "semver": "1.1.30",
+        "date": "2022-09-06T07:34:36.006Z",
+        "image": "urbancode/ucv-ext-ewm:1.1.30",
+        "notes": [
+            "<b>Previous Version Bug Fix:</b> Version 1.1.28 of the plugin had a major bug related to Projects UI field.",
+            "<b>Normalise Sever URL:</b> In the previous versions of the plugin if Server URL ended with <b>/</b> , plugin was failing."
+        ]
+    },
+    {
+        "semver": "1.1.28",
+        "date": "2022-08-12T14:39:33.465Z",
+        "image": "urbancode/ucv-ext-ewm:1.1.28",
+        "notes": [
+            "Clarifying delimitation problem for properties used"
+        ]
+    },
+    {
+        "semver": "1.1.27",
+        "date": "2022-07-18T05:20:11.084Z",
+        "image": "urbancode/ucv-ext-ewm:1.1.27",
+        "notes": [
+            "Added change sets related data to history section of VSM dot."
+        ]
+    },
+    {
+        "semver": "1.1.24",
+        "date": "2022-06-07T15:16:05.507Z",
+        "image": "urbancode/ucv-ext-ewm:1.1.24",
+        "notes": [
+            "Minor fix"
+        ]
+    },
+    {
+        "semver": "1.1.22",
+        "date": "2022-04-30T17:38:23.153Z",
+        "image": "urbancode/ucv-ext-ewm:1.1.22",
+        "notes": [
+            "IssueRelationIn data added",
+            "Additional debug logs added",
+            "Minor bug fix"
+        ]
+    },
+    {
+        "semver": "1.1.15",
+        "date": "2022-02-23T09:32:59.023Z",
+        "image": "urbancode/ucv-ext-ewm:1.1.15",
+        "notes": [
+            "Debug Logs Added",
+            "UAK Changes",
+            "Resync Data Feature",
+            "Proxy Server Configuration Added",
+            "Support for EWM 7.0.2"
+        ]
+    },
+    {
         "semver": "1.0.2",
         "date": "2020-03-13T16:11:02.154Z",
         "image": "urbancode/ucv-ext-ewm:1.0.2",

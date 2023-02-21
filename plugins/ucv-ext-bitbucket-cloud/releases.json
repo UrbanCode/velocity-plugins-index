@@ -1,5 +1,50 @@
 [
     {
+        "semver": "1.0.29",
+        "date": "2022-12-27T12:01:43.019Z",
+        "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.29",
+        "notes": [
+            "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+        ],
+        "supports": "2.5.0"
+    },
+    {
+        "semver": "1.0.26",
+        "date": "2022-09-23T11:03:38.269Z",
+        "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.26",
+        "notes": [
+            "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+            "<b>Added Category:</b>SCM is the category of bitbucket cloud plugin ."
+        ],
+        "supports": "2.5.0"
+    },
+    {
+        "semver": "1.0.22",
+        "date": "2022-06-07T04:01:00.353Z",
+        "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.22",
+        "notes": [
+            "reduced vulnerability"
+        ]
+    },
+    {
+        "semver": "1.0.16",
+        "date": "2022-03-25T13:38:50.415Z",
+        "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.16",
+        "notes": [
+            "Removed repoSlug and projectName field",
+            "added multiple repositories support in repoName",
+            "added otherBranches field"
+        ]
+    },
+    {
+        "semver": "1.0.15",
+        "date": "2022-02-23T07:15:25.740Z",
+        "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.15",
+        "notes": [
+            "UAK Related Changes"
+        ]
+    },
+    {
         "semver": "1.0.8",
         "date": "2021-08-09T06:33:16.077Z",
         "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.8",

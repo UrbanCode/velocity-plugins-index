@@ -1,5 +1,21 @@
 [
     {
+        "semver": "1.0.34",
+        "date": "2022-05-31T18:46:02.367Z",
+        "image": "urbancode/ucv-ext-cucumber:1.0.34",
+        "notes": [
+            "xml2json alternative added"
+        ]
+    },
+    {
+        "semver": "1.0.33",
+        "date": "2022-05-31T06:31:08.595Z",
+        "image": "urbancode/ucv-ext-cucumber:1.0.33",
+        "notes": [
+            "Reduced Vulnerabilities"
+        ]
+    },
+    {
         "semver": "1.0.8",
         "date": "2021-01-15T06:33:54.486Z",
         "image": "urbancode/ucv-ext-cucumber:1.0.8",

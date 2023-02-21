@@ -29,6 +29,9 @@ logger.level = process.env.LOG_LEVEL || 'debug'
         notes: {
           type: 'string',
           default: '[]'
+        },
+        supports: {
+          type: 'string'
         }
       }
     })
@@ -51,6 +54,9 @@ logger.level = process.env.LOG_LEVEL || 'debug'
       date: args.flags.date,
       image: args.flags.image,
       notes: JSON.parse(args.flags.notes)
+    }
+    if (args.flags.supports) {
+      newRelease.supports = args.flags.supports
     }
 
     await fs.ensureDir(path.join(PLUGINS_DIR, args.flags.pluginId))

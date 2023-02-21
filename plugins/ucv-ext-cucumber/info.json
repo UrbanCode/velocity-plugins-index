@@ -1,6 +1,6 @@
 {
     "name": "Cucumber",
-    "url": "https://developer.ibm.com/urbancode/plugins/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-cucumber/",
     "description": "This is a plugin to handle incoming cucumber data",
     "author": {
         "name": "UrbanCode",

@@ -296,6 +296,48 @@ describe('Validate Releases Structure', function() {
       })
     })
   })
+  describe('Invalid Supports Element', function() {
+    describe('Releases Array', function() {
+      it('should throw error if release object has empty string supports element', function() {
+        expect(() => ReleasesHelper.validate(pluginId, [{semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: ''}])).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray} AND ${ERROR_TEXT.RootArray}`)
+      })
+      it('should throw error if release object has number supports element', function() {
+        expect(() => ReleasesHelper.validate(pluginId, [{semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: 101}])).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray} AND ${ERROR_TEXT.RootArray}`)
+      })
+      it('should throw error if release object has float supports element', function() {
+        expect(() => ReleasesHelper.validate(pluginId, [{semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: 1.0}])).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray} AND ${ERROR_TEXT.RootArray}`)
+      })
+      it('should throw error if release object has array supports element', function() {
+        expect(() => ReleasesHelper.validate(pluginId, [{semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: ['1.0.0']}])).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray} AND ${ERROR_TEXT.RootArray}`)
+      })
+      it('should throw error if release object has boolean supports element', function() {
+        expect(() => ReleasesHelper.validate(pluginId, [{semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: true}])).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray} AND ${ERROR_TEXT.RootArray}`)
+      })
+      it('should throw error if release object has invalid semver as supports element', function() {
+        expect(() => ReleasesHelper.validate(pluginId, [{semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: '1.0.0.0'}])).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray} AND ${ERROR_TEXT.RootArray}`)
+      })
+    })
+    describe('Releases Object', function() {
+      it('should throw error if release object has empty string supports element', function() {
+        expect(() => ReleasesHelper.validateSingleRelease(pluginId, {semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: ''})).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray}`)
+      })
+      it('should throw error if release object has number supports element', function() {
+        expect(() => ReleasesHelper.validateSingleRelease(pluginId, {semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: 101})).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray}`)
+      })
+      it('should throw error if release object has float supports element', function() {
+        expect(() => ReleasesHelper.validateSingleRelease(pluginId, {semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: 1.0})).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray}`)
+      })
+      it('should throw error if release object has array supports element', function() {
+        expect(() => ReleasesHelper.validateSingleRelease(pluginId, {semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: ['1.0.0']})).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray}`)
+      })
+      it('should throw error if release object has boolean supports element', function() {
+        expect(() => ReleasesHelper.validateSingleRelease(pluginId, {semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: true})).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray}`)
+      })
+      it('should throw error if release object has invalid semver as supports element', function() {
+        expect(() => ReleasesHelper.validateSingleRelease(pluginId, {semver: '1.0.0', date: new Date().toISOString(), image: 'custom:1.0.0', supports: '1.0.0.0'})).throws(Error).with.property('message', `Invalid JSON in "${FILE_NAME}" for plugin "${pluginId}": ${ERROR_TEXT.Supports} AND ${ERROR_TEXT.NotesArray}`)
+      })
+    })
+  })
   describe('Invalid Notes Element', function() {
     describe('Releases Array', function() {
       it('should throw error if release object does not have notes element', function() {

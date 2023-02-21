@@ -1,5 +1,75 @@
 [
     {
+        "semver": "4.0.40",
+        "date": "2023-02-16T05:58:19.071Z",
+        "image": "urbancode/ucv-ext-azure:4.0.40",
+        "notes": [
+            "<b>Minor Bug Fix</b>"
+        ],
+        "supports": "2.5.0"
+    },
+    {
+        "semver": "4.0.38",
+        "date": "2022-10-10T06:03:44.317Z",
+        "image": "urbancode/ucv-ext-azure:4.0.38",
+        "notes": [
+            "Minor Enhancements"
+        ],
+        "supports": "2.5.0"
+    },
+    {
+        "semver": "4.0.37",
+        "date": "2022-09-29T09:54:50.741Z",
+        "image": "urbancode/ucv-ext-azure:4.0.37",
+        "notes": [
+            "Minor Enhancements",
+            "Pipelines issue fixed"
+        ],
+        "supports": "2.5.0"
+    },
+    {
+        "semver": "4.0.36",
+        "date": "2022-08-26T09:39:50.881Z",
+        "image": "urbancode/ucv-ext-azure:4.0.36",
+        "notes": [
+            "Manual UAK removal and preventing install on previous version"
+        ],
+        "supports": "2.5.0"
+    },
+    {
+        "semver": "4.0.35",
+        "date": "2022-08-17T08:01:51.197Z",
+        "image": "urbancode/ucv-ext-azure:4.0.35",
+        "notes": [
+            "Clarifying delimitation problem for properties used"
+        ]
+    },
+    {
+        "semver": "4.0.29",
+        "date": "2022-05-02T15:51:53.280Z",
+        "image": "urbancode/ucv-ext-azure:4.0.29",
+        "notes": [
+            "Optional feature of pushing pipeline runs with predefined tags as builds",
+            "Bug fix related to build status"
+        ]
+    },
+    {
+        "semver": "4.0.28",
+        "date": "2022-04-08T06:11:08.785Z",
+        "image": "urbancode/ucv-ext-azure:4.0.28",
+        "notes": [
+            "Additional Branch field added"
+        ]
+    },
+    {
+        "semver": "4.0.26",
+        "date": "2022-03-08T13:10:53.772Z",
+        "image": "urbancode/ucv-ext-azure:4.0.26",
+        "notes": [
+            "User Access Key Related Changes"
+        ]
+    },
+    {
         "semver": "4.0.16",
         "date": "2021-12-03T13:11:26.974Z",
         "image": "urbancode/ucv-ext-azure:4.0.16",

@@ -1,5 +1,41 @@
 [
     {
+        "semver": "1.0.29",
+        "date": "2023-01-02T08:50:02.692Z",
+        "image": "urbancode/ucv-ext-agility:1.0.29",
+        "notes": [
+            "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+            "<b>Preventing Installation on Older Versions:</b> This version of Digital.ai Agility Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
+            "<b>Added Category</b>:ALM is the plugin category of Digital.ai Agility.",
+            "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+        ],
+        "supports": "2.5.0"
+    },
+    {
+        "semver": "1.0.26",
+        "date": "2022-08-16T14:02:38.920Z",
+        "image": "urbancode/ucv-ext-agility:1.0.26",
+        "notes": [
+            "Clarifying delimitation for properties used"
+        ]
+    },
+    {
+        "semver": "1.0.25",
+        "date": "2022-08-12T15:49:32.778Z",
+        "image": "urbancode/ucv-ext-agility:1.0.25",
+        "notes": [
+            "Clarifying delimitation problem for properties used"
+        ]
+    },
+    {
+        "semver": "1.0.20",
+        "date": "2022-02-23T13:01:54.655Z",
+        "image": "urbancode/ucv-ext-agility:1.0.20",
+        "notes": [
+            "User Access Key Related Changes"
+        ]
+    },
+    {
         "semver": "1.0.11",
         "date": "2021-08-10T04:37:28.211Z",
         "image": "urbancode/ucv-ext-agility:1.0.11",

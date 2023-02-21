@@ -1,5 +1,115 @@
 [
     {
+        "semver": "2.2.9",
+        "date": "2023-02-14T11:12:52.664Z",
+        "image": "urbancode/ucv-ext-jira:2.2.9",
+        "notes": [
+            "<b>Minor Bug Fix</b>: Previous version of plugin was failing with ECONNREFUSED error."
+        ]
+    },
+    {
+        "semver": "2.2.8",
+        "date": "2022-09-26T11:28:31.560Z",
+        "image": "urbancode/ucv-ext-jira:2.2.8",
+        "notes": [
+            "<b>Deployment plan task added for release process: </b>Deployment plan task created in order to release selected version in the task."
+        ]
+    },
+    {
+        "semver": "2.2.7",
+        "date": "2022-09-08T12:43:19.685Z",
+        "image": "urbancode/ucv-ext-jira:2.2.7",
+        "notes": [
+            "<b>Previous Version Bug Fix:</b> Previous versions of the plugin had a bug due to which plugin was giving 401 error.",
+            "<b>Added Category:</b> Application lifecycle management (ALM) is the category of Jira plugin."
+        ]
+    },
+    {
+        "semver": "2.2.6",
+        "date": "2022-08-24T08:29:04.453Z",
+        "image": "urbancode/ucv-ext-jira:2.2.6",
+        "notes": [
+            "<b>Resolved Incorrect URL Link Issue:</b> The URL link of the VSM dot for redirecting to work-item on Jira server/site was incorrect in previous version of plugin."
+        ]
+    },
+    {
+        "semver": "2.2.5",
+        "date": "2022-08-02T05:44:29.636Z",
+        "image": "urbancode/ucv-ext-jira:2.2.5",
+        "notes": [
+            "Added Project keys"
+        ]
+    },
+    {
+        "semver": "2.2.4",
+        "date": "2022-04-22T10:54:54.417Z",
+        "image": "urbancode/ucv-ext-jira:2.2.4",
+        "notes": [
+            "Bug Fix"
+        ]
+    },
+    {
+        "semver": "2.2.1",
+        "date": "2022-03-09T14:06:24.270Z",
+        "image": "urbancode/ucv-ext-jira:2.2.1",
+        "notes": [
+            "Jira Query Language Added",
+            "Removed Project Keys",
+            "Initial Sync Date Removed from Plugin side",
+            "Logging Added"
+        ]
+    },
+    {
+        "semver": "2.0.97",
+        "date": "2022-03-09T04:18:41.150Z",
+        "image": "urbancode/ucv-ext-jira:2.0.97",
+        "notes": [
+            "Added Jira Query Language",
+            "Removed Project Keys",
+            "Initial Sync date modified",
+            "Debug logs added"
+        ]
+    },
+    {
+        "semver": "2.1.96",
+        "date": "2022-03-03T12:29:26.949Z",
+        "image": "urbancode/ucv-ext-jira:2.1.96",
+        "notes": [
+            "JQL Added",
+            "Removed Project Keys",
+            "Added Initial Sync date from core"
+        ]
+    },
+    {
+        "semver": "1.1.95",
+        "date": "2022-02-28T10:29:56.320Z",
+        "image": "urbancode/ucv-ext-jira:1.1.95",
+        "notes": [
+            "graphiql performance improvement",
+            "raw issue reduced"
+        ]
+    },
+    {
+        "semver": "1.1.94",
+        "date": "2022-02-28T09:18:16.278Z",
+        "image": "urbancode/ucv-ext-jira:1.1.94",
+        "notes": [
+            "Reduced vulnerabilities"
+        ]
+    },
+    {
+        "semver": "1.1.89",
+        "date": "2022-01-24T06:50:02.249Z",
+        "image": "urbancode/ucv-ext-jira:1.1.89",
+        "notes": [
+            "Initial Sync Data added",
+            "more than 10mb data issue resolved",
+            "Reintroduce base path",
+            "Labels Updated",
+            "Debug logs added"
+        ]
+    },
+    {
         "semver": "1.0.83",
         "date": "2021-12-03T06:31:04.679Z",
         "image": "urbancode/ucv-ext-jira:1.0.83",
