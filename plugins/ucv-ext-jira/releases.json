@@ -1,5 +1,13 @@
 [
     {
+        "semver": "2.3.1",
+        "date": "2023-03-06T08:29:38.684Z",
+        "image": "urbancode/ucv-ext-jira:2.3.1",
+        "notes": [
+            "<b>Personal Access Token Support</b>: The Jira Plugin was unable to use Personal Access Tokens for authentication in previous versions for Jira Server. However, a new field called Personal Access Token has been introduced to enable authentication using this feature."
+        ]
+    },
+    {
         "semver": "2.2.9",
         "date": "2023-02-14T11:12:52.664Z",
         "image": "urbancode/ucv-ext-jira:2.2.9",
