@@ -47,11 +47,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "3.0.16",
-            "date": "2022-12-15T14:09:39.488Z",
-            "image": "urbancode/ucv-ext-asoc:3.0.16",
+            "semver": "3.0.19",
+            "date": "2023-03-10T10:23:25.243Z",
+            "image": "urbancode/ucv-ext-asoc:3.0.19",
             "notes": [
-                "Segregated Static scan and Dynamic scan data"
+                "The Older Version of ASoC Plugin was not reporting critical issues"
             ],
             "supports": "2.5.0"
         }
