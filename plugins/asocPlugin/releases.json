@@ -1,5 +1,14 @@
 [
     {
+        "semver": "3.0.19",
+        "date": "2023-03-10T14:35:41.121Z",
+        "image": "urbancode/ucv-ext-asoc:3.0.19",
+        "notes": [
+            "The Older Version of ASoC Plugin was not reporting critical issues"
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "3.0.16",
         "date": "2022-12-15T14:09:39.488Z",
         "image": "urbancode/ucv-ext-asoc:3.0.16",
