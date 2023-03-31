@@ -7,7 +7,7 @@ import { PLUGINS_DIR } from '../helpers/PluginsHelper'
 import ReleasesHelper, { FILE_NAME as RELEASES_FILE_NAME } from '../helpers/ReleasesHelper'
 
 const logger = log4js.getLogger('addRelease')
-logger.level = process.env.LOG_LEVEL || 'debug'
+logger.level = process.env.LOG_LEVEL || 'INFO'
 
 ;(async () => {
   try {

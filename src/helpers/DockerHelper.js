@@ -1,9 +1,9 @@
 import deasync from 'deasync'
-import request from 'request'
+import { exec } from 'child_process'
 import log4js from 'log4js'
 
 const logger = log4js.getLogger('DockerHelper')
-logger.level = process.env.LOG_LEVEL || 'debug'
+logger.level = process.env.LOG_LEVEL || 'INFO'
 
 export default class DockerHubHelper {
   static doesImageExist(image) {
@@ -12,68 +12,57 @@ export default class DockerHubHelper {
   }
 
   static doesImageExistWithCallback(image, callback) {
-    let [imageName, imageTag] = image.split(':')
-    DockerHubHelper.getToken(imageName, function(error, token) {
+    DockerHubHelper.getImage(image, (error, pullText) => {
       if (error) {
-        callback(error, null)
+        callback(null, false)
       } else {
-        if (!imageName.includes('/')) {
-          imageName = `library/${imageName}`
+        if (!image.includes(':')) {
+          logger.trace(`Image '${image}' does not include colon, adding default latest tag`)
+          image = `${image}:latest`
         }
-        const options = {
-          method: 'GET',
-          uri: `https://registry-1.docker.io/v2/${imageName}/manifests/${imageTag}`,
-          headers: {
-            authorization: `Bearer ${token}`
-          }
+        const exists = pullText.includes(`Status: Image is up to date for ${image}`) ||
+          pullText.includes(`Status: Downloaded newer image for ${image}`)
+        logger.debug(`Image '${image}' ${exists ? 'exists' : 'does NOT exist'}`)
+        if (exists) {
+          logger.debug(`Deleting image '${image}'`)
+          DockerHubHelper.deleteImage(image, (error, deleteText) => { // eslint-disable-line no-unused-vars
+            callback(null, true)
+          })
+        } else {
+          callback(null, false)
         }
-        request(options, function (error, response, body) {
-          if (error) {
-            logger.error(`Error getting the image tags - ${JSON.stringify(error)}\n`)
-            callback(null, false)
-          } else {
-            try {
-              const json = JSON.parse(body)
-              if (!json.errors) {
-                callback(null, true)
-              } else {
-                logger.error(`Error parsing the image tags body data - ${JSON.stringify(json.errors)}\n`)
-                callback(null, false)
-              }
-            } catch (err) {
-              logger.error(`Error parsing the image tags response - ${JSON.stringify(err)}\n`)
-              callback(null, false)
-            }
-          }
-        })
       }
     })
   }
 
-  static getToken(imageName, callback) {
-    if (!imageName.includes('/')) {
-      imageName = `library/${imageName}`
-    }
-    const options = {
-      method: 'GET',
-      uri: `https://auth.docker.io/token?service=registry.docker.io&scope=repository:${encodeURIComponent(imageName)}:pull`,
-      headers: { 
-        Authorization: 'Basic bGFsaXRrdTpMYWxpdC8yNjk4'
-      }
-    }
-    logger.info(`HTTP Request made to url - ${JSON.stringify(options.uri)}`)
-    request(options, function (error, response, body) {
+  static getImage(image, callback) {
+    const command = `docker pull ${image}`
+    logger.trace(`Executing command '${command}'...`)
+    exec(command, (error, stdout, stderr) => {
+      logger.trace(`error: '${error}'`)
+      logger.trace(`stdout: '${stdout}'`)
+      logger.trace(`stderr: '${stderr}'`)
       if (error) {
-        logger.error(`Error generating auth token - ${JSON.stringify(error)}\n`)
-        callback(null, false)
+        logger.error(error)
+        callback(error, null)
       } else {
-        try {
-          const token = JSON.parse(body).token
-          callback(null, token)
-        } catch (err) {
-          logger.error(`Error parsing auth token - ${JSON.stringify(err)}\n`)
-          callback(null, false)
-        }
+        callback(null, stdout)
+      }
+    })
+  }
+
+  static deleteImage(image, callback) {
+    const command = `docker rmi ${image}`
+    logger.trace(`Executing command '${command}'...`)
+    exec(command, (error, stdout, stderr) => {
+      logger.trace(`error: '${error}'`)
+      logger.trace(`stdout: '${stdout}'`)
+      logger.trace(`stderr: '${stderr}'`)
+      if (error) {
+        logger.error(error)
+        callback(error, null)
+      } else {
+        callback(null, stdout)
       }
     })
   }
