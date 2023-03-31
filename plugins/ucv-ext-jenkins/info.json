@@ -1,0 +1,9 @@
+{
+    "name": "Jenkins",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "description": "The Jenkins plugin imports jobs and builds from a Jenkins server. It also runs Jenkins jobs as automation tasks.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "semver": "1.0.1",
+        "date": "2023-03-31T17:21:24.445Z",
+        "image": "urbancode/ucv-ext-jenkins:1.0.1",
+        "notes": [
+            "Public release."
+        ],
+        "supports": "4.0.9"
+    }
+]
