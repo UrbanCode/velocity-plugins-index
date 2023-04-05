@@ -1,5 +1,15 @@
 [
     {
+        "semver": "1.0.4",
+        "date": "2023-04-05T18:19:51.036Z",
+        "image": "urbancode/ucv-ext-jenkins:1.0.4",
+        "notes": [
+            "Fix integration name not showing in pipeline stage task selection",
+            "Fix external build link not appearing in deployment plan task"
+        ],
+        "supports": "4.0.9"
+    },
+    {
         "semver": "1.0.1",
         "date": "2023-03-31T17:21:24.445Z",
         "image": "urbancode/ucv-ext-jenkins:1.0.1",
