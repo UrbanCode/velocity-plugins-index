@@ -691,5 +691,23 @@
                 "Works on product and project level"
             ]
         }
+    },
+    "ucv-ext-yaml-executor": {
+        "name": "YAML Executor",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-yaml-executor/",
+        "description": "YAML Executor plugin.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "0.0.5",
+            "date": "2023-06-02T07:49:20.245Z",
+            "image": "urbancode/ucv-ext-yaml-executor:0.0.5",
+            "notes": [
+                "Initial Release"
+            ],
+            "supports": "4.0.0"
+        }
     }
 }
