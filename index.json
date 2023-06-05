@@ -405,11 +405,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.3.46",
-            "date": "2023-05-09T19:05:49.504Z",
-            "image": "urbancode/ucv-ext-github:1.3.46",
+            "semver": "1.4.5",
+            "date": "2023-06-05T08:32:08.555Z",
+            "image": "urbancode/ucv-ext-github:1.4.5",
             "notes": [
-                "<b>Bug fix:</b> Previous version was failing for upload commit of large size."
+                "<b>Feature:</b> Syncing Yaml files from different repositories"
             ],
             "supports": "2.6.0"
         }
