@@ -645,14 +645,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "3.4.5",
-            "date": "2023-04-10T12:28:22.349Z",
-            "image": "urbancode/ucv-ext-ucd:3.4.5",
+            "semver": "3.4.6",
+            "date": "2023-06-09T12:02:37.877Z",
+            "image": "urbancode/ucv-ext-ucd:3.4.6",
             "notes": [
-                "<b>Bug Fix</b>: In previous version - plugin was not syncing more than 100 applications and it was resulting in Snapshot Upload failure.",
-                "<b>Sync All Applications at First Sync</b>: Now UCD plugin is syncing all the applications, environments, processes, and components data even if an initial sync date is given.",
-                "<b>Deployment Plan Fix</b>: In previous version of plugin deployment plan was not getting completed if we have parallel and sequential tasks with UCD app.",
-                "<b>Removing Deleted Applications</b>: In the previous version of plugin the deleted Application processes were also available while selecting the process in the pipeline."
+                "Removed Version as mandatory for external UCD"
             ]
         }
     },

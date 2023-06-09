@@ -1,5 +1,13 @@
 [
     {
+        "semver": "3.4.6",
+        "date": "2023-06-09T12:02:37.877Z",
+        "image": "urbancode/ucv-ext-ucd:3.4.6",
+        "notes": [
+            "Removed Version as mandatory for external UCD"
+        ]
+    },
+    {
         "semver": "3.4.5",
         "date": "2023-04-10T12:28:22.349Z",
         "image": "urbancode/ucv-ext-ucd:3.4.5",
