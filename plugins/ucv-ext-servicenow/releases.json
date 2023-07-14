@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.0.42",
+        "date": "2023-07-13T12:14:22.728Z",
+        "image": "urbancode/ucv-ext-servicenow:1.0.42",
+        "notes": [
+            "<b>Minor bug fix</b>: Fixed bug related to proxy server change and related to automation task execution."
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "1.0.36",
         "date": "2022-08-26T08:47:01.874Z",
         "image": "urbancode/ucv-ext-servicenow:1.0.36",
