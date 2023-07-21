@@ -554,11 +554,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.22",
-            "date": "2022-01-28T08:52:25.876Z",
-            "image": "urbancode/ucv-ext-rtas:1.0.22",
+            "semver": "1.0.34",
+            "date": "2023-07-21T09:20:30.131Z",
+            "image": "urbancode/ucv-ext-rtas:1.0.34",
             "notes": [
-                "User Access Key Related Changes"
+                "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin.",
+                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for rational-test-automation-server plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which rational-test-automation-server vulnerability data is associated."
             ]
         }
     },
