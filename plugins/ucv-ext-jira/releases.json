@@ -1,5 +1,13 @@
 [
     {
+        "semver": "2.3.6",
+        "date": "2023-08-01T05:34:50.815Z",
+        "image": "urbancode/ucv-ext-jira:2.3.6",
+        "notes": [
+            "<b>Bug Fix:</b> Earlier version of the Plugin could not handle 429 error (too many requests). Now it is handling it. "
+        ]
+    },
+    {
         "semver": "2.3.1",
         "date": "2023-03-06T08:29:38.684Z",
         "image": "urbancode/ucv-ext-jira:2.3.1",
