@@ -696,11 +696,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.5",
-            "date": "2023-06-02T07:49:20.245Z",
-            "image": "urbancode/ucv-ext-yaml-executor:0.0.5",
+            "semver": "0.0.6",
+            "date": "2023-09-01T11:12:32.719Z",
+            "image": "urbancode/ucv-ext-yaml-executor:0.0.6",
             "notes": [
-                "Initial Release"
+                "Started using timeSpan for Initial Sync date."
             ],
             "supports": "4.0.0"
         }
