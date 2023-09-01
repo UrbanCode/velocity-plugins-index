@@ -460,13 +460,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.9",
-            "date": "2023-06-09T15:52:04.885Z",
-            "image": "urbancode/ucv-ext-jenkins:1.0.9",
+            "semver": "1.1.1",
+            "date": "2023-08-18T14:56:31.427Z",
+            "image": "urbancode/ucv-ext-jenkins:1.1.1",
             "notes": [
-                "Limit maximum parallel requests",
-                "Retry execution and process uploads",
-                "Add revision to builds for proper dot linking"
+                "Default initial sync to 30 days"
             ],
             "supports": "4.0.9"
         }
