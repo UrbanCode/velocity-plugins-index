@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.4.7",
+        "date": "2023-09-08T12:45:52.182Z",
+        "image": "urbancode/ucv-ext-github:1.4.7",
+        "notes": [
+            "Wild Card feature for additional branches field in GitHub Plugin"
+        ],
+        "supports": "2.6.0"
+    },
+    {
         "semver": "1.4.5",
         "date": "2023-06-05T08:32:08.555Z",
         "image": "urbancode/ucv-ext-github:1.4.5",
