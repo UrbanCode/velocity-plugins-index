@@ -1,5 +1,15 @@
 [
     {
+        "semver": "2.3.9",
+        "date": "2023-09-13T10:45:52.387Z",
+        "image": "urbancode/ucv-ext-jira:2.3.9",
+        "notes": [
+            "Fixed version-check bug in jira plugin",
+            "Resync functionality improved"
+        ],
+        "supports": "3.1.0"
+    },
+    {
         "semver": "2.3.6",
         "date": "2023-08-01T05:34:50.815Z",
         "image": "urbancode/ucv-ext-jira:2.3.6",
