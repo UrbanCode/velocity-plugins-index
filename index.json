@@ -645,12 +645,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "3.4.6",
-            "date": "2023-06-09T12:02:37.877Z",
-            "image": "urbancode/ucv-ext-ucd:3.4.6",
+            "semver": "4.0.2",
+            "date": "2023-09-18T11:02:34.803Z",
+            "image": "urbancode/ucv-ext-ucd:4.0.2",
             "notes": [
-                "Removed Version as mandatory for external UCD"
-            ]
+                "Using version properties for mapping build.url parameter"
+            ],
+            "supports": "4.0.13"
         }
     },
     "ucv-ext-versionone": {
