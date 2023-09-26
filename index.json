@@ -477,12 +477,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.3.9",
-            "date": "2023-09-13T10:45:52.387Z",
-            "image": "urbancode/ucv-ext-jira:2.3.9",
+            "semver": "2.3.10",
+            "date": "2023-09-26T12:16:03.812Z",
+            "image": "urbancode/ucv-ext-jira:2.3.10",
             "notes": [
-                "Fixed version-check bug in jira plugin",
-                "Resync functionality improved"
+                "<b>Bug fix:</b>First automation task was failing and also updated integration configuration property description."
             ],
             "supports": "3.1.0"
         }
