@@ -1,5 +1,15 @@
 [
     {
+        "semver": "1.1.2",
+        "date": "2023-10-12T04:38:06.664Z",
+        "image": "urbancode/ucv-ext-jenkins:1.1.2",
+        "notes": [
+            "Added support for process parameters coming from Git Parameter and Active Choices plugins",
+            "Warning logs added for skipping unsupported process parameters"
+        ],
+        "supports": "4.0.9"
+    },
+    {
         "semver": "1.1.1",
         "date": "2023-08-18T14:56:31.427Z",
         "image": "urbancode/ucv-ext-jenkins:1.1.1",
