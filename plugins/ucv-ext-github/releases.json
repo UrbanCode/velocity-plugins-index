@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.4.16",
+        "date": "2023-11-15T11:54:56.690Z",
+        "image": "urbancode/ucv-ext-github:1.4.16",
+        "notes": [
+            "<b>Enhancement:</b> This enhancement modifies the plugins synchronization behavior following a failure. Previously, the plugin would resume syncing from the date of the last successful synchronization. Now, it has been updated to continue syncing commits, pull-requests, and issues from the point where it last synced before the failure. This change ensures more accurate and efficient data synchronization by reducing the likelihood of missing or duplicating data in cases where the plugin had partially synced before encountering an issue."
+        ],
+        "supports": "2.6.0"
+    },
+    {
         "semver": "1.4.7",
         "date": "2023-09-08T12:45:52.182Z",
         "image": "urbancode/ucv-ext-github:1.4.7",
