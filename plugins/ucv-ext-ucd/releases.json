@@ -1,5 +1,14 @@
 [
     {
+        "semver": "4.0.3",
+        "date": "2023-11-29T10:29:48.201Z",
+        "image": "urbancode/ucv-ext-ucd:4.0.3",
+        "notes": [
+            "Started uploading statuses to Snapshot and Component versions"
+        ],
+        "supports": "4.0.13"
+    },
+    {
         "semver": "4.0.2",
         "date": "2023-09-18T11:02:34.803Z",
         "image": "urbancode/ucv-ext-ucd:4.0.2",
