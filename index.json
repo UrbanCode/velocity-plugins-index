@@ -504,6 +504,23 @@
             ]
         }
     },
+    "ucv-ext-milestone-risk-estimator": {
+        "name": "Risk Estimator",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-milestone-risk-estimator",
+        "description": "Probabilistic Risk Estimator",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2023-12-05T09:35:35.262Z",
+            "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.1",
+            "notes": [
+                "Initial release for Milestone Risk Estimator plugin"
+            ]
+        }
+    },
     "ucv-ext-onetest-server": {
         "name": "HCL OneTest Server",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-onetest-server/",
