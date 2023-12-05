@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.1",
+        "date": "2023-12-05T09:35:35.262Z",
+        "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.1",
+        "notes": [
+            "Initial release for Milestone Risk Estimator plugin"
+        ]
+    }
+]

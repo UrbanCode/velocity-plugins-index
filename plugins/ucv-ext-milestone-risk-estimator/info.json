@@ -1,0 +1,9 @@
+{
+    "name": "Risk Estimator",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-milestone-risk-estimator",
+    "description": "Probabilistic Risk Estimator",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
