@@ -1,0 +1,11 @@
+[
+    {
+        "semver": "1.0.47",
+        "date": "2023-12-08T17:05:29.271Z",
+        "image": "urbancode/ucv-ext-generator:1.0.47",
+        "notes": [
+            "Renamed Plugin"
+        ],
+        "supports": "4.0.5"
+    }
+]

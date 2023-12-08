@@ -395,6 +395,24 @@
             "supports": "2.5.0"
         }
     },
+    "ucv-ext-generator": {
+        "name": "DevOps Velocity Data Generator",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "DevOps Velocity Data Generator",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.47",
+            "date": "2023-12-08T17:05:29.271Z",
+            "image": "urbancode/ucv-ext-generator:1.0.47",
+            "notes": [
+                "Renamed Plugin"
+            ],
+            "supports": "4.0.5"
+        }
+    },
     "ucv-ext-github": {
         "name": "Github",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-github/",
