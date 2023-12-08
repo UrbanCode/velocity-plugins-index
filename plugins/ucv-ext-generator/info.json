@@ -1,0 +1,9 @@
+{
+    "name": "DevOps Velocity Data Generator",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "description": "DevOps Velocity Data Generator",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
