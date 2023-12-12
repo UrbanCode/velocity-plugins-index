@@ -531,11 +531,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.1",
-            "date": "2023-12-05T09:35:35.262Z",
-            "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.1",
+            "semver": "1.0.3",
+            "date": "2023-12-12T11:04:37.409Z",
+            "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.3",
             "notes": [
-                "Initial release for Milestone Risk Estimator plugin"
+                "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
             ]
         }
     },
