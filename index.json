@@ -624,13 +624,14 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.42",
-            "date": "2023-07-13T12:14:22.728Z",
-            "image": "urbancode/ucv-ext-servicenow:1.0.42",
+            "semver": "1.1.1",
+            "date": "2023-12-18T17:12:24.920Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.1",
             "notes": [
-                "<b>Minor bug fix</b>: Fixed bug related to proxy server change and related to automation task execution."
+                "Import incidents",
+                "Add Incident creation automation task"
             ],
-            "supports": "2.5.0"
+            "supports": "5.0.0"
         }
     },
     "ucv-ext-shell": {
