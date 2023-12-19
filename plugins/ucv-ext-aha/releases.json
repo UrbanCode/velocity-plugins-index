@@ -1,0 +1,11 @@
+[
+    {
+        "semver": "1.0.1",
+        "date": "2023-12-19T01:20:31.123Z",
+        "image": "urbancode/ucv-ext-aha:1.0.1",
+        "notes": [
+            "Update business value of associated Jira items."
+        ],
+        "supports": "5.0.0"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "semver": "1.0.1",
+        "date": "2023-12-19T01:36:50.640Z",
+        "image": "urbancode/ucv-ext-jira-service-management:1.0.1",
+        "notes": [
+            "Sync incidents."
+        ],
+        "supports": "5.0.0"
+    }
+]
