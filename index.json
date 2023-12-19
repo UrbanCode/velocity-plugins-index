@@ -229,6 +229,24 @@
             "supports": "2.5.0"
         }
     },
+    "ucv-ext-aha": {
+        "name": "Aha!",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "Syncs features and releases related data from Aha!",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2023-12-19T01:20:31.123Z",
+            "image": "urbancode/ucv-ext-aha:1.0.1",
+            "notes": [
+                "Update business value of associated Jira items."
+            ],
+            "supports": "5.0.0"
+        }
+    },
     "ucv-ext-azure": {
         "name": "Azure DevOps",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-azure/",

@@ -1,0 +1,9 @@
+{
+    "name": "Aha!",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "description": "Syncs features and releases related data from Aha!",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
