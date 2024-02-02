@@ -660,12 +660,14 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.1",
-            "date": "2023-12-18T17:12:24.920Z",
-            "image": "urbancode/ucv-ext-servicenow:1.1.1",
+            "semver": "1.1.2",
+            "date": "2024-02-02T11:11:20.503Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.2",
             "notes": [
-                "Import incidents",
-                "Add Incident creation automation task"
+                "<b>Bug fix:</b> The previous version was failing to upload issues of large size.",
+                "<b>Minor enhancement:</b> Previously, the number of issues per page was fixed, but now it is configurable. You can modify the number of issues per page to fetch.",
+                "<b>Feature enhancement:</b> In automation task enabled to create and update change task.",
+                "<b>Bug fix:</b>  Fixed issue related to syncing of change and problem in servicenow schedule event."
             ],
             "supports": "5.0.0"
         }
