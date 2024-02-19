@@ -495,11 +495,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.3",
-            "date": "2023-11-15T05:25:17.686Z",
-            "image": "urbancode/ucv-ext-jenkins:1.1.3",
+            "semver": "1.1.5",
+            "date": "2024-02-19T19:25:56.168Z",
+            "image": "urbancode/ucv-ext-jenkins:1.1.5",
             "notes": [
-                "Fix for Build-Revision mismatch in Jenkins Integration"
+                "Fix xpath job filter",
+                "Use correct username on task completion"
             ],
             "supports": "4.0.9"
         }
