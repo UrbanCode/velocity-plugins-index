@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.5",
+        "date": "2024-02-21T10:27:10.422Z",
+        "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.5",
+        "notes": [
+            "<b>Bug Fix</b>: Addressed bugs related to empty training datasets and empty prediction datasets."
+        ]
+    },
+    {
         "semver": "1.0.4",
         "date": "2024-01-31T10:14:34.468Z",
         "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.4",
