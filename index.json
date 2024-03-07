@@ -458,12 +458,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.2.66",
-            "date": "2023-03-13T15:24:20.662Z",
-            "image": "urbancode/ucv-ext-gitlab:2.2.66",
+            "semver": "2.2.68",
+            "date": "2024-03-07T03:41:03.937Z",
+            "image": "urbancode/ucv-ext-gitlab:2.2.68",
             "notes": [
-                "<b>Fix for Project Name Field</b>: Previous version of Gitlab plugin was not able to import data for some projects.",
-                "<b>Project IDs Field Added</b>: To import the source data you need to provide a list of GitLab Project IDs. Please note that you must provide at least one of either Project Names or Project IDs and can provide both if needed."
+                "<b>Minor bug fix:</b> Dynamically getting type of Issue."
             ],
             "supports": "2.5.0"
         }

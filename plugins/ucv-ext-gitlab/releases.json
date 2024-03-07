@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.2.68",
+        "date": "2024-03-07T03:41:03.937Z",
+        "image": "urbancode/ucv-ext-gitlab:2.2.68",
+        "notes": [
+            "<b>Minor bug fix:</b> Dynamically getting type of Issue."
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "2.2.66",
         "date": "2023-03-13T15:24:20.662Z",
         "image": "urbancode/ucv-ext-gitlab:2.2.66",
