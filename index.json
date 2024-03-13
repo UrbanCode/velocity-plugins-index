@@ -310,11 +310,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.2",
-            "date": "2020-12-08T07:31:06.014Z",
-            "image": "urbancode/ucv-ext-bottleneck-detection:1.0.2",
+            "semver": "1.0.3",
+            "date": "2024-03-13T13:06:52.085Z",
+            "image": "urbancode/ucv-ext-bottleneck-detection:1.0.3",
             "notes": [
-                "Enhancement"
+                "<b>Removed Manual User Access Key:</b>From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                "<b>Minor Enhancement:</b> We can now identify bottlenecks for individual value streams, resolving the issue of occasionally encountering failures when attempting to identify bottlenecks for all value streams simultaneously."
             ]
         }
     },
