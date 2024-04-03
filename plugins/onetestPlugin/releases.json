@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.0.37",
+        "date": "2024-04-03T11:22:22.582Z",
+        "image": "urbancode/ucv-ext-onetest:1.0.37",
+        "notes": [
+            "<b>Rebranding:</b> Name of the plugin has been changed from HCL One Test to HCL DevOps Test."
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "1.0.34",
         "date": "2022-10-28T12:46:23.594Z",
         "image": "urbancode/ucv-ext-onetest:1.0.34",
