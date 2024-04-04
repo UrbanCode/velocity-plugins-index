@@ -1,5 +1,13 @@
 [
     {
+        "semver": "0.0.34",
+        "date": "2024-04-04T11:53:11.379Z",
+        "image": "urbancode/ucv-ext-shell:0.0.34",
+        "notes": [
+            "<b>Minor enhancement in code</b>: Enabled to throw error logs while executing shell automation task."
+        ]
+    },
+    {
         "semver": "0.0.31",
         "date": "2022-05-06T08:40:43.922Z",
         "image": "urbancode/ucv-ext-shell:0.0.31",
