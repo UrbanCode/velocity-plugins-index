@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.0.51",
+        "date": "2024-04-04T08:34:18.805Z",
+        "image": "urbancode/ucv-ext-appscan:2.0.51",
+        "notes": [
+            "<b>Bug Fix:</b> In earlier version of plugin data into HCL AppScan Enterprise Issues metrics was not showing in VSM."
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "2.0.48",
         "date": "2023-09-25T10:52:13.269Z",
         "image": "urbancode/ucv-ext-appscan:2.0.48",
