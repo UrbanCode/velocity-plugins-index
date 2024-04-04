@@ -513,11 +513,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.3.12",
-            "date": "2024-01-11T10:25:07.220Z",
-            "image": "urbancode/ucv-ext-jira:2.3.12",
+            "semver": "2.3.17",
+            "date": "2024-04-04T10:17:47.484Z",
+            "image": "urbancode/ucv-ext-jira:2.3.17",
             "notes": [
-                "Added request timeout option"
+                "<b>Bug fix:</b> Added Proxyserver changes"
             ],
             "supports": "3.1.0"
         }
@@ -678,11 +678,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.31",
-            "date": "2022-05-06T08:40:43.922Z",
-            "image": "urbancode/ucv-ext-shell:0.0.31",
+            "semver": "0.0.34",
+            "date": "2024-04-04T11:53:11.379Z",
+            "image": "urbancode/ucv-ext-shell:0.0.34",
             "notes": [
-                "Reduced Vulnerabilities"
+                "<b>Minor enhancement in code</b>: Enabled to throw error logs while executing shell automation task."
             ]
         }
     },
