@@ -513,11 +513,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.3.12",
-            "date": "2024-01-11T10:25:07.220Z",
-            "image": "urbancode/ucv-ext-jira:2.3.12",
+            "semver": "2.3.17",
+            "date": "2024-04-04T10:17:47.484Z",
+            "image": "urbancode/ucv-ext-jira:2.3.17",
             "notes": [
-                "Added request timeout option"
+                "<b>Bug fix:</b> Added Proxyserver changes"
             ],
             "supports": "3.1.0"
         }
