@@ -584,11 +584,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.26",
-            "date": "2023-07-21T07:14:14.429Z",
-            "image": "urbancode/ucv-ext-onetest-server:1.0.26",
+            "semver": "1.0.27",
+            "date": "2024-04-09T09:34:14.365Z",
+            "image": "urbancode/ucv-ext-onetest-server:1.0.27",
             "notes": [
-                "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin."
+                "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
             ],
             "supports": "2.5.0"
         }
