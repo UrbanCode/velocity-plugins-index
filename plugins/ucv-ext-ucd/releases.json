@@ -1,5 +1,14 @@
 [
     {
+        "semver": "4.0.4",
+        "date": "2024-04-10T09:04:35.423Z",
+        "image": "urbancode/ucv-ext-ucd:4.0.4",
+        "notes": [
+            "<b>Rebranding</b>: Name of the plugin is changed from UrbanCode Deploy to IBM DevOps Deploy. "
+        ],
+        "supports": "4.0.13"
+    },
+    {
         "semver": "4.0.3",
         "date": "2023-11-29T10:29:48.201Z",
         "image": "urbancode/ucv-ext-ucd:4.0.3",
