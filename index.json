@@ -660,11 +660,14 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.3",
-            "date": "2024-02-27T10:52:16.431Z",
-            "image": "urbancode/ucv-ext-servicenow:1.1.3",
+            "semver": "1.1.4",
+            "date": "2024-04-16T11:10:46.067Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.4",
             "notes": [
-                "<b>Minor bug fix:</b> Earlier plugin was unable to resync when incident is resolved"
+                "<b>Add initial sync</b>: Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
+                "<b>Resync functionality</b>: After integration plugin provides an option to perform either full resync or resync from selected date so that plugin resync again.",
+                "<b>Output Property field added</b>: For automation task create change request and change task output property field is added which stores system id of change request when created and for change task output property is provided inside object under create change task field.",
+                "<b>Wait change task</b>: A new automation task is created for waiting change task."
             ],
             "supports": "5.0.2"
         }
