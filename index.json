@@ -79,11 +79,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.38",
-            "date": "2022-06-06T16:14:13.509Z",
-            "image": "urbancode/ucv-ext-coverage-core:1.0.38",
+            "semver": "1.0.42",
+            "date": "2024-05-09T11:33:44.040Z",
+            "image": "urbancode/ucv-ext-coverage-core:1.0.42",
             "notes": [
-                "Minor fix"
+                "<b>Feature enhancement</b>: Now core coverage plugin accepts user defined record name and dataset name in payload while hitting post call/curl command. If values are not provided by user it will accept default values given by the plugin."
             ]
         }
     },
