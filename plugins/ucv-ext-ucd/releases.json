@@ -1,5 +1,14 @@
 [
     {
+        "semver": "4.0.5",
+        "date": "2024-05-20T10:35:39.429Z",
+        "image": "urbancode/ucv-ext-ucd:4.0.5",
+        "notes": [
+            "<b>Minor bug fix:</b> In previous version user who does not exist on UCD server were able to execute the task. Now User who exists on UCD Server and have sufficient permission is able to execute the task."
+        ],
+        "supports": "4.0.13"
+    },
+    {
         "semver": "4.0.4",
         "date": "2024-04-10T09:04:35.423Z",
         "image": "urbancode/ucv-ext-ucd:4.0.4",
