@@ -1,5 +1,15 @@
 [
     {
+        "semver": "1.1.5",
+        "date": "2024-05-29T12:19:31.591Z",
+        "image": "urbancode/ucv-ext-servicenow:1.1.5",
+        "notes": [
+            "<b>Bug fix</b>: Removed drop down feature in update change request and change task and wait changes automation task which was implemented to select change request number as it was uploading more data to integration details. Now user can enter change request number manually.",
+            "<b>Bug fix</b>: Enabled to create standard and emergency change request in create change request and change task automation task by changing api request made to create.( earlier it was creating only normal change )"
+        ],
+        "supports": "5.0.2"
+    },
+    {
         "semver": "1.1.4",
         "date": "2024-04-16T11:10:46.067Z",
         "image": "urbancode/ucv-ext-servicenow:1.1.4",

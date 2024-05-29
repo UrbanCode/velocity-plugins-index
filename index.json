@@ -660,14 +660,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.4",
-            "date": "2024-04-16T11:10:46.067Z",
-            "image": "urbancode/ucv-ext-servicenow:1.1.4",
+            "semver": "1.1.5",
+            "date": "2024-05-29T12:19:31.591Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.5",
             "notes": [
-                "<b>Add initial sync</b>: Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
-                "<b>Resync functionality</b>: After integration plugin provides an option to perform either full resync or resync from selected date so that plugin resync again.",
-                "<b>Output Property field added</b>: For automation task create change request and change task output property field is added which stores system id of change request when created and for change task output property is provided inside object under create change task field.",
-                "<b>Wait change task</b>: A new automation task is created for waiting change task."
+                "<b>Bug fix</b>: Removed drop down feature in update change request and change task and wait changes automation task which was implemented to select change request number as it was uploading more data to integration details. Now user can enter change request number manually.",
+                "<b>Bug fix</b>: Enabled to create standard and emergency change request in create change request and change task automation task by changing api request made to create.( earlier it was creating only normal change )"
             ],
             "supports": "5.0.2"
         }
