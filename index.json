@@ -494,12 +494,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.5",
-            "date": "2024-02-19T19:25:56.168Z",
-            "image": "urbancode/ucv-ext-jenkins:1.1.5",
+            "semver": "1.1.7",
+            "date": "2024-06-10T10:37:45.783Z",
+            "image": "urbancode/ucv-ext-jenkins:1.1.7",
             "notes": [
-                "Fix xpath job filter",
-                "Use correct username on task completion"
+                "<b>Minor bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
             ],
             "supports": "4.0.9"
         }
