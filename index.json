@@ -130,11 +130,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.31",
-            "date": "2020-12-11T13:53:47.024Z",
-            "image": "urbancode/ucv-ext-vs-quality:1.0.31",
+            "semver": "1.0.49",
+            "date": "2024-06-11T10:22:05.379Z",
+            "image": "urbancode/ucv-ext-vs-quality:1.0.49",
             "notes": [
-                "Plugin name update"
+                "npm wrapper version update for Argo Replacement"
             ]
         }
     },
