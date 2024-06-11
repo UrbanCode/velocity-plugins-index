@@ -147,11 +147,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.37",
-            "date": "2024-04-03T11:22:22.582Z",
-            "image": "urbancode/ucv-ext-onetest:1.0.37",
+            "semver": "1.0.40",
+            "date": "2024-06-11T11:20:45.835Z",
+            "image": "urbancode/ucv-ext-onetest:1.0.40",
             "notes": [
-                "<b>Rebranding:</b> Name of the plugin has been changed from HCL One Test to HCL DevOps Test."
+                "npm wrapper version update for Argo Replacement"
             ],
             "supports": "2.5.0"
         }
