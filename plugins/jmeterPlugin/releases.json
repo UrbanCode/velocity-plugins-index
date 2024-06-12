@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.62",
+        "date": "2024-06-12T06:54:21.038Z",
+        "image": "urbancode/ucv-ext-jmeter:1.0.62",
+        "notes": [
+            "npm wrapper version update for Argo Replacement"
+        ]
+    },
+    {
         "semver": "1.0.56",
         "date": "2022-05-27T04:26:00.014Z",
         "image": "urbancode/ucv-ext-jmeter:1.0.56",

@@ -96,11 +96,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.56",
-            "date": "2022-05-27T04:26:00.014Z",
-            "image": "urbancode/ucv-ext-jmeter:1.0.56",
+            "semver": "1.0.62",
+            "date": "2024-06-12T06:54:21.038Z",
+            "image": "urbancode/ucv-ext-jmeter:1.0.62",
             "notes": [
-                "reduce vulnerabilities"
+                "npm wrapper version update for Argo Replacement"
             ]
         }
     },
@@ -113,11 +113,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.72",
-            "date": "2022-05-27T04:38:59.778Z",
-            "image": "urbancode/ucv-ext-junit:1.0.72",
+            "semver": "1.0.80",
+            "date": "2024-06-12T09:35:01.535Z",
+            "image": "urbancode/ucv-ext-junit:1.0.80",
             "notes": [
-                "reduce vulnerabilities"
+                "npm wrapper version update for Argo Replacement"
             ]
         }
     },
@@ -182,11 +182,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.38",
-            "date": "2022-05-31T16:33:05.881Z",
-            "image": "urbancode/ucv-ext-testng:1.0.38",
+            "semver": "1.0.41",
+            "date": "2024-06-12T06:27:30.891Z",
+            "image": "urbancode/ucv-ext-testng:1.0.41",
             "notes": [
-                "Reduced Vulnerabilities"
+                "npm wrapper version update for Argo replacement"
             ]
         }
     },
@@ -199,11 +199,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.44",
-            "date": "2022-05-27T03:49:18.223Z",
-            "image": "urbancode/ucv-ext-twistlock:1.0.44",
+            "semver": "1.0.51",
+            "date": "2024-06-12T07:46:14.836Z",
+            "image": "urbancode/ucv-ext-twistlock:1.0.51",
             "notes": [
-                "reduced vulnerabilities"
+                "npm wrapper version update for Argo Replacement"
             ]
         }
     },
