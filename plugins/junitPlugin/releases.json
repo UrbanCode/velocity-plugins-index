@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.84",
+        "date": "2024-07-03T09:30:03.807Z",
+        "image": "urbancode/ucv-ext-junit:1.0.84",
+        "notes": [
+            "Updated the metric plugins in production to align with the new Argo-less framework."
+        ]
+    },
+    {
         "semver": "1.0.80",
         "date": "2024-06-12T09:35:01.535Z",
         "image": "urbancode/ucv-ext-junit:1.0.80",
