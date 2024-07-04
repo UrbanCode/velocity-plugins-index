@@ -113,11 +113,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.80",
-            "date": "2024-06-12T09:35:01.535Z",
-            "image": "urbancode/ucv-ext-junit:1.0.80",
+            "semver": "1.0.84",
+            "date": "2024-07-03T09:30:03.807Z",
+            "image": "urbancode/ucv-ext-junit:1.0.84",
             "notes": [
-                "npm wrapper version update for Argo Replacement"
+                "Updated the metric plugins in production to align with the new Argo-less framework."
             ]
         }
     },
