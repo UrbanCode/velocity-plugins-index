@@ -1,5 +1,14 @@
 [
     {
+        "semver": "4.0.44",
+        "date": "2024-07-05T08:22:52.309Z",
+        "image": "urbancode/ucv-ext-azure:4.0.44",
+        "notes": [
+            "Upload builds based on the repository."
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "4.0.43",
         "date": "2024-06-21T10:01:45.776Z",
         "image": "urbancode/ucv-ext-azure:4.0.43",
