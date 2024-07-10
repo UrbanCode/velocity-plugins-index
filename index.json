@@ -718,11 +718,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.5",
-            "date": "2024-05-20T10:35:39.429Z",
-            "image": "urbancode/ucv-ext-ucd:4.0.5",
+            "semver": "4.0.6",
+            "date": "2024-07-10T14:39:17.536Z",
+            "image": "urbancode/ucv-ext-ucd:4.0.6",
             "notes": [
-                "<b>Minor bug fix:</b> In previous version user who does not exist on UCD server were able to execute the task. Now User who exists on UCD Server and have sufficient permission is able to execute the task."
+                "In this version, no need to add automatedTaskRunner manually to ucd server. It will ease of work for schedule deployment and auto promotion by reducing manual intervention."
             ],
             "supports": "4.0.13"
         }
