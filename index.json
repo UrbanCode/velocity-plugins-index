@@ -663,13 +663,10 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.6",
-            "date": "2024-07-09T09:31:14.560Z",
-            "image": "urbancode/ucv-ext-servicenow:1.1.6",
-            "notes": [
-                "We have added a new field for Resource Types and Sys_params, which will synchronize events based on the provided sys_params.",
-                "When the feature flag is enabled, all data collection queries will read from the read replica instance."
-            ],
+            "semver": "1.1.7",
+            "date": "2024-07-11T13:41:56.937Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.7",
+            "notes": [],
             "supports": "5.0.2"
         }
     },
