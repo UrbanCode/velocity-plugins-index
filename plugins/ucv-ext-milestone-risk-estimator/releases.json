@@ -1,5 +1,17 @@
 [
     {
+        "semver": "2.0.1",
+        "date": "2024-07-10T08:22:54.526Z",
+        "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.1",
+        "notes": [
+            "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
+            "Expanded support for a broader and customizable range of work item types.",
+            "Enhanced estimation accuracy by incorporating:",
+            "History of ownership changes.",
+            "Parent-child relationships among work items."
+        ]
+    },
+    {
         "semver": "1.0.5",
         "date": "2024-02-21T10:27:10.422Z",
         "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.5",
