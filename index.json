@@ -715,11 +715,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.6",
-            "date": "2024-07-10T14:39:17.536Z",
-            "image": "urbancode/ucv-ext-ucd:4.0.6",
+            "semver": "4.0.7",
+            "date": "2024-07-12T14:39:16.071Z",
+            "image": "urbancode/ucv-ext-ucd:4.0.7",
             "notes": [
-                "In this version, no need to add automatedTaskRunner manually to ucd server. It will ease of work for schedule deployment and auto promotion by reducing manual intervention."
+                "In this version automation task execution mechanism got modified. Previously we used to do completion of task during sync event. Now during execution of automation task, completion of task happens. It is helpful for giving exact user to the devops velocity and makes the execution faster. <b>Build Polling Timeout</b> as a new parameter is added in the plugin which indicates <b>Length of time (in minutes) to wait for build to complete if task is set to wait</b>. User can customize the <b>Build Polling Timeout</b> as per the need. Along with that a property which is a wait property is added. During the addition of task, wait property is in true state by default. It indicates plugin will wait for build to complete. If it explicitly set to false, then plugin will not for build to complete."
             ],
             "supports": "4.0.13"
         }
