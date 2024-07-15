@@ -1,5 +1,14 @@
 [
     {
+        "semver": "4.0.9",
+        "date": "2024-07-15T12:06:55.246Z",
+        "image": "urbancode/ucv-ext-ucd:4.0.9",
+        "notes": [
+            "Releasing again for prev version changes"
+        ],
+        "supports": "4.0.13"
+    },
+    {
         "semver": "4.0.8",
         "date": "2024-07-15T08:14:04.441Z",
         "image": "urbancode/ucv-ext-ucd:4.0.8",
