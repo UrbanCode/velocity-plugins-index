@@ -663,13 +663,10 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.6",
-            "date": "2024-07-09T09:31:14.560Z",
-            "image": "urbancode/ucv-ext-servicenow:1.1.6",
-            "notes": [
-                "We have added a new field for Resource Types and Sys_params, which will synchronize events based on the provided sys_params.",
-                "When the feature flag is enabled, all data collection queries will read from the read replica instance."
-            ],
+            "semver": "1.1.7",
+            "date": "2024-07-11T13:41:56.937Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.7",
+            "notes": [],
             "supports": "5.0.2"
         }
     },
@@ -718,11 +715,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.6",
-            "date": "2024-07-10T14:39:17.536Z",
-            "image": "urbancode/ucv-ext-ucd:4.0.6",
+            "semver": "4.0.8",
+            "date": "2024-07-15T08:14:04.441Z",
+            "image": "urbancode/ucv-ext-ucd:4.0.8",
             "notes": [
-                "In this version, no need to add automatedTaskRunner manually to ucd server. It will ease of work for schedule deployment and auto promotion by reducing manual intervention."
+                "Releasing again for prev version changes"
             ],
             "supports": "4.0.13"
         }
