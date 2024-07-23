@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.4.17",
+        "date": "2024-07-23T12:55:27.869Z",
+        "image": "urbancode/ucv-ext-github:1.4.17",
+        "notes": [
+            "Fix Pull Request sync with the newest versions of the GitHub Api."
+        ],
+        "supports": "2.6.0"
+    },
+    {
         "semver": "1.4.16",
         "date": "2023-11-15T11:54:56.690Z",
         "image": "urbancode/ucv-ext-github:1.4.16",
