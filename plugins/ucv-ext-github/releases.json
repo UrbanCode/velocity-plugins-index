@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.4.18",
+        "date": "2024-07-26T08:38:10.558Z",
+        "image": "urbancode/ucv-ext-github:1.4.18",
+        "notes": [
+            "Changes in the Github plugin to handle draft PR and use the new field in the DB. Have added <b>top-level field</b> for <b>draft</b> on pull requests in our GraphQL schema"
+        ],
+        "supports": "2.6.0"
+    },
+    {
         "semver": "1.4.17",
         "date": "2024-07-23T12:55:27.869Z",
         "image": "urbancode/ucv-ext-github:1.4.17",
