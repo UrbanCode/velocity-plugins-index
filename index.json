@@ -156,6 +156,23 @@
             "supports": "2.5.0"
         }
     },
+    "release_summary_ibm": {
+        "name": "GenAI Summary Release - IBM",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "Generates a summary of the current state of work for active releases",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2024-08-13T05:56:13.837Z",
+            "image": "urbancode/ucv-ext-release-summary-ibm:1.0.1",
+            "notes": [
+                " "
+            ]
+        }
+    },
     "sonarqubePlugin": {
         "name": "SonarQube",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-sonarqube/",
