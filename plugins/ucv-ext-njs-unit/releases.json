@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "0.0.2",
+        "date": "2024-08-12T12:25:37.966Z",
+        "image": "urbancode/ucv-ext-njs-unit:0.0.2",
+        "notes": [
+            "Initial Release"
+        ]
+    }
+]

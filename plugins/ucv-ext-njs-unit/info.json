@@ -1,0 +1,9 @@
+{
+    "name": "Njs-Unit",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "description": "This is a plugin to handle XML/Json types of data",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
