@@ -1,0 +1,9 @@
+{
+    "name": "GenAI Summary Release - OpenAI",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "description": "Generates a summary of the current state of work for active releases",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
