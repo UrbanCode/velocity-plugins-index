@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.1.32",
+        "date": "2024-08-14T08:47:07.720Z",
+        "image": "urbancode/ucv-ext-ewm:1.1.32",
+        "notes": [
+            "Fixed an issue where invalid date formats were causing errors in date processing due to a change in the EWM API date format."
+        ]
+    },
+    {
         "semver": "1.1.30",
         "date": "2022-09-06T07:34:36.006Z",
         "image": "urbancode/ucv-ext-ewm:1.1.30",
