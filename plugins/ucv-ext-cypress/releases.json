@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.1",
+        "date": "2024-08-14T18:50:33.436Z",
+        "image": "urbancode/ucv-ext-cypress:1.0.1",
+        "notes": [
+            "Implemented Parsing for Cypress XML and JSON formats"
+        ]
+    }
+]
