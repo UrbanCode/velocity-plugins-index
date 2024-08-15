@@ -1,0 +1,9 @@
+{
+    "name": "Cypress",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "description": "This is a plugin to handle Cypress data",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
