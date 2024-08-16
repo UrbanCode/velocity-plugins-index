@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.4",
+        "date": "2024-08-16T07:40:06.029Z",
+        "image": "urbancode/ucv-ext-njs-unit:1.0.4",
+        "notes": [
+            "Implemented XML/JSON parsing support for four different unit test frameworks: Mocha, Jest, Node-tap, and Tape."
+        ]
+    },
+    {
         "semver": "0.0.2",
         "date": "2024-08-12T12:25:37.966Z",
         "image": "urbancode/ucv-ext-njs-unit:0.0.2",
