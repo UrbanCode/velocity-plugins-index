@@ -490,13 +490,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.4.18",
-            "date": "2024-07-26T08:38:10.558Z",
-            "image": "urbancode/ucv-ext-github:1.4.18",
+            "semver": "1.4.19",
+            "date": "2024-09-06T08:02:34.437Z",
+            "image": "urbancode/ucv-ext-github:1.4.19",
             "notes": [
-                "Changes in the Github plugin to handle draft PR and use the new field in the DB. Have added <b>top-level field</b> for <b>draft</b> on pull requests in our GraphQL schema"
+                "Our current version of GitHub (ucv-ext-github:1.4.19) only supports Velocity versions 5.0.8 and higher"
             ],
-            "supports": "2.6.0"
+            "supports": "5.0.8"
         }
     },
     "ucv-ext-gitlab": {
