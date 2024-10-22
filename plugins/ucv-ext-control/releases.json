@@ -1,0 +1,10 @@
+[
+    {
+        "semver": "1.0.2",
+        "date": "2024-10-21T10:29:52.192Z",
+        "image": "urbancode/ucv-ext-control:1.0.2",
+        "notes": [
+            "Initial Release for Control Plugin"
+        ]
+    }
+]

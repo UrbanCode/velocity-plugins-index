@@ -373,6 +373,23 @@
             "supports": "2.5.0"
         }
     },
+    "ucv-ext-control": {
+        "name": "Control",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-control",
+        "description": "Sync pull request, commit and issues from Control",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.2",
+            "date": "2024-10-21T10:29:52.192Z",
+            "image": "urbancode/ucv-ext-control:1.0.2",
+            "notes": [
+                "Initial Release for Control Plugin"
+            ]
+        }
+    },
     "ucv-ext-cucumber": {
         "name": "Cucumber",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-cucumber/",
