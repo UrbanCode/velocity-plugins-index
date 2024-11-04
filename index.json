@@ -79,11 +79,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.42",
-            "date": "2024-05-09T11:33:44.040Z",
-            "image": "urbancode/ucv-ext-coverage-core:1.0.42",
+            "semver": "1.0.44",
+            "date": "2024-11-04T07:26:42.118Z",
+            "image": "urbancode/ucv-ext-coverage-core:1.0.44",
             "notes": [
-                "<b>Feature enhancement</b>: Now core coverage plugin accepts user defined record name and dataset name in payload while hitting post call/curl command. If values are not provided by user it will accept default values given by the plugin."
+                "fixed issue for Code Coverage plugin not supporting clover xml format"
             ]
         }
     },
@@ -369,6 +369,24 @@
                 "<b>Preventing Installation on Older Versions:</b> This version of Circleci Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
                 "<b>Added Category</b>:Build and Deploy are the plugin category of Circleci.",
                 "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+            ],
+            "supports": "2.5.0"
+        }
+    },
+    "ucv-ext-compass": {
+        "name": "DevOps Plan Plugin",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-compass/",
+        "description": "The DevOps Plan plug-in imports and synchronizes issues from an DevOps Plan server into an DevOps Velocity server.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.1.55",
+            "date": "2024-10-23T05:44:56.112Z",
+            "image": "urbancode/ucv-ext-compass:1.1.55",
+            "notes": [
+                "Initial Release of Plan Plugin"
             ],
             "supports": "2.5.0"
         }
