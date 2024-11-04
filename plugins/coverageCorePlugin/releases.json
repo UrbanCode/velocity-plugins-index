@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.44",
+        "date": "2024-11-04T07:26:42.118Z",
+        "image": "urbancode/ucv-ext-coverage-core:1.0.44",
+        "notes": [
+            "fixed issue for Code Coverage plugin not supporting clover xml format"
+        ]
+    },
+    {
         "semver": "1.0.42",
         "date": "2024-05-09T11:33:44.040Z",
         "image": "urbancode/ucv-ext-coverage-core:1.0.42",
