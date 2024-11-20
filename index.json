@@ -44,11 +44,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "3.0.19",
-            "date": "2023-03-10T14:35:41.121Z",
-            "image": "urbancode/ucv-ext-asoc:3.0.19",
+            "semver": "3.0.25",
+            "date": "2024-11-20T04:51:29.135Z",
+            "image": "urbancode/ucv-ext-asoc:3.0.25",
             "notes": [
-                "The Older Version of ASoC Plugin was not reporting critical issues"
+                "Upgraded plugin to support ASOC API version from V2 to V4, as V2 API are deprecated by ASOC"
             ],
             "supports": "2.5.0"
         }
