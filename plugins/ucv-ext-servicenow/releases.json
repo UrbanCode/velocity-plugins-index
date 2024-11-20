@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.1.10",
+        "date": "2024-11-20T09:04:34.296Z",
+        "image": "urbancode/ucv-ext-servicenow:1.1.10",
+        "notes": [
+            "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
+        ],
+        "supports": "5.0.2"
+    },
+    {
         "semver": "1.1.8",
         "date": "2024-09-19T09:23:57.562Z",
         "image": "urbancode/ucv-ext-servicenow:1.1.8",
