@@ -4,7 +4,7 @@
         "date": "2024-11-20T04:51:29.135Z",
         "image": "urbancode/ucv-ext-asoc:3.0.25",
         "notes": [
-            "upgrade API version from v2 to v4"
+            "Upgraded plugin to support ASOC API version from V2 to V4, as V2 API are deprecated by ASOC"
         ],
         "supports": "2.5.0"
     },
