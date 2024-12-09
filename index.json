@@ -597,11 +597,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.3.17",
-            "date": "2024-04-04T10:17:47.484Z",
-            "image": "urbancode/ucv-ext-jira:2.3.17",
+            "semver": "2.3.20",
+            "date": "2024-12-09T08:38:13.119Z",
+            "image": "urbancode/ucv-ext-jira:2.3.20",
             "notes": [
-                "<b>Bug fix:</b> Added Proxyserver changes"
+                "Bug Fix for Active Sprint Field Mapping for JIRA Cloud"
             ],
             "supports": "3.1.0"
         }
