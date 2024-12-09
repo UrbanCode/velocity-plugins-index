@@ -427,7 +427,7 @@
     },
     "ucv-ext-cypress": {
         "name": "Cypress",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-cypress",
         "description": "This is a plugin to handle Cypress data",
         "author": {
             "name": "UrbanCode",
