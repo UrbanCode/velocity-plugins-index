@@ -1,6 +1,6 @@
 {
     "name": "Microsoft Visual Studio Testing",
-    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-vs-quality/",
     "description": "Allows UrbanCode Velocity to import VS Quality test results as metrics.",
     "author": {
         "name": "UrbanCode",
