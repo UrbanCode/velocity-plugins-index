@@ -123,7 +123,7 @@
     },
     "msQualityPlugin": {
         "name": "Microsoft Visual Studio Testing",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-vs-quality/",
         "description": "Allows UrbanCode Velocity to import VS Quality test results as metrics.",
         "author": {
             "name": "UrbanCode",
@@ -158,7 +158,7 @@
     },
     "release_summary_ibm": {
         "name": "GenAI Summary Release - IBM",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-release-summary-ibm/",
         "description": "Generates a summary of the current state of work for active releases",
         "author": {
             "name": "UrbanCode",
@@ -175,7 +175,7 @@
     },
     "release_summary_openai": {
         "name": "GenAI Summary Release - OpenAI",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-release-summary-openai/",
         "description": "Generates a summary of the current state of work for active releases",
         "author": {
             "name": "UrbanCode",
@@ -300,7 +300,7 @@
     },
     "ucv-ext-bitbucket-cloud": {
         "name": "Bitbucket Cloud",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-bitbucket-cloud/",
         "description": "Synchronizes pull requests and commit data from a Bitbucket cloud instance.",
         "author": {
             "name": "UrbanCode",
@@ -354,7 +354,7 @@
     },
     "ucv-ext-circleci": {
         "name": "CircleCI",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-circleci/",
         "description": "The CircleCI plug-in imports and synchronizes CI/CD data from CircleCI.",
         "author": {
             "name": "UrbanCode",
@@ -482,7 +482,7 @@
     },
     "ucv-ext-fortify-ssc": {
         "name": "Fortify SSC",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-fortify-ssc/",
         "description": "The Fortify SSC plug-in handles incoming data from Fortify SSC server.",
         "author": {
             "name": "UrbanCode",
@@ -661,7 +661,7 @@
     },
     "ucv-ext-njs-unit": {
         "name": "Njs-Unit",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-njs-unit/",
         "description": "This is a plugin to handle XML/Json types of data",
         "author": {
             "name": "UrbanCode",
@@ -736,7 +736,7 @@
     },
     "ucv-ext-sap-charm": {
         "name": "SAP Charm",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-sap-charm/",
         "description": "Sync issue data from Jira and SAP.",
         "author": {
             "name": "UrbanCode",
@@ -772,7 +772,7 @@
     },
     "ucv-ext-shell": {
         "name": "Shell",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-shell/",
         "description": "This plugin will execute simple shell scripts",
         "author": {
             "name": "UrbanCode",
@@ -789,7 +789,7 @@
     },
     "ucv-ext-snyk": {
         "name": "Snyk",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-snyk/",
         "description": "Sync vulnerabilities data from Snyk.",
         "author": {
             "name": "UrbanCode",
@@ -808,7 +808,7 @@
     },
     "ucv-ext-ucd": {
         "name": "UbranCode Deploy",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-ucd/",
         "description": "Sync applications, components, snapshots, environments, inventories, and application processes related data from UrbanCode Deploy server.",
         "author": {
             "name": "UrbanCode",
@@ -843,7 +843,7 @@
     },
     "ucv-ext-whitesource": {
         "name": "WhiteSource",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-whitesource/",
         "description": "This plug-in imports data from WhiteSource",
         "author": {
             "name": "UrbanCode",
