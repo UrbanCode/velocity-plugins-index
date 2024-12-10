@@ -1,6 +1,6 @@
 {
     "name": "UbranCode Deploy",
-    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-ucd/",
     "description": "Sync applications, components, snapshots, environments, inventories, and application processes related data from UrbanCode Deploy server.",
     "author": {
         "name": "UrbanCode",
