@@ -1,6 +1,6 @@
 {
     "name": "Bitbucket Cloud",
-    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-bitbucket-cloud/",
     "description": "Synchronizes pull requests and commit data from a Bitbucket cloud instance.",
     "author": {
         "name": "UrbanCode",
