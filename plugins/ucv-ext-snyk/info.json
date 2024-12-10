@@ -1,6 +1,6 @@
 {
     "name": "Snyk",
-    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-snyk/",
     "description": "Sync vulnerabilities data from Snyk.",
     "author": {
         "name": "UrbanCode",
