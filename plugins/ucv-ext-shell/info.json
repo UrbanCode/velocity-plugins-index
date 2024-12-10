@@ -1,6 +1,6 @@
 {
     "name": "Shell",
-    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-shell/",
     "description": "This plugin will execute simple shell scripts",
     "author": {
         "name": "UrbanCode",
