@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.2.69",
+        "date": "2024-12-11T10:04:43.254Z",
+        "image": "urbancode/ucv-ext-gitlab:2.2.69",
+        "notes": [
+            "Bug fix: Fixed approvers/reviews data not present in the pullRequest data."
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "2.2.68",
         "date": "2024-03-07T03:41:03.937Z",
         "image": "urbancode/ucv-ext-gitlab:2.2.68",
