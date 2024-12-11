@@ -1,7 +1,7 @@
 {
-    "name": "Devops Control",
+    "name": "DevOps Control",
     "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-control",
-    "description": "Sync pull request, commit and issues from Devops Control",
+    "description": "Sync pull request, commit and issues from DevOps Control",
     "author": {
         "name": "UrbanCode",
         "email": "urbancode-plugins@hcl.com"
