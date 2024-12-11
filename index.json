@@ -139,9 +139,9 @@
         }
     },
     "onetestPlugin": {
-        "name": "HCL OneTest",
+        "name": "Devops Test",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-onetest/",
-        "description": "Allows UrbanCode Velocity to import OneTest test results as metrics.",
+        "description": "Allows UrbanCode Velocity to import Devops Test test results as metrics.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
@@ -392,9 +392,9 @@
         }
     },
     "ucv-ext-control": {
-        "name": "Control",
+        "name": "Devops Control",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-control",
-        "description": "Sync pull request, commit and issues from Control",
+        "description": "Sync pull request, commit and issues from Devops Control",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
@@ -404,7 +404,7 @@
             "date": "2024-10-21T10:29:52.192Z",
             "image": "urbancode/ucv-ext-control:1.0.2",
             "notes": [
-                "Initial Release for Control Plugin"
+                "Initial Release for Devops Control Plugin"
             ]
         }
     },
