@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.3.23",
+        "date": "2024-12-17T07:07:18.947Z",
+        "image": "urbancode/ucv-ext-jira:2.3.23",
+        "notes": [
+            "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
+        ],
+        "supports": "3.1.0"
+    },
+    {
         "semver": "2.3.20",
         "date": "2024-12-09T08:38:13.119Z",
         "image": "urbancode/ucv-ext-jira:2.3.20",
