@@ -525,13 +525,14 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.4.19",
-            "date": "2024-09-06T08:02:34.437Z",
-            "image": "urbancode/ucv-ext-github:1.4.19",
+            "semver": "1.5.1",
+            "date": "2024-12-19T09:31:37.271Z",
+            "image": "urbancode/ucv-ext-github:1.5.1",
             "notes": [
-                "Our current version of GitHub (ucv-ext-github:1.4.19) only supports Velocity versions 5.0.8 and higher"
+                "<b>Add description field to Pull Request</b>: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).",
+                "<b>Support version 5.0.11</b>: Our current version of GitHub Integration, only supports Velocity versions 5.0.11 and later."
             ],
-            "supports": "5.0.8"
+            "supports": "5.0.11"
         }
     },
     "ucv-ext-gitlab": {
