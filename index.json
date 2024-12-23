@@ -400,11 +400,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.2",
-            "date": "2024-10-21T10:29:52.192Z",
-            "image": "urbancode/ucv-ext-control:1.0.2",
+            "semver": "1.0.4",
+            "date": "2024-12-23T06:51:02.139Z",
+            "image": "urbancode/ucv-ext-control:1.0.4",
             "notes": [
-                "Initial Release for DevOps Control Plugin"
+                "<b>Rebranding</b>: Name of the plugin is changed from Control to DevOps Control."
             ]
         }
     },
