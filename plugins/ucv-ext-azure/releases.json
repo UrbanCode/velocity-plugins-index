@@ -1,5 +1,14 @@
 [
     {
+        "semver": "4.0.45",
+        "date": "2025-01-06T08:40:17.802Z",
+        "image": "urbancode/ucv-ext-azure:4.0.45",
+        "notes": [
+            "Implemented context-less application, enhanced performance, and removed unnecessary VSM history for improved efficiency"
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "4.0.44",
         "date": "2024-07-05T08:22:52.309Z",
         "image": "urbancode/ucv-ext-azure:4.0.44",
