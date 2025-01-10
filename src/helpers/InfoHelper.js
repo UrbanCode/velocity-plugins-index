@@ -26,7 +26,8 @@ export default class InfoHelper {
       author: Joi.object().required().error(() => ERROR_TEXT.Author).keys({
         name: Joi.string().required().error(() => ERROR_TEXT.AuthorName),
         email: Joi.string().required().email().error(() => ERROR_TEXT.AuthorEmail)
-      })
+      }),
+      branding:Joi.object()
     }
   }
 
