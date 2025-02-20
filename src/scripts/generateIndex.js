@@ -31,10 +31,10 @@ logger.level = process.env.LOG_LEVEL || 'INFO'
           notes: latestRelease.notes || []
         }
       }
-      if(info.branding.brandingName && info.branding.brandingVersion) {
+      if(info.branding) {
         indexJson[plugin].branding = {
-          name: info.branding.brandingName ? info.branding.brandingName : '',
-          version: info.branding.brandingVersion ? info.branding.brandingVersion : ''
+          name: info.branding.name ? info.branding.name : null,
+          version: info.branding.version ? info.branding.version : null
         }
       }
       if (latestRelease.supports) {
