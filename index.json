@@ -693,10 +693,6 @@
                 "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
             ],
             "supports": "2.5.0"
-        },
-        "branding": {
-            "name": "HCL DevOps Test server",
-            "version": "1.0.27"
         }
     },
     "ucv-ext-rally": {
@@ -766,13 +762,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.10",
-            "date": "2024-11-20T09:04:34.296Z",
-            "image": "urbancode/ucv-ext-servicenow:1.1.10",
+            "semver": "1.1.11",
+            "date": "2025-02-20T13:18:18.739Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.11",
             "notes": [
-                "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
+                "<b>Replica Server Name field addition</b>: In index.js file added replica server name field, any non-empty string value to replica server name would enable read only replica.",
+                "<b>Support for CHANGE_REQUEST normalized type</b>: Added new normalized type CHANGE_REQUEST. In value stream management page, for type filter you can see this normalized type for ServiceNow plugin integration.",
+                "<b>Bug fix</b>: Planned start date and end date given while creating the change request via automation task was getting mismatched when checked in ServiceNow application once the task executed.",
+                "<b>Enhancement to throw error</b>: An error gets popped up in add integration page when we give invalid json format in Resource types and sys_params field. Related UI changes also made in UCV_CORE repo."
             ],
-            "supports": "5.0.2"
+            "supports": "5.0.10"
         }
     },
     "ucv-ext-shell": {
@@ -827,10 +826,6 @@
                 "Releasing again for prev version changes"
             ],
             "supports": "4.0.13"
-        },
-        "branding": {
-            "name": "IBM DevOps Deploy",
-            "version": "4.0.4"
         }
     },
     "ucv-ext-versionone": {
