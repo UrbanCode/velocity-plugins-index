@@ -693,6 +693,10 @@
                 "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
             ],
             "supports": "2.5.0"
+        },
+        "branding": {
+            "name": "HCL DevOps Test server",
+            "version": "1.0.27"
         }
     },
     "ucv-ext-rally": {
@@ -826,6 +830,10 @@
                 "Releasing again for prev version changes"
             ],
             "supports": "4.0.13"
+        },
+        "branding": {
+            "name": "IBM DevOps Deploy",
+            "version": "4.0.4"
         }
     },
     "ucv-ext-versionone": {

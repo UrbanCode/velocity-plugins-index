@@ -5,5 +5,9 @@
     "author": {
         "name": "UrbanCode",
         "email": "urbancode-plugins@hcl.com"
+    },
+    "branding": {
+        "name": "IBM DevOps Deploy",
+        "version": "4.0.4"
     }
 }
