@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.0.4",
+        "date": "2025-02-27T12:00:51.795Z",
+        "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.4",
+        "notes": [
+            "Image size reduction",
+            "Bug fixes"
+        ]
+    },
+    {
         "semver": "2.0.2",
         "date": "2024-10-16T12:07:05.888Z",
         "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.2",

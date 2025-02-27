@@ -652,11 +652,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.2",
-            "date": "2024-10-16T12:07:05.888Z",
-            "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.2",
+            "semver": "2.0.4",
+            "date": "2025-02-27T12:00:51.795Z",
+            "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.4",
             "notes": [
-                "Memory bound and description on tooltip"
+                "Image size reduction",
+                "Bug fixes"
             ]
         }
     },
