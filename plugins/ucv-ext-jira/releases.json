@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.4.2",
+        "date": "2025-03-20T06:02:38.231Z",
+        "image": "urbancode/ucv-ext-jira:2.4.2",
+        "notes": [
+            "<b>Bug fix</b>: Prevented the deletion of old history records in the issue collection normalization. Older history entries from before the last run are needed, as they are used for agile churn analysis."
+        ],
+        "supports": "3.1.0"
+    },
+    {
         "semver": "2.3.24",
         "date": "2024-12-18T11:14:03.647Z",
         "image": "urbancode/ucv-ext-jira:2.3.24",
