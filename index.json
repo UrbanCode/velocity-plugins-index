@@ -382,11 +382,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.55",
-            "date": "2024-10-23T05:44:56.112Z",
-            "image": "urbancode/ucv-ext-compass:1.1.55",
+            "semver": "1.1.57",
+            "date": "2025-03-24T08:30:28.717Z",
+            "image": "urbancode/ucv-ext-compass:1.1.57",
             "notes": [
-                "Initial Release of Plan Plugin"
+                "<b>Feature enhancement</b>: We have enhanced the DevOps Plan plugin integration with Velocity by automating field mapping. This eliminates the need for manual configuration, ensuring a smoother and more efficient integration experience."
             ],
             "supports": "2.5.0"
         }
