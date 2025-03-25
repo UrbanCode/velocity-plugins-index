@@ -400,11 +400,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.4",
-            "date": "2024-12-23T06:51:02.139Z",
-            "image": "urbancode/ucv-ext-control:1.0.4",
+            "semver": "1.0.5",
+            "date": "2025-03-25T05:44:37.678Z",
+            "image": "urbancode/ucv-ext-control:1.0.5",
             "notes": [
-                "<b>Rebranding</b>: Name of the plugin is changed from Control to DevOps Control."
+                "<b>Bug fix</b>: APIs for retrieving pull request comments and event timelines have been re-enabled, restoring functionality for the pull request schedule event in the Control plug-in."
             ]
         }
     },
