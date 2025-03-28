@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.1.13",
+        "date": "2025-03-28T07:32:49.230Z",
+        "image": "urbancode/ucv-ext-servicenow:1.1.13",
+        "notes": [
+            "<b>Feature enhancement</b>: ServiceNow now supports user-defined fields. To enable mapping of these fields to Velocity fields, a custom field mapping option has been introduced in the index.js file within the ServiceNow plugin. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate matrix, it is essential to determine which change requests have a failed status, making value mapping necessary."
+        ],
+        "supports": "5.0.10"
+    },
+    {
         "semver": "1.1.11",
         "date": "2025-02-20T13:18:18.739Z",
         "image": "urbancode/ucv-ext-servicenow:1.1.11",

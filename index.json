@@ -768,14 +768,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.11",
-            "date": "2025-02-20T13:18:18.739Z",
-            "image": "urbancode/ucv-ext-servicenow:1.1.11",
+            "semver": "1.1.13",
+            "date": "2025-03-28T07:32:49.230Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.13",
             "notes": [
-                "<b>Replica Server Name field addition</b>: In index.js file added replica server name field, any non-empty string value to replica server name would enable read only replica.",
-                "<b>Support for CHANGE_REQUEST normalized type</b>: Added new normalized type CHANGE_REQUEST. In value stream management page, for type filter you can see this normalized type for ServiceNow plugin integration.",
-                "<b>Bug fix</b>: Planned start date and end date given while creating the change request via automation task was getting mismatched when checked in ServiceNow application once the task executed.",
-                "<b>Enhancement to throw error</b>: An error gets popped up in add integration page when we give invalid json format in Resource types and sys_params field. Related UI changes also made in UCV_CORE repo."
+                "<b>Feature enhancement</b>: ServiceNow now supports user-defined fields. To enable mapping of these fields to Velocity fields, a custom field mapping option has been introduced in the index.js file within the ServiceNow plugin. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate matrix, it is essential to determine which change requests have a failed status, making value mapping necessary."
             ],
             "supports": "5.0.10"
         }
