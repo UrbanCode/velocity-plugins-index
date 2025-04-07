@@ -165,11 +165,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.3",
-            "date": "2024-09-05T08:55:26.150Z",
-            "image": "urbancode/ucv-ext-release-summary-ibm:1.0.3",
+            "semver": "1.0.7",
+            "date": "2025-04-07T04:57:57.984Z",
+            "image": "urbancode/ucv-ext-release-summary-ibm:1.0.7",
             "notes": [
-                "Fixed issue to load the plugin to DevOps Velocity"
+                "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for WatsonX plugins."
             ]
         }
     },
