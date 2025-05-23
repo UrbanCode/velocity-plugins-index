@@ -1,5 +1,18 @@
 [
     {
+        "semver": "0.0.7",
+        "date": "2025-05-23T04:25:07.681Z",
+        "image": "urbancode/ucv-ext-yaml-executor:0.0.7",
+        "notes": [
+            "new parameters",
+            "name",
+            "application",
+            "integrationId",
+            "team"
+        ],
+        "supports": "4.0.0"
+    },
+    {
         "semver": "0.0.6",
         "date": "2023-09-01T11:12:32.719Z",
         "image": "urbancode/ucv-ext-yaml-executor:0.0.6",
