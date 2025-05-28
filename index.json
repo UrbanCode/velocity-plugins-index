@@ -382,11 +382,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.57",
-            "date": "2025-03-24T08:30:28.717Z",
-            "image": "urbancode/ucv-ext-compass:1.1.57",
+            "semver": "1.1.58",
+            "date": "2025-05-28T12:53:46.829Z",
+            "image": "urbancode/ucv-ext-compass:1.1.58",
             "notes": [
-                "<b>Feature enhancement</b>: We have enhanced the DevOps Plan plugin integration with Velocity by automating field mapping. This eliminates the need for manual configuration, ensuring a smoother and more efficient integration experience."
+                "<b>Removal of timezone field</b>: Previously, the timezone was configured during plug-in integration setup in Velocity. This option has now been removed, and the timezone is instead retrieved directly from the API."
             ],
             "supports": "2.5.0"
         }
