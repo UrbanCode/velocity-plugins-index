@@ -880,17 +880,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.7",
-            "date": "2025-05-23T04:25:07.681Z",
-            "image": "urbancode/ucv-ext-yaml-executor:0.0.7",
+            "semver": "0.0.8",
+            "date": "2025-05-29T12:30:22.631Z",
+            "image": "urbancode/ucv-ext-yaml-executor:0.0.8",
             "notes": [
-                "new parameters",
-                "name",
-                "application",
-                "integrationId",
-                "team"
+                "<b>Improvisation</b>:Plugin synchronization has been optimized to align with scheduled events, with particular emphasis on the end time. Additionally, failure scenarios related to pipeline creation and value stream processing have been resolved."
             ],
-            "supports": "4.0.0"
+            "supports": "5.1.6"
         }
     }
 }
