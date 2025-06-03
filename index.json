@@ -880,11 +880,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.8",
-            "date": "2025-05-29T12:30:22.631Z",
-            "image": "urbancode/ucv-ext-yaml-executor:0.0.8",
+            "semver": "0.0.11",
+            "date": "2025-06-03T13:17:47.121Z",
+            "image": "urbancode/ucv-ext-yaml-executor:0.0.11",
             "notes": [
-                "<b>Improvisation</b>:Plugin synchronization has been optimized to align with scheduled events, with particular emphasis on the end time. Additionally, failure scenarios related to pipeline creation and value stream processing have been resolved."
+                "<b>Feature enhancement</b>: Added a new parameter, appEnvOrder, within the attributes section of the configuration. This parameter enables users to explicitly specify the sequence in which environments are created, ensuring that the environment creation process adheres to the defined order."
             ],
             "supports": "5.1.6"
         }
