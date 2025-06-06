@@ -1,0 +1,11 @@
+[
+    {
+        "semver": "1.0.2",
+        "date": "2025-06-06T09:54:38.130Z",
+        "image": "urbancode/ucv-ext-build:1.0.2",
+        "notes": [
+            "<b>Initial release</b>: This is the first release of the DevOps Build plug-in for HCL DevOps Velocity. The plug-in facilitates integration between DevOps Build and HCL DevOps Velocity, providing enhanced visibility into build processes within CI/CD pipelines."
+        ],
+        "supports": "5.1.0"
+    }
+]
