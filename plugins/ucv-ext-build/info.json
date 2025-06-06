@@ -1,0 +1,9 @@
+{
+    "name": "IBM DevOps Build",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "description": "IBM DevOps Build plugin",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
