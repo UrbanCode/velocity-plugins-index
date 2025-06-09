@@ -1,5 +1,14 @@
 [
     {
+        "semver": "0.0.12",
+        "date": "2025-06-09T10:42:13.939Z",
+        "image": "urbancode/ucv-ext-yaml-executor:0.0.12",
+        "notes": [
+            "<b>Bug fix</b>: The issue involving the triggering of the existing integrated Launch Plugin through the YAML Executor plugin has been resolved."
+        ],
+        "supports": "5.1.6"
+    },
+    {
         "semver": "0.0.11",
         "date": "2025-06-03T13:17:47.121Z",
         "image": "urbancode/ucv-ext-yaml-executor:0.0.11",

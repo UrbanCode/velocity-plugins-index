@@ -898,11 +898,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.11",
-            "date": "2025-06-03T13:17:47.121Z",
-            "image": "urbancode/ucv-ext-yaml-executor:0.0.11",
+            "semver": "0.0.12",
+            "date": "2025-06-09T10:42:13.939Z",
+            "image": "urbancode/ucv-ext-yaml-executor:0.0.12",
             "notes": [
-                "<b>Feature enhancement</b>: Added a new parameter, appEnvOrder, within the attributes section of the configuration. This parameter enables users to explicitly specify the sequence in which environments are created, ensuring that the environment creation process adheres to the defined order."
+                "<b>Bug fix</b>: The issue involving the triggering of the existing integrated Launch Plugin through the YAML Executor plugin has been resolved."
             ],
             "supports": "5.1.6"
         }
