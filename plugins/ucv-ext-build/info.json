@@ -1,7 +1,7 @@
 {
-    "name": "IBM DevOps Build",
-    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
-    "description": "IBM DevOps Build plugin",
+    "name": "DevOps Build",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-build",
+    "description": "DevOps Build plugin",
     "author": {
         "name": "UrbanCode",
         "email": "urbancode-plugins@hcl.com"
