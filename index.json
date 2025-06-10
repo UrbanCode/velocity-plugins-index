@@ -165,11 +165,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.3",
-            "date": "2024-09-05T08:55:26.150Z",
-            "image": "urbancode/ucv-ext-release-summary-ibm:1.0.3",
+            "semver": "1.0.7",
+            "date": "2025-04-07T04:57:57.984Z",
+            "image": "urbancode/ucv-ext-release-summary-ibm:1.0.7",
             "notes": [
-                "Fixed issue to load the plugin to DevOps Velocity"
+                "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for WatsonX plugins."
             ]
         }
     },
@@ -182,11 +182,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.1",
-            "date": "2024-08-13T13:40:36.199Z",
-            "image": "urbancode/ucv-ext-release-summary-openai:1.0.1",
+            "semver": "1.0.3",
+            "date": "2025-04-04T11:16:25.624Z",
+            "image": "urbancode/ucv-ext-release-summary-openai:1.0.3",
             "notes": [
-                "."
+                "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins."
             ]
         }
     },
@@ -352,6 +352,24 @@
             ]
         }
     },
+    "ucv-ext-build": {
+        "name": "IBM DevOps Build",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "IBM DevOps Build plugin",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.2",
+            "date": "2025-06-06T09:54:38.130Z",
+            "image": "urbancode/ucv-ext-build:1.0.2",
+            "notes": [
+                "<b>Initial release</b>: This is the first release of the DevOps Build plug-in for HCL DevOps Velocity. The plug-in facilitates integration between DevOps Build and HCL DevOps Velocity, providing enhanced visibility into build processes within CI/CD pipelines."
+            ],
+            "supports": "5.1.0"
+        }
+    },
     "ucv-ext-circleci": {
         "name": "CircleCI",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-circleci/",
@@ -382,11 +400,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.55",
-            "date": "2024-10-23T05:44:56.112Z",
-            "image": "urbancode/ucv-ext-compass:1.1.55",
+            "semver": "1.1.58",
+            "date": "2025-05-28T12:53:46.829Z",
+            "image": "urbancode/ucv-ext-compass:1.1.58",
             "notes": [
-                "Initial Release of Plan Plugin"
+                "<b>Removal of timezone field</b>: Previously, the timezone was configured during plug-in integration setup in Velocity. This option has now been removed, and the timezone is instead retrieved directly from the API."
             ],
             "supports": "2.5.0"
         }
@@ -400,11 +418,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.4",
-            "date": "2024-12-23T06:51:02.139Z",
-            "image": "urbancode/ucv-ext-control:1.0.4",
+            "semver": "1.0.5",
+            "date": "2025-03-25T05:44:37.678Z",
+            "image": "urbancode/ucv-ext-control:1.0.5",
             "notes": [
-                "<b>Rebranding</b>: Name of the plugin is changed from Control to DevOps Control."
+                "<b>Bug fix</b>: APIs for retrieving pull request comments and event timelines have been re-enabled, restoring functionality for the pull request schedule event in the Control plug-in."
             ]
         }
     },
@@ -507,11 +525,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.51",
-            "date": "2024-06-13T03:50:53.864Z",
-            "image": "urbancode/ucv-ext-generator:1.0.51",
+            "semver": "1.0.52",
+            "date": "2025-03-11T10:59:08.960Z",
+            "image": "urbancode/ucv-ext-generator:1.0.52",
             "notes": [
-                "It is now compatible with new Argo framework."
+                "<b>Bug fix</b>: GitHub integration was not happening second time, it was using existing integration, as apiUrl was not unique in workflow.json file under VSMCookBooks integration properties of GitHub. In older version of GitHub URL field was removed, plugin was looking for apiUrl.",
+                "<b>Support for draft pull request</b>: In 1.4.19 release of GitHub this feature added, incorporated same in demo data generator plugin."
             ],
             "supports": "4.0.5"
         }
@@ -598,11 +617,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.3.24",
-            "date": "2024-12-18T11:14:03.647Z",
-            "image": "urbancode/ucv-ext-jira:2.3.24",
+            "semver": "2.4.2",
+            "date": "2025-03-20T06:02:38.231Z",
+            "image": "urbancode/ucv-ext-jira:2.4.2",
             "notes": [
-                "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
+                "<b>Bug fix</b>: Prevented the deletion of old history records in the issue collection normalization. Older history entries from before the last run are needed, as they are used for agile churn analysis."
             ],
             "supports": "3.1.0"
         }
@@ -652,11 +671,12 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.0.2",
-            "date": "2024-10-16T12:07:05.888Z",
-            "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.2",
+            "semver": "2.0.4",
+            "date": "2025-02-27T12:00:51.795Z",
+            "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.4",
             "notes": [
-                "Memory bound and description on tooltip"
+                "Image size reduction",
+                "Bug fixes"
             ]
         }
     },
@@ -766,14 +786,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.11",
-            "date": "2025-02-20T13:18:18.739Z",
-            "image": "urbancode/ucv-ext-servicenow:1.1.11",
+            "semver": "1.1.13",
+            "date": "2025-03-28T07:32:49.230Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.13",
             "notes": [
-                "<b>Replica Server Name field addition</b>: In index.js file added replica server name field, any non-empty string value to replica server name would enable read only replica.",
-                "<b>Support for CHANGE_REQUEST normalized type</b>: Added new normalized type CHANGE_REQUEST. In value stream management page, for type filter you can see this normalized type for ServiceNow plugin integration.",
-                "<b>Bug fix</b>: Planned start date and end date given while creating the change request via automation task was getting mismatched when checked in ServiceNow application once the task executed.",
-                "<b>Enhancement to throw error</b>: An error gets popped up in add integration page when we give invalid json format in Resource types and sys_params field. Related UI changes also made in UCV_CORE repo."
+                "<b>Feature enhancement</b>: ServiceNow now supports user-defined fields. To enable mapping of these fields to Velocity fields, a custom field mapping option has been introduced in the index.js file within the ServiceNow plugin. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate matrix, it is essential to determine which change requests have a failed status, making value mapping necessary."
             ],
             "supports": "5.0.10"
         }
@@ -881,13 +898,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.6",
-            "date": "2023-09-01T11:12:32.719Z",
-            "image": "urbancode/ucv-ext-yaml-executor:0.0.6",
+            "semver": "0.0.12",
+            "date": "2025-06-09T10:42:13.939Z",
+            "image": "urbancode/ucv-ext-yaml-executor:0.0.12",
             "notes": [
-                "Started using timeSpan for Initial Sync date."
+                "<b>Bug fix</b>: The issue involving the triggering of the existing integrated Launch Plugin through the YAML Executor plugin has been resolved."
             ],
-            "supports": "4.0.0"
+            "supports": "5.1.6"
         }
     }
 }

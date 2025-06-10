@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.0.3",
+        "date": "2025-04-04T11:16:25.624Z",
+        "image": "urbancode/ucv-ext-release-summary-openai:1.0.3",
+        "notes": [
+            "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins."
+        ]
+    },
+    {
         "semver": "1.0.1",
         "date": "2024-08-13T13:40:36.199Z",
         "image": "urbancode/ucv-ext-release-summary-openai:1.0.1",
