@@ -1,6 +1,6 @@
 {
     "name": "Bottleneck Detection",
-    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-bottleneck-detection/",
     "description": "Detect bottlenecks in a Velocity value stream",
     "author": {
         "name": "UrbanCode",
