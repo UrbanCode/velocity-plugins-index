@@ -786,13 +786,15 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.13",
-            "date": "2025-03-28T07:32:49.230Z",
-            "image": "urbancode/ucv-ext-servicenow:1.1.13",
+            "semver": "1.1.16",
+            "date": "2025-06-20T08:41:09.189Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.16",
             "notes": [
-                "<b>Feature enhancement</b>: ServiceNow now supports user-defined fields. To enable mapping of these fields to Velocity fields, a custom field mapping option has been introduced in the index.js file within the ServiceNow plugin. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate matrix, it is essential to determine which change requests have a failed status, making value mapping necessary."
+                "<b>Authentication Type Selection</b>: Added a dropdown feature to allow users to select the desired authentication method (Basic, Bearer, or OAuth) when configuring plugin integrations. Note: This feature requires Velocity version 5.1.6 or higher.",
+                "<b>Bug fix</b>: Resolved an issue where the Executed By column did not display the username for non-admin users running automation tasks. Additionally the tasks were not completing as expected—this has now been fixed.",
+                "<b>Error Handling</b>: Improved error detection for hibernated ServiceNow instances. Previously the plugin reported success with no data synced. Now it properly throws an error when the instance is hibernated."
             ],
-            "supports": "5.0.10"
+            "supports": "5.1.6"
         }
     },
     "ucv-ext-shell": {
