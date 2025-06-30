@@ -1,5 +1,14 @@
 [
     {
+        "semver": "0.0.13",
+        "date": "2025-06-30T13:07:54.994Z",
+        "image": "urbancode/ucv-ext-yaml-executor:0.0.13",
+        "notes": [
+            "<b>Bug fix</b>: Resolved an issue where userAccessKey was not reliably fetched during looped requests in the measure. This caused some requests to fail or not execute until retried. The YAML Executor plugin now runs all requests consistently as expected."
+        ],
+        "supports": "5.1.6"
+    },
+    {
         "semver": "0.0.12",
         "date": "2025-06-09T10:42:13.939Z",
         "image": "urbancode/ucv-ext-yaml-executor:0.0.12",
