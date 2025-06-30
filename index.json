@@ -139,7 +139,7 @@
         }
     },
     "onetestPlugin": {
-        "name": "DevOps Test",
+        "name": "HCL OneTest",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-onetest/",
         "description": "Allows UrbanCode Velocity to import DevOps Test test results as metrics.",
         "author": {
@@ -154,6 +154,10 @@
                 "npm wrapper version update for Argo Replacement"
             ],
             "supports": "2.5.0"
+        },
+        "branding": {
+            "name": "DevOps Test",
+            "version": "1.0.37"
         }
     },
     "release_summary_ibm": {
@@ -392,7 +396,7 @@
         }
     },
     "ucv-ext-compass": {
-        "name": "DevOps Plan Plugin",
+        "name": "HCL Compass",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-plan/",
         "description": "The DevOps Plan plug-in imports and synchronizes issues from an DevOps Plan server into an DevOps Velocity server.",
         "author": {
@@ -407,10 +411,14 @@
                 "<b>Removal of timezone field</b>: Previously, the timezone was configured during plug-in integration setup in Velocity. This option has now been removed, and the timezone is instead retrieved directly from the API."
             ],
             "supports": "2.5.0"
+        },
+        "branding": {
+            "name": "DevOps Plan",
+            "version": "1.1.50"
         }
     },
     "ucv-ext-control": {
-        "name": "DevOps Control",
+        "name": "Control",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-control",
         "description": "Sync pull request, commit and issues from DevOps Control",
         "author": {
@@ -424,6 +432,10 @@
             "notes": [
                 "<b>Bug fix</b>: APIs for retrieving pull request comments and event timelines have been re-enabled, restoring functionality for the pull request schedule event in the Control plug-in."
             ]
+        },
+        "branding": {
+            "name": "DevOps Control",
+            "version": "1.0.4"
         }
     },
     "ucv-ext-cucumber": {
@@ -462,7 +474,7 @@
     },
     "ucv-ext-dependabot": {
         "name": "GitHub Dependabot",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-dependabot/",
         "description": "Sync vulnerabilities data from Github.",
         "author": {
             "name": "UrbanCode",
@@ -646,7 +658,7 @@
     },
     "ucv-ext-leankit": {
         "name": "LeanKit",
-        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-leankit/",
         "description": "This plug-in imports data from LeanKit",
         "author": {
             "name": "UrbanCode",
@@ -715,7 +727,7 @@
             "supports": "2.5.0"
         },
         "branding": {
-            "name": "HCL DevOps Test server",
+            "name": "DevOps Test Hub",
             "version": "1.0.27"
         }
     },

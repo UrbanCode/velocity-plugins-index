@@ -1,9 +1,13 @@
 {
-    "name": "DevOps Plan Plugin",
+    "name": "HCL Compass",
     "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-plan/",
     "description": "The DevOps Plan plug-in imports and synchronizes issues from an DevOps Plan server into an DevOps Velocity server.",
     "author": {
         "name": "UrbanCode",
         "email": "urbancode-plugins@hcl.com"
+    },
+    "branding": {
+        "name": "DevOps Plan",
+        "version": "1.1.50"
     }
 }
