@@ -1,6 +1,6 @@
 {
     "name": "GitHub Dependabot",
-    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-dependabot/",
     "description": "Sync vulnerabilities data from Github.",
     "author": {
         "name": "UrbanCode",
