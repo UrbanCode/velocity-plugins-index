@@ -1,5 +1,15 @@
 [
     {
+        "semver": "1.0.38",
+        "date": "2025-07-04T10:39:32.546Z",
+        "image": "urbancode/ucv-ext-rtas:1.0.38",
+        "notes": [
+            "<b>Bug fix</b>:Fixed an issue where the callback step failed when a trailing slash (/) was present at the end of the URL. The plugin now automatically detects and removes trailing slashes to ensure proper URL formatting and successful callback execution.",
+            "<b>Rebranding</b>: The plug-in name is changed from Rational Test Automation Server to IBM DevOps Test Hub."
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "1.0.34",
         "date": "2023-07-21T09:20:30.131Z",
         "image": "urbancode/ucv-ext-rtas:1.0.34",
