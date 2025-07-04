@@ -1,6 +1,6 @@
 {
     "name": "LeanKit",
-    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-leankit/",
     "description": "This plug-in imports data from LeanKit",
     "author": {
         "name": "UrbanCode",
