@@ -5,5 +5,9 @@
     "author": {
         "name": "UrbanCode",
         "email": "urbancode-plugins@hcl.com"
+    },
+    "branding": {
+        "name": "IBM DevOps Test Hub",
+        "version": "1.0.38"
     }
 }

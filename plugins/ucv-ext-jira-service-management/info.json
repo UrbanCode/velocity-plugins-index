@@ -1,6 +1,6 @@
 {
     "name": "Jira Service Management",
-    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-jira-service-management/",
     "description": "Imports incidents from a Jira Service Management instance.",
     "author": {
         "name": "UrbanCode",
