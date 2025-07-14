@@ -365,11 +365,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.2",
-            "date": "2025-06-06T09:54:38.130Z",
-            "image": "urbancode/ucv-ext-build:1.0.2",
+            "semver": "1.0.3",
+            "date": "2025-07-13T06:26:32.294Z",
+            "image": "urbancode/ucv-ext-build:1.0.3",
             "notes": [
-                "<b>Initial release</b>: This is the first release of the DevOps Build plug-in for HCL DevOps Velocity. The plug-in facilitates integration between DevOps Build and HCL DevOps Velocity, providing enhanced visibility into build processes within CI/CD pipelines."
+                "<b>Plugin name update</b>: Renamed plugin from IBM DevOps Build to DevOps Build."
             ],
             "supports": "5.1.0"
         }
