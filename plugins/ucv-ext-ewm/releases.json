@@ -1,5 +1,13 @@
 [
     {
+        "semver": "1.1.34",
+        "date": "2025-07-17T04:49:18.986Z",
+        "image": "urbancode/ucv-ext-ewm:1.1.34",
+        "notes": [
+            "<b>Feature Enhancement</b>: The EWM plugin now supports syncing release and sprint data to Velocity, enabling dot filtering by sprints and releases within the Value Stream Map (VSM)."
+        ]
+    },
+    {
         "semver": "1.1.32",
         "date": "2024-08-14T08:47:07.720Z",
         "image": "urbancode/ucv-ext-ewm:1.1.32",
