@@ -347,12 +347,14 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.3",
-            "date": "2024-03-13T13:06:52.085Z",
-            "image": "urbancode/ucv-ext-bottleneck-detection:1.0.3",
+            "semver": "1.0.12",
+            "date": "2025-08-21T10:03:02.296Z",
+            "image": "urbancode/ucv-ext-bottleneck-detection:1.0.12",
             "notes": [
-                "<b>Removed Manual User Access Key:</b>From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
-                "<b>Minor Enhancement:</b> We can now identify bottlenecks for individual value streams, resolving the issue of occasionally encountering failures when attempting to identify bottlenecks for all value streams simultaneously."
+                "<b>Query Size Limitations</b>: Added a configurable query size parameter (default 10,000) to getStageChangesSince to handle large datasets reliably and prevent incomplete data or timeouts.",
+                "<b>Stage Validation</b>: Implemented validation logic to ensure only proper start and end stages are extracted for accurate bottleneck analysis.",
+                "<b>Lead Time Stage Filtering</b>: Introduced leadTimeStagesOnly equal to True to include only relevant lead time stages, improving analysis accuracy.",
+                "<b>Enhancement</b>: Updated the Bottleneck plugin Jenkinsfile to align with other plugins Jenkinsfile."
             ]
         }
     },
