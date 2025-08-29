@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.1.1",
+        "date": "2025-08-29T07:21:28.921Z",
+        "image": "urbancode/ucv-ext-control:1.1.1",
+        "notes": [
+            "<b>Enhancement</b>: Added teamId and teamspaceId to integration properties"
+        ],
+        "supports": "5.1.9"
+    },
+    {
         "semver": "1.0.5",
         "date": "2025-03-25T05:44:37.678Z",
         "image": "urbancode/ucv-ext-control:1.0.5",
