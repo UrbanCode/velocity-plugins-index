@@ -367,13 +367,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.3",
-            "date": "2025-07-13T06:26:32.294Z",
-            "image": "urbancode/ucv-ext-build:1.0.3",
+            "semver": "1.1.2",
+            "date": "2025-08-29T13:16:02.393Z",
+            "image": "urbancode/ucv-ext-build:1.1.2",
             "notes": [
-                "<b>Plugin name update</b>: Renamed plugin from IBM DevOps Build to DevOps Build."
+                "<b>Enhancement</b>: Added teamId and teamspaceId in application collection for data access control"
             ],
-            "supports": "5.1.0"
+            "supports": "5.1.9"
         }
     },
     "ucv-ext-circleci": {
