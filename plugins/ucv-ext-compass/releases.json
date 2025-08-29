@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.2.1",
+        "date": "2025-08-29T07:56:59.337Z",
+        "image": "urbancode/ucv-ext-compass:1.2.1",
+        "notes": [
+            "<b>Enhancement</b>: Added teamId and teamspaceId for integration properties."
+        ],
+        "supports": "5.1.9"
+    },
+    {
         "semver": "1.1.58",
         "date": "2025-05-28T12:53:46.829Z",
         "image": "urbancode/ucv-ext-compass:1.1.58",
