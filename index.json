@@ -406,13 +406,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.58",
-            "date": "2025-05-28T12:53:46.829Z",
-            "image": "urbancode/ucv-ext-compass:1.1.58",
+            "semver": "1.2.1",
+            "date": "2025-08-29T07:56:59.337Z",
+            "image": "urbancode/ucv-ext-compass:1.2.1",
             "notes": [
-                "<b>Removal of timezone field</b>: Previously, the timezone was configured during plug-in integration setup in Velocity. This option has now been removed, and the timezone is instead retrieved directly from the API."
+                "<b>Enhancement</b>: Added teamId and teamspaceId for integration properties."
             ],
-            "supports": "2.5.0"
+            "supports": "5.1.9"
         },
         "branding": {
             "name": "DevOps Plan",
@@ -428,12 +428,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.5",
-            "date": "2025-03-25T05:44:37.678Z",
-            "image": "urbancode/ucv-ext-control:1.0.5",
+            "semver": "1.1.1",
+            "date": "2025-08-29T07:21:28.921Z",
+            "image": "urbancode/ucv-ext-control:1.1.1",
             "notes": [
-                "<b>Bug fix</b>: APIs for retrieving pull request comments and event timelines have been re-enabled, restoring functionality for the pull request schedule event in the Control plug-in."
-            ]
+                "<b>Enhancement</b>: Added teamId and teamspaceId to integration properties"
+            ],
+            "supports": "5.1.9"
         },
         "branding": {
             "name": "DevOps Control",
@@ -860,13 +861,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.9",
-            "date": "2024-07-15T12:06:55.246Z",
-            "image": "urbancode/ucv-ext-ucd:4.0.9",
+            "semver": "4.1.1",
+            "date": "2025-08-29T06:29:39.186Z",
+            "image": "urbancode/ucv-ext-ucd:4.1.1",
             "notes": [
-                "Releasing again for prev version changes"
+                "<b>Enhancement</b>: Added teamId and teamspaceId field to application collection for data access control feature."
             ],
-            "supports": "4.0.13"
+            "supports": "5.1.9"
         },
         "branding": {
             "name": "IBM DevOps Deploy",
