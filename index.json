@@ -721,11 +721,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.30",
-            "date": "2025-07-04T10:57:09.643Z",
-            "image": "urbancode/ucv-ext-onetest-server:1.0.30",
+            "semver": "1.0.31",
+            "date": "2025-08-30T05:25:49.157Z",
+            "image": "urbancode/ucv-ext-onetest-server:1.0.31",
             "notes": [
-                "<b>Bug fix</b>:Fixed an issue where the callback step failed when a trailing slash (/) was present at the end of the URL. The plugin now automatically detects and removes trailing slashes to ensure proper URL formatting and successful callback execution."
+                "<b>Enhancement</b>: Enhanced the DevOps Test Hub plugin to adopt new webhook structure."
             ],
             "supports": "2.5.0"
         },
