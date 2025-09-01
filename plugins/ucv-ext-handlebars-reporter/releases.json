@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.0.5",
+        "date": "2025-09-01T07:53:17.134Z",
+        "image": "urbancode/ucv-ext-handlebars-reporter:2.0.5",
+        "notes": [
+            "<b>Bug fix</b>: Updated the API package to support the leadTime field as an array instead of a string ensuring accurate Done stage calculations in the State of Sprint report."
+        ],
+        "supports": "5.0.9"
+    },
+    {
         "semver": "2.0.1",
         "date": "2022-11-18T15:06:32.999Z",
         "image": "urbancode/ucv-ext-handlebars-reporter:2.0.1",
