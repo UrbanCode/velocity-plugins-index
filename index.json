@@ -721,11 +721,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.31",
-            "date": "2025-08-30T05:25:49.157Z",
-            "image": "urbancode/ucv-ext-onetest-server:1.0.31",
+            "semver": "1.0.32",
+            "date": "2025-09-04T06:29:33.447Z",
+            "image": "urbancode/ucv-ext-onetest-server:1.0.32",
             "notes": [
-                "<b>Enhancement</b>: Enhanced the DevOps Test Hub plugin to adopt new webhook structure."
+                "Reverted changes related metric field names , removed error column included under failed . Now we have Passed, Failed, Inconclusive fields."
             ],
             "supports": "2.5.0"
         },
