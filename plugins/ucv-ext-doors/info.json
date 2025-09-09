@@ -1,0 +1,9 @@
+{
+    "name": "IBM Engineering Requirement Management (Doors)",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-doors",
+    "description": "The doors plug-in imports work item from an IBM doors respository as issues.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
