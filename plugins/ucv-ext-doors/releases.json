@@ -1,0 +1,11 @@
+[
+    {
+        "semver": "1.0.4",
+        "date": "2025-09-09T05:21:37.090Z",
+        "image": "urbancode/ucv-ext-doors:1.0.4",
+        "notes": [
+            "DOORS NG Integration, Enables fetching, syncing, and validating requirements from IBM DOORS Next Generation, OSLC Support Provides mapping and client modules for connecting to DOORS NG via OSLC, Automated Sync Events, Supports scheduled events for syncing requirements between DOORS NG and other systems."
+        ],
+        "supports": "5.0.11"
+    }
+]

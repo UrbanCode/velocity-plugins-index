@@ -496,6 +496,24 @@
             ]
         }
     },
+    "ucv-ext-doors": {
+        "name": "IBM Engineering Requirement Management (Doors)",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-doors",
+        "description": "The doors plug-in imports work item from an IBM doors respository as issues.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.4",
+            "date": "2025-09-09T05:21:37.090Z",
+            "image": "urbancode/ucv-ext-doors:1.0.4",
+            "notes": [
+                "DOORS NG Integration, Enables fetching, syncing, and validating requirements from IBM DOORS Next Generation, OSLC Support Provides mapping and client modules for connecting to DOORS NG via OSLC, Automated Sync Events, Supports scheduled events for syncing requirements between DOORS NG and other systems."
+            ],
+            "supports": "5.0.11"
+        }
+    },
     "ucv-ext-ewm": {
         "name": "IBM Engineering Workflow Management (EWM)",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-ewm/",
