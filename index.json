@@ -650,11 +650,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.4.2",
-            "date": "2025-03-20T06:02:38.231Z",
-            "image": "urbancode/ucv-ext-jira:2.4.2",
+            "semver": "2.4.3",
+            "date": "2025-09-29T04:24:31.835Z",
+            "image": "urbancode/ucv-ext-jira:2.4.3",
             "notes": [
-                "<b>Bug fix</b>: Prevented the deletion of old history records in the issue collection normalization. Older history entries from before the last run are needed, as they are used for agile churn analysis."
+                "<b>Bug fix</b>: Migrated from the deprecated Jira REST API to the latest version. Enhanced pagination to retrieve all issues using nextPageToken. Added new API calls to fetch issue comments and changelogs, with pagination support to retrieve complete data."
             ],
             "supports": "3.1.0"
         }
