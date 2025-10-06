@@ -1,5 +1,15 @@
 [
     {
+        "semver": "1.1.3",
+        "date": "2025-10-06T09:17:21.183Z",
+        "image": "urbancode/ucv-ext-build:1.1.3",
+        "notes": [
+            "<b>Enhancement</b>: Introduced support for an optional process field in the plugin configuration. This field allows users to provide a comma-separated list of primary process names corresponding to the order of the specified project names. If left empty the plugin will consider build life data from all processes associated with the given projects.",
+            "<b>Bug Fix</b>: Previously revision data in the builds collection was captured only for builds triggered automatically through CI/CD and was missing for manually triggered builds . This issue has now been resolved and revision data is correctly collected for both manual and automated builds."
+        ],
+        "supports": "5.1.9"
+    },
+    {
         "semver": "1.1.2",
         "date": "2025-08-29T13:16:02.393Z",
         "image": "urbancode/ucv-ext-build:1.1.2",
