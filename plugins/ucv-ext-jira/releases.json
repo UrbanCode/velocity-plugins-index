@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.4.5",
+        "date": "2025-10-08T09:11:49.822Z",
+        "image": "urbancode/ucv-ext-jira:2.4.5",
+        "notes": [
+            "<b>Feature enhancement</b>: The Custom Field Mapping of Jira Plugin will allow you to map Jira fields and their values to corresponding Velocity fields. This enables seamless data synchronization between Jira and Velocity, including support for field mapping, value mapping, and complex conditional mappings."
+        ],
+        "supports": "5.1.10"
+    },
+    {
         "semver": "2.4.3",
         "date": "2025-09-29T04:24:31.835Z",
         "image": "urbancode/ucv-ext-jira:2.4.3",
