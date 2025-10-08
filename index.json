@@ -651,13 +651,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.4.3",
-            "date": "2025-09-29T04:24:31.835Z",
-            "image": "urbancode/ucv-ext-jira:2.4.3",
+            "semver": "2.4.5",
+            "date": "2025-10-08T09:11:49.822Z",
+            "image": "urbancode/ucv-ext-jira:2.4.5",
             "notes": [
-                "<b>Bug fix</b>: Migrated from the deprecated Jira REST API to the latest version. Enhanced pagination to retrieve all issues using nextPageToken. Added new API calls to fetch issue comments and changelogs, with pagination support to retrieve complete data."
+                "<b>Feature enhancement</b>: The Custom Field Mapping of Jira Plugin will allow you to map Jira fields and their values to corresponding Velocity fields. This enables seamless data synchronization between Jira and Velocity, including support for field mapping, value mapping, and complex conditional mappings."
             ],
-            "supports": "3.1.0"
+            "supports": "5.1.10"
         }
     },
     "ucv-ext-jira-service-management": {
