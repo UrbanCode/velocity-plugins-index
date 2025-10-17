@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.2.3",
+        "date": "2025-10-17T10:10:31.475Z",
+        "image": "urbancode/ucv-ext-compass:1.2.3",
+        "notes": [
+            "<b>Bug fix</b>: Release tab on filter bar and Releases option in Type selection does not appears on the VSM page filters."
+        ],
+        "supports": "5.1.9"
+    },
+    {
         "semver": "1.2.2",
         "date": "2025-09-03T09:08:36.745Z",
         "image": "urbancode/ucv-ext-compass:1.2.2",
