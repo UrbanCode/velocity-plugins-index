@@ -879,11 +879,15 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.1.1",
-            "date": "2025-08-29T06:29:39.186Z",
-            "image": "urbancode/ucv-ext-ucd:4.1.1",
+            "semver": "4.1.2",
+            "date": "2025-10-27T13:42:59.647Z",
+            "image": "urbancode/ucv-ext-ucd:4.1.2",
             "notes": [
-                "<b>Enhancement</b>: Added teamId and teamspaceId field to application collection for data access control feature."
+                "Enhancement: Added the integrationId field to the deployments collection for deployment records.",
+                "Bug Fix: Resolved an issue in delta sync where in-progress APRs were not being tracked.",
+                "Enhancement: Introduced new schedule events in UCD AppCompRequests, AppResources, and SnapCompVersions to synchronize Application Component Requests, Application Resources, and Snapshot Component Versions.",
+                "Bug fix: Resolved an issue where manual deployments triggered from UrbanCode Velocity (UCV) failed with a 401 Unauthorized error, while scheduled releases continued to run successfully. This occurred due to an authentication failure between Velocity and UrbanCode Deploy (UCD) following a version upgrade. The integration credentials between UCV and UCD have been revalidated, and authentication handling has been improved to ensure successful manual deployments.",
+                "Bug fix: Addressed an issue where applications created from older templates in UrbanCode Deploy (UCD) were not synchronizing correctly with UrbanCode Velocity (UCV). This issue prevented deployments from being initiated through Velocity, requiring manual execution in UCD. The synchronization logic has been enhanced so that processes and environments for newly created applications (based on existing templates) are now accurately captured during deltaSync."
             ],
             "supports": "5.1.9"
         },
