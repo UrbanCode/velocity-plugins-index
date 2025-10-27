@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.1.4",
+        "date": "2025-10-27T07:26:05.136Z",
+        "image": "urbancode/ucv-ext-build:1.1.4",
+        "notes": [
+            "Enhancement: Added the integrationId field to the builds collection for build records."
+        ],
+        "supports": "5.1.9"
+    },
+    {
         "semver": "1.1.3",
         "date": "2025-10-06T09:17:21.183Z",
         "image": "urbancode/ucv-ext-build:1.1.3",
