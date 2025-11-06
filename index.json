@@ -367,13 +367,14 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.4",
-            "date": "2025-10-27T07:26:05.136Z",
-            "image": "urbancode/ucv-ext-build:1.1.4",
+            "semver": "1.1.5",
+            "date": "2025-11-06T09:17:43.793Z",
+            "image": "urbancode/ucv-ext-build:1.1.5",
             "notes": [
+                "Support update: From this version onward, Build plugin needs Velocity version 5.1.11 or later.",
                 "Enhancement: Added the integrationId field to the builds collection for build records."
             ],
-            "supports": "5.1.9"
+            "supports": "5.1.11"
         }
     },
     "ucv-ext-circleci": {
@@ -558,12 +559,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.52",
-            "date": "2025-03-11T10:59:08.960Z",
-            "image": "urbancode/ucv-ext-generator:1.0.52",
+            "semver": "1.0.54",
+            "date": "2025-11-06T07:18:13.206Z",
+            "image": "urbancode/ucv-ext-generator:1.0.54",
             "notes": [
-                "<b>Bug fix</b>: GitHub integration was not happening second time, it was using existing integration, as apiUrl was not unique in workflow.json file under VSMCookBooks integration properties of GitHub. In older version of GitHub URL field was removed, plugin was looking for apiUrl.",
-                "<b>Support for draft pull request</b>: In 1.4.19 release of GitHub this feature added, incorporated same in demo data generator plugin."
+                "Bug fix: Fixed the Emerald Product Team - Inventory VSM issue.",
+                "Update: Updated the bottleneck-detection plugin version.",
+                "Enhancement: Added logic to automatically add the bottleneck-detection plugin after all VSMs are created."
             ],
             "supports": "4.0.5"
         }
@@ -743,9 +745,10 @@
             "date": "2025-09-04T06:29:33.447Z",
             "image": "urbancode/ucv-ext-onetest-server:1.0.32",
             "notes": [
-                "Reverted changes related metric field names , removed error column included under failed . Now we have Passed, Failed, Inconclusive fields."
+                "Reverted changes related metric field names , removed error column included under failed . Now we have Passed, Failed, Inconclusive fields.",
+                "<b>Enhancement</b>: Enhanced the DevOps Test Hub plugin to adopt new webhook structure."
             ],
-            "supports": "2.5.0"
+            "supports": "5.1.9"
         },
         "branding": {
             "name": "DevOps Test Hub",
@@ -879,17 +882,18 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.1.2",
-            "date": "2025-10-27T13:42:59.647Z",
-            "image": "urbancode/ucv-ext-ucd:4.1.2",
+            "semver": "4.1.3",
+            "date": "2025-11-06T09:43:08.312Z",
+            "image": "urbancode/ucv-ext-ucd:4.1.3",
             "notes": [
+                "Support update: From this version onward, DevOps Deploy plugin needs Velocity version 5.1.11 or later.",
                 "Enhancement: Added the integrationId field to the deployments collection for deployment records.",
                 "Bug Fix: Resolved an issue in delta sync where in-progress APRs were not being tracked.",
                 "Enhancement: Introduced new schedule events in UCD AppCompRequests, AppResources, and SnapCompVersions to synchronize Application Component Requests, Application Resources, and Snapshot Component Versions.",
                 "Bug fix: Resolved an issue where manual deployments triggered from UrbanCode Velocity (UCV) failed with a 401 Unauthorized error, while scheduled releases continued to run successfully. This occurred due to an authentication failure between Velocity and UrbanCode Deploy (UCD) following a version upgrade. The integration credentials between UCV and UCD have been revalidated, and authentication handling has been improved to ensure successful manual deployments.",
                 "Bug fix: Addressed an issue where applications created from older templates in UrbanCode Deploy (UCD) were not synchronizing correctly with UrbanCode Velocity (UCV). This issue prevented deployments from being initiated through Velocity, requiring manual execution in UCD. The synchronization logic has been enhanced so that processes and environments for newly created applications (based on existing templates) are now accurately captured during deltaSync."
             ],
-            "supports": "5.1.9"
+            "supports": "5.1.11"
         },
         "branding": {
             "name": "IBM DevOps Deploy",
