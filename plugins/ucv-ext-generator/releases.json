@@ -1,5 +1,16 @@
 [
     {
+        "semver": "1.0.54",
+        "date": "2025-11-06T07:18:13.206Z",
+        "image": "urbancode/ucv-ext-generator:1.0.54",
+        "notes": [
+            "Bug fix: Fixed the Emerald Product Team - Inventory VSM issue.",
+            "Update: Updated the bottleneck-detection plugin version.",
+            "Enhancement: Added logic to automatically add the bottleneck-detection plugin after all VSMs are created."
+        ],
+        "supports": "4.0.5"
+    },
+    {
         "semver": "1.0.52",
         "date": "2025-03-11T10:59:08.960Z",
         "image": "urbancode/ucv-ext-generator:1.0.52",

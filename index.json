@@ -558,12 +558,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.52",
-            "date": "2025-03-11T10:59:08.960Z",
-            "image": "urbancode/ucv-ext-generator:1.0.52",
+            "semver": "1.0.54",
+            "date": "2025-11-06T07:18:13.206Z",
+            "image": "urbancode/ucv-ext-generator:1.0.54",
             "notes": [
-                "<b>Bug fix</b>: GitHub integration was not happening second time, it was using existing integration, as apiUrl was not unique in workflow.json file under VSMCookBooks integration properties of GitHub. In older version of GitHub URL field was removed, plugin was looking for apiUrl.",
-                "<b>Support for draft pull request</b>: In 1.4.19 release of GitHub this feature added, incorporated same in demo data generator plugin."
+                "Bug fix: Fixed the Emerald Product Team - Inventory VSM issue.",
+                "Update: Updated the bottleneck-detection plugin version.",
+                "Enhancement: Added logic to automatically add the bottleneck-detection plugin after all VSMs are created."
             ],
             "supports": "4.0.5"
         }
