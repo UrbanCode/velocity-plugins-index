@@ -4,7 +4,7 @@
         "date": "2025-11-06T09:17:43.793Z",
         "image": "urbancode/ucv-ext-build:1.1.5",
         "notes": [
-            "Support update: From this version onward, Build plugin supports Velocity version 5.1.11 and later."
+            "Support update: From this version onward, Build plugin needs Velocity version 5.1.11 or later."
         ],
         "supports": "5.1.11"
     },
