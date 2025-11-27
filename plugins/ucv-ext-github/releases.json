@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.5.4",
+        "date": "2025-11-27T06:08:36.232Z",
+        "image": "urbancode/ucv-ext-github:1.5.4",
+        "notes": [
+            "Implemented new scheduled event for copilot which Fetches GitHub Copilot GenAI Productivity Metrics"
+        ],
+        "supports": "5.2.0"
+    },
+    {
         "semver": "1.5.1",
         "date": "2024-12-19T09:31:37.271Z",
         "image": "urbancode/ucv-ext-github:1.5.1",
