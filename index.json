@@ -881,13 +881,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.1.4",
-            "date": "2025-11-11T11:13:38.353Z",
-            "image": "urbancode/ucv-ext-ucd:4.1.4",
+            "semver": "4.1.5",
+            "date": "2025-11-28T10:10:18.238Z",
+            "image": "urbancode/ucv-ext-ucd:4.1.5",
             "notes": [
-                "Snapshot Visibility Enhancement: Earlier, once a snapshot was created and synced from DevOps Deploy to DevOps Velocity, it continued to appear in the DevOps Velocity UI even after being deleted in DevOps Deploy. This sometimes led to accidental deployments of deleted or outdated snapshots. With this enhancement, snapshots in DevOps Velocity now stay automatically aligned with DevOps Deploy. If a snapshot is deleted in DevOps Deploy, it will be hidden from the DevOps Velocity UI in the next plugin sync. Note: Snapshots synced before this enhancement may still appear in the DevOps Velocity UI. If such older snapshots are modified in DevOps Deploy, their status will be updated automatically in the next plugin sync. To update all old snapshots at once, you can perform a full resync. Caution: A full resync can be time-consuming and may take from a few minutes to several hours, depending on the amount of data being synced between DevOps Deploy and DevOps Velocity. It is recommended to schedule this activity during a maintenance window or low-usage period."
+                "Bug fix: Due to large status entries into the records, the tool was facing issues in retrieval of the record and thus tasks used to show In Progress even though its completed from CD tools. Now this fix will resolve the bug."
             ],
-            "supports": "5.1.11"
+            "supports": "5.2.0"
         },
         "branding": {
             "name": "IBM DevOps Deploy",
