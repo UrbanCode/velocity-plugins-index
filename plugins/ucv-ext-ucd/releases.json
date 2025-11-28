@@ -1,5 +1,14 @@
 [
     {
+        "semver": "4.1.5",
+        "date": "2025-11-28T10:10:18.238Z",
+        "image": "urbancode/ucv-ext-ucd:4.1.5",
+        "notes": [
+            "Bug fix: Due to large status entries into the records, the tool was facing issues in retrieval of the record and thus tasks used to show In Progress even though its completed from CD tools. Now this fix will resolve the bug."
+        ],
+        "supports": "5.2.0"
+    },
+    {
         "semver": "4.1.4",
         "date": "2025-11-11T11:13:38.353Z",
         "image": "urbancode/ucv-ext-ucd:4.1.4",
