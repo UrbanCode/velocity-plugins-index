@@ -1,5 +1,14 @@
 [
     {
+        "semver": "4.1.6",
+        "date": "2025-12-04T09:24:53.960Z",
+        "image": "urbancode/ucv-ext-ucd:4.1.6",
+        "notes": [
+            "Bug Fix: Resolved an issue in delta sync, where In-Progress APARs were not being tracked correctly"
+        ],
+        "supports": "5.2.0"
+    },
+    {
         "semver": "4.1.5",
         "date": "2025-11-28T10:10:18.238Z",
         "image": "urbancode/ucv-ext-ucd:4.1.5",
