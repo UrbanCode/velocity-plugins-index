@@ -1,5 +1,16 @@
 [
     {
+        "semver": "1.0.36",
+        "date": "2025-12-19T04:54:26.481Z",
+        "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.36",
+        "notes": [
+            "Modified SonarQube configuration to ensure coverage includes both unit and functional tests",
+            "Performed package upgrades and enabled  temporarily skipped functional test script.",
+            "Updated the API URL"
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "1.0.29",
         "date": "2022-12-27T12:01:43.019Z",
         "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.29",
