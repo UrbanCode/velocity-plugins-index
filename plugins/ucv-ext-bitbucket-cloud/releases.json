@@ -1,5 +1,15 @@
 [
     {
+        "semver": "1.0.37",
+        "date": "2026-01-02T11:00:46.402Z",
+        "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.37",
+        "notes": [
+            "Bug Fix: Fixed an issue where Bitbucket Pull Requests continued to appear as open in the Value Stream even after being closed or merged. Pull Request statuses are now correctly updated and reflected in the Value Stream.",
+            "Update: The App Password field has been replaced with API Token authentication. Generate and use an API Token with the appropriate scopes for successful authentication. Please note that the Atlassian account email address should be entered in the Username field instead of the account username."
+        ],
+        "supports": "2.5.0"
+    },
+    {
         "semver": "1.0.36",
         "date": "2025-12-19T04:54:26.481Z",
         "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.36",
