@@ -408,11 +408,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.2.3",
-            "date": "2025-10-17T10:10:31.475Z",
-            "image": "urbancode/ucv-ext-compass:1.2.3",
+            "semver": "1.2.4",
+            "date": "2026-02-19T07:38:18.116Z",
+            "image": "urbancode/ucv-ext-compass:1.2.4",
             "notes": [
-                "<b>Bug fix</b>: Release tab on filter bar and Releases option in Type selection does not appears on the VSM page filters."
+                "Prevents sending a body with GET requests, improving compatibility with APIs like Google Cloud / GKS"
             ],
             "supports": "5.1.9"
         },
