@@ -560,13 +560,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.54",
-            "date": "2025-11-06T07:18:13.206Z",
-            "image": "urbancode/ucv-ext-generator:1.0.54",
+            "semver": "1.0.56",
+            "date": "2026-05-14T09:44:31.443Z",
+            "image": "urbancode/ucv-ext-generator:1.0.56",
             "notes": [
-                "Bug fix: Fixed the Emerald Product Team - Inventory VSM issue.",
-                "Update: Updated the bottleneck-detection plugin version.",
-                "Enhancement: Added logic to automatically add the bottleneck-detection plugin after all VSMs are created."
+                "Bug fix: Improved OpenShift compatibility by removing the hardcoded user and enabling group-writable permissions on /opt."
             ],
             "supports": "4.0.5"
         }
