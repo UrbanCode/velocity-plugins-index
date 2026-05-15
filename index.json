@@ -872,9 +872,9 @@
         }
     },
     "ucv-ext-ucd": {
-        "name": "UbranCode Deploy",
+        "name": "DevOps Deploy",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-ucd/",
-        "description": "Sync applications, components, snapshots, environments, inventories, and application processes related data from UrbanCode Deploy server.",
+        "description": "Sync applications, components, snapshots, environments, inventories, and application processes related data from DevOps Deploy server.",
         "author": {
             "name": "UrbanCode",
             "email": "urbancode-plugins@hcl.com"
@@ -887,10 +887,6 @@
                 "Bug Fix: Resolved an issue in delta sync, where In-Progress APARs were not being tracked correctly"
             ],
             "supports": "5.2.0"
-        },
-        "branding": {
-            "name": "IBM DevOps Deploy",
-            "version": "4.0.4"
         }
     },
     "ucv-ext-versionone": {
