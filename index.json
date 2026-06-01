@@ -578,13 +578,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.5.4",
-            "date": "2025-11-27T06:08:36.232Z",
-            "image": "urbancode/ucv-ext-github:1.5.4",
+            "semver": "1.5.9",
+            "date": "2026-06-01T09:35:58.485Z",
+            "image": "urbancode/ucv-ext-github:1.5.9",
             "notes": [
-                "Implemented new scheduled event for copilot which Fetches GitHub Copilot GenAI Productivity Metrics"
+                "Enhancement: Loop Data Engine support for external DevOps tool resources"
             ],
-            "supports": "5.2.0"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-gitlab": {
