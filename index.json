@@ -578,13 +578,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.5.4",
-            "date": "2025-11-27T06:08:36.232Z",
-            "image": "urbancode/ucv-ext-github:1.5.4",
+            "semver": "1.5.9",
+            "date": "2026-06-01T09:35:58.485Z",
+            "image": "urbancode/ucv-ext-github:1.5.9",
             "notes": [
-                "Implemented new scheduled event for copilot which Fetches GitHub Copilot GenAI Productivity Metrics"
+                "Enhancement: Loop Data Engine support for external DevOps tool resources"
             ],
-            "supports": "5.2.0"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-gitlab": {
@@ -632,13 +632,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.7",
-            "date": "2024-06-10T10:37:45.783Z",
-            "image": "urbancode/ucv-ext-jenkins:1.1.7",
+            "semver": "1.1.12",
+            "date": "2026-06-01T08:55:40.209Z",
+            "image": "urbancode/ucv-ext-jenkins:1.1.12",
             "notes": [
-                "<b>Minor bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
+                "Enhancement: Loop Data Engine support for external DevOps tool resources."
             ],
-            "supports": "4.0.9"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-jira": {
@@ -650,13 +650,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.4.5",
-            "date": "2025-10-08T09:11:49.822Z",
-            "image": "urbancode/ucv-ext-jira:2.4.5",
+            "semver": "2.4.11",
+            "date": "2026-06-01T10:07:52.730Z",
+            "image": "urbancode/ucv-ext-jira:2.4.11",
             "notes": [
-                "<b>Feature enhancement</b>: The Custom Field Mapping of Jira Plugin will allow you to map Jira fields and their values to corresponding Velocity fields. This enables seamless data synchronization between Jira and Velocity, including support for field mapping, value mapping, and complex conditional mappings."
+                "Enhancement: Loop Data Engine support for external DevOps tool resources"
             ],
-            "supports": "5.1.10"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-jira-service-management": {
