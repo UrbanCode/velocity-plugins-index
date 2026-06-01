@@ -650,13 +650,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.4.5",
-            "date": "2025-10-08T09:11:49.822Z",
-            "image": "urbancode/ucv-ext-jira:2.4.5",
+            "semver": "2.4.11",
+            "date": "2026-06-01T10:07:52.730Z",
+            "image": "urbancode/ucv-ext-jira:2.4.11",
             "notes": [
-                "<b>Feature enhancement</b>: The Custom Field Mapping of Jira Plugin will allow you to map Jira fields and their values to corresponding Velocity fields. This enables seamless data synchronization between Jira and Velocity, including support for field mapping, value mapping, and complex conditional mappings."
+                "Enhancement: Loop Data Engine support for external DevOps tool resources"
             ],
-            "supports": "5.1.10"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-jira-service-management": {

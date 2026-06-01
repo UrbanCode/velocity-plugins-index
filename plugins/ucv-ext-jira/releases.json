@@ -1,5 +1,14 @@
 [
     {
+        "semver": "2.4.11",
+        "date": "2026-06-01T10:07:52.730Z",
+        "image": "urbancode/ucv-ext-jira:2.4.11",
+        "notes": [
+            "Enhancement: Loop Data Engine support for external DevOps tool resources"
+        ],
+        "supports": "5.2.5"
+    },
+    {
         "semver": "2.4.5",
         "date": "2025-10-08T09:11:49.822Z",
         "image": "urbancode/ucv-ext-jira:2.4.5",
