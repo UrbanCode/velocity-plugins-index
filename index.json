@@ -578,11 +578,14 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.5.9",
-            "date": "2026-06-01T09:35:58.485Z",
-            "image": "urbancode/ucv-ext-github:1.5.9",
+            "semver": "1.5.10",
+            "date": "2026-06-09T13:08:52.712Z",
+            "image": "urbancode/ucv-ext-github:1.5.10",
             "notes": [
-                "Enhancement: Loop Data Engine support for external DevOps tool resources"
+                "Improved test coverage for the GitHub plugin.",
+                "Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Upgraded the NPM Wrapper package to the latest supported version."
             ],
             "supports": "5.2.5"
         }
