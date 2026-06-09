@@ -408,11 +408,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.2.5",
-            "date": "2026-03-23T05:47:10.310Z",
-            "image": "urbancode/ucv-ext-compass:1.2.5",
+            "semver": "1.2.7",
+            "date": "2026-06-09T14:02:10.037Z",
+            "image": "urbancode/ucv-ext-compass:1.2.7",
             "notes": [
-                "Prevents sending a body with GET requests, improving compatibility with APIs like Google Cloud / GKS"
+                "Prevents sending a body with GET requests, improving compatibility with APIs like Google Cloud / GKS",
+                "Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Upgraded the NPM Wrapper package to the latest supported version."
             ],
             "supports": "5.1.9"
         },
