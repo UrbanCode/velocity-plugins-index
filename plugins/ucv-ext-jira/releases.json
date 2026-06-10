@@ -1,5 +1,17 @@
 [
     {
+        "semver": "2.4.13",
+        "date": "2026-06-09T13:39:28.526Z",
+        "image": "urbancode/ucv-ext-jira:2.4.13",
+        "notes": [
+            "Improved test coverage for the Jira plugin.",
+            "Addressed and resolved Whitesource-reported vulnerabilities.",
+            "Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+            "Upgraded the NPM Wrapper package to the latest supported version."
+        ],
+        "supports": "5.2.5"
+    },
+    {
         "semver": "2.4.11",
         "date": "2026-06-01T10:07:52.730Z",
         "image": "urbancode/ucv-ext-jira:2.4.11",
