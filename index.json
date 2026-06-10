@@ -891,13 +891,17 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.1.6",
-            "date": "2025-12-04T09:24:53.960Z",
-            "image": "urbancode/ucv-ext-ucd:4.1.6",
+            "semver": "4.1.12",
+            "date": "2026-06-10T07:02:06.538Z",
+            "image": "urbancode/ucv-ext-ucd:4.1.12",
             "notes": [
-                "Bug Fix: Resolved an issue in delta sync, where In-Progress APARs were not being tracked correctly"
+                "Improved test coverage for the plugin.",
+                "Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Velocity Task Now Correctly Fails When DevOps Deploy Deployment Returns FAULTED Before Timeout.",
+                "Name of the plugin is changed from IBM DevOps Deploy to DevOps Deploy.",
+                "Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "5.2.0"
+            "supports": "5.2.5"
         },
         "branding": {
             "name": "IBM DevOps Deploy",
