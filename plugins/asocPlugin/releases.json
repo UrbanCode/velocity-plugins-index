@@ -1,5 +1,14 @@
 [
     {
+        "semver": "3.0.29",
+        "date": "2026-06-15T05:13:21.122Z",
+        "image": "urbancode/ucv-ext-asoc:3.0.29",
+        "notes": [
+            "Enhancement: Implemented support for SAST and DAST scan data ingestion from ASOC. Scan results are fetched and displayed as metrics within Velocity using dot indicators."
+        ],
+        "supports": "5.2.5"
+    },
+    {
         "semver": "3.0.27",
         "date": "2026-03-18T16:28:32.322Z",
         "image": "urbancode/ucv-ext-asoc:3.0.27",
