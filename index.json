@@ -17,6 +17,24 @@
             "supports": "4.0.5"
         }
     },
+    "appscan360Plugin": {
+        "name": "HCL AppScan 360",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+        "description": "This is a plugin to import AppScan 360 data.",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.2",
+            "date": "2026-06-22T03:44:40.698Z",
+            "image": "urbancode/ucv-ext-appscan360:1.0.2",
+            "notes": [
+                "Initial Release: Implemented support for SAST and DAST scan data ingestion from AppScan 360. Scan results are fetched and displayed as metrics within Velocity using dot indicators."
+            ],
+            "supports": "5.2.5"
+        }
+    },
     "appscanPlugin": {
         "name": "HCL AppScan Enterprise (ASE)",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-appscan/",

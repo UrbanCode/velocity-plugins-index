@@ -1,0 +1,9 @@
+{
+    "name": "HCL AppScan 360",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/",
+    "description": "This is a plugin to import AppScan 360 data.",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
