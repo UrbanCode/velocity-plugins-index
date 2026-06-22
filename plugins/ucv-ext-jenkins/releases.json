@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.1.14",
+        "date": "2026-06-22T12:39:14.130Z",
+        "image": "urbancode/ucv-ext-jenkins:1.1.14",
+        "notes": [
+            "Enhancement: Added support to include integrationId when uploading execution records from the Jenkins plugin for improved execution traceability."
+        ],
+        "supports": "5.2.5"
+    },
+    {
         "semver": "1.1.13",
         "date": "2026-06-09T15:53:46.356Z",
         "image": "urbancode/ucv-ext-jenkins:1.1.13",
