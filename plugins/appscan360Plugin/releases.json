@@ -1,0 +1,11 @@
+[
+    {
+        "semver": "1.0.2",
+        "date": "2026-06-22T03:44:40.698Z",
+        "image": "urbancode/ucv-ext-appscan360:1.0.2",
+        "notes": [
+            "Initial Release: Implemented support for SAST and DAST scan data ingestion from AppScan 360. Scan results are fetched and displayed as metrics within Velocity using dot indicators."
+        ],
+        "supports": "5.2.5"
+    }
+]
