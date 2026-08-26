@@ -598,16 +598,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.5.10",
-            "date": "2026-06-09T13:08:52.712Z",
-            "image": "urbancode/ucv-ext-github:1.5.10",
+            "semver": "1.5.15",
+            "date": "2026-08-26T08:18:42.231Z",
+            "image": "urbancode/ucv-ext-github:1.5.15",
             "notes": [
-                "Improved test coverage for the GitHub plugin.",
-                "Addressed and resolved Whitesource-reported vulnerabilities.",
-                "Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
-                "Upgraded the NPM Wrapper package to the latest supported version."
+                "**Enhancement**: Enhances Pull Request tracking by calculating dynamic lifecycle statuses (OPEN, INREVIEW,REVIEWED, RESOLVED, MERGED) based on real-time review activity for accurate Value Stream Map (VSM) visibility."
             ],
-            "supports": "5.2.5"
+            "supports": "5.2.7"
         }
     },
     "ucv-ext-gitlab": {

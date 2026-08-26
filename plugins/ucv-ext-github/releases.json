@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.5.15",
+        "date": "2026-08-26T08:18:42.231Z",
+        "image": "urbancode/ucv-ext-github:1.5.15",
+        "notes": [
+            "**Enhancement**: Enhances Pull Request tracking by calculating dynamic lifecycle statuses (OPEN, INREVIEW,REVIEWED, RESOLVED, MERGED) based on real-time review activity for accurate Value Stream Map (VSM) visibility."
+        ],
+        "supports": "5.2.7"
+    },
+    {
         "semver": "1.5.10",
         "date": "2026-06-09T13:08:52.712Z",
         "image": "urbancode/ucv-ext-github:1.5.10",
