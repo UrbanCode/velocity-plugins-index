@@ -1,0 +1,9 @@
+{
+    "name": "CodeRabbit",
+    "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-coderabbit",
+    "description": "Sync CodeRabbit review metrics for pull request and insights analytics",
+    "author": {
+        "name": "UrbanCode",
+        "email": "urbancode-plugins@hcl.com"
+    }
+}
