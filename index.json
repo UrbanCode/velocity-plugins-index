@@ -961,15 +961,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.15",
-            "date": "2026-06-18T11:42:32.223Z",
-            "image": "urbancode/ucv-ext-yaml-executor:0.0.15",
+            "semver": "0.0.16",
+            "date": "2026-08-27T11:18:42.139Z",
+            "image": "urbancode/ucv-ext-yaml-executor:0.0.16",
             "notes": [
-                "SonarQube coverage: Improved test coverage for the plugin.",
-                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
-                "Enhancement: Added direct synchronization in the YAML Executor plugin, eliminating dependency on other sync plugins and reducing delays and failures in value stream creation."
+                "Executing User Context: YAML plugin execution and resource syncing are now securely based on the executing users context rather than a generic integration account."
             ],
-            "supports": "5.2.5"
+            "supports": "5.3.0"
         }
     }
 }
