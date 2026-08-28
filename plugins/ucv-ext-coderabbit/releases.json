@@ -1,0 +1,11 @@
+[
+    {
+        "semver": "1.0.1",
+        "date": "2026-08-28T05:01:02.863Z",
+        "image": "urbancode/ucv-ext-coderabbit:1.0.1",
+        "notes": [
+            "The CodeRabbit plug-in sync code review data Accepted and Rejected comments into DevOps Velocity as GenAI PR Events metrics."
+        ],
+        "supports": "5.2.7"
+    }
+]
