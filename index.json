@@ -417,6 +417,24 @@
             "supports": "2.5.0"
         }
     },
+    "ucv-ext-coderabbit": {
+        "name": "CodeRabbit",
+        "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-coderabbit",
+        "description": "Sync CodeRabbit review metrics for pull request and insights analytics",
+        "author": {
+            "name": "UrbanCode",
+            "email": "urbancode-plugins@hcl.com"
+        },
+        "current": {
+            "semver": "1.0.1",
+            "date": "2026-08-28T05:01:02.863Z",
+            "image": "urbancode/ucv-ext-coderabbit:1.0.1",
+            "notes": [
+                "The CodeRabbit plug-in sync code review data Accepted and Rejected comments into DevOps Velocity as GenAI PR Events metrics."
+            ],
+            "supports": "5.2.7"
+        }
+    },
     "ucv-ext-compass": {
         "name": "HCL Compass",
         "url": "https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-plan/",
@@ -961,15 +979,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "0.0.15",
-            "date": "2026-06-18T11:42:32.223Z",
-            "image": "urbancode/ucv-ext-yaml-executor:0.0.15",
+            "semver": "0.0.16",
+            "date": "2026-08-27T11:18:42.139Z",
+            "image": "urbancode/ucv-ext-yaml-executor:0.0.16",
             "notes": [
-                "SonarQube coverage: Improved test coverage for the plugin.",
-                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
-                "Enhancement: Added direct synchronization in the YAML Executor plugin, eliminating dependency on other sync plugins and reducing delays and failures in value stream creation."
+                "Executing User Context: YAML plugin execution and resource syncing are now securely based on the executing users context rather than a generic integration account."
             ],
-            "supports": "5.2.5"
+            "supports": "5.3.0"
         }
     }
 }
