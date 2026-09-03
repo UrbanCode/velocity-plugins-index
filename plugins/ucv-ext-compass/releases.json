@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.2.12",
+        "date": "2026-09-03T09:15:55.799Z",
+        "image": "urbancode/ucv-ext-compass:1.2.12",
+        "notes": [
+            "Upgraded the NPM Wrapper package version to support pod multiplexing feature."
+        ],
+        "supports": "5.1.9"
+    },
+    {
         "semver": "1.2.7",
         "date": "2026-06-09T14:02:10.037Z",
         "image": "urbancode/ucv-ext-compass:1.2.7",

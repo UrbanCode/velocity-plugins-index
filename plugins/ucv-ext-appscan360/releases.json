@@ -1,0 +1,12 @@
+[
+    {
+        "semver": "1.0.6",
+        "date": "2026-09-03T05:21:03.525Z",
+        "image": "urbancode/ucv-ext-appscan360:1.0.6",
+        "notes": [
+            "Fixed an issue with the AppScan360 plugin ID that could cause Loop installation to fail when AppScan360 integration was enabled and the plugin was not already installed.",
+            "Updated the AppScan360 plugin ID to the correct ucv-ext-appscan360 value for consistency with other Velocity plugins."
+        ],
+        "supports": "5.3.0"
+    }
+]

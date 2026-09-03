@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.1.10",
+        "date": "2026-09-03T10:43:28.951Z",
+        "image": "urbancode/ucv-ext-build:1.1.10",
+        "notes": [
+            "Upgraded the NPM Wrapper package version to support pod multiplexing feature."
+        ],
+        "supports": "5.1.11"
+    },
+    {
         "semver": "1.1.5",
         "date": "2025-11-06T09:17:43.793Z",
         "image": "urbancode/ucv-ext-build:1.1.5",
