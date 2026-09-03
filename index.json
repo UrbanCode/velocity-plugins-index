@@ -937,15 +937,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.1.12",
-            "date": "2026-06-10T07:02:06.538Z",
-            "image": "urbancode/ucv-ext-ucd:4.1.12",
+            "semver": "4.1.14",
+            "date": "2026-09-03T12:12:46.861Z",
+            "image": "urbancode/ucv-ext-ucd:4.1.14",
             "notes": [
-                "Improved test coverage for the plugin.",
-                "Addressed and resolved Whitesource-reported vulnerabilities.",
-                "Velocity Task Now Correctly Fails When DevOps Deploy Deployment Returns FAULTED Before Timeout.",
-                "Name of the plugin is changed from IBM DevOps Deploy to DevOps Deploy.",
-                "Upgraded the NPM Wrapper package to the latest supported version."
+                "Upgraded the NPM Wrapper package version to support pod multiplexing feature."
             ],
             "supports": "5.2.5"
         }
