@@ -351,14 +351,15 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.37",
-            "date": "2026-01-02T11:00:46.402Z",
-            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.37",
+            "semver": "1.0.39",
+            "date": "2026-09-11T08:43:59.619Z",
+            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.39",
             "notes": [
-                "Bug Fix: Fixed an issue where Bitbucket Pull Requests continued to appear as open in the Value Stream even after being closed or merged. Pull Request statuses are now correctly updated and reflected in the Value Stream.",
-                "Update: The App Password field has been replaced with API Token authentication. Generate and use an API Token with the appropriate scopes for successful authentication. Please note that the Atlassian account email address should be entered in the Username field instead of the account username."
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "2.5.0"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-bitbucket-server": {
