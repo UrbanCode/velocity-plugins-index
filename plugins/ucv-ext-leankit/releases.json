@@ -1,5 +1,17 @@
 [
     {
+        "semver": "1.0.6",
+        "date": "2026-09-11T12:44:32.152Z",
+        "image": "urbancode/ucv-ext-leankit:1.0.6",
+        "notes": [
+            "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+            "Sonarqube coverage: Improved test coverage for the leankit plug-in.",
+            "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+            "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
+        ],
+        "supports": "5.2.5"
+    },
+    {
         "semver": "1.0.1",
         "date": "2022-04-05T18:18:59.477Z",
         "image": "urbancode/ucv-ext-leankit:1.0.1",
