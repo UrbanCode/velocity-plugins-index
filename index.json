@@ -547,16 +547,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.2",
-            "date": "2022-04-18T08:19:04.668Z",
-            "image": "urbancode/ucv-ext-dependabot:1.0.2",
+            "semver": "1.0.13",
+            "date": "2026-09-11T12:06:17.954Z",
+            "image": "urbancode/ucv-ext-dependabot:1.0.13",
             "notes": [
-                "Syncs with GitHub Plugin to get Dependency Vulnerabilities",
-                "Show data in metrics bar",
-                "Show data in insights",
-                "Used GraphQL queries",
-                "GitHub Personal access token required"
-            ]
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the Dependabot plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
+            ],
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-doors": {
