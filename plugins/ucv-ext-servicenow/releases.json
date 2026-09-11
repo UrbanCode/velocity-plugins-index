@@ -1,5 +1,17 @@
 [
     {
+        "semver": "1.1.23",
+        "date": "2026-09-11T05:25:47.407Z",
+        "image": "urbancode/ucv-ext-servicenow:1.1.23",
+        "notes": [
+            "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+            "Sonarqube coverage: Improved test coverage for the GitHub plug-in.",
+            "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+            "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
+        ],
+        "supports": "5.2.5"
+    },
+    {
         "semver": "1.1.16",
         "date": "2025-06-20T08:41:09.189Z",
         "image": "urbancode/ucv-ext-servicenow:1.1.16",

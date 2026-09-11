@@ -884,15 +884,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.16",
-            "date": "2025-06-20T08:41:09.189Z",
-            "image": "urbancode/ucv-ext-servicenow:1.1.16",
+            "semver": "1.1.23",
+            "date": "2026-09-11T05:25:47.407Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.23",
             "notes": [
-                "<b>Authentication Type Selection</b>: Added a dropdown feature to allow users to select the desired authentication method (Basic, Bearer, or OAuth) when configuring plugin integrations. Note: This feature requires Velocity version 5.1.6 or higher.",
-                "<b>Bug fix</b>: Resolved an issue where the Executed By column did not display the username for non-admin users running automation tasks. Additionally the tasks were not completing as expected—this has now been fixed.",
-                "<b>Error Handling</b>: Improved error detection for hibernated ServiceNow instances. Previously the plugin reported success with no data synced. Now it properly throws an error when the instance is hibernated."
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the GitHub plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "5.1.6"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-shell": {
