@@ -1,5 +1,16 @@
 [
     {
+        "semver": "1.0.41",
+        "date": "2026-09-11T13:20:29.721Z",
+        "image": "urbancode/ucv-ext-agility:1.0.41",
+        "notes": [
+            "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+            "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+            "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
+        ],
+        "supports": "5.2.5"
+    },
+    {
         "semver": "1.0.29",
         "date": "2023-01-02T08:50:02.692Z",
         "image": "urbancode/ucv-ext-agility:1.0.29",
