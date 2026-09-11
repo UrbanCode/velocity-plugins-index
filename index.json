@@ -586,12 +586,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.34",
-            "date": "2025-07-17T04:49:18.986Z",
-            "image": "urbancode/ucv-ext-ewm:1.1.34",
+            "semver": "1.1.40",
+            "date": "2026-09-11T10:14:37.527Z",
+            "image": "urbancode/ucv-ext-ewm:1.1.40",
             "notes": [
-                "<b>Feature Enhancement</b>: The EWM plugin now supports syncing release and sprint data to Velocity, enabling dot filtering by sprints and releases within the Value Stream Map (VSM)."
-            ]
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the EWM plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
+            ],
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-fortify-ssc": {
