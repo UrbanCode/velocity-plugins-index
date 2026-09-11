@@ -653,13 +653,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.2.69",
-            "date": "2024-12-11T10:04:43.254Z",
-            "image": "urbancode/ucv-ext-gitlab:2.2.69",
+            "semver": "2.2.74",
+            "date": "2026-09-11T06:11:21.833Z",
+            "image": "urbancode/ucv-ext-gitlab:2.2.74",
             "notes": [
-                "Bug fix: Fixed approvers/reviews data not present in the pullRequest data."
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the GitLab plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "2.5.0"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-handlebars-reporter": {
