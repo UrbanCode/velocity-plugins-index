@@ -254,16 +254,15 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.29",
-            "date": "2023-01-02T08:50:02.692Z",
-            "image": "urbancode/ucv-ext-agility:1.0.29",
+            "semver": "1.0.41",
+            "date": "2026-09-11T13:20:29.721Z",
+            "image": "urbancode/ucv-ext-agility:1.0.41",
             "notes": [
-                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
-                "<b>Preventing Installation on Older Versions:</b> This version of Digital.ai Agility Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
-                "<b>Added Category</b>:ALM is the plugin category of Digital.ai Agility.",
-                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "2.5.0"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-aha": {
@@ -316,13 +315,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "4.0.45",
-            "date": "2025-01-06T08:40:17.802Z",
-            "image": "urbancode/ucv-ext-azure:4.0.45",
+            "semver": "4.0.49",
+            "date": "2026-09-11T04:47:32.821Z",
+            "image": "urbancode/ucv-ext-azure:4.0.49",
             "notes": [
-                "Implemented context-less application, enhanced performance, and removed unnecessary VSM history for improved efficiency"
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the Azure DevOps plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "2.5.0"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-bitbucket-cloud": {
@@ -334,14 +336,15 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.37",
-            "date": "2026-01-02T11:00:46.402Z",
-            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.37",
+            "semver": "1.0.39",
+            "date": "2026-09-11T08:43:59.619Z",
+            "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.39",
             "notes": [
-                "Bug Fix: Fixed an issue where Bitbucket Pull Requests continued to appear as open in the Value Stream even after being closed or merged. Pull Request statuses are now correctly updated and reflected in the Value Stream.",
-                "Update: The App Password field has been replaced with API Token authentication. Generate and use an API Token with the appropriate scopes for successful authentication. Please note that the Atlassian account email address should be entered in the Username field instead of the account username."
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "2.5.0"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-bitbucket-server": {
@@ -353,13 +356,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.26",
-            "date": "2022-11-08T06:53:33.174Z",
-            "image": "urbancode/ucv-ext-bitbucket-server:1.1.26",
+            "semver": "1.1.35",
+            "date": "2026-09-11T09:53:04.731Z",
+            "image": "urbancode/ucv-ext-bitbucket-server:1.1.35",
             "notes": [
-                "<b>Added Regular Expression for Additional branch</b>"
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the Bitbucket Server plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "2.5.0"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-bottleneck-detection": {
@@ -409,16 +415,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.24",
-            "date": "2022-12-27T08:54:17.836Z",
-            "image": "urbancode/ucv-ext-circleci:1.0.24",
+            "semver": "1.0.33",
+            "date": "2026-09-11T08:13:17.294Z",
+            "image": "urbancode/ucv-ext-circleci:1.0.33",
             "notes": [
-                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
-                "<b>Preventing Installation on Older Versions:</b> This version of Circleci Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
-                "<b>Added Category</b>:Build and Deploy are the plugin category of Circleci.",
-                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the Circleci plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "2.5.0"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-coderabbit": {
@@ -526,16 +532,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.2",
-            "date": "2022-04-18T08:19:04.668Z",
-            "image": "urbancode/ucv-ext-dependabot:1.0.2",
+            "semver": "1.0.13",
+            "date": "2026-09-11T12:06:17.954Z",
+            "image": "urbancode/ucv-ext-dependabot:1.0.13",
             "notes": [
-                "Syncs with GitHub Plugin to get Dependency Vulnerabilities",
-                "Show data in metrics bar",
-                "Show data in insights",
-                "Used GraphQL queries",
-                "GitHub Personal access token required"
-            ]
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the Dependabot plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
+            ],
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-doors": {
@@ -565,12 +571,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.34",
-            "date": "2025-07-17T04:49:18.986Z",
-            "image": "urbancode/ucv-ext-ewm:1.1.34",
+            "semver": "1.1.40",
+            "date": "2026-09-11T10:14:37.527Z",
+            "image": "urbancode/ucv-ext-ewm:1.1.40",
             "notes": [
-                "<b>Feature Enhancement</b>: The EWM plugin now supports syncing release and sprint data to Velocity, enabling dot filtering by sprints and releases within the Value Stream Map (VSM)."
-            ]
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the EWM plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
+            ],
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-fortify-ssc": {
@@ -636,13 +646,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "2.2.69",
-            "date": "2024-12-11T10:04:43.254Z",
-            "image": "urbancode/ucv-ext-gitlab:2.2.69",
+            "semver": "2.2.74",
+            "date": "2026-09-11T06:11:21.833Z",
+            "image": "urbancode/ucv-ext-gitlab:2.2.74",
             "notes": [
-                "Bug fix: Fixed approvers/reviews data not present in the pullRequest data."
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the GitLab plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "2.5.0"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-handlebars-reporter": {
@@ -729,13 +742,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.1",
-            "date": "2022-04-05T18:18:59.477Z",
-            "image": "urbancode/ucv-ext-leankit:1.0.1",
+            "semver": "1.0.6",
+            "date": "2026-09-11T12:44:32.152Z",
+            "image": "urbancode/ucv-ext-leankit:1.0.6",
             "notes": [
-                "Retrieves Leankit Cards details",
-                "Fetch multiple board cards"
-            ]
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the leankit plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
+            ],
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-milestone-risk-estimator": {
@@ -805,16 +821,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.0.43",
-            "date": "2022-12-27T06:56:58.622Z",
-            "image": "urbancode/ucv-ext-rally:1.0.43",
+            "semver": "1.0.50",
+            "date": "2026-09-11T11:34:01.865Z",
+            "image": "urbancode/ucv-ext-rally:1.0.50",
             "notes": [
-                "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
-                "<b>Preventing Installation on Older Versions:</b> This version of Rally Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
-                "<b>Added Category</b>:ALM is the plugin category of Rally.",
-                "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the Rally plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "2.5.0"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-rtas": {
@@ -867,15 +883,16 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.16",
-            "date": "2025-06-20T08:41:09.189Z",
-            "image": "urbancode/ucv-ext-servicenow:1.1.16",
+            "semver": "1.1.23",
+            "date": "2026-09-11T05:25:47.407Z",
+            "image": "urbancode/ucv-ext-servicenow:1.1.23",
             "notes": [
-                "<b>Authentication Type Selection</b>: Added a dropdown feature to allow users to select the desired authentication method (Basic, Bearer, or OAuth) when configuring plugin integrations. Note: This feature requires Velocity version 5.1.6 or higher.",
-                "<b>Bug fix</b>: Resolved an issue where the Executed By column did not display the username for non-admin users running automation tasks. Additionally the tasks were not completing as expected—this has now been fixed.",
-                "<b>Error Handling</b>: Improved error detection for hibernated ServiceNow instances. Previously the plugin reported success with no data synced. Now it properly throws an error when the instance is hibernated."
+                "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+                "Sonarqube coverage: Improved test coverage for the ServiceNow plug-in.",
+                "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+                "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
             ],
-            "supports": "5.1.6"
+            "supports": "5.2.5"
         }
     },
     "ucv-ext-shell": {
