@@ -1,5 +1,16 @@
 [
     {
+        "semver": "1.0.39",
+        "date": "2026-09-11T08:43:59.619Z",
+        "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.39",
+        "notes": [
+            "Vulnerability fix: Addressed and resolved Whitesource-reported vulnerabilities.",
+            "Enhancement: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.",
+            "Technical upgrade: Upgraded the NPM Wrapper package to the latest supported version."
+        ],
+        "supports": "5.2.5"
+    },
+    {
         "semver": "1.0.37",
         "date": "2026-01-02T11:00:46.402Z",
         "image": "urbancode/ucv-ext-bitbucket-cloud:1.0.37",
