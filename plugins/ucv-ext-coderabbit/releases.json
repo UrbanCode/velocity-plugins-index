@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.0.3",
+        "date": "2026-09-23T12:26:05.383Z",
+        "image": "urbancode/ucv-ext-coderabbit:1.0.3",
+        "notes": [
+            "Bug Fix: Fixed an issue where metric records were skipped due to delay in the CodeRabbit REST API response."
+        ],
+        "supports": "5.2.7"
+    },
+    {
         "semver": "1.0.1",
         "date": "2026-08-28T05:01:02.863Z",
         "image": "urbancode/ucv-ext-coderabbit:1.0.1",
