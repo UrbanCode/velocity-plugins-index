@@ -454,11 +454,11 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.2.12",
-            "date": "2026-09-03T09:15:55.799Z",
-            "image": "urbancode/ucv-ext-compass:1.2.12",
+            "semver": "1.2.14",
+            "date": "2026-09-24T13:04:49.595Z",
+            "image": "urbancode/ucv-ext-compass:1.2.14",
             "notes": [
-                "Upgraded the NPM Wrapper package version to support pod multiplexing feature."
+                "Improved diagnostics to provide more meaningful failure information."
             ],
             "supports": "5.1.9"
         },
