@@ -1,5 +1,14 @@
 [
     {
+        "semver": "1.1.9",
+        "date": "2026-11-16T08:47:02.342Z",
+        "image": "urbancode/ucv-ext-control:1.1.9",
+        "notes": [
+            "Enhancement: Enhances Pull Request tracking by calculating dynamic lifecycle statuses (OPEN, REQUESTED, RECEIVED, RESOLVED, APPROVED, MERGED/CLOSED) based on real-time pull request activity for accurate Value Stream Map (VSM) visibility. Added new fields for the PR collection."
+        ],
+        "supports": "5.3.1"
+    },
+    {
         "semver": "1.1.7",
         "date": "2026-09-03T13:39:06.932Z",
         "image": "urbancode/ucv-ext-control:1.1.7",
