@@ -400,13 +400,14 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "1.1.10",
-            "date": "2026-09-03T10:43:28.951Z",
-            "image": "urbancode/ucv-ext-build:1.1.10",
+            "semver": "1.1.11",
+            "date": "2026-11-19T05:01:31.348Z",
+            "image": "urbancode/ucv-ext-build:1.1.11",
             "notes": [
-                "Upgraded the NPM Wrapper package version to support pod multiplexing feature."
+                "Added requestedTime to release-events.builds to capture when a build was requested, complementing the existing build duration data.",
+                "This data enables analysis of CI queue wait time and build execution metrics."
             ],
-            "supports": "5.1.11"
+            "supports": "5.3.1"
         }
     },
     "ucv-ext-circleci": {
