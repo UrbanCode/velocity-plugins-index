@@ -1,5 +1,16 @@
 [
     {
+        "semver": "1.2.17",
+        "date": "2026-11-20T11:11:46.380Z",
+        "image": "urbancode/ucv-ext-compass:1.2.17",
+        "notes": [
+            "Added sprint fields startDate, endDate, and completeTime to capture sprint timelines and completion details.",
+            "Added release fields startDate, endDate, and releaseDate to provide release timeline information.",
+            "Added Components and Tags to provide additional work item classification and tracking details."
+        ],
+        "supports": "5.3.1"
+    },
+    {
         "semver": "1.2.14",
         "date": "2026-09-24T13:04:49.595Z",
         "image": "urbancode/ucv-ext-compass:1.2.14",
