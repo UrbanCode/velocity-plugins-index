@@ -1,15 +1,25 @@
 [
     {
+        "semver": "1.0.10",
+        "date": "2026-11-24T07:10:39.694Z",
+        "image": "urbancode/ucv-ext-appscan360:1.0.10",
+        "notes": [
+            "Added SBOM support: Integrated AppScan 360 SBOM reporting to ingest and process Software Bill of Materials data in SPDX and CycloneDX formats.",
+            " Enhanced dependency visibility: Added package, library, and license information to provide better visibility into software components and support vulnerability analysis."
+        ],
+        "supports": "5.3.1"
+    },
+    {
         "semver": "1.0.6",
         "date": "2026-09-03T05:21:03.525Z",
         "image": "urbancode/ucv-ext-appscan360:1.0.6",
         "notes": [
             "Added support for SAST gating with AppScan 360 scan results.",
-                "Added support for ingesting and displaying SCA (Software Composition Analysis) scan results.",
-                "Added support for ingesting IAST (Interactive Application Security Testing) scan results, with IAST metrics available on the Insights page.",
-                "SAST and DAST scan results are fetched from AppScan 360 and displayed as metrics in Velocity using dot indicators.",
-                "Fixed an issue with the AppScan360 plugin ID that could cause Loop installation to fail when the AppScan360 integration was enabled before the plugin was installed.",
-                "Updated the AppScan360 plugin ID to the correct ucv-ext-appscan360 value for consistency with other Velocity plugins."
+            "Added support for ingesting and displaying SCA (Software Composition Analysis) scan results.",
+            "Added support for ingesting IAST (Interactive Application Security Testing) scan results, with IAST metrics available on the Insights page.",
+            "SAST and DAST scan results are fetched from AppScan 360 and displayed as metrics in Velocity using dot indicators.",
+            "Fixed an issue with the AppScan360 plugin ID that could cause Loop installation to fail when the AppScan360 integration was enabled before the plugin was installed.",
+            "Updated the AppScan360 plugin ID to the correct ucv-ext-appscan360 value for consistency with other Velocity plugins."
         ],
         "supports": "5.3.0"
     }
