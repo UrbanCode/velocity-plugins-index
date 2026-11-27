@@ -44,13 +44,13 @@
             "email": "urbancode-plugins@hcl.com"
         },
         "current": {
-            "semver": "3.0.29",
-            "date": "2026-06-15T05:13:21.122Z",
-            "image": "urbancode/ucv-ext-asoc:3.0.29",
+            "semver": "3.0.35",
+            "date": "2026-11-26T11:46:33.006Z",
+            "image": "urbancode/ucv-ext-asoc:3.0.35",
             "notes": [
-                "Enhancement: Implemented support for SAST and DAST scan data ingestion from ASOC. Scan results are fetched and displayed as metrics within Velocity using dot indicators."
+                "Implemented SAST, DAST, IAST,SCA and SBOM"
             ],
-            "supports": "5.2.5"
+            "supports": "5.3.1"
         }
     },
     "blackDuckPlugin": {
